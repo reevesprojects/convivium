@@ -9,7 +9,9 @@ import { SearchModal } from "./components/searchModal.js";
 import { SettingsModal } from "./components/settingsModal.js";
 import { CommentaryDrawer } from "./components/commentaryDrawer.js";
 import { ArenaView } from "./components/arenaView.js";
+
 import { StorageService } from "./services/storage.js";
+
 
 const App = {
   contentEl: null,
@@ -113,6 +115,7 @@ const App = {
       this.contentEl.classList.remove("fluid");
       CatalogView.render(this.contentEl);
     }
+
 
     // Scroll to top on route change
     window.scrollTo({ top: 0, behavior: "smooth" });

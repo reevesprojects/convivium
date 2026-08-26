@@ -70,6 +70,28 @@ export const ImportModal = {
               </div>
             </div>
 
+            <!-- Optional Second Translation -->
+            <div style="border: 1px dashed var(--border-subtle); border-radius: var(--radius-md); padding: 1rem; margin-bottom: 1.5rem;">
+              <div style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.75rem;">
+                ➕ Optional Second Translation
+              </div>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                <div>
+                  <label style="font-weight: 600; font-size: 0.85rem; display: block; margin-bottom: 0.25rem;">Translator Name (optional)</label>
+                  <input type="text" id="import-trans2-name" placeholder="e.g. David Grene" class="filter-search-input" style="width: 100%; margin-bottom: 0.5rem;" />
+                </div>
+                <div>
+                  <label style="font-weight: 600; font-size: 0.85rem; display: block; margin-bottom: 0.25rem;">Translation 2 Lines (optional, 1 per verse)</label>
+                  <textarea 
+                    id="import-trans2-lines" 
+                    class="user-note-area" 
+                    style="min-height: 120px; font-family: var(--font-serif-cormorant); font-size: 1.1rem;"
+                    placeholder="Leave blank to skip second translation..."
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
             <div style="display: flex; justify-content: space-between; align-items: center;">
               <button type="button" class="btn btn-secondary btn-sm" id="btn-load-sample-import">
                 <span>🪄</span> Load Example Data
@@ -117,26 +139,38 @@ and at the same time echoes with hymns and cries of sorrow.`;
       const author = containerEl.querySelector("#import-author").value.trim();
       const language = containerEl.querySelector("#import-language").value;
       const transName = containerEl.querySelector("#import-trans1-name").value.trim() || "User Translation";
+      const trans2Name = containerEl.querySelector("#import-trans2-name").value.trim();
       const sourceRaw = containerEl.querySelector("#import-source-lines").value.trim();
       const transRaw = containerEl.querySelector("#import-trans1-lines").value.trim();
+      const trans2Raw = containerEl.querySelector("#import-trans2-lines").value.trim();
 
       const sourceLines = sourceRaw.split("\n").map(l => l.trim()).filter(l => l.length > 0);
       const transLines = transRaw.split("\n").map(l => l.trim()).filter(l => l.length > 0);
+      const trans2Lines = trans2Raw ? trans2Raw.split("\n").map(l => l.trim()).filter(l => l.length > 0) : [];
+      const hasSecond = trans2Name && trans2Lines.length > 0;
 
       const id = "custom-" + title.toLowerCase().replace(/[^a-z0-9]/g, "-") + "-" + Date.now();
       const transId = "trans-1";
 
       const segments = sourceLines.map((src, index) => {
+        const translations = { [transId]: transLines[index] || "" };
+        if (hasSecond) translations["trans-2"] = trans2Lines[index] || "";
         return {
           ref: `1.${index + 1}`,
           lineNum: index + 1,
           source: src,
           literal: "",
-          translations: {
-            [transId]: transLines[index] || ""
-          }
+          translations
         };
       });
+
+      const sourceEditions = [
+        { id: "greek", name: `Original (${language})`, year: "Original", type: "source", format: "Verse" },
+        { id: transId, name: transName, year: "Modern", type: "translation", format: "Verse" }
+      ];
+      if (hasSecond) {
+        sourceEditions.push({ id: "trans-2", name: trans2Name, year: "Modern", type: "translation", format: "Verse" });
+      }
 
       const newText = {
         id,
@@ -152,10 +186,7 @@ and at the same time echoes with hymns and cries of sorrow.`;
         passageRef: `Lines 1–${segments.length}`,
         commentaryCount: 0,
         tags: ["Custom", "Facing Text", "Verse"],
-        sourceEditions: [
-          { id: "greek", name: `Original (${language})`, year: "Original", type: "source", format: "Verse" },
-          { id: transId, name: transName, year: "Modern", type: "translation", format: "Verse" }
-        ],
+        sourceEditions,
         segments
       };
 

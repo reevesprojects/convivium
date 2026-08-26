@@ -13,6 +13,7 @@ export const ParallelView = {
   selectedSegmentRef: null,
   diffMode: false,
   showLiteral: true,
+  showScansion: false,
   currentSection: null, // Section ID for passage navigation
 
   init(textId, targetSegmentRef = null) {
@@ -50,6 +51,7 @@ export const ParallelView = {
 
     return true;
   },
+
 
   render(containerEl) {
     if (!this.text) {
@@ -119,17 +121,19 @@ export const ParallelView = {
             <span>✨</span> Diff: <strong>${this.diffMode ? 'ON' : 'OFF'}</strong>
           </button>
 
+          <!-- Meter & Scansion Toggle -->
+          <button class="btn btn-secondary btn-sm ${this.showScansion ? 'active' : ''}" id="btn-toggle-scansion" title="Show metrical feet and scansion (– ⏑ ⏑)">
+            <span>⚡</span> Meter: <strong>${this.showScansion ? 'ON' : 'OFF'}</strong>
+          </button>
+
           <!-- Literal Gloss Toggle -->
           <button class="btn btn-secondary btn-sm ${this.showLiteral ? 'active' : ''}" id="btn-toggle-literal" title="Toggle word-by-word literal English gloss">
             <span>📖</span> Gloss: <strong>${this.showLiteral ? 'ON' : 'OFF'}</strong>
           </button>
 
-          <!-- Export Actions Dropdown -->
-          <button class="btn btn-secondary btn-sm" id="btn-export-comparison" title="Export this comparative alignment">
-            <span>📥</span> Export
-          </button>
         </div>
       </div>
+
 
       <!-- Passage Navigator Bar (only when sections exist) -->
       ${hasSections ? `
@@ -270,8 +274,20 @@ export const ParallelView = {
                       <div class="parallel-cell source-cell">
                         <div class="line-meta-badge">
                           <span>Line ${seg.lineNum} (${seg.ref})</span>
-                          ${seg.notes ? `<span class="has-commentary-dot" title="Scholarly commentary available"></span>` : ''}
+                          <div style="display: flex; gap: 0.35rem; align-items: center;">
+                            ${seg.variants && seg.variants.length > 0 ? `
+                              <span class="variant-tag" title="Variant readings / Apparatus Criticus in manuscripts" data-trigger-apparatus="${seg.ref}">
+                                🏛️ var
+                              </span>
+                            ` : ''}
+                            ${seg.notes ? `<span class="has-commentary-dot" title="Scholarly commentary available"></span>` : ''}
+                          </div>
                         </div>
+                        ${this.showScansion ? `
+                          <div class="inline-scansion-line" title="Metrical scansion pattern">
+                            ${seg.scansion || "– ⏑ ⏑ | – ⏑ ⏑ | – ‖ ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – –"}
+                          </div>
+                        ` : ''}
                         <div class="source-text" style="font-weight: 600; color: var(--text-primary);">
                           ${sourceHtml}
                         </div>
@@ -280,6 +296,7 @@ export const ParallelView = {
                         ` : ''}
                       </div>
                     `;
+
                   } else {
                     const transMap = seg.translations || {};
                     const rawLine = transMap[edId] || `<span style="color: var(--text-muted); font-style: italic;">[Line not aligned]</span>`;
@@ -395,11 +412,36 @@ export const ParallelView = {
         row.classList.add("selected-row");
         const ref = row.dataset.segRef;
         this.selectedSegmentRef = ref;
+        StorageService.saveLastVisited(this.text.id, ref);
         CommentaryDrawer.open(this.text, ref);
       });
     });
 
-    // Active Column Chip click (remove column)
+    // Keyboard navigation (ArrowDown / ArrowUp between segments)
+    const handleKeyNav = (e) => {
+      if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+      if (document.activeElement && document.activeElement.tagName === "TEXTAREA") return;
+      e.preventDefault();
+      const rowArr = [...containerEl.querySelectorAll(".parallel-row")];
+      if (!rowArr.length) return;
+      const currentIdx = rowArr.findIndex(r => r.classList.contains("selected-row"));
+      let nextIdx = e.key === "ArrowDown"
+        ? (currentIdx < 0 ? 0 : Math.min(currentIdx + 1, rowArr.length - 1))
+        : Math.max((currentIdx < 0 ? 0 : currentIdx) - 1, 0);
+      rowArr.forEach(r => r.classList.remove("selected-row"));
+      rowArr[nextIdx].classList.add("selected-row");
+      rowArr[nextIdx].scrollIntoView({ behavior: "smooth", block: "nearest" });
+      const ref = rowArr[nextIdx].dataset.segRef;
+      this.selectedSegmentRef = ref;
+      StorageService.saveLastVisited(this.text.id, ref);
+      CommentaryDrawer.open(this.text, ref);
+    };
+    // Remove previous listener before adding (prevent duplicates on re-render)
+    document.removeEventListener("keydown", this._keyNavHandler);
+    this._keyNavHandler = handleKeyNav;
+    document.addEventListener("keydown", this._keyNavHandler);
+
+
     containerEl.querySelectorAll(".edition-toggle-chip").forEach(chip => {
       chip.addEventListener("click", () => {
         const edId = chip.dataset.edId;
@@ -465,8 +507,18 @@ export const ParallelView = {
       });
     }
 
+    // Toggle Scansion Mode
+    const scansionBtn = containerEl.querySelector("#btn-toggle-scansion");
+    if (scansionBtn) {
+      scansionBtn.addEventListener("click", () => {
+        this.showScansion = !this.showScansion;
+        this.render(containerEl);
+      });
+    }
+
     // Toggle Literal Gloss
     const literalBtn = containerEl.querySelector("#btn-toggle-literal");
+
     if (literalBtn) {
       literalBtn.addEventListener("click", () => {
         this.showLiteral = !this.showLiteral;
@@ -518,43 +570,5 @@ export const ParallelView = {
       });
     });
 
-    // Export Comparison
-    const exportBtn = containerEl.querySelector("#btn-export-comparison");
-    if (exportBtn) {
-      exportBtn.addEventListener("click", () => {
-        this.exportMarkdown();
-      });
-    }
-  },
-
-  exportMarkdown() {
-    let md = `# Parallel Translation: ${this.text.title} (${this.text.originalTitle})\n`;
-    md += `**Passage**: ${this.text.passageRef}\n\n`;
-    
-    // Header
-    const edNames = this.activeEditions.map(edId => {
-      const ed = this.text.sourceEditions.find(e => e.id === edId);
-      return ed ? ed.name : edId;
-    });
-
-    md += `| Ref | ` + edNames.join(" | ") + ` |\n`;
-    md += `| --- | ` + edNames.map(() => "---").join(" | ") + ` |\n`;
-
-    this.text.segments.forEach(seg => {
-      const cells = this.activeEditions.map(edId => {
-        const ed = this.text.sourceEditions.find(e => e.id === edId);
-        if (ed?.type === "source") return seg.source.replace(/\|/g, "\\|");
-        return (seg.translations[edId] || "").replace(/\|/g, "\\|");
-      });
-      md += `| ${seg.ref} | ` + cells.join(" | ") + ` |\n`;
-    });
-
-    const blob = new Blob([md], { type: "text/markdown" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${this.text.id}-parallel-comparison.md`;
-    a.click();
-    URL.revokeObjectURL(url);
   }
 };

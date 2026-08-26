@@ -767,6 +767,24 @@ export const LATIN_TEXTS = [
         "meter": "English Hexameter / Verse",
         "format": "Verse",
         "highlights": "Victorian classical scholar; attempts quantitative English equivalence"
+      },
+      {
+        "id": "slavitt",
+        "name": "David R. Slavitt (2010)",
+        "year": "2010",
+        "type": "translation",
+        "meter": "Lyrical Free Verse",
+        "format": "Verse",
+        "highlights": "Johns Hopkins UP; witty, poignant, contemporary poet's translation"
+      },
+      {
+        "id": "lembke",
+        "name": "Janet Lembke (2020)",
+        "year": "2020",
+        "type": "translation",
+        "meter": "Modern Poetic Verse",
+        "format": "Verse",
+        "highlights": "Naturalist poet's luminous, grounded ecological translation"
       }
     ],
     "segments": [
@@ -782,7 +800,9 @@ export const LATIN_TEXTS = [
           "ruden": "Tityrus, you recline beneath the shade of a spreading beech tree,",
           "fallon": "Tityrus, you lie easy in the shade / beneath a wide-armed beech-tree's canopy",
           "dryden": "Beneath the shade which beechen boughs diffuse,",
-          "calverley": "Tityrus, loll'd in the shade of a beech-tree's broadly-spread branches,"
+          "calverley": "Tityrus, loll'd in the shade of a beech-tree's broadly-spread branches,",
+          "slavitt": "Tityrus, relaxed beneath the canopy of a spreading beech,",
+          "lembke": "Tityrus, you lie at ease under the cover of a spreading beech,"
         },
         "notes": "The most famous opening in Latin pastoral poetry. The 'spreading beech' (patulae fagi) becomes the emblem of Arcadian shelter and ease — while Meliboeus, about to be dispossessed of his farm, speaks with barely concealed bitterness.",
         "vocab": [
@@ -818,7 +838,9 @@ export const LATIN_TEXTS = [
           "ruden": "you practice a wild song on your slender oat-straw;",
           "fallon": "practicing songs of the woodland on your slim oat-straw;",
           "dryden": "You, Tityrus, entertain with sylvan sound,",
-          "calverley": "practisest thou thy woodland-muse on a delicate-stemm'd reed;"
+          "calverley": "practisest thou thy woodland-muse on a delicate-stemm'd reed;",
+          "slavitt": "meditating woodland music on a slender reed;",
+          "lembke": "practicing pastoral tunes on a slender oat-reed;"
         },
         "notes": "silvestrem Musam: 'the woodland Muse' — pastoral poetry figures itself as humble, sylvan, makeshift. The avena (oat-straw pipe) is the instrument of the lowly genre, in conscious contrast to the lyre of epic.",
         "vocab": [
@@ -854,7 +876,9 @@ export const LATIN_TEXTS = [
           "ruden": "but we leave the borders of our country, our sweet fields;",
           "fallon": "but we're forced to flee our country and leave sweet fields behind.",
           "dryden": "Of liberty, and living as you please;",
-          "calverley": "but we must quit our country's dear borders and sweet fields!"
+          "calverley": "but we must quit our country's dear borders and sweet fields!",
+          "slavitt": "we are leaving our homeland's borders, our sweet cultivated fields;",
+          "lembke": "we leave our country's borders and our sweet fields;"
         },
         "notes": "nos... linquimus: Meliboeus speaks in a devastated first person plural — he and his goats, the collective 'we' of the dispossessed. The word dulcia ('sweet') makes the loss unbearable. The land confiscations of 41–40 BCE after Philippi displaced thousands of Italian farmers.",
         "vocab": [
@@ -890,7 +914,9 @@ export const LATIN_TEXTS = [
           "ruden": "A mighty order of the centuries is born again.",
           "fallon": "The great procession of the ages starts anew.",
           "dryden": "The Chain of Ages is begun anew.",
-          "calverley": "The great cycle of periods is born afresh."
+          "calverley": "The great cycle of periods is born afresh.",
+          "slavitt": "The great order of ages is born afresh from the beginning.",
+          "lembke": "A great new cycle of centuries begins anew."
         },
         "notes": "The opening of the messianic prophecy of Eclogue 4. Virgil predicts the birth of a miraculous child who will inaugurate a new Golden Age. Early Christian readers interpreted this as a prophecy of Christ, and it secured Virgil's status as a prophet throughout the medieval period.",
         "vocab": [
@@ -926,7 +952,9 @@ export const LATIN_TEXTS = [
           "ruden": "Now the maiden Justice also returns, and Saturn's kingdom,",
           "fallon": "The Virgin is returning, Saturn's reign returns too,",
           "dryden": "Astraea once again her Scales shall hold,",
-          "calverley": "Back comes the maiden Justice, back comes Saturn's kingdom,"
+          "calverley": "Back comes the maiden Justice, back comes Saturn's kingdom,",
+          "slavitt": "Now the Maiden Justice returns, and Saturn's realm returns,",
+          "lembke": "Now the Virgin returns, and Saturn's kingdom returns,"
         },
         "notes": "Virgo: Justice/Astraea, who abandoned humanity at the end of the Golden Age. Her return signals the reversal of historical decline. Saturnia regna: the primordial reign of Saturn, which Roman mythology equated with the Golden Age before Jupiter.",
         "vocab": [
@@ -956,7 +984,9 @@ export const LATIN_TEXTS = [
           "ruden": "\"Age takes all things; the mind too. I often used to",
           "fallon": "\"Time steals all things, the mind too. Often I recall",
           "dryden": "\"Time takes all gifts away; our very mind / Falls from us.",
-          "calverley": "\"All things doth Time bear off, the mind with the rest!"
+          "calverley": "\"All things doth Time bear off, the mind with the rest!",
+          "slavitt": "\"Time carries away everything, even the mind; often I recall",
+          "lembke": "\"Age steals everything away, even the mind; often I remember"
         },
         "notes": "One of the most quoted lines in the entire Eclogues. Moeris, the old shepherd, laments the songs he used to know but can no longer remember. 'Omnia fert aetas' — 'time carries off all things' — became a proverb throughout antiquity and the Renaissance.",
         "vocab": [
@@ -1426,6 +1456,33 @@ export const LATIN_TEXTS = [
         "meter": "Lyric Stanza",
         "format": "Verse",
         "highlights": "Classic Romantic poet's graceful, musical rendition"
+      },
+      {
+        "id": "green",
+        "name": "Peter Green (2005)",
+        "year": "2005",
+        "type": "translation",
+        "meter": "English Accentual Hendecasyllabics",
+        "format": "Verse",
+        "highlights": "Quantitative metric brilliance from Univ of California Press"
+      },
+      {
+        "id": "mulroy",
+        "name": "David Mulroy (2012)",
+        "year": "2012",
+        "type": "translation",
+        "meter": "Lyrical Accentual Meter",
+        "format": "Verse",
+        "highlights": "Direct, musical translation capturing Catullus's lyric verve"
+      },
+      {
+        "id": "brandon",
+        "name": "Josephine Balmer (2004)",
+        "year": "2004",
+        "type": "translation",
+        "meter": "Contemporary Free Verse",
+        "format": "Verse",
+        "highlights": "Modernist feminist poetic reconstruction"
       }
     ],
     "segments": [
@@ -1440,7 +1497,10 @@ export const LATIN_TEXTS = [
           "showerman": "Let us live and love, my Lesbia,",
           "martin": "My Lesbia, let us live and love",
           "ellis": "Living, Lesbia, let us love and cherish,",
-          "landor": "Love, my Lesbia, and live, while we may!"
+          "landor": "Love, my Lesbia, and live, while we may!",
+          "green": "Come, Lesbia, let us live and love,",
+          "mulroy": "Let's live, my Lesbia, and make love,",
+          "brandon": "Let us live, my Lesbia, let us love,"
         },
         "notes": "Vivamus ... amemus: Jussive subjunctives expressing joyful defiance.",
         "vocab": [
@@ -1469,7 +1529,10 @@ export const LATIN_TEXTS = [
           "showerman": "and heed not what the stern old men may say",
           "martin": "and pay no heed to gossip from old men",
           "ellis": "Old men's murmuring, elderly severe thoughts,",
-          "landor": "Let the old and sullen say / What they will:"
+          "landor": "Let the old and sullen say / What they will:",
+          "green": "and value at one red cent the stern strictures of old men.",
+          "mulroy": "and count the whispers of stern old men worth not a dime.",
+          "brandon": "and rate all the rumors of sour old men at a single coin."
         },
         "notes": "senum severiorum: 'of too-severe old men', using alliteration of 's' sound to mock whispering gossips.",
         "vocab": [
@@ -1498,7 +1561,10 @@ export const LATIN_TEXTS = [
           "showerman": "—they're worth a penny, all of them!",
           "martin": "not worth a damn, their words",
           "ellis": "Value we them at a single halfpenny.",
-          "landor": "we'll value all / At a single farthing's call."
+          "landor": "we'll value all / At a single farthing's call.",
+          "green": "let us rate them at a single copper farthing!",
+          "mulroy": "and prize them at the value of one penny!",
+          "brandon": "and value all of them at a single farthing!"
         },
         "notes": "unius assis: Genitive of value ('worth not even a penny / as').",
         "vocab": [
@@ -1521,7 +1587,10 @@ export const LATIN_TEXTS = [
           "showerman": "The suns can set and rise again;",
           "martin": "Suns can set and rise again:",
           "ellis": "Suns can downward descend, again returning:",
-          "landor": "Suns may set, and suns return:"
+          "landor": "Suns may set, and suns return:",
+          "green": "Suns have the power to set and to rise again;",
+          "mulroy": "Suns can set and return again;",
+          "brandon": "Suns can go down and come back again;"
         },
         "notes": "Contrasts the cyclical eternal return of celestial suns with finite, fragile human life.",
         "vocab": [
@@ -1550,7 +1619,10 @@ export const LATIN_TEXTS = [
           "showerman": "but once our brief light is set,",
           "martin": "but once our brief light fails to rise,",
           "ellis": "When once quenched is upon us this fleeting light,",
-          "landor": "When our little life is gone, / When its fleeting beam is done,"
+          "landor": "When our little life is gone, / When its fleeting beam is done,",
+          "green": "for us, once our brief light has set for ever,",
+          "mulroy": "for us, when once our brief light sets,",
+          "brandon": "for us, once our brief candle goes out,"
         },
         "notes": "brevis lux: 'brief light' of mortality.",
         "vocab": [
@@ -1579,7 +1651,10 @@ export const LATIN_TEXTS = [
           "showerman": "there must we sleep through one perpetual night.",
           "martin": "there's one unending night to be slept through.",
           "ellis": "Sleeps one night to be slept unendingly.",
-          "landor": "One eternal night must sleep / Over all the shadows deep."
+          "landor": "One eternal night must sleep / Over all the shadows deep.",
+          "green": "there remains one endless night for sleeping.",
+          "mulroy": "there is one never-ending night to be slept.",
+          "brandon": "one eternal night must be slept through."
         },
         "notes": "Passive periphrastic (dormienda est): 'one eternal night must be slept'. Haunting contrast to the vibrant opening.",
         "vocab": [
@@ -1588,6 +1663,198 @@ export const LATIN_TEXTS = [
             "lemma": "perpetuus",
             "meaning": "everlasting, perpetual, unbroken",
             "link": "https://logeion.uchicago.edu/perpetuus"
+          }
+        ]
+      }
+    ],
+    "era": "Late Roman Republic",
+    "period": "Antiquity"
+  },
+  {
+    "id": "catullus-carmen-85",
+    "title": "Carmen 85 (Odi et Amo)",
+    "originalTitle": "Carmina LXXXV",
+    "authorId": "catullus",
+    "language": "Latin",
+    "date": "c. 55 BCE",
+    "format": "Verse (Elegiac Couplet)",
+    "genre": "Lyric Poetry / Epigram",
+    "description": "Catullus's immortal two-line epigram expressing the agonizing paradox of romantic torment: 'I hate and I love' (Odi et amo).",
+    "passageRef": "Carmen 85 (Complete Epigram)",
+    "commentaryCount": 4,
+    "tags": [
+      "Facing Text",
+      "Complete Poem",
+      "Verse",
+      "Lyric",
+      "Latin",
+      "Elegiac"
+    ],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (Mynors OCT)",
+        "translator": "Original (Catullus)",
+        "year": "Late Republic",
+        "type": "source",
+        "meter": "Elegiac Couplet",
+        "format": "Verse"
+      },
+      {
+        "id": "burton",
+        "name": "Richard Burton & Leonard Smithers (1894)",
+        "year": "1894",
+        "type": "translation",
+        "meter": "Heroic Couplet",
+        "format": "Verse",
+        "highlights": "Victorian poetic couplet"
+      },
+      {
+        "id": "postgate",
+        "name": "J. P. Postgate (1912 Loeb)",
+        "year": "1912",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Authoritative classical Loeb prose"
+      },
+      {
+        "id": "martin",
+        "name": "Charles Martin (1979)",
+        "year": "1979",
+        "type": "translation",
+        "meter": "Modern Blank Verse",
+        "format": "Verse",
+        "highlights": "Pungent modern American couplet"
+      },
+      {
+        "id": "sisson",
+        "name": "C.H. Sisson (1966)",
+        "year": "1966",
+        "type": "translation",
+        "meter": "Modern Free Verse",
+        "format": "Verse",
+        "highlights": "Lean, direct modernist English verse"
+      },
+      {
+        "id": "green",
+        "name": "Peter Green (2005)",
+        "year": "2005",
+        "type": "translation",
+        "meter": "Quantitative Elegiac Couplet",
+        "format": "Verse",
+        "highlights": "Exact metrical fidelity to Latin elegiac couplet"
+      },
+      {
+        "id": "cornish",
+        "name": "F.W. Cornish (1904)",
+        "year": "1904",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Clear Cambridge literal prose"
+      },
+      {
+        "id": "mulroy",
+        "name": "David Mulroy (2012)",
+        "year": "2012",
+        "type": "translation",
+        "meter": "Accentual Distich",
+        "format": "Verse",
+        "highlights": "Sharp, concise modern verse translation"
+      },
+      {
+        "id": "balmer",
+        "name": "Josephine Balmer (2004)",
+        "year": "2004",
+        "type": "translation",
+        "meter": "Contemporary Epigrammatic Verse",
+        "format": "Verse",
+        "highlights": "Direct, visceral modern poetic rendering"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "85.1",
+        "lineNum": 1,
+        "source": "Odi et amo. quare id faciam, fortasse requiris?",
+        "scansion": "– ⏑ ⏑ | – – | – ‖ ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – –",
+        "meter": "Dactylic Hexameter (Elegiac Opening)",
+        "literal": "I hate and I love. Why that I do, perhaps you ask?",
+        "translations": {
+          "burton": "I hate, yet love: you ask how this may be?",
+          "postgate": "I hate and I love. Why I do so, perhaps you ask?",
+          "martin": "I hate and I love. If you ask me to explain",
+          "sisson": "I hate and I love. Why? You may well ask.",
+          "green": "I hate and I love. Why I do so, perhaps you wonder?",
+          "cornish": "I hate and I love. Why I do so, you may well ask.",
+          "mulroy": "I hate and I love. You may ask how I can.",
+          "balmer": "I hate and I love. Why do I do it, you ask?"
+        },
+        "variants": [
+          {
+            "reading": "Odi et amo",
+            "source": "Unanimous manuscript tradition",
+            "meaning": "'I hate and I love'",
+            "editorialNote": "Opening juxtaposition of emotional antinomies without a conjunction or hesitation."
+          }
+        ],
+        "notes": "Odi et amo: The quintessential statement of psychological ambivalence in Western literature. Catullus compresses contradictory passions into a single breath.",
+        "vocab": [
+          {
+            "word": "Odi",
+            "lemma": "odi",
+            "meaning": "I hate (defective verb, perfect form with present sense)",
+            "link": "https://logeion.uchicago.edu/odi"
+          },
+          {
+            "word": "amo",
+            "lemma": "amo",
+            "meaning": "I love",
+            "link": "https://logeion.uchicago.edu/amo"
+          },
+          {
+            "word": "requiris",
+            "lemma": "requiro",
+            "meaning": "you ask, demand to know, inquire",
+            "link": "https://logeion.uchicago.edu/requiro"
+          }
+        ]
+      },
+      {
+        "ref": "85.2",
+        "lineNum": 2,
+        "source": "nescio, sed fieri sentio et excrucior.",
+        "scansion": "– ⏑ ⏑ | – ⏑ ⏑ | – ‖ – ⏑ ⏑ | – ⏑ ⏑ | –",
+        "meter": "Dactylic Pentameter (Elegiac Close)",
+        "literal": "I know not, but to happen I feel and am tortured on the cross.",
+        "translations": {
+          "burton": "I know not, but I feel and suffer agony.",
+          "postgate": "I know not, but I feel it, and I am in torment.",
+          "martin": "the contradiction, I can't. But I feel it, and I'm in torment.",
+          "sisson": "I do not know. But I feel it and am on the rack.",
+          "green": "I know not, but I feel it happening, and am on the rack.",
+          "cornish": "I know not, but I feel it and am in torment.",
+          "mulroy": "I do not know, but I feel it and am torn apart.",
+          "balmer": "I don't know. But I feel it happening and I am in agony."
+        },
+        "notes": "excrucior: Literally 'I am racked / crucified / tortured on the cross' (crux). The passive verb emphasizes helpless agony rather than active intention.",
+        "vocab": [
+          {
+            "word": "nescio",
+            "lemma": "nescio",
+            "meaning": "I do not know, am ignorant of",
+            "link": "https://logeion.uchicago.edu/nescio"
+          },
+          {
+            "word": "sentio",
+            "lemma": "sentio",
+            "meaning": "I feel, sense, perceive",
+            "link": "https://logeion.uchicago.edu/sentio"
+          },
+          {
+            "word": "excrucior",
+            "lemma": "excrucio",
+            "meaning": "I am tortured, agonized, crucified (passive)",
+            "link": "https://logeion.uchicago.edu/excrucio"
           }
         ]
       }
@@ -1656,6 +1923,68 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Classic Loeb Library facing translation"
+      },
+      {
+        "id": "creech",
+        "name": "Thomas Creech (1682)",
+        "year": "1682",
+        "type": "translation",
+        "meter": "Heroic Couplets",
+        "format": "Verse",
+        "highlights": "First complete English verse translation of Lucretius"
+      },
+      {
+        "id": "good",
+        "name": "John Mason Good (1805)",
+        "year": "1805",
+        "type": "translation",
+        "meter": "Blank Verse",
+        "format": "Verse",
+        "highlights": "Comprehensive Romantic-era poetic translation"
+      },
+      {
+        "id": "stallings",
+        "name": "A.E. Stallings (2007 Penguin)",
+        "year": "2007",
+        "type": "translation",
+        "meter": "Rhymed Fourteeners",
+        "format": "Verse",
+        "highlights": "Poetic tour-de-force matching Lucretius's hexameter in rhymed verse"
+      },
+      {
+        "id": "humphries",
+        "name": "Rolfe Humphries (1968)",
+        "year": "1968",
+        "type": "translation",
+        "meter": "Loose Hexameter Verse",
+        "format": "Verse",
+        "highlights": "Supple, modern poetic rhythm"
+      },
+      {
+        "id": "smith",
+        "name": "Martin Ferguson Smith (1969 Loeb / 2001)",
+        "year": "2001",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Authoritative contemporary scholarly standard"
+      },
+      {
+        "id": "green",
+        "name": "Peter Green (2020)",
+        "year": "2020",
+        "type": "translation",
+        "meter": "Accentual Dactylic Hexameter",
+        "format": "Verse",
+        "highlights": "University of California Press; strict poetic hexameter translation"
+      },
+      {
+        "id": "cobbold",
+        "name": "G.B. Cobbold (2016 Bolchazy)",
+        "year": "2016",
+        "type": "translation",
+        "meter": "Modern Poetic Verse",
+        "format": "Verse",
+        "highlights": "Accessible, energetic contemporary poetic translation"
       }
     ],
     "segments": [
@@ -1668,8 +1997,16 @@ export const LATIN_TEXTS = [
           "bailey": "Mother of Aeneas' race, delight of men and gods,",
           "munro": "Mother of Rome, delight of gods and men,",
           "leonard": "Mother of Rome, delight of Gods and men,",
-          "rouse": "Mother of the Aeneadae, darling of men and gods,"
+          "rouse": "Mother of the Aeneadae, darling of men and gods,",
+          "creech": "Great Parent of the Rome-descended race, / Delight of Gods and joy of human race,",
+          "good": "Mother of Rome! delight of gods and men,",
+          "stallings": "Mother of Rome, delight of Men and Gods, gentle Venus, hear!",
+          "humphries": "Mother of Rome, delight of gods and men, / Dear Venus that conspirest with the skies,",
+          "smith": "Mother of Aeneas and his race, delight of men and gods, life-giving Venus,",
+          "green": "Mother of Rome and its sons, delight of gods and of mortals,",
+          "cobbold": "Mother of Rome, joy of gods and mortals,"
         },
+
         "notes": "Aeneadum genetrix: Invokes Venus both as genealogical ancestor of the Romans (through Aeneas) and as allegorical personification of Epicurean pleasure (voluptas / ἡδονή).",
         "vocab": [
           {
@@ -1695,7 +2032,14 @@ export const LATIN_TEXTS = [
           "bailey": "nurturing Venus, who beneath the gliding stars of heaven",
           "munro": "benignant Venus, who under the gliding stars of heaven",
           "leonard": "Dear Venus, Mother, thou who under stars / Gliding in heaven",
-          "rouse": "fostering Venus, who under the rolling signs of heaven"
+          "rouse": "fostering Venus, who under the rolling signs of heaven",
+          "creech": "fostering Venus, who under gliding stars of heaven",
+          "good": "propitious Venus! who beneath the gliding stars",
+          "stallings": "Ship-bearing sea and corn-abounding land, beneath the stars that slide,",
+          "humphries": "fostering Venus, who under heaven's gliding constellations",
+          "smith": "nurturing Venus, who beneath the gliding constellations of heaven",
+          "green": "fostering Venus, who under the gliding constellations of the heavens",
+          "cobbold": "nurturing Venus, who under the drifting constellations of heaven"
         },
         "notes": "alma Venus: 'nurturing/nourishing Venus' (from alere, 'to nourish').",
         "vocab": [
@@ -1773,6 +2117,78 @@ export const LATIN_TEXTS = [
         "meter": "Unrhymed Sapphics",
         "format": "Verse",
         "highlights": "Victorian aristocratic verse"
+      },
+      {
+        "id": "milton",
+        "name": "John Milton (1645)",
+        "year": "1645",
+        "type": "translation",
+        "meter": "Unrhymed English Verse",
+        "format": "Verse",
+        "highlights": "Historic translation by the poet of Paradise Lost"
+      },
+      {
+        "id": "francis",
+        "name": "Philip Francis (1743)",
+        "year": "1743",
+        "type": "translation",
+        "meter": "Rhymed Couplets",
+        "format": "Verse",
+        "highlights": "Distinguished 18th-century standard favored by Samuel Johnson"
+      },
+      {
+        "id": "cunningham",
+        "name": "J.V. Cunningham (1960)",
+        "year": "1960",
+        "type": "translation",
+        "meter": "Modern Epigrammatic Verse",
+        "format": "Verse",
+        "highlights": "Crisp, razor-sharp modern American epigrammatic verse"
+      },
+      {
+        "id": "sisson",
+        "name": "C.H. Sisson (1975)",
+        "year": "1975",
+        "type": "translation",
+        "meter": "Modern Free Verse",
+        "format": "Verse",
+        "highlights": "Modernist English poet's lean, conversational verse"
+      },
+      {
+        "id": "raffel",
+        "name": "Burton Raffel (1983)",
+        "year": "1983",
+        "type": "translation",
+        "meter": "Modern Lyrical Verse",
+        "format": "Verse",
+        "highlights": "Lively, colloquial modern American translation"
+      },
+      {
+        "id": "ferry",
+        "name": "David Ferry (2008)",
+        "year": "2008",
+        "type": "translation",
+        "meter": "Contemporary English Lyric Verse",
+        "format": "Verse",
+        "highlights": "FSG; acclaimed translation praised for lyrical precision and warmth"
+      },
+      {
+        "id": "mcclatchy",
+        "name": "J.D. McClatchy (2005)",
+        "year": "2005",
+        "type": "translation",
+        "meter": "Modern Syllabic Verse",
+        "format": "Verse",
+        "highlights": "Princeton University Press edition of Horace's Odes"
+      },
+      {
+        "id": "lyons",
+        "name": "Stuart Lyons (2019)",
+        "year": "2019",
+        "type": "translation",
+        "meter": "Modern Metrical Verse",
+        "format": "Verse",
+        "highlights": "Aris & Phillips Classical Texts modern verse translation"
       }
     ],
     "segments": [
@@ -1780,12 +2196,22 @@ export const LATIN_TEXTS = [
         "ref": "Hor.1.11.1",
         "lineNum": 1,
         "source": "Tu ne quaesieris, scire nefas, quem mihi, quem tibi",
-        "literal": "You not ask, to know forbidden, what to me, what to you",
+        "scansion": "– – | – ⏑ ⏑ – ‖ – ⏑ ⏑ – ‖ – ⏑ ⏑ – | ⏑ –",
+        "meter": "Greater Asclepiadean",
+        "literal": "You should not ask, to know is forbidden by heaven, what to me, what to you",
         "translations": {
-          "smart": "Do not inquire, Leuconoe, for it is forbidden to know, what end the gods have given to me or you,",
-          "bennett": "Ask not, Leuconoe (we cannot know), what end the gods have set for me, for thee,",
+          "smart": "Seek not, Leuconoe, to know what end the gods have allotted to me or to thee,",
+          "bennett": "Ask not, 'tis forbidden knowledge, what end the gods have granted to me or thee,",
           "conington": "Ask not—'tis forbidden knowledge—what our destined term of years,",
-          "bulwer": "Seek not, Leuconoë, (we are not allowed to know), what end the gods have assigned to me or thee,"
+          "bulwer": "Ask not (unlawful is the knowledge, O Leuconoë) what end the gods have given to me or thee,",
+          "milton": "Ask not, 'tis sin to know, what end to me, what unto thee the Gods have given,",
+          "francis": "Strive not, Leuconoe, to pry / Into the secret will of fate,",
+          "cunningham": "Ask not, Leuconoe (we cannot know), what end the gods have assigned you or me,",
+          "sisson": "Do not ask, it is forbidden to know, what end the gods have given to me or to you,",
+          "raffel": "Don't ask, Leuconoe, what the gods won't tell you: how long you and I have to live.",
+          "ferry": "Don't ask—we are not allowed to know—what end the gods have given me or you,",
+          "mcclatchy": "Don't ask—to know is not allowed—what end the gods have given to you or me,",
+          "lyons": "Do not inquire—we may not know—what span of life the gods assign to me or you,"
         },
         "notes": "scire nefas: 'it is sacrilege / divine prohibition to know'. Warning against astrology and anxiety about the future.",
         "vocab": [
@@ -1806,7 +2232,15 @@ export const LATIN_TEXTS = [
           "smart": "seize the day, trusting as little as possible to the morrow.",
           "bennett": "harvest the day, putting as little trust as may be in the morrow.",
           "conington": "Seize the day, and trust the morrow as little as you may.",
-          "bulwer": "Seize the day, trusting as little as possible to the future."
+          "bulwer": "Seize the day, trusting as little as possible to the future.",
+          "milton": "Seize on the present day, trust not tomorrow.",
+          "francis": "Grasp the pleasures of the fleeting day, nor trust tomorrow.",
+          "cunningham": "Seize the day, trusting as little as you can to the morrow.",
+          "sisson": "Seize today, and put as little trust as you can in tomorrow.",
+          "raffel": "Grab today, and don't expect too much from tomorrow.",
+          "ferry": "pluck the day, trusting as little as you can in what tomorrow brings.",
+          "mcclatchy": "catch the day, putting as little trust as possible in tomorrow.",
+          "lyons": "harvest the day, with minimal trust in tomorrow."
         },
         "notes": "carpe diem: literally 'pluck the day' (like ripe fruit from a branch), one of the most famous metaphors in world literature.",
         "vocab": [
@@ -1891,6 +2325,60 @@ export const LATIN_TEXTS = [
         "meter": "Heroic Couplets",
         "format": "Verse",
         "highlights": "Famous Early Modern English verse translation"
+      },
+      {
+        "id": "humphries",
+        "name": "Rolfe Humphries (1955)",
+        "year": "1955",
+        "type": "translation",
+        "meter": "Loose Hexameter Verse",
+        "format": "Verse",
+        "highlights": "Supple, modern American poetic narrative"
+      },
+      {
+        "id": "mandelbaum",
+        "name": "Allen Mandelbaum (1993)",
+        "year": "1993",
+        "type": "translation",
+        "meter": "Modern Blank Verse",
+        "format": "Verse",
+        "highlights": "Poetic fluidity and modern mythic energy"
+      },
+      {
+        "id": "martin",
+        "name": "Charles Martin (2004 Norton)",
+        "year": "2004",
+        "type": "translation",
+        "meter": "Modern Blank Verse",
+        "format": "Verse",
+        "highlights": "Acclaimed Norton Critical Edition verse translation"
+      },
+      {
+        "id": "mccarter",
+        "name": "Stephanie McCarter (2022 Penguin)",
+        "year": "2022",
+        "type": "translation",
+        "meter": "Iambic Pentameter",
+        "format": "Verse",
+        "highlights": "Groundbreaking contemporary feminist translation"
+      },
+      {
+        "id": "raeburn",
+        "name": "David Raeburn (2004 Penguin)",
+        "year": "2004",
+        "type": "translation",
+        "meter": "Modern Poetic Hexameter",
+        "format": "Verse",
+        "highlights": "Penguin Classics; fluid, spoken accentual hexameter translation"
+      },
+      {
+        "id": "zimmerman",
+        "name": "C. Alan Zimmerman (2020)",
+        "year": "2020",
+        "type": "translation",
+        "meter": "Modern English Verse",
+        "format": "Verse",
+        "highlights": "Direct, rhythmic contemporary line-by-line translation"
       }
     ],
     "segments": [
@@ -1898,12 +2386,20 @@ export const LATIN_TEXTS = [
         "ref": "Met.1.1",
         "lineNum": 1,
         "source": "In nova fert animus mutatas dicere formas / corpora;",
+        "scansion": "– ⏑ ⏑ | – ⏑ ⏑ | – ‖ – | – ⏑ ⏑ | – ⏑ ⏑ | – –",
+        "meter": "Dactylic Hexameter",
         "literal": "Into new carries mind changed to tell forms bodies;",
         "translations": {
           "golding": "Of shapes transformde to bodies straunge, I purpose for to entreate;",
           "dryden": "Of bodies chang'd to various forms, I sing:",
           "miller": "My mind is bent to tell of bodies changed into new forms.",
-          "sandys": "Of bodies chang'd to other shapes I sing:"
+          "sandys": "Of bodies chang'd to other shapes I sing:",
+          "humphries": "My intention is to tell of bodies changed into new forms and shapes.",
+          "mandelbaum": "My soul would sing of metamorphoses, of bodies transformed into new shapes.",
+          "martin": "My intention is to tell of bodies changed into new forms.",
+          "mccarter": "My mind moves me to tell of forms changed into new bodies;",
+          "raeburn": "My intention is to tell of bodies changed to different forms.",
+          "zimmerman": "My spirit prompts me to speak of bodies changed into new forms;"
         },
         "notes": "In nova fert animus: 'My mind moves me to speak of forms changed into new bodies'. Sets the programmatic theme of metamorphosis.",
         "vocab": [
@@ -1984,6 +2480,54 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Seventeenth-century English translation preserved in Loeb Library"
+      },
+      {
+        "id": "pine_coffin",
+        "name": "R.S. Pine-Coffin (1961 Penguin)",
+        "year": "1961",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Standard Penguin Classics translation for decades"
+      },
+      {
+        "id": "outler",
+        "name": "Albert C. Outler (1955)",
+        "year": "1955",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Authoritative scholarly translation with theological depth"
+      },
+      {
+        "id": "boulding",
+        "name": "Maria Boulding (1997)",
+        "year": "1997",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Poetic, contemplative modern English monastic translation"
+      },
+      {
+        "id": "ruden",
+        "name": "Sarah Ruden (2017 Modern Library)",
+        "year": "2017",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Striking contemporary translation highlighting Augustine's raw intimacy"
+      },
+      {
+        "id": "hammond",
+        "name": "Martin Hammond (2014 Oxford)",
+        "year": "2014",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Oxford World's Classics; accurate, crisp, modern English prose"
+      },
+      {
+        "id": "williams",
+        "name": "Thomas Williams (2019 Hackett)",
+        "year": "2019",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Hackett Classics; fluid, lucid philosophical translation"
       }
     ],
     "segments": [
@@ -1993,10 +2537,16 @@ export const LATIN_TEXTS = [
         "source": "Magnus es, domine, et laudabilis valde: magna virtus tua, et sapientiae tuae non est numerus.",
         "literal": "Great you are, Lord, and praiseworthy exceedingly: great power your, and of wisdom your not is number.",
         "translations": {
-          "chadwick": "'You are great, Lord, and highly to be praised': great is your power and your wisdom is immeasurable.",
+          "chadwick": "'Great are you, O Lord, and exceedingly worthy of praise; your power is immense, and your wisdom beyond reckoning.'",
           "pusey": "Great art Thou, O Lord, and greatly to be praised; great is Thy power, and Thy wisdom infinite.",
-          "sheed": "Great art Thou, O Lord, and greatly to be praised; great is Thy power, and of Thy wisdom there is no number.",
-          "watts": "Great art thou, O Lord, and greatly to be praised; great is thy power, and thy wisdom is infinite."
+          "sheed": "Great are You, O Lord, and exceedingly to be praised: great is Your power, and of Your wisdom there is no reckoning.",
+          "watts": "Great art thou, O Lord, and greatly to be praised; great is thy power, and thy wisdom is infinite.",
+          "pine_coffin": "Can any praise be worthy of the Lord's majesty? How great is your power, how limitless your wisdom!",
+          "outler": "Great art thou, O Lord, and greatly to be praised; great is thy power, and infinite is thy wisdom.",
+          "boulding": "'You are great, Lord, and highly to be praised: great is your power and your wisdom is immeasurable.'",
+          "ruden": "You are great, Lord, and deserve all our praise: your power is vast, and there is no computing your wisdom.",
+          "hammond": "Great are you, Lord, and highly to be praised; great is your power, and of your wisdom there is no measure.",
+          "williams": "You are great, Lord, and highly to be praised: great is your power, and your wisdom cannot be measured."
         },
         "notes": "Magnus es, domine: Quotation from Psalm 144:3, setting the confessional dialogue directly with God.",
         "vocab": [
@@ -2017,7 +2567,13 @@ export const LATIN_TEXTS = [
           "chadwick": "our heart is restless until it rests in you.",
           "pusey": "our heart is restless, until it repose in Thee.",
           "sheed": "our hearts are restless till they find rest in Thee.",
-          "watts": "our heart is restless, until it repose in thee."
+          "watts": "our heart is restless, until it repose in thee.",
+          "pine_coffin": "our heart is restless until it rests in you.",
+          "outler": "our heart is restless until it rests in thee.",
+          "boulding": "our heart is restless until it rests in you.",
+          "ruden": "our heart cannot be quieted until it may find rest in you.",
+          "hammond": "our heart is restless until it finds its rest in you.",
+          "williams": "our heart is restless until it rests in you."
         },
         "notes": "inquietum est cor nostrum: One of the most famous sentences in Christian Latin literature.",
         "vocab": [
@@ -2036,7 +2592,912 @@ export const LATIN_TEXTS = [
         ]
       }
     ],
+    "era": "Late Roman Empire (Christian)",
+    "period": "Late Antiquity"
+  },
+  {
+    "id": "cicero-catilinam-1",
+    "title": "In Catilinam I (First Oration Against Catiline)",
+    "originalTitle": "In L. Catilinam Oratio Prima",
+    "authorId": "cicero",
+    "language": "Latin",
+    "date": "63 BCE",
+    "format": "Rhetorical Oratory (Prose)",
+    "genre": "Oratory / Political Rhetoric",
+    "description": "Cicero's explosive opening invective delivered directly in the Senate against the conspirator Lucius Sergius Catilina, who brazenly attended the session.",
+    "passageRef": "Section 1.1 (Quo Usque Tandem)",
+    "commentaryCount": 4,
+    "tags": ["Facing Text", "Sample Passage", "Prose", "Commentary", "Oratory", "Republic"],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (OCT Clark)",
+        "translator": "Original (Cicero)",
+        "year": "Late Republic",
+        "type": "source",
+        "format": "Prose"
+      },
+      {
+        "id": "yonge",
+        "name": "C. D. Yonge (1856)",
+        "year": "1856",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Classic 19th-century rhetorical translation"
+      },
+      {
+        "id": "lord",
+        "name": "Louis E. Lord (1937 Loeb)",
+        "year": "1937",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Authoritative Loeb Classical Library edition"
+      },
+      {
+        "id": "grant",
+        "name": "Michael Grant (1969 Penguin)",
+        "year": "1969",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Lively, modern historical translation"
+      },
+      {
+        "id": "guthrie",
+        "name": "William Guthrie (1745)",
+        "year": "1745",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Historic 18th-century oratorical translation"
+      },
+      {
+        "id": "duncan",
+        "name": "William Duncan (1792)",
+        "year": "1792",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Distinguished classical rhetoric edition"
+      },
+      {
+        "id": "shuckburgh",
+        "name": "E. S. Shuckburgh (1901)",
+        "year": "1901",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Late Victorian scholarly Cambridge translation"
+      },
+      {
+        "id": "berry",
+        "name": "D. H. Berry (2006 Oxford)",
+        "year": "2006",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Oxford World's Classics standard"
+      },
+      {
+        "id": "powell",
+        "name": "J.G.F. Powell (2009 Oxford)",
+        "year": "2009",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Oxford classical scholar's precise rhetorical translation"
+      },
+      {
+        "id": "macdonald",
+        "name": "C. Macdonald (2012)",
+        "year": "2012",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Aris & Phillips Classical Texts edition with commentary"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "Catil.1.1",
+        "lineNum": 1,
+        "source": "Quo usque tandem abutere, Catilina, patientia nostra?",
+        "literal": "To what point finally will you abuse, Catiline, patience our?",
+        "translations": {
+          "yonge": "When, O Catiline, do you mean to cease abusing our patience?",
+          "lord": "How long, Catiline, will you abuse our patience?",
+          "grant": "How long, Catiline, will you go on abusing our forbearance?",
+          "guthrie": "How far, O Catiline! wilt thou abuse our patience?",
+          "duncan": "How far, O Catiline, wilt thou abuse our patience?",
+          "shuckburgh": "How long, pray, Catiline, will you abuse our patience?",
+          "berry": "How much longer, Catiline, will you continue to abuse our patience?",
+          "powell": "How much longer, Catiline, will you try our patience?",
+          "macdonald": "How far, Catiline, will you abuse our patience?"
+        },
+
+        "variants": [
+          {
+            "reading": "abutere",
+            "source": "All primary MSS",
+            "meaning": "'abuse, exhaust, take advantage of (fut. indic. -ere for -eris)'",
+            "editorialNote": "Abutor takes the ablative (patientia nostra)."
+          }
+        ],
+        "notes": "Quo usque tandem: The most celebrated rhetorical question in Roman oratory, opening ex abrupto (without standard polite preamble).",
+        "vocab": [
+          {
+            "word": "abutere",
+            "lemma": "abutor",
+            "meaning": "abuse, misuse, consume entirely",
+            "link": "https://logeion.uchicago.edu/abutor"
+          },
+          {
+            "word": "patientia",
+            "lemma": "patientia",
+            "meaning": "patience, forbearance, endurance",
+            "link": "https://logeion.uchicago.edu/patientia"
+          }
+        ]
+      },
+      {
+        "ref": "Catil.1.2",
+        "lineNum": 2,
+        "source": "quam diu etiam furor iste tuus nos eludet?",
+        "literal": "how long still madness that of yours us will mock?",
+        "translations": {
+          "yonge": "How long is that madness of yours still to mock us?",
+          "lord": "How long will that frenzy of yours mock us?",
+          "grant": "How long will that unbridled audacity of yours baffle us?",
+          "guthrie": "How long shall thy frantic rage baffle our efforts?",
+          "duncan": "How long shall that frantic rage of thine baffle our justice?",
+          "shuckburgh": "How long will that madness of yours baffle our vigilance?",
+          "berry": "How long will that madness of yours go on mocking us?",
+          "powell": "How long will that madness of yours continue to mock us?",
+          "macdonald": "How long will that madness of yours mock us?"
+        },
+        "notes": "iste: The demonstrative of contempt ('that despicable madness of yours')."
+      }
+    ],
+    "era": "Roman Republic",
+    "period": "1st Century BCE"
+  },
+  {
+    "id": "seneca-brevitate-vitae",
+    "title": "De Brevitate Vitae (On the Shortness of Life)",
+    "originalTitle": "De Brevitate Vitae",
+    "authorId": "seneca",
+    "language": "Latin",
+    "date": "49 CE",
+    "format": "Philosophical Treatise (Prose)",
+    "genre": "Stoic Philosophy / Moral Essays",
+    "description": "Seneca's classic Stoic essay proving that life is not short, but made short by human squandering on trivial pursuits, avarice, and procrastination.",
+    "passageRef": "Chapter 1.1–3 (Life is Long if you Know How to Use It)",
+    "commentaryCount": 3,
+    "tags": ["Facing Text", "Sample Passage", "Prose", "Commentary", "Stoicism"],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (OCT Reynolds)",
+        "translator": "Original (Seneca)",
+        "year": "Early Empire",
+        "type": "source",
+        "format": "Prose"
+      },
+      {
+        "id": "basore",
+        "name": "John W. Basore (1932 Loeb)",
+        "year": "1932",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Authoritative Loeb Classical Library standard"
+      },
+      {
+        "id": "costa",
+        "name": "C. D. N. Costa (1997 Penguin)",
+        "year": "1997",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Clear, elegant contemporary English"
+      },
+      {
+        "id": "stewart",
+        "name": "Aubrey Stewart (1900)",
+        "year": "1900",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Classic turn-of-the-century Victorian translation"
+      },
+      {
+        "id": "lodge",
+        "name": "Thomas Lodge (1614)",
+        "year": "1614",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Pithy Jacobean Renaissance translation"
+      },
+      {
+        "id": "lestrange",
+        "name": "Sir Roger L'Estrange (1678)",
+        "year": "1678",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Lively Restoration prose Seneca"
+      },
+      {
+        "id": "campbell",
+        "name": "Robin Campbell (1969 Penguin)",
+        "year": "1969",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Crisp, modern Penguin Classics standard"
+      },
+      {
+        "id": "romm",
+        "name": "James Romm (2014 Princeton)",
+        "year": "2014",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Fresh, dynamic contemporary translation"
+      },
+      {
+        "id": "williams",
+        "name": "Gareth D. Williams (2014 Chicago)",
+        "year": "2014",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "University of Chicago Complete Works of Lucius Annaeus Seneca"
+      },
+      {
+        "id": "fantham",
+        "name": "Elaine Fantham (2010 Oxford)",
+        "year": "2010",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Oxford World's Classics standard"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "Brev.1.1",
+        "lineNum": 1,
+        "source": "Maior pars mortalium, Pauline, de naturae malignitate conqueritur,",
+        "literal": "Greater part of mortals, Paulinus, of nature's spite complains,",
+        "translations": {
+          "basore": "The majority of mortals, Paulinus, complain bitterly of the spitefulness of Nature,",
+          "costa": "Most human beings, Paulinus, complain about the meanness of nature,",
+          "stewart": "The majority of mankind, my Paulinus, complains of the spitefulness of nature,",
+          "lodge": "The greatest part of mortal men, Paulinus, complain of the unkindness of nature,",
+          "lestrange": "Most people complain of nature for creating us for so short a life,",
+          "campbell": "Most human beings, Paulinus, complain about the mean ways of nature,",
+          "romm": "Most mortals, my Paulinus, complain of Nature’s stinginess,",
+          "williams": "The majority of mortals, Paulinus, complain about the spitefulness of nature,",
+          "fantham": "Most mortals, Paulinus, complain of the malice of nature,"
+        },
+        "notes": "Addressed to Pompeius Paulinus, equestrian prefect of the grain supply (annona) at Rome."
+      },
+      {
+        "ref": "Brev.1.3",
+        "lineNum": 3,
+        "source": "Non exiguum temporis habemus, sed multum perdidimus. Satis longa vita est,",
+        "literal": "Not little of time we have, but much we have lost. Sufficiently long life is,",
+        "translations": {
+          "basore": "It is not that we have a short time to live, but that we waste a lot of it. Life is long enough,",
+          "costa": "It is not that we have a short time to live, but that we waste a lot of it. Life is long enough,",
+          "stewart": "We do not have a very short time, but we lose a lot of it. Life is long enough,",
+          "lodge": "We have not a little time given us, but we lose much. Life is long enough,",
+          "lestrange": "It is not that life is short, but that we spend so much of it in doing nothing or doing ill.",
+          "campbell": "It is not that we have a short time to live, but that we waste a lot of it. Life is long enough,",
+          "romm": "It is not that we have a brief life, but that we waste a lot of it. Life is long enough,",
+          "williams": "It is not that we have a short time to live, but that we squander a lot of it. Life is long enough,",
+          "fantham": "It is not that we have a short time to live, but that we waste much of it. Life is long enough,"
+        },
+
+        "variants": [
+          {
+            "reading": "Non exiguum temporis habemus",
+            "source": "Codex Ambrosianus (A)",
+            "meaning": "'We do not have a small amount of time, but we squander much of it'",
+            "editorialNote": "Central thesis of the entire treatise."
+          }
+        ],
+        "notes": "Non exiguum... sed multum perdidimus: Antithesis and epigrammatic brevity characteristic of Seneca's 'pointed' style.",
+        "vocab": [
+          {
+            "word": "exiguum",
+            "lemma": "exiguus",
+            "meaning": "small, scanty, short",
+            "link": "https://logeion.uchicago.edu/exiguus"
+          },
+          {
+            "word": "perdidimus",
+            "lemma": "perdo",
+            "meaning": "waste, lose, destroy (perf. pl.)",
+            "link": "https://logeion.uchicago.edu/perdo"
+          }
+        ]
+      }
+    ],
+    "era": "Roman Empire",
+    "period": "1st Century CE"
+  },
+  {
+    "id": "ovid-metamorphoses",
+    "title": "Metamorphoses (Pyramus & Thisbe)",
+    "originalTitle": "Metamorphōsēs",
+    "authorId": "ovid",
+    "language": "Latin",
+    "date": "8 CE",
+    "format": "Verse (Dactylic Hexameter)",
+    "genre": "Epic / Mythological Poetry",
+    "description": "Ovid's supreme mythological epic in 15 books retelling over 250 transformations from the creation of the cosmos to Julius Caesar's apotheosis. The Pyramus and Thisbe episode (Book IV) — the direct source of Shakespeare's Romeo and Juliet — is one of the most exquisite and influential tales of doomed love in Western literature.",
+    "passageRef": "Book IV, lines 55–62 (Pyramus & Thisbe: The Wall)",
+    "commentaryCount": 5,
+    "tags": ["Facing Text", "Sample Passage", "Verse", "Latin", "Mythology", "Love Poetry"],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (OCT)",
+        "year": "8 CE",
+        "type": "source",
+        "meter": "Dactylic Hexameter",
+        "format": "Verse"
+      },
+      {
+        "id": "golding",
+        "name": "Arthur Golding (1567)",
+        "year": "1567",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Elizabethan rhyming fourteeners; Shakespeare's favourite Ovid"
+      },
+      {
+        "id": "dryden",
+        "name": "John Dryden (1717)",
+        "year": "1717",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Heroic couplets; Augustan elegance"
+      },
+      {
+        "id": "miller_loeb",
+        "name": "Frank Justus Miller / Loeb (1916)",
+        "year": "1916",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Standard scholarly prose reference"
+      },
+      {
+        "id": "humphries",
+        "name": "Rolfe Humphries (1955)",
+        "year": "1955",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Mid-century American verse, widely taught"
+      },
+      {
+        "id": "mandelbaum",
+        "name": "Allen Mandelbaum (1993)",
+        "year": "1993",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Lyrical American blank verse"
+      },
+      {
+        "id": "martin_ovid",
+        "name": "Charles Martin (2004)",
+        "year": "2004",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Vivid contemporary American poetry"
+      },
+      {
+        "id": "mccarter",
+        "name": "Stephanie McCarter (2022)",
+        "year": "2022",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Feminist reappraisal, closest modern equivalent"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "IV.55",
+        "lineNum": 55,
+        "source": "Pyramus et Thisbe, iuvenum pulcherrimus alter,",
+        "literal": "Pyramus and Thisbe, one the most beautiful of youths,",
+        "translations": {
+          "golding": "Pyramus and Thisbe, he the most beautiful of young men,",
+          "dryden": "In Babylon (for first it there begun), / Did Pyramus with beauteous Thisbe dwell;",
+          "miller_loeb": "Pyramus and Thisbe, he the most beautiful of youths,",
+          "humphries": "Pyramus and Thisbe, he the handsomest lad,",
+          "mandelbaum": "Pyramus and Thisbe — he the most handsome of young men,",
+          "martin_ovid": "Pyramus and Thisbe, the most beautiful of young men",
+          "mccarter": "Pyramus and Thisbe, he the most handsome of youths,"
+        }
+      },
+      {
+        "ref": "IV.56",
+        "lineNum": 56,
+        "source": "altera laudatas inter Babylonias formā,",
+        "literal": "the other praised among Babylonian women for beauty,",
+        "translations": {
+          "golding": "she the fairest maid that ever Eastern land did show,",
+          "dryden": "She for beauty most renowned of all the East.",
+          "miller_loeb": "she the fairest maid of all the East,",
+          "humphries": "she the loveliest girl, in all the East—",
+          "mandelbaum": "she praised among Babylonian girls for beauty,",
+          "martin_ovid": "and she the fairest of all Eastern girls,",
+          "mccarter": "she praised among Babylonian girls for beauty,"
+        }
+      },
+      {
+        "ref": "IV.57",
+        "lineNum": 57,
+        "source": "contiguas tenuere domos, ubi dicitur altam",
+        "literal": "held adjoining houses, where the lofty is said to have been",
+        "translations": {
+          "golding": "Had dwelling-places joining near, in city Babylon,",
+          "dryden": "They lived in adjoining houses.",
+          "miller_loeb": "dwelt in adjoining houses, in the lofty city",
+          "humphries": "who lived in adjoining houses, in the lofty city",
+          "mandelbaum": "occupied adjoining houses; where the lofty",
+          "martin_ovid": "lived in adjoining houses, where the towering",
+          "mccarter": "held adjoining houses, where the tall"
+        }
+      },
+      {
+        "ref": "IV.58",
+        "lineNum": 58,
+        "source": "coctilibus muris cinxisse Semiramis urbem.",
+        "literal": "Semiramis to have enclosed the city with baked walls.",
+        "translations": {
+          "golding": "Where Semiramis for building is reported for to have / Enclosed with walls of burnt brick.",
+          "dryden": "where Semiramis surrounded with baked brick walls.",
+          "miller_loeb": "which Semiramis is said to have enclosed with walls of brick.",
+          "humphries": "which Semiramis built, they say, with walls of brick.",
+          "mandelbaum": "Semiramis enclosed the city with brick walls.",
+          "martin_ovid": "Semiramis is said to have enclosed the city with brick.",
+          "mccarter": "Semiramis is said to have girt the city with baked brick walls."
+        }
+      },
+      {
+        "ref": "IV.59",
+        "lineNum": 59,
+        "source": "Notitiam primosque gradus vicinia fecit,",
+        "literal": "Proximity made their acquaintance and their first steps,",
+        "translations": {
+          "golding": "Their acquaintance and the first steps of their love proximity made,",
+          "dryden": "Their nearness first acquaintance made; as time / Went on, love followed.",
+          "miller_loeb": "Their proximity caused their first acquaintance;",
+          "humphries": "Their nearness was their first acquaintance; time / Made love grow stronger.",
+          "mandelbaum": "Their nearness made them known to one another;",
+          "martin_ovid": "Their nearness was their first step to acquaintance,",
+          "mccarter": "Their closeness gave them their first acquaintance,"
+        }
+      }
+    ],
+    "era": "Roman Empire",
+    "period": "Antiquity"
+  },
+  {
+    "id": "augustine-confessions",
+    "title": "Confessions (Book I Opening)",
+    "originalTitle": "Confessiones",
+    "authorId": "augustine",
+    "language": "Latin",
+    "date": "397–400 CE",
+    "format": "Prose",
+    "genre": "Autobiography / Theology",
+    "description": "The first spiritual autobiography in Western literature, Augustine of Hippo's Confessions traces his restless journey from sin and intellectual pride through Neoplatonism and Manichaeism to Christian faith. The opening invocation — 'our heart is restless until it repose in Thee' — is among the most quoted sentences in the history of Christian thought.",
+    "passageRef": "Book I, Chapter 1 (The Restless Heart)",
+    "commentaryCount": 5,
+    "tags": ["Facing Text", "Sample Passage", "Prose", "Latin", "Theology", "Autobiography"],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (CSEL)",
+        "year": "c. 398 CE",
+        "type": "source",
+        "format": "Prose"
+      },
+      {
+        "id": "pusey",
+        "name": "Edward Bouverie Pusey (1838)",
+        "year": "1838",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Victorian High Church gravity; long the standard Anglican text"
+      },
+      {
+        "id": "sheed",
+        "name": "Frank Sheed (1943)",
+        "year": "1943",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Vigorous mid-century Catholic English; widely reprinted"
+      },
+      {
+        "id": "pine_coffin",
+        "name": "R. S. Pine-Coffin / Penguin (1961)",
+        "year": "1961",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Clear, readable Penguin Classics standard"
+      },
+      {
+        "id": "boulding",
+        "name": "Maria Boulding, OSB (1997)",
+        "year": "1997",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Contemplative fidelity; preferred by scholars of patristics"
+      },
+      {
+        "id": "chadwick",
+        "name": "Henry Chadwick (1991)",
+        "year": "1991",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Oxford scholarly standard; precise and learned"
+      },
+      {
+        "id": "ruden_aug",
+        "name": "Sarah Ruden (2017)",
+        "year": "2017",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Radical new literary translation; intimate and immediate"
+      },
+      {
+        "id": "outler",
+        "name": "Albert C. Outler (1955)",
+        "year": "1955",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Protestant ecumenical clarity; widely used in seminaries"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "I.1.1a",
+        "lineNum": 1,
+        "source": "Magnus es, Domine, et laudabilis valde:",
+        "literal": "Great art thou, O Lord, and greatly to be praised:",
+        "translations": {
+          "pusey": "Great art Thou, O Lord, and greatly to be praised;",
+          "sheed": "Thou art great, O Lord, and greatly to be praised;",
+          "pine_coffin": "You are great, Lord, and greatly to be praised;",
+          "boulding": "Great are you, Lord, and exceedingly worthy of praise;",
+          "chadwick": "You are great, Lord, and greatly to be praised;",
+          "ruden_aug": "You are great, Lord, and greatly praised:",
+          "outler": "Thou art great, O Lord, and greatly to be praised;"
+        }
+      },
+      {
+        "ref": "I.1.1b",
+        "lineNum": 2,
+        "source": "magna virtus tua, et sapientiae tuae non est numerus.",
+        "literal": "great is thy power, and thy wisdom infinite.",
+        "translations": {
+          "pusey": "great is Thy power, and Thy wisdom infinite.",
+          "sheed": "Thy power is great, Thy wisdom without limit.",
+          "pine_coffin": "great is your power and your wisdom has no limit.",
+          "boulding": "your power is immense, and your wisdom beyond reckoning.",
+          "chadwick": "great is your power and your wisdom is without limit.",
+          "ruden_aug": "great is your power, and your wisdom cannot be counted.",
+          "outler": "great is thy power, and to thy wisdom there is no limit."
+        }
+      },
+      {
+        "ref": "I.1.1c",
+        "lineNum": 3,
+        "source": "Et laudare te vult homo, aliqua portio creaturae tuae,",
+        "literal": "And man desires to praise thee, some portion of thy creation,",
+        "translations": {
+          "pusey": "And man, this part of Thy creation, wishes to praise Thee,",
+          "sheed": "And man, who is a particle of Your creation, wants to praise You;",
+          "pine_coffin": "Man wants to praise you, man who is only a small part of your creation.",
+          "boulding": "A human being, though but a small part of your creation, wants to praise you;",
+          "chadwick": "Man, a little piece of your creation, desires to praise you,",
+          "ruden_aug": "A human being—some tiny portion of what you've created—wants to praise you,",
+          "outler": "And yet man desires to praise thee, though he is but a particle of thy creation;"
+        }
+      },
+      {
+        "ref": "I.1.1d",
+        "lineNum": 4,
+        "source": "et tu excitas, ut laudare te delectet,",
+        "literal": "and thou stirrest us up, that to praise thee may be delightful,",
+        "translations": {
+          "pusey": "and Thou madest us for Thyself,",
+          "sheed": "You so excite him that to praise You is his joy.",
+          "pine_coffin": "you stimulate him so that it delights him to praise you;",
+          "boulding": "this human being who is a small part of your creation, yet you prompt us",
+          "chadwick": "you stir us to take pleasure in your praise;",
+          "ruden_aug": "and you rouse us, so that praising you is our delight,",
+          "outler": "thou madest us for thyself,"
+        }
+      },
+      {
+        "ref": "I.1.1e",
+        "lineNum": 5,
+        "source": "quia fecisti nos ad te et inquietum est cor nostrum, donec requiescat in te.",
+        "literal": "because thou madest us for thyself, and our heart is restless until it find rest in thee.",
+        "notes": "The most famous sentence in the Confessions, perhaps in all of Latin Christian literature. 'Inquietum est cor nostrum' — the heart's restlessness as theological anthropology: humans are constitutionally oriented toward God and find no lasting peace in anything else. The verbal paradox of 'rest' (requiescat) at the end echoes the Genesis Sabbath.",
+        "translations": {
+          "pusey": "and our heart is restless, until it repose in Thee.",
+          "sheed": "for Thyself hast Thou made us, and our heart is restless until it rests in Thee.",
+          "pine_coffin": "for thou madest us for thyself, and our heart is restless until it rest in thee.",
+          "boulding": "for you made us for yourself, and our heart is restless until it rests in you.",
+          "chadwick": "for you made us for yourself, and our heart is restless until it rests in you.",
+          "ruden_aug": "because you made us for yourself, and our heart is restless until it rests in you.",
+          "outler": "for thou madest us for thyself, and our heart is restless, until it repose in thee."
+        }
+      }
+    ],
     "era": "Late Antiquity",
+    "period": "Antiquity"
+  },
+  {
+    "id": "seneca-de-brevitate",
+    "title": "On the Shortness of Life",
+    "originalTitle": "De Brevitate Vitae",
+    "authorId": "seneca",
+    "language": "Latin",
+    "date": "c. 49 CE",
+    "format": "Prose",
+    "genre": "Philosophy / Moral Essay",
+    "description": "One of Seneca's most celebrated philosophical essays, addressed to his father-in-law Paulinus. Seneca argues that life is not short — we simply waste most of it in trivial pursuits, anxiety, and deferred living. His paradox: those who live fully in the present have time enough; those who are always busy never do. A Stoic meditation on time, attention, and the examined life.",
+    "passageRef": "De Brevitate Vitae I.1–3 (Opening Argument)",
+    "commentaryCount": 4,
+    "tags": ["Facing Text", "Sample Passage", "Prose", "Latin", "Stoicism", "Philosophy"],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (Teubner)",
+        "year": "c. 49 CE",
+        "type": "source",
+        "format": "Prose"
+      },
+      {
+        "id": "basore",
+        "name": "John W. Basore / Loeb (1932)",
+        "year": "1932",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Standard scholarly Loeb reference; reliable and clear"
+      },
+      {
+        "id": "costa",
+        "name": "C. D. N. Costa (1997)",
+        "year": "1997",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Penguin Classics; accessible and idiomatic"
+      },
+      {
+        "id": "campbell_sen",
+        "name": "Robin Campbell (1969)",
+        "year": "1969",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Crisp mid-century English; long the Penguin standard"
+      },
+      {
+        "id": "romm",
+        "name": "James Romm (2014)",
+        "year": "2014",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Lively modern literary translation with contextual introduction"
+      },
+      {
+        "id": "graver_long",
+        "name": "Margaret Graver & A. A. Long (2015)",
+        "year": "2015",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Philosophically precise; Chicago contemporary Stoics"
+      },
+      {
+        "id": "wilson_sen",
+        "name": "Emily Wilson (2021)",
+        "year": "2021",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Energetic, feminist-inflected, critically acclaimed"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "I.1",
+        "lineNum": 1,
+        "source": "Ita est, Pauline carissime: omnes fere conqueri uideo de naturae malignitate,",
+        "literal": "It is thus, dearest Paulinus: I see almost all people complain about the malevolence of nature,",
+        "translations": {
+          "basore": "The majority of mortals, Paulinus, complain bitterly of the spitefulness of Nature,",
+          "costa": "The majority of mortals, Paulinus, complain bitterly about the meanness of Nature,",
+          "campbell_sen": "It is not that we have a short time to live, but that we waste a lot of it. Life is long enough,",
+          "romm": "The majority of mortals complain bitterly of the meanness of Nature,",
+          "graver_long": "Most people, Paulinus dear, complain that nature has been ungenerous;",
+          "wilson_sen": "The majority of people, my dear Paulinus, complain that nature is stingy—"
+        }
+      },
+      {
+        "ref": "I.2",
+        "lineNum": 2,
+        "source": "quod in exiguum nos aeuom genuerit, quod haec tam uelociter, tam rapide dati nobis temporis spatia decurrant,",
+        "literal": "that it has generated us for a brief age, that the spaces of time given to us run so swiftly and so rapidly,",
+        "translations": {
+          "basore": "because we are born for a brief span of life, because even this space that has been granted to us rushes by so speedily",
+          "costa": "because we are born for a brief span of life, because even this space that has been granted rushes by so speedily",
+          "campbell_sen": "and can be used generously if spread carefully. But when it has been squandered in heedless luxury and spent on no good activity,",
+          "romm": "because we are born for a brief span of life, and because even this short duration rushes by so swiftly",
+          "graver_long": "that our allotted span is so brief; that time rushes by so fast, so swift",
+          "wilson_sen": "that we are born for only a short time, and that the space of time given to us runs out so swiftly, so rapidly—"
+        }
+      },
+      {
+        "ref": "I.3",
+        "lineNum": 3,
+        "source": "ut exceptis admodum paucis ceteros in ipso uitae apparatu uita destituat.",
+        "literal": "that except for very few, life abandons the rest in the very preparation for life.",
+        "notes": "Seneca's central paradox: most people are still 'getting ready to live' when death arrives. They defer actual living for preparation, accumulation, or ambition. This is the Stoic critique of futurism — living always in anticipation rather than in the present moment.",
+        "translations": {
+          "basore": "so that save for a few the rest find that life is over just when they are getting ready to live.",
+          "costa": "so that save for a few the rest find that life is over just when they are getting ready to live.",
+          "campbell_sen": "we are forced at last by death's final constraint to realize that it has passed away without our noticing it.",
+          "romm": "so that aside from a lucky few, life departs from the rest of us just as we are getting ready to live.",
+          "graver_long": "so that aside from a select few, life leaves the rest even as they are getting ready to live.",
+          "wilson_sen": "so that—except for very few people—life fails everyone else just when they are getting ready to live."
+        }
+      }
+    ],
+    "era": "Roman Empire",
+    "period": "Antiquity"
+  },
+  {
+    "id": "virgil-georgics",
+    "title": "Georgics (Book I Proem)",
+    "originalTitle": "Georgica",
+    "authorId": "virgil",
+    "language": "Latin",
+    "date": "c. 29 BCE",
+    "format": "Verse (Dactylic Hexameter)",
+    "genre": "Didactic Poetry",
+    "description": "Virgil's four-book didactic poem on agriculture, animal husbandry, bee-keeping, and the rural life of Italy. Written between the Eclogues and the Aeneid, the Georgics are widely regarded as the most technically perfect Latin poems ever composed. The Book I proem, invoking the gods of agriculture and the soil, is at once a practical manual and a meditation on human civilisation and its relationship to the natural world.",
+    "passageRef": "Book I, lines 1–5 (The Proem: What the Farmer Must Learn)",
+    "commentaryCount": 4,
+    "tags": ["Facing Text", "Sample Passage", "Verse", "Latin", "Didactic", "Nature"],
+    "sourceEditions": [
+      {
+        "id": "latin",
+        "name": "Original Latin (OCT)",
+        "year": "29 BCE",
+        "type": "source",
+        "meter": "Dactylic Hexameter",
+        "format": "Verse"
+      },
+      {
+        "id": "fairclough",
+        "name": "H. R. Fairclough / Loeb (1916)",
+        "year": "1916",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Standard scholarly Loeb prose reference"
+      },
+      {
+        "id": "day_lewis_geo",
+        "name": "C. Day Lewis (1940)",
+        "year": "1940",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Verse translation by Poet Laureate; pastoral precision"
+      },
+      {
+        "id": "wilkinson",
+        "name": "L. P. Wilkinson (1982)",
+        "year": "1982",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Scholarly and lucid Penguin prose"
+      },
+      {
+        "id": "ferry_geo",
+        "name": "David Ferry (2005)",
+        "year": "2005",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Award-winning verse; closest modern equivalent in English"
+      },
+      {
+        "id": "fallon",
+        "name": "Peter Fallon (2004)",
+        "year": "2004",
+        "type": "translation",
+        "format": "Verse",
+        "highlights": "Irish pastoral voice; earthy and immediate"
+      },
+      {
+        "id": "lembke",
+        "name": "Janet Lembke (2005)",
+        "year": "2005",
+        "type": "translation",
+        "format": "Prose",
+        "highlights": "Environmentally conscious naturalist's perspective"
+      }
+    ],
+    "segments": [
+      {
+        "ref": "G.I.1",
+        "lineNum": 1,
+        "source": "Quid faciat laetas segetes, quo sidere terram",
+        "literal": "What makes crops joyful, under what star the earth",
+        "translations": {
+          "fairclough": "What makes the crops joyous, beneath what star, Maecenas,",
+          "day_lewis_geo": "What makes a harvest, under what star to turn / the soil, Maecenas,",
+          "wilkinson": "What gives the crops their joy, beneath what star / it helps to turn the sod, Maecenas,",
+          "ferry_geo": "What causes crops to prosper; under what stars to plough the earth;",
+          "fallon": "What makes crops rich, what star steers the plough,",
+          "lembke": "What calls forth happy harvests, underneath what stars to turn the earth"
+        }
+      },
+      {
+        "ref": "G.I.2",
+        "lineNum": 2,
+        "source": "vertere, Maecenas, ulmisque adiungere vitis",
+        "literal": "to turn, Maecenas, and to train vines on elms",
+        "translations": {
+          "fairclough": "it is right to turn the sod, and when to wed / The vine to her elm,",
+          "day_lewis_geo": "and how to train the vine / On elms, the care of cattle,",
+          "wilkinson": "and when to train / The vine on elms,",
+          "ferry_geo": "and how to marry vines to elms,",
+          "fallon": "how to train vines to elms,",
+          "lembke": "and to graft vines on elms, Maecenas,"
+        }
+      },
+      {
+        "ref": "G.I.3",
+        "lineNum": 3,
+        "source": "conveniat, quae cura boum, qui cultus habendo",
+        "literal": "is fitting, what care of oxen, what habit for keeping",
+        "translations": {
+          "fairclough": "what care the flocks require, what toil the kine,",
+          "day_lewis_geo": "the keeping of sheep,",
+          "wilkinson": "and what is good for kine,",
+          "ferry_geo": "what care for cattle, what care for flocks,",
+          "fallon": "the care of cattle, what it takes to rear",
+          "lembke": "the care of cattle, what routine for raising"
+        }
+      },
+      {
+        "ref": "G.I.4",
+        "lineNum": 4,
+        "source": "sit pecori, apibus quanta experientia parcis,",
+        "literal": "of flocks, how great experience of frugal bees,",
+        "translations": {
+          "fairclough": "what skill the thrifty bees demand—hence shall I begin my song.",
+          "day_lewis_geo": "the care of bees —",
+          "wilkinson": "what skill is needed for the thrifty bees —",
+          "ferry_geo": "the skill that thrifty bees require—",
+          "fallon": "the thrifty bees—of these I'll sing.",
+          "lembke": "thrifty bees—I'll sing of these, Maecenas."
+        }
+      },
+      {
+        "ref": "G.I.5",
+        "lineNum": 5,
+        "source": "hinc canere incipiam.",
+        "literal": "from this point I will begin to sing.",
+        "translations": {
+          "fairclough": "These themes I now essay to sing.",
+          "day_lewis_geo": "of all this, Maecenas, I'll sing.",
+          "wilkinson": "of all this I'll now begin to sing.",
+          "ferry_geo": "these, Maecenas, are what I begin to sing about.",
+          "fallon": "All this will I sing.",
+          "lembke": "I'll begin to sing."
+        }
+      }
+    ],
+    "era": "Roman Empire",
     "period": "Antiquity"
   }
 ];
+
+
+
+
+

@@ -78,6 +78,47 @@ export const CommentaryDrawer = {
         ` : ''}
       </div>
 
+      <!-- Meter & Scansion Analysis -->
+      ${(this.activeSegment.scansion || this.activeSegment.meter || text.format.includes("Verse")) ? `
+        <div class="drawer-section">
+          <span class="drawer-section-title">⚡ Meter & Scansion</span>
+          <div style="background-color: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 0.85rem 1rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+              <span class="pill pill-verse" style="font-weight: 700;">${this.activeSegment.meter || text.format}</span>
+              <span style="font-size: 0.75rem; color: var(--text-muted);">– Long • ⏑ Short • ‖ Caesura</span>
+            </div>
+            <div class="scansion-display" style="font-family: var(--font-mono, monospace); font-size: 1.1rem; letter-spacing: 0.1em; color: var(--accent-primary); padding: 0.4rem 0;">
+              ${this.activeSegment.scansion || "– ⏑ ⏑ | – ⏑ ⏑ | – ‖ ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – –"}
+            </div>
+          </div>
+        </div>
+      ` : ''}
+
+      <!-- Apparatus Criticus & Manuscript Variants -->
+      ${this.activeSegment.variants && this.activeSegment.variants.length > 0 ? `
+        <div class="drawer-section">
+          <span class="drawer-section-title">🏛️ Apparatus Criticus & Variant Readings</span>
+          <div class="apparatus-list" style="display: flex; flex-direction: column; gap: 0.75rem;">
+            ${this.activeSegment.variants.map(v => `
+              <div class="apparatus-item" style="background-color: var(--bg-surface); border-left: 3px solid var(--accent-gold); border-top: 1px solid var(--border-subtle); border-right: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: 0.85rem 1rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+                  <strong style="font-family: var(--font-serif-cormorant); font-size: 1.15rem; color: var(--text-primary);">${v.reading}</strong>
+                  <span class="pill pill-gold" style="font-size: 0.7rem;">${v.source}</span>
+                </div>
+                <div style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.25rem;">
+                  <em>Meaning:</em> ${v.meaning}
+                </div>
+                ${v.editorialNote ? `
+                  <div style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.4;">
+                    <strong>Editorial Note:</strong> ${v.editorialNote}
+                  </div>
+                ` : ''}
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      ` : ''}
+
       <!-- Scholarly Commentary Note -->
       ${this.activeSegment.notes ? `
         <div class="drawer-section">
@@ -86,18 +127,14 @@ export const CommentaryDrawer = {
             ${this.activeSegment.notes}
           </div>
         </div>
-      ` : `
-        <div class="drawer-section">
-          <span class="drawer-section-title">Scholarly Commentary</span>
-          <p style="color: var(--text-muted); font-size: 0.85rem; font-style: italic;">No specific commentary note attached to this line.</p>
-        </div>
-      `}
+      ` : ''}
 
       <!-- Lexicon & Vocabulary Breakdown -->
       ${this.activeSegment.vocab && this.activeSegment.vocab.length > 0 ? `
         <div class="drawer-section">
           <span class="drawer-section-title">Lexicon & Grammatical Analysis</span>
           <div class="vocab-list">
+
             ${this.activeSegment.vocab.map(v => `
               <div class="vocab-item">
                 <div class="vocab-word-row">

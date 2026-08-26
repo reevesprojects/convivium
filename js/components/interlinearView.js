@@ -199,6 +199,19 @@ export const InterlinearView = {
 
               <!-- Source Greek/Latin Box -->
               <div class="interlinear-source-block">
+                ${seg.variants && seg.variants.length > 0 ? `
+                  <div style="margin-bottom: 0.4rem; display: flex; gap: 0.5rem; align-items: center;">
+                    <span class="pill pill-gold" style="font-size: 0.7rem;">🏛️ Apparatus Criticus:</span>
+                    <span style="font-size: 0.8rem; color: var(--text-secondary);">
+                      <strong>${seg.variants[0].reading}</strong> (${seg.variants[0].source}) — <em>${seg.variants[0].meaning}</em>
+                    </span>
+                  </div>
+                ` : ''}
+                ${(seg.scansion || seg.meter || this.text.format.includes("Verse")) ? `
+                  <div class="inline-scansion-line" style="margin-bottom: 0.35rem; font-family: var(--font-mono, monospace); font-size: 0.95rem; color: var(--accent-primary); letter-spacing: 0.08em;">
+                    ⚡ ${seg.scansion || "– ⏑ ⏑ | – ⏑ ⏑ | – ‖ ⏑ ⏑ | – ⏑ ⏑ | – ⏑ ⏑ | – –"}
+                  </div>
+                ` : ''}
                 <div class="interlinear-source-text font-cardo">
                   ${seg.source}
                 </div>
@@ -208,6 +221,7 @@ export const InterlinearView = {
                   </div>
                 ` : ''}
               </div>
+
 
               <!-- Stacked Translations -->
               <div class="interlinear-translations-grid">

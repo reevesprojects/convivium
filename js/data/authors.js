@@ -450,5 +450,240 @@ export const AUTHORS = [
     ],
     "textCount": 1,
     "image": "🛡️"
+  },
+  {
+    "id": "sophocles",
+    "name": "Sophocles",
+    "originalName": "Σοφοκλῆς",
+    "language": "Ancient Greek",
+    "era": "c. 496 – 406 BCE",
+    "period": "Classical Athens",
+    "bio": "One of Classical Athens' three great tragic playwrights alongside Aeschylus and Euripides. Renowned for dramatic irony, psychological depth, and structural perfection in Oedipus Rex and Antigone.",
+    "genres": [
+      "Tragedy",
+      "Drama",
+      "Choral Lyric"
+    ],
+    "textCount": 1,
+    "image": "👑"
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "originalName": "Ἀριστοτέλης",
+    "language": "Ancient Greek",
+    "era": "384 – 322 BCE",
+    "period": "Classical Greece",
+    "bio": "Ancient Greek philosopher and polymath, student of Plato, and founder of the Lyceum. His Poetics remains the foundational philosophical treatise on drama, mimesis, and katharsis.",
+    "genres": [
+      "Philosophy",
+      "Literary Theory",
+      "Treatise"
+    ],
+    "textCount": 1,
+    "image": "📜"
+  },
+  {
+    "id": "lucretius",
+    "name": "Lucretius",
+    "originalName": "Titus Lucretius Carus",
+    "language": "Latin",
+    "era": "c. 99 – c. 55 BCE",
+    "period": "Late Roman Republic",
+    "bio": "Roman poet and philosopher whose didactic epic De Rerum Natura ('On the Nature of Things') expounds Epicurean physics, atomism, and liberation from superstitious fear in radiant Latin hexameters.",
+    "genres": [
+      "Didactic Poetry",
+      "Epicurean Philosophy",
+      "Verse"
+    ],
+    "textCount": 1,
+    "image": "🌌"
+  },
+  {
+    "id": "horace",
+    "name": "Horace",
+    "originalName": "Quintus Horatius Flaccus",
+    "language": "Latin",
+    "era": "65 – 8 BCE",
+    "period": "Augustan Rome",
+    "bio": "The leading Roman lyric poet during the Augustan age, famed for the Odes, Satires, and Epistles. Coined iconic maxims such as 'carpe diem' and 'dulce et decorum est pro patria mori'.",
+    "genres": [
+      "Lyric Poetry",
+      "Odes",
+      "Satire"
+    ],
+    "textCount": 1,
+    "image": "🍷"
+  },
+  {
+    "id": "euripides",
+    "name": "Euripides",
+    "originalName": "Εὐριπίδης",
+    "language": "Ancient Greek",
+    "era": "c. 480 – c. 406 BCE",
+    "period": "Classical Athens",
+    "bio": "The most iconoclastic of the three Athenian tragedians, renowned for psychological realism, sympathetic portrayal of marginalized figures (women, foreigners, slaves), and tragic pathos in Medea, Bacchae, and Trojan Women.",
+    "genres": ["Tragedy", "Drama"],
+    "textCount": 1,
+    "image": "🏺"
+  },
+  {
+    "id": "thucydides",
+    "name": "Thucydides",
+    "originalName": "Θουκυδίδης",
+    "language": "Ancient Greek",
+    "era": "c. 460 – c. 400 BCE",
+    "period": "Classical Greece",
+    "bio": "Athenian general and the father of scientific, realist historiography. His History of the Peloponnesian War analyzes political power, imperial hubris, human nature, and political rhetoric with unflinching scrutiny.",
+    "genres": ["History", "Political Theory", "Prose"],
+    "textCount": 1,
+    "image": "⚔️"
+  },
+  {
+    "id": "hesiod",
+    "name": "Hesiod",
+    "originalName": "Ἡσίοδος",
+    "language": "Ancient Greek",
+    "era": "c. 750 – 650 BCE",
+    "period": "Archaic Greece",
+    "bio": "Early Greek poet and contemporary of Homer. Works and Days and Theogony established the Greek genealogical cosmology, the myth of the Five Ages of Man, and peasant agrarian wisdom.",
+    "genres": ["Epic Poetry", "Didactic Verse", "Mythology"],
+    "textCount": 1,
+    "image": "🌾"
+  },
+  {
+    "id": "ovid",
+    "name": "Ovid",
+    "originalName": "Publius Ovidius Naso",
+    "language": "Latin",
+    "era": "43 BCE – 17/18 CE",
+    "period": "Augustan Rome",
+    "bio": "Roman poet whose monumental mythological epic Metamorphoses traces the fluid transformations of the universe from primordial Chaos to the deification of Caesar, wielding unparalleled wit and narrative brilliance.",
+    "genres": ["Mythological Epic", "Love Elegy", "Verse"],
+    "textCount": 1,
+    "image": "🌸"
+  },
+  {
+    "id": "cicero",
+    "name": "Cicero",
+    "originalName": "Marcus Tullius Cicero",
+    "language": "Latin",
+    "era": "106 – 43 BCE",
+    "period": "Late Roman Republic",
+    "bio": "Rome's greatest orator, statesman, lawyer, and philosopher. His fiery orations (In Catilinam, Philippics) and philosophical treatises established the golden standard of Latin rhetorical prose.",
+    "genres": ["Oratory", "Philosophy", "Rhetoric"],
+    "textCount": 1,
+    "image": "🏛️"
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca the Younger",
+    "originalName": "Lucius Annaeus Seneca",
+    "language": "Latin",
+    "era": "c. 4 BCE – 65 CE",
+    "period": "Early Roman Empire",
+    "bio": "Roman Stoic philosopher, statesman, dramatist, and advisor to Emperor Nero. His Moral Letters and Dialogues (De Brevitate Vitae, De Tranquillitate Animi) are masterpieces of practical Stoic ethics.",
+    "genres": ["Stoic Philosophy", "Essays", "Tragedy"],
+    "textCount": 1,
+    "image": "⏳"
+  },
+  {
+    "id": "john-evangelist",
+    "name": "John the Evangelist",
+    "originalName": "Ἰωάννης",
+    "language": "Koine Greek",
+    "era": "c. 1st Century CE",
+    "period": "Early Christian / Roman Imperial",
+    "bio": "Traditional author of the Fourth Gospel, opening with the magnificent theological and cosmological hymn to the Logos (Ἐν ἀρχῇ ἦν ὁ λόγος).",
+    "genres": ["Gospel", "Theology", "Cosmogony"],
+    "textCount": 1,
+    "image": "🕊️"
+  },
+  {
+    "id": "vyasa",
+    "name": "Vyasa",
+    "originalName": "व्यास",
+    "language": "Sanskrit",
+    "era": "c. 5th – 2nd Century BCE",
+    "period": "Ancient India (Vedic / Epic)",
+    "bio": "The revered sage and composer of the Mahabharata, of which the Bhagavad Gita—the dialogue between Prince Arjuna and Lord Krishna on dharma, action, and the eternal self—is the philosophical crown.",
+    "genres": ["Sacred Epic", "Philosophy", "Verse"],
+    "textCount": 1,
+    "image": "☸️"
+  },
+  {
+    "id": "shin-leqi-unninni",
+    "name": "Shin-leqi-unninni",
+    "originalName": "𒁹𒀭𒌍𒋾𒀀𒅆",
+    "language": "Akkadian (Standard Babylonian)",
+    "era": "c. 1300 – 1000 BCE",
+    "period": "Ancient Mesopotamia (Middle Babylonian)",
+    "bio": "Mesopotamian scholar and exorcist-priest who compiled the canonical Standard Babylonian Epic of Gilgamesh ('He who saw the Deep').",
+    "genres": ["Heroic Epic", "Cosmology", "Wisdom"],
+    "textCount": 1,
+    "image": "🌊"
+  },
+  {
+    "id": "sappho",
+    "name": "Sappho",
+    "originalName": "Σαπφώ",
+    "language": "Ancient Greek",
+    "era": "c. 630 – 570 BCE",
+    "period": "Archaic Greece",
+    "bio": "Ancient Greek lyric poet from the island of Lesbos, regarded in antiquity as the tenth Muse and the greatest of female poets. Her surviving fragments — written in the Sapphic strophe she invented — are among the most direct and emotionally powerful love poems in the Western tradition.",
+    "genres": ["Lyric Poetry", "Love Poetry"],
+    "textCount": 1,
+    "image": "🌺"
+  },
+  {
+    "id": "ovid",
+    "name": "Ovid",
+    "originalName": "Publius Ovidius Naso",
+    "language": "Latin",
+    "era": "43 BCE – 17/18 CE",
+    "period": "Augustan Rome",
+    "bio": "Rome's most witty and inventive poet, master of the elegiac couplet and dactylic hexameter. His Metamorphoses — 15 books of mythological transformations — became one of the most influential texts in Western art and literature, inspiring Chaucer, Shakespeare, Milton, and countless others. Exiled by Augustus to Tomis on the Black Sea for reasons still debated by scholars.",
+    "genres": ["Epic Poetry", "Mythological Poetry", "Love Elegy"],
+    "textCount": 1,
+    "image": "🦋"
+  },
+  {
+    "id": "augustine",
+    "name": "Augustine of Hippo",
+    "originalName": "Aurelius Augustinus Hipponensis",
+    "language": "Latin",
+    "era": "354 – 430 CE",
+    "period": "Late Antiquity",
+    "bio": "Bishop of Hippo Regius in North Africa and the most influential theologian of the Christian West. His Confessions — the first spiritual autobiography in world literature — charts his restless intellectual and moral journey from Manichaeism and Neoplatonism to Christian faith. His City of God shaped medieval political theology and his doctrine of grace defined the course of Western Christian thought.",
+    "genres": ["Autobiography", "Theology", "Philosophy"],
+    "textCount": 1,
+    "image": "✝️"
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca the Younger",
+    "originalName": "Lucius Annaeus Seneca",
+    "language": "Latin",
+    "era": "c. 4 BCE – 65 CE",
+    "period": "Roman Empire",
+    "bio": "Stoic philosopher, statesman, dramatist, and tutor to the emperor Nero. Seneca's philosophical letters and essays — on friendship, time, anger, and the good life — combine rigorous Stoic doctrine with a warm, personal literary voice. Forced to suicide by Nero, he died with legendary composure. His writings were the primary channel through which Stoic philosophy reached the Renaissance.",
+    "genres": ["Philosophy", "Moral Essay", "Drama"],
+    "textCount": 1,
+    "image": "⚖️"
+  },
+  {
+    "id": "vyasa",
+    "name": "Vyasa",
+    "originalName": "व्यास (Vyāsa)",
+    "language": "Sanskrit",
+    "era": "Traditional (legendary)",
+    "period": "Classical India",
+    "bio": "The legendary sage and compiler of the Mahabharata, the world's longest epic poem, of which the Bhagavad Gita is a part. In the Hindu tradition, Vyasa is also credited with compiling the Vedas and writing the Puranas. Whether a historical individual or a composite authorial tradition, 'Vyasa' represents the foundational voice of classical Sanskrit literature.",
+    "genres": ["Sacred Scripture", "Epic Poetry", "Philosophy"],
+    "textCount": 1,
+    "image": "🕉️"
   }
 ];
+
+
+

@@ -387,5 +387,210 @@ export const TRANSLATORS = [
     "notableWorks": [
       "Cervantes: The History of the Valorous and Wittie Knight-Errant, Don-Quixote of the Mancha (1612, 1620)"
     ]
+  },
+  {
+    "id": "ae-stallings",
+    "name": "A. E. Stallings",
+    "dates": "b. 1968",
+    "nationality": "American",
+    "century": "21st Century",
+    "style": "Rhymed Fourteeners / Strict Formal Verse",
+    "bio": "MacArthur Fellow and Oxford Professor of Poetry. Celebrated for her brilliant, musically rigorous verse translations of Lucretius and Hesiod.",
+    "approach": "Translates Lucretius into fourteeners with rhyming couplets, matching Epicurean philosophical precision with dazzling poetic song.",
+    "metrics": {
+      "literalness": 0.85,
+      "poeticFreedom": 0.70,
+      "lineRatio": 1.0,
+      "archaism": 0.35,
+      "formRigidity": 0.95
+    },
+    "notableWorks": [
+      "Lucretius: The Nature of Things (2007)",
+      "Hesiod: Works and Days (2018)"
+    ]
+  },
+  {
+    "id": "david-ferry",
+    "name": "David Ferry",
+    "dates": "1924 – 2023",
+    "nationality": "American",
+    "century": "20th–21st Century",
+    "style": "Luminous, rhythmic modern blank verse",
+    "bio": "National Book Award winner and distinguished translator of Horace's Odes and Epistles and Virgil's Georgics.",
+    "approach": "Clean, conversational lyricism that renders Horace's urbane wit into natural, melodic English.",
+    "metrics": {
+      "literalness": 0.80,
+      "poeticFreedom": 0.65,
+      "lineRatio": 1.05,
+      "archaism": 0.20,
+      "formRigidity": 0.75
+    },
+    "notableWorks": [
+      "The Odes of Horace (1997)",
+      "Virgil: The Eclogues & Georgics (2005)"
+    ]
+  },
+  {
+    "id": "dudley-fitts-robert-fitzgerald",
+    "name": "Dudley Fitts & Robert Fitzgerald",
+    "dates": "20th Century Collaborators",
+    "nationality": "American",
+    "century": "20th Century",
+    "style": "Spare, taut, dramatic poetry",
+    "bio": "Acclaimed translating duo whose stage adaptations of Sophocles' Theban plays (Oedipus Rex, Antigone) set the standard for 20th-century American theatrical performance.",
+    "approach": "Direct, rhythmic, dramatic intensity crafted specifically for spoken theatrical resonance.",
+    "metrics": {
+      "literalness": 0.75,
+      "poeticFreedom": 0.75,
+      "lineRatio": 0.95,
+      "archaism": 0.25,
+      "formRigidity": 0.80
+    },
+    "notableWorks": [
+      "Sophocles: The Oedipus Cycle (1949)"
+    ]
+  },
+  {
+    "id": "sh-butcher",
+    "name": "S. H. Butcher",
+    "dates": "1850 – 1910",
+    "nationality": "Irish / British",
+    "century": "19th–20th Century (Victorian)",
+    "style": "Scholarly, authoritative Victorian prose",
+    "bio": "Regius Professor of Greek at the University of Edinburgh and MP for Cambridge University. His Aristotle's Theory of Poetry and Fine Art is the landmark study of the Poetics.",
+    "approach": "Rigorous philological precision with dignified Victorian prose syntax.",
+    "metrics": {
+      "literalness": 0.90,
+      "poeticFreedom": 0.30,
+      "lineRatio": 1.20,
+      "archaism": 0.65,
+      "formRigidity": 0.50
+    },
+    "notableWorks": [
+      "Aristotle: Poetics (1895)",
+      "Homer: Odyssey (with Andrew Lang, 1879)"
+    ]
+  },
+  {
+    "id": "arthur-golding",
+    "name": "Arthur Golding",
+    "dates": "c. 1536 – c. 1606",
+    "nationality": "English",
+    "century": "16th Century (Elizabethan)",
+    "style": "Rousing Elizabethan Fourteeners (iambic heptameter)",
+    "bio": "English translator whose 1567 Metamorphoses of Ovid was deeply loved by William Shakespeare and exerted immense influence on Elizabethan literature.",
+    "approach": "Vigorous, galloping fourteeners packed with vivid Elizabethan countryside vernacular and narrative color.",
+    "metrics": {
+      "literalness": 0.70,
+      "poeticFreedom": 0.85,
+      "lineRatio": 1.15,
+      "archaism": 0.95,
+      "formRigidity": 0.90
+    },
+    "notableWorks": [
+      "Ovid: Metamorphoses (1567)"
+    ]
+  },
+  {
+    "id": "thomas-hobbes",
+    "name": "Thomas Hobbes",
+    "dates": "1588 – 1679",
+    "nationality": "English",
+    "century": "17th Century",
+    "style": "Pithy, muscular, lucid Early Modern English prose",
+    "bio": "Foundational English political philosopher and author of Leviathan. His 1629 translation of Thucydides was the first English translation made directly from Greek.",
+    "approach": "Terse, realistic, incisive English aiming to lay bare Thucydides' psychological analysis of political faction and democratic vulnerability.",
+    "metrics": {
+      "literalness": 0.85,
+      "poeticFreedom": 0.45,
+      "lineRatio": 1.05,
+      "archaism": 0.85,
+      "formRigidity": 0.40
+    },
+    "notableWorks": [
+      "Thucydides: History of the Peloponnesian War (1629)"
+    ]
+  },
+  {
+    "id": "david-bentley-hart",
+    "name": "David Bentley Hart",
+    "dates": "b. 1965",
+    "nationality": "American",
+    "century": "21st Century",
+    "style": "Direct, uncompromising, pitch-accurate Koine Greek rendering",
+    "bio": "Philosopher, theologian, and classicist. His 2017 translation of the New Testament stripped away centuries of Latinate doctrinal harmonizing to reveal the raw, apocalyptic Greek voice.",
+    "approach": "Relentlessly faithful to the original syntax, rhythm, and semantic texture of 1st-century Koine Greek.",
+    "metrics": {
+      "literalness": 0.95,
+      "poeticFreedom": 0.35,
+      "lineRatio": 1.0,
+      "archaism": 0.15,
+      "formRigidity": 0.60
+    },
+    "notableWorks": [
+      "The New Testament: A Translation (2017)"
+    ]
+  },
+  {
+    "id": "andrew-george",
+    "name": "Andrew George",
+    "dates": "b. 1955",
+    "nationality": "British",
+    "century": "20th–21st Century",
+    "style": "Scholarly, rhythmic, acoustically nuanced verse",
+    "bio": "Professor of Babylonian at SOAS, University of London, and the world's leading cuneiform authority on Gilgamesh.",
+    "approach": "Rigorous philological mastery combined with a sensitive ear for the poetic cadence and lacunae of Akkadian poetry.",
+    "metrics": {
+      "literalness": 0.92,
+      "poeticFreedom": 0.45,
+      "lineRatio": 1.0,
+      "archaism": 0.30,
+      "formRigidity": 0.70
+    },
+    "notableWorks": [
+      "The Epic of Gilgamesh: The Babylonian Epic Poem and Other Texts (1999)"
+    ]
+  },
+  {
+    "id": "sir-edwin-arnold",
+    "name": "Sir Edwin Arnold",
+    "dates": "1832 – 1904",
+    "nationality": "English",
+    "century": "19th Century (Victorian)",
+    "style": "Lyrical, elevated Victorian blank verse & rhymed songs",
+    "bio": "English poet and journalist whose The Song Celestial (1885) introduced the Bhagavad Gita to the Western English-speaking world, famously captivating Mahatma Gandhi.",
+    "approach": "Elevated, musical Victorian poetic idiom designed to convey Eastern metaphysical sublime.",
+    "metrics": {
+      "literalness": 0.75,
+      "poeticFreedom": 0.80,
+      "lineRatio": 1.10,
+      "archaism": 0.75,
+      "formRigidity": 0.85
+    },
+    "notableWorks": [
+      "Bhagavad Gita: The Song Celestial (1885)"
+    ]
+  },
+  {
+    "id": "barbara-stoler-miller",
+    "name": "Barbara Stoler Miller",
+    "dates": "1940 – 1993",
+    "nationality": "American",
+    "century": "20th Century",
+    "style": "Clean, luminous, uncluttered modern poetic translation",
+    "bio": "Professor of Sanskrit at Barnard College, Columbia University, celebrated for her standard translations of the Gita, Kalidasa, and Bhartrihari.",
+    "approach": "Combines deep Sanskrit philological fidelity with transparent, poetic clarity.",
+    "metrics": {
+      "literalness": 0.88,
+      "poeticFreedom": 0.55,
+      "lineRatio": 1.0,
+      "archaism": 0.20,
+      "formRigidity": 0.75
+    },
+    "notableWorks": [
+      "The Bhagavad-Gita: Krishna's Counsel in Time of War (1986)"
+    ]
   }
 ];
+
+

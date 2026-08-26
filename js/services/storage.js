@@ -202,5 +202,23 @@ export const StorageService = {
     try {
       localStorage.removeItem(this.ARENA_KEY);
     } catch (e) {}
+  },
+
+  // ─── Last Visited (Reading Progress) ─────────────────────────────────────
+  LAST_VISITED_KEY: "convivium_last_visited",
+
+  saveLastVisited(textId, segmentRef) {
+    try {
+      localStorage.setItem(this.LAST_VISITED_KEY, JSON.stringify({ textId, segmentRef, ts: Date.now() }));
+    } catch (e) {}
+  },
+
+  getLastVisited() {
+    try {
+      const data = localStorage.getItem(this.LAST_VISITED_KEY);
+      return data ? JSON.parse(data) : null;
+    } catch (e) {
+      return null;
+    }
   }
 };

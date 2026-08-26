@@ -183,6 +183,38 @@ export const DetailView = {
           <ul style="padding-left: 1.5rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 2rem;">
             ${translator.notableWorks.map(w => `<li><strong>${w}</strong></li>`).join("")}
           </ul>
+
+          ${(() => {
+            const corpusTexts = TEXTS.filter(t =>
+              t.sourceEditions && t.sourceEditions.some(ed =>
+                ed.type === "translation" &&
+                (ed.translatorId === translator.id ||
+                 (ed.name && ed.name.toLowerCase().includes(translator.name.toLowerCase().split(' ').pop())))
+              )
+            );
+            if (!corpusTexts.length) return '';
+            return `
+              <h3 style="font-family: var(--font-title); margin-bottom: 0.75rem;">Texts Available in Convivium</h3>
+              <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 2rem;">
+                ${corpusTexts.map(t => {
+                  const ed = t.sourceEditions.find(e =>
+                    e.type === "translation" &&
+                    (e.translatorId === translator.id ||
+                     (e.name && e.name.toLowerCase().includes(translator.name.toLowerCase().split(' ').pop())))
+                  );
+                  return `
+                    <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background-color: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+                      <div>
+                        <strong style="font-family: var(--font-title);">${t.title}</strong>
+                        <div style="font-size: 0.82rem; color: var(--text-muted);">${ed ? ed.name : ''} &mdash; ${t.passageRef}</div>
+                      </div>
+                      <a href="#/compare/${t.id}" class="btn btn-primary btn-sm">Compare &raquo;</a>
+                    </div>
+                  `;
+                }).join('')}
+              </div>
+            `;
+          })()}
         </div>
       </div>
     `;

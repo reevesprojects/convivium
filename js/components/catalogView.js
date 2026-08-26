@@ -25,9 +25,19 @@ export const CatalogView = {
           Compare classical Greek, Latin, Hebrew, and vernacular masterpieces across centuries of historical and modern translations. Discover linguistic nuances, poetic variances, and interpretive choices side-by-side.
         </p>
         <div class="hero-actions">
-          <a href="#/compare/homer-odyssey" class="btn btn-primary">
-            <span>⚡</span> Explore Homer's Odyssey
-          </a>
+          ${(() => {
+            const last = StorageService.getLastVisited();
+            const lastText = last ? [...TEXTS, ...customTexts].find(t => t.id === last.textId) : null;
+            return last && lastText ? `
+              <a href="#/compare/${last.textId}?segment=${last.segmentRef}" class="btn btn-primary">
+                <span>▶</span> Continue: ${lastText.title}
+              </a>
+            ` : `
+              <a href="#/compare/homer-odyssey" class="btn btn-primary">
+                <span>⚡</span> Explore Homer's Odyssey
+              </a>
+            `;
+          })()}
           <a href="#/compare/dante-inferno" class="btn btn-secondary">
             <span>👑</span> Dante's Inferno
           </a>
@@ -178,6 +188,11 @@ export const CatalogView = {
                 <a href="#/texts/${text.id}" class="btn btn-ghost btn-sm">
                   Details &raquo;
                 </a>
+                ${text.isCustom ? `
+                  <button class="btn btn-ghost btn-sm btn-delete-custom" data-text-id="${text.id}" title="Delete this custom text from your library" style="color: var(--accent-danger, #e05);">
+                    🗑️ Delete
+                  </button>
+                ` : ''}
               </div>
             </article>
           `;
@@ -329,5 +344,18 @@ export const CatalogView = {
         window.location.hash = "#/import";
       });
     }
+
+    // Delete custom texts
+    containerEl.querySelectorAll(".btn-delete-custom").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const textId = btn.dataset.textId;
+        if (confirm("Delete this custom text from your library? This cannot be undone.")) {
+          StorageService.deleteCustomText(textId);
+          this.render(containerEl);
+        }
+      });
+    });
   }
 };

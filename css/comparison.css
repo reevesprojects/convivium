@@ -846,6 +846,61 @@
   }
 }
 
+/* ── Metrical Scansion & Apparatus Criticus Enhancements ── */
+
+.inline-scansion-line {
+  font-family: var(--font-mono, "Courier New", monospace);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--accent-primary);
+  opacity: 0.85;
+  margin-bottom: 0.3rem;
+  user-select: none;
+}
+
+.variant-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  background-color: rgba(184, 134, 11, 0.15);
+  border: 1px solid var(--accent-gold);
+  color: var(--accent-gold);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.1rem 0.35rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.variant-tag:hover {
+  background-color: var(--accent-gold);
+  color: #fff;
+}
+
+.scansion-foot {
+  display: inline-block;
+  padding: 0 0.15rem;
+}
+
+.scansion-divider {
+  color: var(--text-muted);
+  margin: 0 0.2rem;
+  opacity: 0.6;
+}
+
+.scansion-caesura {
+  color: var(--accent-gold);
+  font-weight: bold;
+  margin: 0 0.3rem;
+}
+
+.word-cloud-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
 /* ── Arena Card ── */
 .arena-card {
   background-color: var(--bg-surface);
