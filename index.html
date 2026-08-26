@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="parchment">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convivium — Classical Translation Comparison Studio</title>
+  <meta name="description" content="A digital humanities platform for comparing classical Greek and Latin texts and their historical and modern translations side-by-side.">
+
+  <!-- Favicon / Brand Icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/comparison.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation Header -->
+    <header class="header-nav">
+      <div class="brand-section">
+        <a href="#/catalog" class="brand-logo" id="brand-link">
+          <span class="brand-icon">🏛️</span>
+          <span>CONVIVIUM</span>
+        </a>
+        <span class="brand-tagline">Classical Translation Studio</span>
+      </div>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li>
+            <a href="#/catalog" class="nav-link" id="nav-link-catalog">
+              <span>📚</span>
+              <span>Library</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/authors" class="nav-link" id="nav-link-authors">
+              <span>🏛️</span>
+              <span>Authors</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/translators" class="nav-link" id="nav-link-translators">
+              <span>✒️</span>
+              <span>Translators</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/import" class="nav-link hide-mobile" id="nav-link-import">
+              <span>➕</span>
+              <span>Import</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/bookmarks" class="nav-link hide-mobile" id="nav-link-bookmarks">
+              <span>⭐</span>
+              <span>Bookmarks</span>
+            </a>
+          </li>
+          <li>
+            <a href="#/arena" class="nav-link" id="nav-link-arena">
+              <span>⚔️</span>
+              <span>Arena</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Quick Search Trigger -->
+        <button class="btn-search-trigger" id="nav-search-trigger" title="Quick Search across library (Ctrl+K or /)">
+          <span>🔍</span>
+          <span class="hide-mobile">Search library...</span>
+          <span class="kbd-shortcut hide-mobile">Ctrl K</span>
+        </button>
+
+        <!-- Reading Preferences / Settings Trigger -->
+        <button class="btn-icon" id="nav-settings-trigger" title="Customize Themes & Typography (⚙️)">
+          ⚙️
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Dynamic Router View Outlet -->
+    <main class="main-content" id="app-main-content" role="main">
+      <!-- Dynamic content injected by app.js -->
+    </main>
+
+    <!-- Scholarly Footer -->
+    <footer class="app-footer">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h4>CONVIVIUM</h4>
+          <p style="font-size: 0.825rem; color: var(--text-muted); max-width: 450px;">
+            A translation comparison studio for the modern scholar. Inspired by <a href="https://bibliothekai.ktema.org/" target="_blank" rel="noopener" style="text-decoration: underline;">Bibliothekai</a> and open digital classics initiatives.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#/catalog">Texts Directory</a>
+          <a href="#/authors">Ancient Authors</a>
+          <a href="#/translators">Translators Index</a>
+          <a href="#/import">Import Texts</a>
+          <a href="#/arena">Translation Arena</a>
+          <a href="https://github.com/davidmreed/bibliothekai" target="_blank" rel="noopener">Bibliothekai Source</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Main ES Module Application Script -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
