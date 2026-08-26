@@ -7,8 +7,9 @@ import { StorageService } from "../services/storage.js";
 
 export const CatalogView = {
   activeTab: "texts", // "texts" | "authors" | "translators"
-  filterLanguage: "all", // "all" | "Ancient Greek" | "Latin"
+  filterLanguage: "all", // "all" | "Ancient Greek" | "Latin" | "Hebrew" | etc.
   filterFormat: "all", // "all" | "Verse" | "Prose"
+  filterEra: "all", // "all" | "Antiquity" | "Middle Ages" | "Renaissance"
   filterGenre: "all",
   searchQuery: "",
 
@@ -21,14 +22,14 @@ export const CatalogView = {
         <span class="hero-eyebrow">Digital Humanities Translation Platform</span>
         <h1 class="hero-title">Convivium</h1>
         <p class="hero-subtitle">
-          Compare classical Greek and Latin masterpieces across centuries of historical and modern translations. Discover linguistic nuances, poetic variances, and interpretive choices side-by-side.
+          Compare classical Greek, Latin, Hebrew, and vernacular masterpieces across centuries of historical and modern translations. Discover linguistic nuances, poetic variances, and interpretive choices side-by-side.
         </p>
         <div class="hero-actions">
           <a href="#/compare/homer-odyssey" class="btn btn-primary">
             <span>⚡</span> Explore Homer's Odyssey
           </a>
-          <a href="#/compare/virgil-aeneid" class="btn btn-secondary">
-            <span>🏛️</span> Compare Virgil's Aeneid
+          <a href="#/compare/dante-inferno" class="btn btn-secondary">
+            <span>👑</span> Dante's Inferno
           </a>
           <button class="btn btn-secondary" id="btn-open-importer">
             <span>➕</span> Import Text / Translation
@@ -43,7 +44,7 @@ export const CatalogView = {
             📚 Texts (${allTexts.length})
           </button>
           <button class="toggle-btn ${this.activeTab === 'authors' ? 'active' : ''}" data-tab="authors">
-            🏛️ Ancient Authors (${AUTHORS.length})
+            🏛️ Authors (${AUTHORS.length})
           </button>
           <button class="toggle-btn ${this.activeTab === 'translators' ? 'active' : ''}" data-tab="translators">
             ✒️ Translators (${TRANSLATORS.length})
@@ -59,13 +60,25 @@ export const CatalogView = {
         />
       </div>
 
-      <!-- Secondary Filter Chips (Language / Format) -->
+      <!-- Secondary Filter Chips (Era / Language / Format) -->
       ${this.activeTab === 'texts' ? `
+        <div style="display: flex; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap; align-items: center;">
+          <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600;">Timeline:</span>
+          <button class="filter-chip ${this.filterEra === 'all' ? 'active' : ''}" data-era="all">All Eras</button>
+          <button class="filter-chip ${this.filterEra === 'Antiquity' ? 'active' : ''}" data-era="Antiquity">📜 Antiquity (c. 1200 BCE – 500 CE)</button>
+          <button class="filter-chip ${this.filterEra === 'Middle Ages' ? 'active' : ''}" data-era="Middle Ages">⚔️ Middle Ages (c. 500 – 1400)</button>
+          <button class="filter-chip ${this.filterEra === 'Renaissance' ? 'active' : ''}" data-era="Renaissance">⚜️ Renaissance (c. 1400 – 1600)</button>
+        </div>
         <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; align-items: center;">
-          <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600;">Filters:</span>
-          <button class="filter-chip ${this.filterLanguage === 'all' ? 'active' : ''}" data-lang="all">All Languages</button>
-          <button class="filter-chip ${this.filterLanguage === 'Ancient Greek' ? 'active' : ''}" data-lang="Ancient Greek">Ancient Greek</button>
+          <span style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600;">Languages:</span>
+          <button class="filter-chip ${this.filterLanguage === 'all' ? 'active' : ''}" data-lang="all">All</button>
+          <button class="filter-chip ${this.filterLanguage === 'Ancient Greek' ? 'active' : ''}" data-lang="Ancient Greek">Greek</button>
           <button class="filter-chip ${this.filterLanguage === 'Latin' ? 'active' : ''}" data-lang="Latin">Latin</button>
+          <button class="filter-chip ${this.filterLanguage === 'Hebrew' ? 'active' : ''}" data-lang="Hebrew">Hebrew</button>
+          <button class="filter-chip ${this.filterLanguage === 'Old English' ? 'active' : ''}" data-lang="Old English">Old English</button>
+          <button class="filter-chip ${this.filterLanguage === 'Italian' ? 'active' : ''}" data-lang="Italian">Italian</button>
+          <button class="filter-chip ${this.filterLanguage === 'Middle English' ? 'active' : ''}" data-lang="Middle English">Middle English</button>
+          <button class="filter-chip ${this.filterLanguage === 'Spanish' ? 'active' : ''}" data-lang="Spanish">Spanish</button>
           <span style="border-left: 1px solid var(--border-strong); height: 16px; margin: 0 4px;"></span>
           <button class="filter-chip ${this.filterFormat === 'all' ? 'active' : ''}" data-fmt="all">All Formats</button>
           <button class="filter-chip ${this.filterFormat === 'Verse' ? 'active' : ''}" data-fmt="Verse">Verse</button>
@@ -98,6 +111,8 @@ export const CatalogView = {
     const allTexts = [...TEXTS, ...customTexts];
 
     const filtered = allTexts.filter(text => {
+      // Era filter
+      if (this.filterEra !== "all" && text.period !== this.filterEra) return false;
       // Language filter
       if (this.filterLanguage !== "all" && !text.language.includes(this.filterLanguage)) return false;
       // Format filter
@@ -269,6 +284,14 @@ export const CatalogView = {
     containerEl.querySelectorAll("[data-tab]").forEach(btn => {
       btn.addEventListener("click", () => {
         this.activeTab = btn.dataset.tab;
+        this.render(containerEl);
+      });
+    });
+
+    // Era filter
+    containerEl.querySelectorAll("[data-era]").forEach(btn => {
+      btn.addEventListener("click", () => {
+        this.filterEra = btn.dataset.era;
         this.render(containerEl);
       });
     });

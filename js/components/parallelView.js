@@ -13,6 +13,7 @@ export const ParallelView = {
   selectedSegmentRef: null,
   diffMode: false,
   showLiteral: true,
+  currentSection: null, // Section ID for passage navigation
 
   init(textId, targetSegmentRef = null) {
     const customTexts = StorageService.getCustomTexts();
@@ -37,6 +38,16 @@ export const ParallelView = {
       this.selectedSegmentRef = targetSegmentRef;
     }
 
+    // Default to first section if the text has sections
+    if (this.text.sections && this.text.sections.length > 0) {
+      const validSectionIds = new Set(this.text.sections.map(s => s.id));
+      if (!this.currentSection || !validSectionIds.has(this.currentSection)) {
+        this.currentSection = this.text.sections[0].id;
+      }
+    } else {
+      this.currentSection = null;
+    }
+
     return true;
   },
 
@@ -57,6 +68,21 @@ export const ParallelView = {
     const author = AUTHORS.find(a => a.id === this.text.authorId);
     const authorName = author ? author.name : this.text.authorId;
     const settings = StorageService.getSettings();
+
+    // Compute visible segments (filtered by current section if sections exist)
+    const hasSections = this.text.sections && this.text.sections.length > 1;
+    let visibleSegments = this.text.segments;
+    if (hasSections && this.currentSection) {
+      const section = this.text.sections.find(s => s.id === this.currentSection);
+      if (section) {
+        const refSet = new Set(section.segmentRefs);
+        visibleSegments = this.text.segments.filter(seg => refSet.has(seg.ref));
+      }
+    }
+    const currentSectionObj = hasSections ? this.text.sections.find(s => s.id === this.currentSection) : null;
+    const currentSectionIdx = hasSections ? this.text.sections.findIndex(s => s.id === this.currentSection) : -1;
+    const prevSection = hasSections && currentSectionIdx > 0 ? this.text.sections[currentSectionIdx - 1] : null;
+    const nextSection = hasSections && currentSectionIdx < this.text.sections.length - 1 ? this.text.sections[currentSectionIdx + 1] : null;
 
     // Compute active columns count for CSS Grid
     const colCount = this.activeEditions.length;
@@ -105,25 +131,86 @@ export const ParallelView = {
         </div>
       </div>
 
-      <!-- Edition Selector Chips -->
+      <!-- Passage Navigator Bar (only when sections exist) -->
+      ${hasSections ? `
+      <div class="passage-nav-bar">
+        <span class="passage-nav-label">📜 Passage:</span>
+
+        <button class="passage-nav-arrow ${!prevSection ? 'disabled' : ''}" id="btn-passage-prev" title="${prevSection ? 'Previous: ' + prevSection.title : 'No previous passage'}" ${!prevSection ? 'disabled' : ''}>
+          ‹
+        </button>
+
+        <div class="passage-nav-dropdown-wrap">
+          <button class="passage-nav-current" id="btn-passage-select" title="Jump to another passage">
+            <span class="passage-nav-current-title">${currentSectionObj ? currentSectionObj.title : 'Select Passage'}</span>
+            <span class="passage-nav-caret">▼</span>
+          </button>
+          <div class="passage-nav-menu" id="passage-nav-menu">
+            ${this.text.sections.map((sec, i) => `
+              <button class="passage-nav-menu-item ${sec.id === this.currentSection ? 'active' : ''}" data-section-id="${sec.id}">
+                <span class="passage-nav-menu-num">${i + 1}</span>
+                <span class="passage-nav-menu-title">${sec.title}</span>
+                ${sec.id === this.currentSection ? '<span class="passage-nav-menu-check">✓</span>' : ''}
+              </button>
+            `).join('')}
+          </div>
+        </div>
+
+        <button class="passage-nav-arrow ${!nextSection ? 'disabled' : ''}" id="btn-passage-next" title="${nextSection ? 'Next: ' + nextSection.title : 'No next passage'}" ${!nextSection ? 'disabled' : ''}>
+          ›
+        </button>
+
+        <span class="passage-nav-count">${currentSectionIdx + 1} / ${this.text.sections.length}</span>
+      </div>
+      ` : ''}
+
+      <!-- Edition Selector Bar: Active Columns + Add Dropdown -->
       <div class="editions-selector-bar">
         <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted);">
-          Editions:
+          Active Columns:
         </span>
-        ${this.text.sourceEditions.map(ed => {
-          const isActive = this.activeEditions.includes(ed.id);
+        
+        <!-- Active Edition Chips -->
+        ${this.activeEditions.map(edId => {
+          const ed = this.text.sourceEditions.find(e => e.id === edId);
+          if (!ed) return '';
           const isSource = ed.type === "source";
           return `
-            <button class="edition-toggle-chip ${isActive ? 'active' : ''}" data-ed-id="${ed.id}">
-              <span class="chip-check">${isActive ? '✓' : '+'}</span>
+            <button class="edition-toggle-chip active" data-ed-id="${ed.id}" title="Click to remove column">
               <span>${isSource ? '🏛️ ' + ed.name : '✒️ ' + ed.name}</span>
+              ${this.activeEditions.length > 1 ? '<span style="font-size: 0.7rem; opacity: 0.7; margin-left: 2px;">✕</span>' : ''}
             </button>
           `;
         }).join("")}
+
+        <!-- Add Edition Dropdown Button -->
+        <div class="add-edition-dropdown">
+          <button class="btn-add-edition" id="btn-toggle-add-edition-menu" title="Add another translation or source column">
+            <span>➕ Add Translation</span>
+            <span style="font-size: 0.65rem; opacity: 0.8;">▼</span>
+          </button>
+
+          <div class="add-edition-menu" id="add-edition-menu">
+            <div class="add-edition-menu-header">Select Edition to Compare</div>
+            ${this.text.sourceEditions.map(ed => {
+              const isActive = this.activeEditions.includes(ed.id);
+              const isSource = ed.type === "source";
+              return `
+                <button class="edition-menu-item ${isActive ? 'active' : ''}" data-toggle-ed="${ed.id}">
+                  <div class="edition-menu-item-info">
+                    <span class="edition-menu-item-name">${isSource ? '🏛️ ' + ed.name : '✒️ ' + ed.name}</span>
+                    <span class="edition-menu-item-meta">${ed.year || ''} ${ed.format ? '• ' + ed.format : ''} ${ed.highlights ? '• ' + ed.highlights : ''}</span>
+                  </div>
+                  <span class="edition-menu-item-check">${isActive ? '✓' : '+'}</span>
+                </button>
+              `;
+            }).join("")}
+          </div>
+        </div>
       </div>
 
       <!-- Parallel Studio Grid -->
-      <div class="parallel-studio-container" style="--user-font-size: ${settings.fontSize}px; --user-line-height: ${settings.lineHeight};">
+      <div class="parallel-studio-container">
         <!-- Grid Header Row -->
         <div class="parallel-header-row" style="grid-template-columns: ${gridTemplateCols};">
           ${this.activeEditions.map(edId => {
@@ -153,7 +240,7 @@ export const ParallelView = {
 
         <!-- Grid Body Rows -->
         <div class="parallel-body">
-          ${this.text.segments.map(seg => {
+          ${visibleSegments.map(seg => {
             const isSelected = this.selectedSegmentRef === seg.ref;
             
             // Extract all translation texts for diff computation
@@ -171,14 +258,22 @@ export const ParallelView = {
                   const isSource = ed.type === "source";
 
                   if (isSource) {
+                    let sourceHtml = seg.source;
+                    if (seg.vocab && seg.vocab.length > 0) {
+                      seg.vocab.forEach(v => {
+                        const regex = new RegExp(`(${v.word})`, "g");
+                        sourceHtml = sourceHtml.replace(regex, `<span class="lexicon-word" data-lemma="${v.lemma}" data-meaning="${v.meaning}" data-link="${v.link}">$1</span>`);
+                      });
+                    }
+
                     return `
                       <div class="parallel-cell source-cell">
                         <div class="line-meta-badge">
                           <span>Line ${seg.lineNum} (${seg.ref})</span>
                           ${seg.notes ? `<span class="has-commentary-dot" title="Scholarly commentary available"></span>` : ''}
                         </div>
-                        <div class="source-text font-cardo" style="font-weight: 600; color: var(--text-primary);">
-                          ${seg.source}
+                        <div class="source-text" style="font-weight: 600; color: var(--text-primary);">
+                          ${sourceHtml}
                         </div>
                         ${this.showLiteral && seg.literal ? `
                           <div class="literal-gloss">${seg.literal}</div>
@@ -227,6 +322,63 @@ export const ParallelView = {
   },
 
   attachEventListeners(containerEl) {
+    // ── Passage Navigator ──────────────────────────────────────────────────
+    const hasSections = this.text.sections && this.text.sections.length > 1;
+    if (hasSections) {
+      const prevBtn = containerEl.querySelector("#btn-passage-prev");
+      const nextBtn = containerEl.querySelector("#btn-passage-next");
+      const selectBtn = containerEl.querySelector("#btn-passage-select");
+      const navMenu = containerEl.querySelector("#passage-nav-menu");
+
+      prevBtn?.addEventListener("click", () => {
+        const idx = this.text.sections.findIndex(s => s.id === this.currentSection);
+        if (idx > 0) {
+          this.currentSection = this.text.sections[idx - 1].id;
+          this.render(containerEl);
+        }
+      });
+
+      nextBtn?.addEventListener("click", () => {
+        const idx = this.text.sections.findIndex(s => s.id === this.currentSection);
+        if (idx < this.text.sections.length - 1) {
+          this.currentSection = this.text.sections[idx + 1].id;
+          this.render(containerEl);
+        }
+      });
+
+      const positionMenu = () => {
+        if (!navMenu || !selectBtn) return;
+        const rect = selectBtn.getBoundingClientRect();
+        navMenu.style.top = `${rect.bottom + 6}px`;
+        navMenu.style.left = `${rect.left}px`;
+        navMenu.style.width = `${Math.max(320, rect.width)}px`;
+      };
+
+      selectBtn?.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const isOpen = navMenu.classList.toggle("open");
+        selectBtn.classList.toggle("open", isOpen);
+        if (isOpen) positionMenu();
+      });
+
+      containerEl.querySelectorAll("[data-section-id]").forEach(item => {
+        item.addEventListener("click", (e) => {
+          e.stopPropagation();
+          this.currentSection = item.dataset.sectionId;
+          this.render(containerEl);
+        });
+      });
+
+      const closeNavMenu = (evt) => {
+        if (navMenu && !navMenu.contains(evt.target) && evt.target !== selectBtn) {
+          navMenu.classList.remove("open");
+          selectBtn?.classList.remove("open");
+          document.removeEventListener("click", closeNavMenu);
+        }
+      };
+      document.addEventListener("click", closeNavMenu);
+    }
+
     // Row hover synchronization
     const rows = containerEl.querySelectorAll(".parallel-row");
     rows.forEach(row => {
@@ -247,10 +399,39 @@ export const ParallelView = {
       });
     });
 
-    // Toggle Editions
+    // Active Column Chip click (remove column)
     containerEl.querySelectorAll(".edition-toggle-chip").forEach(chip => {
       chip.addEventListener("click", () => {
         const edId = chip.dataset.edId;
+        if (this.activeEditions.length > 1) {
+          this.activeEditions = this.activeEditions.filter(id => id !== edId);
+          this.render(containerEl);
+        }
+      });
+    });
+
+    // Toggle Add Edition Dropdown Menu
+    const addMenuBtn = containerEl.querySelector("#btn-toggle-add-edition-menu");
+    const addMenu = containerEl.querySelector("#add-edition-menu");
+    if (addMenuBtn && addMenu) {
+      addMenuBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        addMenu.classList.toggle("open");
+      });
+
+      const closeMenu = (evt) => {
+        if (!addMenu.contains(evt.target) && evt.target !== addMenuBtn) {
+          addMenu.classList.remove("open");
+        }
+      };
+      document.addEventListener("click", closeMenu);
+    }
+
+    // Toggle Edition from Dropdown
+    containerEl.querySelectorAll(".edition-menu-item").forEach(item => {
+      item.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const edId = item.dataset.toggleEd;
         if (this.activeEditions.includes(edId)) {
           if (this.activeEditions.length > 1) {
             this.activeEditions = this.activeEditions.filter(id => id !== edId);
@@ -262,13 +443,15 @@ export const ParallelView = {
       });
     });
 
-    // Remove Column button
+    // Remove Column button in table headers
     containerEl.querySelectorAll(".btn-remove-col").forEach(btn => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const edId = btn.dataset.removeEd;
-        this.activeEditions = this.activeEditions.filter(id => id !== edId);
-        this.render(containerEl);
+        if (this.activeEditions.length > 1) {
+          this.activeEditions = this.activeEditions.filter(id => id !== edId);
+          this.render(containerEl);
+        }
       });
     });
 
@@ -299,6 +482,41 @@ export const ParallelView = {
         window.location.hash = `#/compare/${this.text.id}?mode=interlinear`;
       });
     }
+
+    // Lexicon word interactive popover
+    containerEl.querySelectorAll(".lexicon-word").forEach(wordEl => {
+      wordEl.addEventListener("click", (e) => {
+        e.stopPropagation(); // Avoid triggering row selection
+        
+        // Remove existing popover if any
+        document.querySelectorAll(".lexicon-popover").forEach(p => p.remove());
+
+        const popover = document.createElement("div");
+        popover.className = "lexicon-popover";
+        popover.innerHTML = `
+          <div class="lexicon-popover-header">
+            <span class="lexicon-popover-word">${wordEl.textContent}</span>
+            <button class="btn-icon" style="width: 20px; height: 20px; font-size: 0.75rem;" onclick="this.closest('.lexicon-popover').remove()">✕</button>
+          </div>
+          <div class="lexicon-popover-lemma">Lemma: <strong>${wordEl.dataset.lemma}</strong></div>
+          <div class="lexicon-popover-meaning">${wordEl.dataset.meaning}</div>
+          ${wordEl.dataset.link ? `<a href="${wordEl.dataset.link}" target="_blank" rel="noopener" class="lexicon-popover-link">Logeion / Lexicon Entry &raquo;</a>` : ''}
+        `;
+
+        document.body.appendChild(popover);
+        const rect = wordEl.getBoundingClientRect();
+        popover.style.top = `${rect.bottom + window.scrollY + 6}px`;
+        popover.style.left = `${Math.min(window.innerWidth - 300, Math.max(10, rect.left + window.scrollX))}px`;
+
+        const closeHandler = (evt) => {
+          if (!popover.contains(evt.target) && evt.target !== wordEl) {
+            popover.remove();
+            document.removeEventListener("click", closeHandler);
+          }
+        };
+        setTimeout(() => document.addEventListener("click", closeHandler), 10);
+      });
+    });
 
     // Export Comparison
     const exportBtn = containerEl.querySelector("#btn-export-comparison");
