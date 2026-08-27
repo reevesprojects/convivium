@@ -599,10 +599,88 @@ export const NEAR_EASTERN_TEXTS = [
           "jackson": "He discovered secrets, unveiled the mystery, and returned weary from his labors."
         },
         "notes": "katimta iptû: 'uncovered what was veiled'. Gilgamesh retrieves the secrets of immortality and the antediluvian world before the Great Deluge."
+      },
+      {
+        "ref": "Gilg.10.3",
+        "lineNum": 75,
+        "sectionId": "siduri-advice",
+        "source": "Gīd-ga-meš a-na-ku a-ka-an-na a-qa-bi-ka",
+        "literal": "Gilgamesh, to you thus I say:",
+        "translations": {
+          "george": "“Gilgamesh, where are you hurrying? You will never find that life for which you are looking.”",
+          "mitchell": "“Gilgamesh, where are you hurrying to? You will never find that life for which you are looking.”",
+          "kovacs": "“Gilgamesh, where are you wandering? The life that you are looking for you will not find.”",
+          "sandars": "“Gilgamesh, where are you hurrying to? You will never find that life for which you are looking.”",
+          "ferry": "“Gilgamesh, where are you wandering? You will not find the eternal life you are seeking.”",
+          "helle": "“Gilgamesh, where are you rushing to? The life you seek you will never find.”",
+          "foster": "“Gilgamesh, where are you roaming? You will not find the life you look for.”",
+          "jackson": "“Gilgamesh, where are you roaming? The immortality you seek cannot be found.”"
+        },
+        "notes": "Siduri the alewife's carpe diem wisdom: when the gods created mankind they allotted death, but life was held in their own hands.",
+        "vocab": [
+          {
+            "word": "a-qa-bi-ka",
+            "lemma": "qabû",
+            "meaning": "to say, speak, declare",
+            "link": "https://en.wiktionary.org"
+          }
+        ]
+      },
+      {
+        "ref": "Gilg.11.305",
+        "lineNum": 305,
+        "sectionId": "uruk-walls",
+        "source": "e-li a-na dūri ša Urukki i-ti-iq",
+        "literal": "Climb onto the wall of Uruk, walk around,",
+        "translations": {
+          "george": "“Climb Uruk's rampart and walk back and forth! Survey its foundations, examine the brickwork!”",
+          "mitchell": "“Climb onto the walls of Uruk, walk back and forth, survey the foundation terrace and inspect the brickwork!”",
+          "kovacs": "“Go up, Gilgamesh, walk on the ramparts of Uruk. Inspect the base terrace, examine the brickwork!”",
+          "sandars": "“Climb onto the walls of Uruk, walk along them, I say; regard the foundation terrace and examine the masonry!”",
+          "ferry": "“Climb onto the walls of Uruk, walk along them; look at the foundation terrace, examine the brickwork!”",
+          "helle": "“Climb upon the wall of Uruk, walk around! Survey the foundation terrace, inspect the brickwork!”",
+          "foster": "“Go up, Gilgamesh, walk upon the ramparts of Uruk! Survey the foundation terrace, examine the brickwork!”",
+          "jackson": "“Climb onto the ramparts of Uruk, walk along its walls! Gaze upon its foundations, marvel at the masonry!”"
+        },
+        "notes": "The closing frame of the epic: Gilgamesh achieves true immortality not through defeating death, but through the enduring cultural monuments of his city.",
+        "vocab": [
+          {
+            "word": "dūri",
+            "lemma": "dūru",
+            "meaning": "city wall, rampart",
+            "link": "https://en.wiktionary.org"
+          }
+        ]
       }
     ],
     "era": "Ancient Mesopotamia",
-    "period": "2nd Millennium BCE"
+    "period": "2nd Millennium BCE",
+    "sections": [
+      {
+        "id": "proem-the-deep",
+        "title": "Tablet 1: He Who Saw the Deep (Prologue)",
+        "segmentRefs": [
+          "Gilg.1.1",
+          "Gilg.1.2",
+          "Gilg.1.3",
+          "Gilg.1.4"
+        ]
+      },
+      {
+        "id": "siduri-advice",
+        "title": "Tablet 10: The Alewife Siduri's Wisdom (Carpe Diem)",
+        "segmentRefs": [
+          "Gilg.10.3"
+        ]
+      },
+      {
+        "id": "uruk-walls",
+        "title": "Tablet 11: The Ramparts of Uruk (Enduring Legacy)",
+        "segmentRefs": [
+          "Gilg.11.305"
+        ]
+      }
+    ]
   },
   {
     "id": "bhagavad-gita",
@@ -733,8 +811,138 @@ export const NEAR_EASTERN_TEXTS = [
     ],
     "era": "Classical India",
     "period": "Antiquity"
+  },
+  {
+    "id": "bible-ecclesiastes",
+    "title": "Ecclesiastes (Qoheleth)",
+    "originalTitle": "קֹהֶלֶת (Qōheleṯ)",
+    "authorId": "solomon",
+    "language": "Biblical Hebrew",
+    "date": "c. 450–250 BCE",
+    "format": "Poetic Prose & Wisdom Aphorisms",
+    "genre": "Wisdom Literature / Philosophical Monologue",
+    "description": "The Hebrew Bible's most philosophically daring meditation on human mortality, the passage of time, and the elusive quest for purpose under the sun. Attributed to the speaker Qoheleth ('The Assembler' or 'Teacher'), it confronts the vaporous transience of earthly ambitions with unmatched existential clarity.",
+    "passageRef": "Vanity of Vanities (1:2), A Season for Everything (3:1–2), & The Golden Bowl (12:6)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "Hebrew", "Wisdom", "Philosophy", "Scripture"],
+    "sourceEditions": [
+      { "id": "hebrew", "name": "Biblical Hebrew (Masoretic Text)", "year": "c. 3rd century BCE", "type": "source", "format": "Prose" },
+      { "id": "alter_ecc", "name": "Robert Alter (2018)", "year": "2018", "type": "translation", "format": "Verse", "highlights": "The Hebrew Bible; masterful modern literary translation capturing Hebrew rhythm and wordplay" },
+      { "id": "kjv_ecc", "name": "King James Version (1611)", "year": "1611", "type": "translation", "format": "Prose", "highlights": "The supreme monument of Jacobean prose; established standard English idioms" },
+      { "id": "fox_ecc", "name": "Michael V. Fox (2004)", "year": "2004", "type": "translation", "format": "Verse", "highlights": "JPS Bible Commentary; definitive modern scholarly commentary and translation" },
+      { "id": "seow_ecc", "name": "C. L. Seow (1997)", "year": "1997", "type": "translation", "format": "Verse", "highlights": "Anchor Yale Bible; philologically rigorous and historically acute" },
+      { "id": "coverdale_ecc", "name": "Miles Coverdale (1535)", "year": "1535", "type": "translation", "format": "Prose", "highlights": "First complete printed English Bible; pioneering lyrical prose" },
+      { "id": "douay_ecc", "name": "Douay-Rheims (1609)", "year": "1609", "type": "translation", "format": "Prose", "highlights": "Classic Catholic translation from Jerome's Latin Vulgate" },
+      { "id": "esv_ecc", "name": "English Standard Version (2001)", "year": "2001", "type": "translation", "format": "Prose", "highlights": "Modern formal-equivalence standard" }
+    ],
+    "segments": [
+      {
+        "ref": "Ecc.1.2",
+        "lineNum": 2,
+        "sectionId": "vanity-of-vanities",
+        "source": "הֲבֵ֤ל הֲבָלִים֙ אָמַ֣ר קֹהֶ֔לֶת הֲבֵ֥ל הֲבָלִ֖ים הַכֹּ֥ל הָֽבֶל׃",
+        "literal": "Vapor of vapors said Qoheleth, vapor of vapors, all is vapor.",
+        "translations": {
+          "alter_ecc": "Merest breath, said Qohelet, merest breath, all is mere breath.",
+          "kjv_ecc": "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity.",
+          "fox_ecc": "Utter futility!—said Qohelet—Utter futility! All is futile!",
+          "seow_ecc": "The sheerest vanity! says Qoheleth. The sheerest vanity! Everything is vanity!",
+          "coverdale_ecc": "All is but vanity (sayeth the preacher) all is but plain vanity.",
+          "douay_ecc": "Vanity of vanities, said Ecclesiastes: vanity of vanities, and all is vanity.",
+          "esv_ecc": "Vanity of vanities, says the Preacher, vanity of vanities! All is vanity."
+        },
+        "notes": "הֲבֵל (hevel): literally 'breath', 'vapor', or 'mist' — something fleeting, insubstantial, and impossible to grasp. Jerome translated it as 'vanitas' (emptiness), which gave the King James Bible its immortal 'vanity', while modern scholars like Alter restore the concrete metaphor of elusive breath.",
+        "vocab": [
+          { "word": "הֲבֵל", "lemma": "הֶבֶל", "meaning": "vapor, breath, vanity, futility", "link": "https://en.wiktionary.org/wiki/%D7%94%D7%91%D7%9C" },
+          { "word": "קֹהֶלֶת", "lemma": "קֹהֶלֶת", "meaning": "Qoheleth, assembler, teacher, preacher", "link": "https://en.wiktionary.org/wiki/%D7%A7%D7%94%D7%9C%D7%AA" }
+        ]
+      },
+      {
+        "ref": "Ecc.3.1",
+        "lineNum": 1,
+        "sectionId": "season-for-everything",
+        "source": "לַכֹּ֖ל זְמָ֑ן וְעֵ֥ת לְכָל־חֵ֖פֶץ תַּ֥חַת הַשָּׁמָֽיִם׃",
+        "literal": "To everything a season, and a time for every matter under the heavens:",
+        "translations": {
+          "alter_ecc": "For everything there is a season, and a time for every matter under the heavens:",
+          "kjv_ecc": "To every thing there is a season, and a time to every purpose under the heaven:",
+          "fox_ecc": "Everything has its season, and there is a time for every matter under the sky:",
+          "seow_ecc": "For everything there is an appointed time, and a time for every matter under the heavens:",
+          "coverdale_ecc": "Every thing hath his time, yea all that is under the heaven, hath his convenient season.",
+          "douay_ecc": "All things have their season, and in their times all things pass under heaven.",
+          "esv_ecc": "For everything there is a season, and a time for every matter under heaven:"
+        },
+        "notes": "The great poem of appointed times and cosmic cycles, recognizing the rhythmic limits and beauty of human existence.",
+        "vocab": [
+          { "word": "זְמָן", "lemma": "זְמָן", "meaning": "appointed time, season", "link": "https://en.wiktionary.org" },
+          { "word": "עֵת", "lemma": "עֵת", "meaning": "time, right moment", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Ecc.3.2",
+        "lineNum": 2,
+        "sectionId": "season-for-everything",
+        "source": "עֵ֤ת לָלֶ֙דֶת֙ וְעֵ֣ת לָמ֔וּת עֵ֣ת לָטַ֔עַת וְעֵ֖ת לַעֲק֥וֹר נָטֽוּעַ׃",
+        "literal": "A time to give birth and a time to die, a time to plant and a time to uproot what is planted;",
+        "translations": {
+          "alter_ecc": "A time to be born and a time to die, a time to plant and a time to uproot what is planted.",
+          "kjv_ecc": "A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;",
+          "fox_ecc": "A time to be born and a time to die; A time to plant and a time to uproot the planted;",
+          "seow_ecc": "A time to give birth and a time to die, a time to plant and a time to uproot what is planted;",
+          "coverdale_ecc": "The time of birth, the time of death: the time to plant, the time to pluck up the thing that is planted:",
+          "douay_ecc": "A time to be born, and a time to die. A time to plant, and a time to pluck up that which is planted.",
+          "esv_ecc": "A time to be born, and a time to die; a time to plant, and a time to pluck up what is planted;"
+        },
+        "notes": "The paired antitheses of mortal reality, balancing the inevitability of beginnings and endings.",
+        "vocab": [
+          { "word": "לָלֶדֶת", "lemma": "יָלַד", "meaning": "to give birth, be born", "link": "https://en.wiktionary.org" },
+          { "word": "לָמוּת", "lemma": "מוּת", "meaning": "to die", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Ecc.12.6",
+        "lineNum": 6,
+        "sectionId": "golden-bowl",
+        "source": "עַ֣ד אֲשֶׁ֤ר לֹֽא־יֵרָתֵק֙ חֶ֣בֶל הַכֶּ֔סֶף וְתָרֻ֖ץ גֻּלַּ֣ת הַזָּהָ֑ב",
+        "literal": "Before that not is snapped the cord of silver, and shattered the bowl of gold,",
+        "translations": {
+          "alter_ecc": "Before the silver cord snaps and the golden bowl shatters,",
+          "kjv_ecc": "Or ever the silver cord be loosed, or the golden bowl be broken,",
+          "fox_ecc": "Before the silver cord is severed, and the golden bowl is broken,",
+          "seow_ecc": "Before the silver cord is snapped, and the golden bowl is crushed,",
+          "coverdale_ecc": "Or ever the silver lace be taken away, or the golden band be broken:",
+          "douay_ecc": "Before the silver cord be broken, and the golden fillet shrink back,",
+          "esv_ecc": "before the silver cord is snapped, or the golden bowl is broken,"
+        },
+        "notes": "The allegory of aging and bodily dissolution at the close of Ecclesiastes: the silver cord and golden bowl symbolize the precious, fragile vessel of human life.",
+        "vocab": [
+          { "word": "הַכֶּסֶף", "lemma": "כֶּסֶף", "meaning": "silver", "link": "https://en.wiktionary.org" },
+          { "word": "הַזָּהָב", "lemma": "זָהָב", "meaning": "gold", "link": "https://en.wiktionary.org" }
+        ]
+      }
+    ],
+    "era": "Ancient Israel & Hellenistic Levant",
+    "period": "Antiquity",
+    "sections": [
+      {
+        "id": "vanity-of-vanities",
+        "title": "Prologue: Vanity of Vanities / Merest Breath (1:2)",
+        "segmentRefs": ["Ecc.1.2"]
+      },
+      {
+        "id": "season-for-everything",
+        "title": "A Season for Everything Under Heaven (3:1–2)",
+        "segmentRefs": ["Ecc.3.1", "Ecc.3.2"]
+      },
+      {
+        "id": "golden-bowl",
+        "title": "Epilogue: Before the Silver Cord Snaps (12:6)",
+        "segmentRefs": ["Ecc.12.6"]
+      }
+    ]
   }
 ];
+
 
 
 

@@ -618,6 +618,84 @@ export const GREEK_TEXTS = [
             "link": "https://logeion.uchicago.edu/%CE%BF%E1%BD%84%CF%84%CE%B9%CF%82"
           }
         ]
+      },
+      {
+        "ref": "11.488",
+        "lineNum": 488,
+        "sectionId": "book-11",
+        "source": "μὴ δή μοι θάνατόν γε παραύδα, φαίδιμ’ Ὀδυσσεῦ:",
+        "literal": "Do not indeed to me of death speak soothingly, glorious Odysseus:",
+        "translations": {
+          "wilson": "Do not speak soothingly to me of death, glorious Odysseus.",
+          "fagles": "“No winning words about death to me, shining Odysseus!”",
+          "lattimore": "“O shining Odysseus, never try to console me for dying.”",
+          "pope": "“Talk not of ruling in this dolorous gloom, / Nor think vain words (he cried) can ease my doom.”",
+          "chapman": "“'Do not,' said he, 'to me of death sooth-say, / Renowned Odysseus;'”",
+          "rouse": "“Don’t try to comfort me about death, noble Odysseus!”",
+          "butcher_lang": "“Nay, speak not comfortably to me of death, oh great Odysseus.”",
+          "lawrence": "“Do not try to make light of death to me, brilliant Odysseus.”",
+          "butler": "“Say not a word,” he answered, “in death's favour;”",
+          "lombardo": "“Don't try to sweet-talk death to me, famous Odysseus.”",
+          "johnston": "“Don't try to comfort me about my death, glorious Odysseus.”",
+          "merrill": "“Glorious Odysseus, do not seek to comfort me in my death.”",
+          "green": "“Do not try to comfort me about death, shining Odysseus!”",
+          "powell": "“Don't try to soften death to me, famous Odysseus.”",
+          "verity": "“Do not try to comfort me for death, glorious Odysseus.”"
+        },
+        "notes": "Achilles' famous rejection of heroic fame (kleos) in Hades: he would rather be a living serf on earth than lord over all the dead.",
+        "vocab": [
+          {
+            "word": "θάνατόν",
+            "lemma": "θάνατος",
+            "meaning": "death",
+            "link": "https://logeion.uchicago.edu/%CE%B8%CE%AC%CE%BD%CE%B1%CF%84%CE%BF%CF%82"
+          },
+          {
+            "word": "φαίδιμ’",
+            "lemma": "φαίδιμος",
+            "meaning": "shining, radiant, glorious",
+            "link": "https://logeion.uchicago.edu/%CF%86%CE%B1%CE%AF%CE%B4%CE%B9%CE%BC%CE%BF%CF%82"
+          }
+        ]
+      },
+      {
+        "ref": "11.489",
+        "lineNum": 489,
+        "sectionId": "book-11",
+        "source": "βουλοίμην κ’ ἐπάρουρος ἐὼν θητευέμεν ἄλλῳ",
+        "literal": "I would wish rather bound to the soil being to serve as day-laborer to another",
+        "translations": {
+          "wilson": "I would rather be on earth as the hired hand of another man,",
+          "fagles": "I’d rather slave on earth for another man—some dirt-poor tenant farmer",
+          "lattimore": "I would rather follow the plow as thrall to another man, one with no land allotted him,",
+          "pope": "“Rather I'd choose laboriously to bear / A weight of woes, and breathe the vital air,”",
+          "chapman": "“I rather wish a serf on earth to be, / To some poor swain that has no property,”",
+          "rouse": "“I would rather be a hireling on earth to a landless man than king over all the dead.”",
+          "butcher_lang": "“Rather would I live on ground as the hireling of another, with a landless man who had no great livelihood,”",
+          "lawrence": "“I would rather be above ground, the hireling of some poor peasant without land of his own,”",
+          "butler": "“I would rather be a paid servant in a poor man's house than king among all the dead.”",
+          "lombardo": "“I'd rather be a day laborer on the farm of a peasant with no land of his own”",
+          "johnston": "“I would rather work the soil as a serf for another man without land of his own,”",
+          "merrill": "“I would rather be bound to the soil, a serf serving another man who has no land of his own,”",
+          "green": "“I would rather follow the plow as a hireling to some poor peasant without an estate,”",
+          "powell": "“I would rather be on earth working the soil as a hireling for a landless man”",
+          "verity": "“I would rather work as a day-labourer for another man, one who had no land of his own,”"
+        },
+        "notes": "ἐπάρουρος (bound to the land / landless day laborer): the lowest social station in archaic Greece, yet preferred above all shadow kingdoms.",
+        "vocab": [
+          {
+            "word": "ἐπάρουρος",
+            "lemma": "ἐπάρουρος",
+            "meaning": "attached to the soil, day-labourer, peasant",
+            "link": "https://logeion.uchicago.edu/%E1%BD%90%CF%80%CE%AC%CF%81%CE%BF%CF%85%CF%81%CE%BF%CF%82"
+          },
+          {
+            "word": "θητευέμεν",
+            "lemma": "θητεύω",
+            "meaning": "to serve as a serf or hired laborer",
+            "link": "https://logeion.uchicago.edu/%CE%B8%CE%B7%CF%84%CE%B5%CF%8D%CF%89"
+          }
+        ]
       }
     ],
     "era": "Archaic Greece",
@@ -645,6 +723,14 @@ export const GREEK_TEXTS = [
         "segmentRefs": [
           "9.364",
           "9.366"
+        ]
+      },
+      {
+        "id": "book-11",
+        "title": "Book 11: Achilles in the Underworld (The Living Serf)",
+        "segmentRefs": [
+          "11.488",
+          "11.489"
         ]
       }
     ]
@@ -1103,6 +1189,78 @@ export const GREEK_TEXTS = [
             "link": "https://logeion.uchicago.edu/%CF%83%CF%84%CF%8C%CE%BC%CE%B1"
           }
         ]
+      },
+      {
+        "ref": "6.146",
+        "lineNum": 146,
+        "sectionId": "book-6",
+        "source": "οἵη περ φύλλων γενεή, τοίη δὲ καὶ ἀνδρῶν.",
+        "literal": "Even as the generation of leaves, such is also of men.",
+        "translations": {
+          "alexander": "Like the generation of leaves, so is that of men.",
+          "fagles": "“Like the generations of leaves, the lives of mortal men.”",
+          "lattimore": "“As is the generation of leaves, so is that of humanity.”",
+          "pope": "“Like leaves on trees the race of man is found, / Now green in youth, now with'ring on the ground;”",
+          "lang": "“Even as are the generations of leaves, such are those also of men.”",
+          "cowper": "“The race of man is as the race of leaves:”",
+          "rieu": "“Human generations are like the leaves in autumn.”",
+          "butler": "“The generations of men are like the leaves of the forest.”",
+          "derby": "“Like leaves on trees the race of man is found,”",
+          "wilson": "“The generations of mortal men are just like leaves.”",
+          "green": "“As is the generation of leaves, such is that also of men.”",
+          "verity": "“As is the generation of leaves, so is that of men.”"
+        },
+        "notes": "Glaucus's famous simile to Diomedes: the fragility and cyclical transience of human life compared to seasonal leaves.",
+        "vocab": [
+          {
+            "word": "φύλλων",
+            "lemma": "φύλλον",
+            "meaning": "leaf, foliage",
+            "link": "https://logeion.uchicago.edu/%CF%86%CF%8D%CE%BB%CE%BB%CE%BF%CE%BD"
+          },
+          {
+            "word": "γενεή",
+            "lemma": "γενεά",
+            "meaning": "generation, race, lineage",
+            "link": "https://logeion.uchicago.edu/%CE%B3%CE%B5%CE%BD%CE%B5%CE%AC"
+          }
+        ]
+      },
+      {
+        "ref": "6.147",
+        "lineNum": 147,
+        "sectionId": "book-6",
+        "source": "φύλλα τὰ μέν τ’ ἄνεμος χαμάδις χέει, ἄλλα δέ θ’ ὕλη",
+        "literal": "leaves the one indeed the wind to the ground sheds, others but the forest",
+        "translations": {
+          "alexander": "The wind pours some leaves on the ground, but the wood grows others afresh in spring.",
+          "fagles": "The wind scatters the leaves on the ground, but the living timber bursts with new buds,",
+          "lattimore": "The wind scatters the leaves on the ground, but the live timber burgeons with leaves again in spring,",
+          "pope": "“The following spring another race supplies; / They fall successive, and successive rise:”",
+          "lang": "“The wind scattereth the leaves on the earth, but the timber of the wood shooteth forth leaves afresh,”",
+          "cowper": "“Of leaves, one generation by the wind / Is scattered on the earth; another green / The woods produce”",
+          "rieu": "“The wind blows some to the ground, but the trees burst into leaf again when spring returns.”",
+          "butler": "“The wind scatters them on the earth, but the forest buds and puts forth more when spring comes round.”",
+          "derby": "“Now green in youth, now with'ring on the ground; / Another race the following spring supplies;”",
+          "wilson": "“The wind scatters some leaves upon the earth, but the fertile wood buds with new ones when spring arrives.”",
+          "green": "“The wind pours leaves on the ground, but the thriving wood grows more when spring returns.”",
+          "verity": "“The wind sheds one generation of leaves on the ground, but the woods put forth others when spring comes.”"
+        },
+        "notes": "The poetic resolution of mortality: though individuals perish, life perpetually renews itself in the springtime.",
+        "vocab": [
+          {
+            "word": "ἄνεμος",
+            "lemma": "ἄνεμος",
+            "meaning": "wind, gale",
+            "link": "https://logeion.uchicago.edu/%E1%BD%84%CE%BD%CE%B5%CE%BC%CE%BF%CF%82"
+          },
+          {
+            "word": "χαμάδις",
+            "lemma": "χαμάδις",
+            "meaning": "to the ground, on the earth",
+            "link": "https://logeion.uchicago.edu/%CF%87%CE%B1%CE%BC%CE%AC%CE%B4%CE%B9%CF%82"
+          }
+        ]
       }
     ],
     "era": "Archaic Greece",
@@ -1117,6 +1275,14 @@ export const GREEK_TEXTS = [
           "1.3",
           "1.4",
           "1.5"
+        ]
+      },
+      {
+        "id": "book-6",
+        "title": "Book 6: Glaucus's Simile (The Generation of Leaves)",
+        "segmentRefs": [
+          "6.146",
+          "6.147"
         ]
       },
       {
@@ -4165,6 +4331,281 @@ export const GREEK_TEXTS = [
     ],
     "era": "Classical Greece",
     "period": "Antiquity"
+  },
+  {
+    "id": "sophocles-antigone",
+    "title": "Antigone",
+    "originalTitle": "Ἀντιγόνη",
+    "authorId": "sophocles",
+    "language": "Ancient Greek",
+    "date": "c. 441 BCE",
+    "format": "Verse (Tragic Drama / Lyric Choral Odes)",
+    "genre": "Tragedy",
+    "description": "Sophocles' masterpiece on the irreconcilable clash between individual moral duty to divine unwritten laws and state power. Antigone defies King Creon's edict to bury her slain brother Polyneices, setting off a catastrophic cascade of tragedy.",
+    "passageRef": "Ode to Man (332–333) & The Unwritten Laws (450–455)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "Ancient Greek", "Tragedy", "Philosophy", "Law"],
+    "sourceEditions": [
+      { "id": "greek", "name": "Ancient Greek (OCT)", "year": "c. 441 BCE", "type": "source", "meter": "Lyric / Iambic Trimeter", "format": "Verse" },
+      { "id": "fagles_ant", "name": "Robert Fagles (1982)", "year": "1982", "type": "translation", "format": "Verse", "highlights": "Penguin Classics; dynamic poetic energy" },
+      { "id": "jebb_ant", "name": "Sir Richard Jebb (1891)", "year": "1891", "type": "translation", "format": "Prose", "highlights": "Cambridge standard; nineteenth-century scholarly precision" },
+      { "id": "carson_ant", "name": "Anne Carson (2012)", "year": "2012", "type": "translation", "format": "Verse", "highlights": "Antigonick; radical, minimalist, modern feminist poetic rendering" },
+      { "id": "wyckoff_ant", "name": "Elizabeth Wyckoff (1954)", "year": "1954", "type": "translation", "format": "Verse", "highlights": "Chicago Greek Tragedies standard" },
+      { "id": "woodruff_ant", "name": "Paul Woodruff (2001)", "year": "2001", "type": "translation", "format": "Verse", "highlights": "Hackett philosophical edition; clean and theatrical" },
+      { "id": "gibbons_ant", "name": "Reginald Gibbons & Charles Segal (2003)", "year": "2003", "type": "translation", "format": "Verse", "highlights": "Oxford Greek Tragedy in New Translations" },
+      { "id": "brown_ant", "name": "Andrew Brown (1987)", "year": "1987", "type": "translation", "format": "Prose", "highlights": "Aris & Phillips edition with literal scholarly clarity" }
+    ],
+    "segments": [
+      {
+        "ref": "Ant.332",
+        "lineNum": 332,
+        "sectionId": "ode-to-man",
+        "source": "πολλὰ τὰ δεινὰ κοὐδὲν ἀνθρώπου δεινότερον πέλει:",
+        "literal": "Many the wonders/terrors and nothing than man more wonder-terrible exists:",
+        "translations": {
+          "fagles_ant": "Numberless wonders walk the world but none the match for man—",
+          "jebb_ant": "Wonders are many, and none is more wonderful than man;",
+          "carson_ant": "Many terrible wonders walk the world but none more terrible than man.",
+          "wyckoff_ant": "Numberless are the world's wonders, but none / More wonderful than man;",
+          "woodruff_ant": "Many wonders there be, but none more wondrous than man.",
+          "gibbons_ant": "Many things are formidable, and none is more formidable than man!",
+          "brown_ant": "Many are the wondrous and terrible things, and none more wondrous and terrible than man."
+        },
+        "notes": "δεινός (deinos): untranslatable Greek word meaning both awesome/wondrous and terrifying/monstrous. The Chorus sings this Ode to Man to celebrate human mastery over nature, yet foreshadows human hubris.",
+        "vocab": [
+          { "word": "δεινὰ", "lemma": "δεινός", "meaning": "wondrous, terrible, awesome", "link": "https://logeion.uchicago.edu/%CE%B4%CE%B5%CE%B9%CE%BD%CF%8C%CF%82" },
+          { "word": "ἀνθρώπου", "lemma": "ἄνθρωπος", "meaning": "human being, mankind", "link": "https://logeion.uchicago.edu/%E1%BD%84%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82" }
+        ]
+      },
+      {
+        "ref": "Ant.333",
+        "lineNum": 333,
+        "sectionId": "ode-to-man",
+        "source": "τοῦτο καὶ πολιοῦ πέραν πόντου χειμερίῳ νότῳ",
+        "literal": "this one even across gray sea with winter storm-wind",
+        "translations": {
+          "fagles_ant": "over the storm-dark sea, whipped by the winter south-wind, he makes his crossing,",
+          "jebb_ant": "he fares even across the grey sea, beneath the winter-storm of the south-wind,",
+          "carson_ant": "he crosses the gray sea in winter gale under the driving spray,",
+          "wyckoff_ant": "the stormgray sea / yields to his prows, the huge crests / bear him high;",
+          "woodruff_ant": "driven by winter's south wind he crosses the surging grey sea,",
+          "gibbons_ant": "He crosses the grey sea driven by the winter gales,",
+          "brown_ant": "he crosses even the grey sea in the winter south wind,"
+        },
+        "notes": "Human civilization's triumph over the wild elements begins with maritime navigation across the perilous stormy Aegean.",
+        "vocab": [
+          { "word": "πόντου", "lemma": "πόντος", "meaning": "sea, open ocean", "link": "https://logeion.uchicago.edu/%CF%80%CF%8C%CE%BD%CF%84%CE%BF%CF%82" }
+        ]
+      },
+      {
+        "ref": "Ant.450",
+        "lineNum": 450,
+        "sectionId": "unwritten-laws",
+        "source": "οὐ γάρ τί μοι Ζεὺς ἦν ὁ κηρύξας τάδε,",
+        "literal": "Not for indeed to me Zeus was the one who proclaimed these things,",
+        "translations": {
+          "fagles_ant": "Of course I did. It wasn’t Zeus, not in the least, who made this proclamation—",
+          "jebb_ant": "For it was not Zeus that had published me that edict;",
+          "carson_ant": "Zeus did not announce those laws to me.",
+          "wyckoff_ant": "For me it was not Zeus who made that order.",
+          "woodruff_ant": "It was not Zeus who gave this order;",
+          "gibbons_ant": "It was not Zeus who made this proclamation to me,",
+          "brown_ant": "For it was not Zeus who made this proclamation to me,"
+        },
+        "notes": "Antigone's defiance of Creon: state decrees are subordinate to divine cosmic justice.",
+        "vocab": [
+          { "word": "κηρύξας", "lemma": "κηρύσσω", "meaning": "proclaimed, decreed, heralded", "link": "https://logeion.uchicago.edu/%CE%BA%CE%B7%CF%81%CF%8D%CF%83%CF%83%CF%89" }
+        ]
+      },
+      {
+        "ref": "Ant.454",
+        "lineNum": 454,
+        "sectionId": "unwritten-laws",
+        "source": "ἄγραπτα κἀσφαλῆ θεῶν νόμιμα.",
+        "literal": "unwritten and unshakeable of the gods laws.",
+        "translations": {
+          "fagles_ant": "the unwritten, unfaltering laws of gods.",
+          "jebb_ant": "the unwritten and unfailing statutes of Heaven.",
+          "carson_ant": "the unwritten unalterable laws of god.",
+          "wyckoff_ant": "the unwritten and unfailing laws of the gods.",
+          "woodruff_ant": "the unwritten and unfaltering laws of heaven.",
+          "gibbons_ant": "the gods' unwritten and unshakeable laws.",
+          "brown_ant": "the unwritten and secure laws of the gods."
+        },
+        "notes": "ἄγραπτα νόμιμα (unwritten laws): the foundational text in Western philosophy and political theory for natural law versus positive state law.",
+        "vocab": [
+          { "word": "ἄγραπτα", "lemma": "ἄγραπτος", "meaning": "unwritten", "link": "https://logeion.uchicago.edu/%E1%BD%84%CE%B3%CF%81%CE%B1%CF%80%CF%84%CE%BF%CF%82" },
+          { "word": "νόμιμα", "lemma": "νόμιμος", "meaning": "laws, customs, ordinances", "link": "https://logeion.uchicago.edu/%CE%BD%CF%8C%CE%BC%CE%B9%CE%BC%CE%BF%CF%82" }
+        ]
+      },
+      {
+        "ref": "Ant.523",
+        "lineNum": 523,
+        "sectionId": "joined-in-love",
+        "source": "οὔτοι συνέχθειν, ἀλλὰ συμφileῖν ἔφυν.",
+        "literal": "Truly not to join in hatred, but to join in loving was I born.",
+        "translations": {
+          "fagles_ant": "I was born to join in love, not share in hate.",
+          "jebb_ant": "’Tis not my nature to join in hating, but in loving.",
+          "carson_ant": "I was born to join in love not hate.",
+          "wyckoff_ant": "My nature is for mutual love, not hate.",
+          "woodruff_ant": "I was not born to join in hate, but to join in love.",
+          "gibbons_ant": "I was born to share in love, not share in hate!",
+          "brown_ant": "It is not my nature to join in hatred, but to join in love."
+        },
+        "notes": "Antigone's definitive ethical creed: love (sumphilein) transcends political hostility and tribal factionalism.",
+        "vocab": [
+          { "word": "συμφιλεῖν", "lemma": "συμφιλέω", "meaning": "to join in love, love together", "link": "https://logeion.uchicago.edu/%CF%83%CF%85%CE%BC%CF%86%CE%B9%CE%BB%CE%AD%CF%89" },
+          { "word": "συνέχθειν", "lemma": "συνεχθαίρω", "meaning": "to join in hatred, hate together", "link": "https://logeion.uchicago.edu/%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B8%CE%B1%CE%AF%CF%81%CF%89" }
+        ]
+      }
+    ],
+    "era": "Classical Greece",
+    "period": "5th Century BCE",
+    "sections": [
+      {
+        "id": "ode-to-man",
+        "title": "Chorus: The Ode to Man (Wonders Are Many)",
+        "segmentRefs": ["Ant.332", "Ant.333"]
+      },
+      {
+        "id": "unwritten-laws",
+        "title": "Antigone's Defense: The Unwritten Laws of the Gods",
+        "segmentRefs": ["Ant.450", "Ant.454"]
+      },
+      {
+        "id": "joined-in-love",
+        "title": "Ethical Creed: Born to Join in Love, Not Hate",
+        "segmentRefs": ["Ant.523"]
+      }
+    ]
+  },
+  {
+    "id": "euripides-bacchae",
+    "title": "The Bacchae",
+    "originalTitle": "Βάκχαι",
+    "authorId": "euripides",
+    "language": "Ancient Greek",
+    "date": "c. 405 BCE",
+    "format": "Verse (Tragic Drama / Choral Lyric)",
+    "genre": "Tragedy",
+    "description": "Euripides' final, chilling masterpiece concerning the god Dionysus returning in disguise to his birthplace of Thebes. When the puritanical king Pentheus denies his divinity and attempts to suppress the ecstatic cult, Dionysus exacts a horrifying revenge.",
+    "passageRef": "The God Arrives (1–4), What is Wisdom? (877–881), & Pentheus Entrapped (810–812)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "Ancient Greek", "Tragedy", "Mythology", "Dionysus"],
+    "sourceEditions": [
+      { "id": "greek", "name": "Ancient Greek (OCT)", "year": "c. 405 BCE", "type": "source", "meter": "Iambic Trimeter / Lyric Metres", "format": "Verse" },
+      { "id": "carson_bac", "name": "Anne Carson (2015)", "year": "2015", "type": "translation", "format": "Verse", "highlights": "Bakkhai; razor-sharp contemporary poetic intensity" },
+      { "id": "woodruff_bac", "name": "Paul Woodruff (1998)", "year": "1998", "type": "translation", "format": "Verse", "highlights": "Hackett Classics; clarity and philosophical resonance" },
+      { "id": "arrowsmith_bac", "name": "William Arrowsmith (1959)", "year": "1959", "type": "translation", "format": "Verse", "highlights": "Chicago Greek Tragedies; landmark poetic standard" },
+      { "id": "murray_bac", "name": "Gilbert Murray (1902)", "year": "1902", "type": "translation", "format": "Verse", "highlights": "Edwardian rhymed verse; highly lyrical and atmospheric" },
+      { "id": "seaford_bac", "name": "Richard Seaford (1996)", "year": "1996", "type": "translation", "format": "Prose", "highlights": "Aris & Phillips; authoritative Dionysian ritual scholarship" },
+      { "id": "morwood_bac", "name": "James Morwood (1999)", "year": "1999", "type": "translation", "format": "Prose", "highlights": "Oxford World's Classics; accurate, modern prose" },
+      { "id": "espousito_bac", "name": "Stephen Esposito (2004)", "year": "2004", "type": "translation", "format": "Verse", "highlights": "Focus Classical Library; meticulously metered" }
+    ],
+    "segments": [
+      {
+        "ref": "Bacch.1",
+        "lineNum": 1,
+        "sectionId": "prologue-dionysus",
+        "source": "Ἥκω Διὸς παῖς τήνδε Θηβαίων χθόνα",
+        "literal": "I have come, Zeus's son, to this Theban land,",
+        "translations": {
+          "carson_bac": "I have arrived here in Thebes. I am Dionysos, son of Zeus.",
+          "woodruff_bac": "I have come to this land of Thebes, I, the son of Zeus,",
+          "arrowsmith_bac": "I, Dionysus, son of Zeus, have come to this land of Thebes.",
+          "murray_bac": "Behold, God's son is come unto this land / Of Thebes, even I, Dionysus;",
+          "seaford_bac": "I, the son of Zeus, have come to this land of the Thebans,",
+          "morwood_bac": "I, the son of Zeus, have come to this land of the Thebans—",
+          "espousito_bac": "I have arrived at this land of Thebes, I, Dionysus, son of Zeus,"
+        },
+        "notes": "Dionysus opens the play standing beside the smoldering tomb of his mother Semele, announcing his divine return to punish the royal house that denied him.",
+        "vocab": [
+          { "word": "Ἥκω", "lemma": "ἥκω", "meaning": "I have arrived, come", "link": "https://logeion.uchicago.edu/%E1%BD%A5%CE%BA%CF%89" },
+          { "word": "χθόνα", "lemma": "χθών", "meaning": "earth, land, soil", "link": "https://logeion.uchicago.edu/%CF%87%CE%B8%CF%8E%CE%BD" }
+        ]
+      },
+      {
+        "ref": "Bacch.877",
+        "lineNum": 877,
+        "sectionId": "what-is-wisdom",
+        "source": "τί τὸ σοφόν; ἢ τί τὸ κάλλιον παρὰ θεῶν γέρας ἐν βροτοῖς",
+        "literal": "What is wisdom? Or what is the nobler gift from gods among mortals",
+        "translations": {
+          "carson_bac": "What is wisdom? What gift of the gods is more beautiful than this?",
+          "woodruff_bac": "What is wisdom? What gift from the gods is fairer among mortals",
+          "arrowsmith_bac": "What is wisdom? What is the god's most beautiful gift to man?",
+          "murray_bac": "What else is Wisdom? What of man's endeavour / Or God's high grace so lovely and so great?",
+          "seaford_bac": "What is wisdom? Or what more noble privilege from the gods among mortals",
+          "morwood_bac": "What is wisdom? Or what god-given privilege is more noble among mortals",
+          "espousito_bac": "What is wisdom? Or what prize from the gods is fairer among mortals"
+        },
+        "notes": "The famous refrain of the Bacchae Chorus: true wisdom (to sophon) is not cold rationalism or tyrannical state control, but reverent acceptance of the divine mystery.",
+        "vocab": [
+          { "word": "σοφόν", "lemma": "σοφός", "meaning": "wise, clever, wisdom", "link": "https://logeion.uchicago.edu/%CF%83%CE%BF%CF%86%CF%8C%CF%82" },
+          { "word": "γέρας", "lemma": "γέρας", "meaning": "gift of honor, prize, privilege", "link": "https://logeion.uchicago.edu/%CE%B3%CE%AD%CF%81%CE%B1%CF%82" }
+        ]
+      },
+      {
+        "ref": "Bacch.881",
+        "lineNum": 881,
+        "sectionId": "what-is-wisdom",
+        "source": "ἀεὶ τὸ καλὸν φίλον ἐστίν.",
+        "literal": "always the noble/beautiful dear is.",
+        "translations": {
+          "carson_bac": "What is noble is loved forever.",
+          "woodruff_bac": "What is beautiful is loved forever.",
+          "arrowsmith_bac": "What is noble is loved forever.",
+          "murray_bac": "To hold a hand uplifted over Hate, / And shall not loveliness be loved for ever?",
+          "seaford_bac": "What is fine is always dear.",
+          "morwood_bac": "What is noble is always dear.",
+          "espousito_bac": "Whatever is beautiful is loved forever."
+        },
+        "notes": "ἀεὶ τὸ καλὸν φίλον: Ancient Greek proverb immortalized here by Euripides, celebrating the enduring sovereignty of beauty.",
+        "vocab": [
+          { "word": "καλὸν", "lemma": "καλός", "meaning": "beautiful, noble, fine", "link": "https://logeion.uchicago.edu/%CE%BA%CE%B1%CE%BB%CF%8C%CF%82" }
+        ]
+      },
+      {
+        "ref": "Bacch.810",
+        "lineNum": 810,
+        "sectionId": "pentheus-trap",
+        "source": "βούλῃ σφ’ ἐν ὄρεσι συγκαθημένας ἰδεῖν;",
+        "literal": "Do you wish them in mountains sitting together to see?",
+        "translations": {
+          "carson_bac": "DIONYSOS: Would you like to see them gathered on the mountain?",
+          "woodruff_bac": "DIONYSUS: Would you like to see them sitting together in the mountains?",
+          "arrowsmith_bac": "DIONYSUS: Would you like to see them sitting together in the mountains?",
+          "murray_bac": "DIONYSUS: Wouldst see them sitting on the mountain side?",
+          "seaford_bac": "DIONYSUS: Do you wish to see them sitting together on the mountain?",
+          "morwood_bac": "DIONYSUS: Would you like to see them gathered together in the mountain glens?",
+          "espousito_bac": "DIONYSUS: Would you like to see them sitting together on the mountain?"
+        },
+        "notes": "The psychological turning point: Dionysus touches Pentheus's repressed voyeurism, beginning the king's fatal entrapment.",
+        "vocab": [
+          { "word": "ὄρεσι", "lemma": "ὄρος", "meaning": "mountain, hill", "link": "https://logeion.uchicago.edu/%E1%BD%84%CF%81%CE%BF%CF%82" }
+        ]
+      }
+    ],
+    "era": "Classical Greece",
+    "period": "5th Century BCE",
+    "sections": [
+      {
+        "id": "prologue-dionysus",
+        "title": "Prologue: Dionysus Arrives in Thebes",
+        "segmentRefs": ["Bacch.1"]
+      },
+      {
+        "id": "what-is-wisdom",
+        "title": "Choral Ode: What is Wisdom? (What is Noble is Loved Forever)",
+        "segmentRefs": ["Bacch.877", "Bacch.881"]
+      },
+      {
+        "id": "pentheus-trap",
+        "title": "The Seduction: Dionysus Entraps Pentheus",
+        "segmentRefs": ["Bacch.810"]
+      }
+    ]
   }
 ];
 

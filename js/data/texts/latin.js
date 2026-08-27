@@ -3494,8 +3494,137 @@ export const LATIN_TEXTS = [
     ],
     "era": "Roman Empire",
     "period": "Antiquity"
+  },
+  {
+    "id": "horace-ars-poetica",
+    "title": "Ars Poetica (The Art of Poetry)",
+    "originalTitle": "Epistula ad Pisones (De Arte Poetica)",
+    "authorId": "horace",
+    "language": "Latin",
+    "date": "c. 19 BCE",
+    "format": "Verse (Dactylic Hexameter)",
+    "genre": "Poetics & Literary Criticism",
+    "description": "Horace's foundational verse treatise on literary composition, aesthetic decorum, and poetic craft. Addressing the Piso family, Horace establishes the enduring criteria for Western aesthetics: unity of design, the golden mean, and the dual purpose of poetry to delight and instruct.",
+    "passageRef": "In Medias Res (148), To Delight and Instruct (333–334), & Even Good Homer Nods (358–359)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "Latin", "Poetics", "Philosophy", "Literary Theory"],
+    "sourceEditions": [
+      { "id": "latin", "name": "Original Latin (OCT)", "year": "c. 19 BCE", "type": "source", "meter": "Dactylic Hexameter", "format": "Verse" },
+      { "id": "farrar_ars", "name": "C.S. Calverley & J. Farrar (1870)", "year": "1870", "type": "translation", "format": "Verse", "highlights": "Victorian standard metric verse" },
+      { "id": "fairclough_ars", "name": "H. Rushton Fairclough / Loeb (1926)", "year": "1926", "type": "translation", "format": "Prose", "highlights": "Loeb Classical Library scholarly prose" },
+      { "id": "ferry_ars", "name": "David Ferry (2001)", "year": "2001", "type": "translation", "format": "Verse", "highlights": "FSG; elegant and witty contemporary English verse" },
+      { "id": "rudd_ars", "name": "Niall Rudd (1989)", "year": "1989", "type": "translation", "format": "Verse", "highlights": "Penguin Classics; close scholarly line-by-line verse" },
+      { "id": "conington_ars", "name": "John Conington (1870)", "year": "1870", "type": "translation", "format": "Verse", "highlights": "Oxford rhyming heroic couplets" },
+      { "id": "smart_ars", "name": "Christopher Smart (1756)", "year": "1756", "type": "translation", "format": "Prose", "highlights": "Eighteenth-century prose standard" },
+      { "id": "kline_ars", "name": "A. S. Kline (2005)", "year": "2005", "type": "translation", "format": "Verse", "highlights": "Poetry in Translation modern free verse" }
+    ],
+    "segments": [
+      {
+        "ref": "Ars.148",
+        "lineNum": 148,
+        "sectionId": "in-medias-res",
+        "source": "semper ad eventum festinat et in medias res",
+        "literal": "always toward the outcome hastens and into the middle of things",
+        "translations": {
+          "farrar_ars": "He ever hurries to the issue, and plunges his hearer straight into the midst of things,",
+          "fairclough_ars": "Always he hastens to the issue, and plunges into the middle of things,",
+          "ferry_ars": "he hurries straight to the point, and plunges his listener in medias res,",
+          "rudd_ars": "he always hurries to the climax and plunges his hearer into the middle of things,",
+          "conington_ars": "Still hurrying to the point, he draws his scene / And plunges in the midst of the affair,",
+          "smart_ars": "He always hastens to the catastrophe, and hurries his listener into the midst of things,",
+          "kline_ars": "he always hastens to the outcome, and plunges into the midst of things,"
+        },
+        "notes": "in medias res (into the middle of things): Horace's most famous critical rule for epic storytelling, praising Homer for launching directly into the action rather than narrating from the birth of Helen.",
+        "vocab": [
+          { "word": "medias", "lemma": "medius", "meaning": "middle, midst", "link": "https://logeion.uchicago.edu/medius" },
+          { "word": "festinat", "lemma": "festino", "meaning": "hastens, hurries", "link": "https://logeion.uchicago.edu/festino" }
+        ]
+      },
+      {
+        "ref": "Ars.333",
+        "lineNum": 333,
+        "sectionId": "delight-and-instruct",
+        "source": "Aut prodesse volunt aut delectare poetae",
+        "literal": "Either to benefit/instruct wish or to delight poets",
+        "translations": {
+          "farrar_ars": "Poets aim either to profit or to please,",
+          "fairclough_ars": "Poets aim either to benefit, or to amuse,",
+          "ferry_ars": "Poets desire either to give instruction or else to provide pleasure,",
+          "rudd_ars": "Poets aim either to do good or to give pleasure,",
+          "conington_ars": "Poets would either profit or delight,",
+          "smart_ars": "Poets desire either to profit or to please,",
+          "kline_ars": "Poets wish either to benefit or to please,"
+        },
+        "notes": "prodesse et delectare: The twin aims of classical poetry — to instruct (moral instruction) and delight (aesthetic pleasure).",
+        "vocab": [
+          { "word": "prodesse", "lemma": "prosum", "meaning": "to be useful, benefit, instruct", "link": "https://logeion.uchicago.edu/prosum" },
+          { "word": "delectare", "lemma": "delecto", "meaning": "to delight, charm, please", "link": "https://logeion.uchicago.edu/delecto" }
+        ]
+      },
+      {
+        "ref": "Ars.334",
+        "lineNum": 334,
+        "sectionId": "delight-and-instruct",
+        "source": "aut simul et iucunda et idonea dicere vitae.",
+        "literal": "or at the same time both pleasing and fitting to say for life.",
+        "translations": {
+          "farrar_ars": "or to say things which are at once pleasant and helpful for life.",
+          "fairclough_ars": "or to utter words at once both pleasing and helpful to life.",
+          "ferry_ars": "or to say what is both delightful and serviceable to human life.",
+          "rudd_ars": "or to say what is both enjoyable and serviceable for life.",
+          "conington_ars": "Or blend in one the useful and the sweet.",
+          "smart_ars": "or to deliver at once what is both agreeable and profitable for life.",
+          "kline_ars": "or to speak of what is at once delightful and helpful to life."
+        },
+        "notes": "The synthesis of art and wisdom: the greatest literature combines pleasure with ethical truth.",
+        "vocab": [
+          { "word": "iucunda", "lemma": "iucundus", "meaning": "pleasant, delightful", "link": "https://logeion.uchicago.edu/iucundus" },
+          { "word": "idonea", "lemma": "idoneus", "meaning": "suitable, fit, serviceable", "link": "https://logeion.uchicago.edu/idoneus" }
+        ]
+      },
+      {
+        "ref": "Ars.359",
+        "lineNum": 359,
+        "sectionId": "homer-nods",
+        "source": "quandoque bonus dormitat Homerus.",
+        "literal": "whenever good slumbers/nods Homer.",
+        "translations": {
+          "farrar_ars": "and yet I am indignant whenever good Homer nods.",
+          "fairclough_ars": "and yet I am indignant when good Homer nods.",
+          "ferry_ars": "and yet I feel grieved whenever even good Homer nods.",
+          "rudd_ars": "and yet I feel annoyed whenever good Homer nods.",
+          "conington_ars": "Yet grieve when Homer makes a slip or two.",
+          "smart_ars": "yet I am sorry whenever good Homer nods.",
+          "kline_ars": "and yet I'm annoyed whenever good Homer nods."
+        },
+        "notes": "bonus dormitat Homerus ('even good Homer nods'): Horace's generous acknowledgment that even the greatest literary geniuses make occasional minor lapses.",
+        "vocab": [
+          { "word": "dormitat", "lemma": "dormito", "meaning": "to nod off, sleep, slumber", "link": "https://logeion.uchicago.edu/dormito" }
+        ]
+      }
+    ],
+    "era": "Augustan Rome",
+    "period": "1st Century BCE",
+    "sections": [
+      {
+        "id": "in-medias-res",
+        "title": "Epic Craft: Plunging In Medias Res (Line 148)",
+        "segmentRefs": ["Ars.148"]
+      },
+      {
+        "id": "delight-and-instruct",
+        "title": "The Dual Aim: To Delight and Instruct (Lines 333–334)",
+        "segmentRefs": ["Ars.333", "Ars.334"]
+      },
+      {
+        "id": "homer-nods",
+        "title": "Critical Generosity: Even Good Homer Nods (Line 359)",
+        "segmentRefs": ["Ars.359"]
+      }
+    ]
   }
 ];
+
 
 
 

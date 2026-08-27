@@ -208,10 +208,101 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
             "link": "https://en.wiktionary.org"
           }
         ]
+      },
+      {
+        "ref": "Beo.710",
+        "lineNum": 710,
+        "sectionId": "grendel-approaches",
+        "source": "Ða com of more under misthleoþum Grendel gongan, godes yrre bær;",
+        "literal": "Then came from the moor under the misty slopes Grendel walking, God's wrath bore;",
+        "translations": {
+          "heaney": "In off the moors, down through the mist-bands / God-cursed Grendel came greedily loping.",
+          "tolkien": "Then from the moorland beneath the misty fells came Grendel treading, and he bore God's wrath;",
+          "gummere": "Then from the moorland, by misty crags, / with God's wrath laden, Grendel came.",
+          "hall": "Then came from the moorland under misty hills / Grendel stalking, God's anger he bore;",
+          "kennedy": "Down off the moorlands' misting fells / Came Grendel stalking; God's anger he bore.",
+          "alexander": "Down off the misty moorlands Grendel / came stalking: he bore the curse of God.",
+          "crossley_holland": "Then under a cloud of night, from the misty moors / Grendel came stalking; he had God's anger on him.",
+          "ringler": "Then from the moorlands, under misty heights, / came Grendel stalking; he bore the wrath of God;",
+          "headley": "Then out of the night came Grendel, dragging God’s wrath behind him like a kill."
+        },
+        "notes": "Grendel emerges from the shadowy boundary spaces (mör) bearing the primal curse of Cain against divine order.",
+        "vocab": [
+          {
+            "word": "misthleoþum",
+            "lemma": "misthleoþ",
+            "meaning": "misty slope, misty cliff",
+            "link": "https://en.wiktionary.org"
+          },
+          {
+            "word": "yrre",
+            "lemma": "ierre",
+            "meaning": "anger, wrath",
+            "link": "https://en.wiktionary.org"
+          }
+        ]
+      },
+      {
+        "ref": "Beo.2802",
+        "lineNum": 2802,
+        "sectionId": "beowulf-barrow",
+        "source": "Hatað heaðomære hlæw gewyrcean æfter bæle æt brimes nosan;",
+        "literal": "Command battle-famous a mound to construct after the pyre at ocean's headland;",
+        "translations": {
+          "heaney": "Order my troop to construct a barrow / on a headland on the coast, after my pyre has cooled.",
+          "tolkien": "Bid the battle-famed construct a barrow after the pyre at the sea's promontory;",
+          "gummere": "Bid men of battle build me a tomb, / fair after fire, on the foreshore here,",
+          "hall": "Bid the battle-renowned build a barrow / after the pyre at the sea's headland;",
+          "kennedy": "Bid the battle-famed raise a mound / After the burning, on the coastal headland;",
+          "alexander": "Bid the battle-brave build a mound / after the pyre on the promontory by the sea;",
+          "crossley_holland": "Command the battle-famed to build a barrow / after the pyre at the headland by the sea;",
+          "ringler": "Bid the men of battle build a barrow / after the burning on the ocean's headland;",
+          "headley": "Build me a tomb, a barrow by the sea, so sailors will see my monument on the cliffs."
+        },
+        "notes": "Beowulf's dying wish: a monumental headland barrow (Hronesness) that sailors across the ocean may remember his name and heroic protection.",
+        "vocab": [
+          {
+            "word": "hlæw",
+            "lemma": "hlæw",
+            "meaning": "burial mound, barrow, hill",
+            "link": "https://en.wiktionary.org"
+          },
+          {
+            "word": "brimes",
+            "lemma": "brim",
+            "meaning": "sea, ocean, surf",
+            "link": "https://en.wiktionary.org"
+          }
+        ]
       }
     ],
     "era": "Early Medieval",
-    "period": "Middle Ages"
+    "period": "Middle Ages",
+    "sections": [
+      {
+        "id": "proem-spear-danes",
+        "title": "Prologue: The Spear-Danes of Old (Hwæt!)",
+        "segmentRefs": [
+          "Beo.1",
+          "Beo.2",
+          "Beo.3"
+        ]
+      },
+      {
+        "id": "grendel-approaches",
+        "title": "Night in Heorot: Grendel Stalks from the Moor",
+        "segmentRefs": [
+          "Beo.710"
+        ]
+      },
+      {
+        "id": "beowulf-barrow",
+        "title": "The Last Battle: Beowulf's Barrow on the Sea-Cliffs",
+        "segmentRefs": [
+          "Beo.2802"
+        ]
+      }
+    ]
   },
   {
     "id": "dante-inferno",
@@ -543,6 +634,76 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
             "link": "https://en.wiktionary.org"
           }
         ]
+      },
+      {
+        "ref": "Inf.3.1",
+        "lineNum": 1,
+        "sectionId": "canto-3",
+        "source": "Per me si va ne la città dolente,",
+        "literal": "Through me one goes into the city of sorrow,",
+        "translations": {
+          "mandelbaum": "THROUGH ME THE WAY INTO THE SUFFERING CITY,",
+          "longfellow": "“Through me the way is to the city dolent;",
+          "ciardi": "I AM THE WAY INTO THE CITY OF WOE.",
+          "cary": "“THROUGH me you pass into the city of woe:",
+          "hollander": "THROUGH ME THE WAY INTO THE SUFFERING CITY,",
+          "sayers": "THROUGH ME THE ROAD TO THE CITY OF GRIEF DOTH GO:",
+          "pinsky": "THROUGH ME YOU ENTER INTO THE CITY OF WOES,",
+          "musa": "THROUGH ME YOU ENTER INTO THE CITY OF GRIEFS,",
+          "kirkpatrick": "Through me the way into the city of woe,",
+          "james": "Through me you enter the sad city, through",
+          "esolen": "THROUGH ME YOU PASS INTO THE GRIEVING REALM,"
+        },
+        "notes": "The famous inscription over the Gates of Hell, written in anaphora ('Per me si va...') in bold unyielding tercets.",
+        "vocab": [
+          {
+            "word": "dolente",
+            "lemma": "dolente",
+            "meaning": "sorrowful, grieving, painful",
+            "link": "https://en.wiktionary.org"
+          },
+          {
+            "word": "città",
+            "lemma": "città",
+            "meaning": "city, realm",
+            "link": "https://en.wiktionary.org"
+          }
+        ]
+      },
+      {
+        "ref": "Inf.3.9",
+        "lineNum": 9,
+        "sectionId": "canto-3",
+        "source": "Lasciate ogne speranza, voi ch'intrate.",
+        "literal": "Abandon every hope, you who enter.",
+        "translations": {
+          "mandelbaum": "ABANDON EVERY HOPE, WHO ENTER HERE.",
+          "longfellow": "All hope abandon, ye who enter in!”",
+          "ciardi": "ABANDON EVERY HOPE, ALL YOU WHO ENTER.",
+          "cary": "All hope abandon, ye who enter here.”",
+          "hollander": "ABANDON EVERY HOPE, ALL YOU WHO ENTER.",
+          "sayers": "LAY DOWN ALL HOPE, YOU THAT GO IN BY ME.",
+          "pinsky": "ABANDON ALL HOPE, YOU WHO ENTER HERE.",
+          "musa": "ABANDON EVERY HOPE, ALL YOU WHO ENTER.",
+          "kirkpatrick": "Abandon every hope, you who come in.",
+          "james": "Abandon every hope, you who go in.",
+          "esolen": "ABANDON EVERY HOPE, ALL YOU WHO ENTER."
+        },
+        "notes": "Lasciate ogne speranza: The supreme terrifying imperative of the Inferno. For Dante, Hell is defined by the permanent extinguishing of Christian hope (spes).",
+        "vocab": [
+          {
+            "word": "speranza",
+            "lemma": "speranza",
+            "meaning": "hope",
+            "link": "https://en.wiktionary.org"
+          },
+          {
+            "word": "Lasciate",
+            "lemma": "lasciare",
+            "meaning": "abandon, leave behind (imperative)",
+            "link": "https://en.wiktionary.org"
+          }
+        ]
       }
     ],
     "era": "Late Medieval Italy",
@@ -555,6 +716,14 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
           "Inf.1.1",
           "Inf.1.2",
           "Inf.1.3"
+        ]
+      },
+      {
+        "id": "canto-3",
+        "title": "Canto 3: The Gate of Hell (Abandon Every Hope)",
+        "segmentRefs": [
+          "Inf.3.1",
+          "Inf.3.9"
         ]
       },
       {
@@ -1076,5 +1245,131 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
     ],
     "era": "Spanish Golden Age",
     "period": "17th Century CE"
+  },
+  {
+    "id": "milton-paradise-lost",
+    "title": "Paradise Lost",
+    "originalTitle": "Paradise Lost: A Poem in Twelve Books",
+    "authorId": "milton",
+    "language": "Early Modern English",
+    "date": "1667 / 1674 CE",
+    "format": "Verse (Heroic Blank Verse / Iambic Pentameter)",
+    "genre": "Theological Epic & Heroic Poetry",
+    "description": "John Milton's monumental English epic justifying the ways of God to men, recounting Satan's cosmic rebellion, the War in Heaven, and the Fall of Man in the Garden of Eden. In unrhymed heroic blank verse, Milton created the supreme religious epic of the English language.",
+    "passageRef": "Of Man's First Disobedience (1.1–6), The Mind is Its Own Place (1.254–255), & The World Was All Before Them (12.646–649)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "English", "Epic", "Theology", "Milton"],
+    "sourceEditions": [
+      { "id": "milton_1674", "name": "Milton Original Text (1674 2nd Edition)", "year": "1674", "type": "source", "meter": "Heroic Blank Verse", "format": "Verse" },
+      { "id": "bentley_pl", "name": "Richard Bentley (1732 Emended Edition)", "year": "1732", "type": "translation", "format": "Verse", "highlights": "Famous Enlightenment critical edition with speculative classical emendations" },
+      { "id": "newton_pl", "name": "Thomas Newton (1749 Variorum)", "year": "1749", "type": "translation", "format": "Verse", "highlights": "Foundational eighteenth-century variorum scholarly edition" },
+      { "id": "keightley_pl", "name": "Thomas Keightley (1859)", "year": "1859", "type": "translation", "format": "Verse", "highlights": "Victorian literary and linguistic critical commentary text" },
+      { "id": "masson_pl", "name": "David Masson (1874 Cambridge Edition)", "year": "1874", "type": "translation", "format": "Verse", "highlights": "Definitive Victorian Cambridge scholarly text" },
+      { "id": "verity_pl", "name": "A. W. Verity (1910 Pitt Press)", "year": "1910", "type": "translation", "format": "Verse", "highlights": "Pitt Press classical commentary edition" },
+      { "id": "fowler_pl", "name": "Alastair Fowler (1968/2007 Longman)", "year": "2007", "type": "translation", "format": "Verse", "highlights": "Longman Annotated English Poets; definitive modern scholarly edition" },
+      { "id": "flannagan_pl", "name": "Roy Flannagan (1998 Riverside)", "year": "1998", "type": "translation", "format": "Verse", "highlights": "The Riverside Milton; modern standard university edition" }
+    ],
+    "segments": [
+      {
+        "ref": "PL.1.1",
+        "lineNum": 1,
+        "sectionId": "mans-first-disobedience",
+        "source": "Of Mans First Disobedience, and the Fruit",
+        "literal": "Of Man's first disobedience, and the fruit",
+        "translations": {
+          "bentley_pl": "Of Man's First Disobedience, and the Fruit",
+          "newton_pl": "Of Man's first disobedience, and the fruit",
+          "keightley_pl": "Of Man's first disobedience, and the fruit",
+          "masson_pl": "Of Man's first disobedience, and the fruit",
+          "verity_pl": "Of Man's first disobedience, and the fruit",
+          "fowler_pl": "Of man's first disobedience, and the fruit",
+          "flannagan_pl": "Of Man's First Disobedience, and the Fruit"
+        },
+        "notes": "Milton opens with a sweeping 16-line periodic sentence that invokes the Heavenly Muse (Urania) above Mount Sinai and Sion hill.",
+        "vocab": [
+          { "word": "Disobedience", "lemma": "disobedience", "meaning": "transgression, failure to obey divine law", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "PL.1.254",
+        "lineNum": 254,
+        "sectionId": "mind-its-own-place",
+        "source": "The mind is its own place, and in it self",
+        "literal": "The mind is its own place, and in itself",
+        "translations": {
+          "bentley_pl": "The Mind is its own Place, and in it self",
+          "newton_pl": "The mind is its own place, and in itself",
+          "keightley_pl": "The mind is its own place, and in itself",
+          "masson_pl": "The mind is its own place, and in itself",
+          "verity_pl": "The mind is its own place, and in itself",
+          "fowler_pl": "The mind is its own place, and in itself",
+          "flannagan_pl": "The mind is its own place, and in itself"
+        },
+        "notes": "Satan's declaration of radical intellectual autonomy in Hell: the mind constructs its own internal heaven or hell.",
+        "vocab": [
+          { "word": "place", "lemma": "place", "meaning": "dwelling, state of being, realm", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "PL.1.255",
+        "lineNum": 255,
+        "sectionId": "mind-its-own-place",
+        "source": "Can make a Heav'n of Hell, a Hell of Heav'n.",
+        "literal": "Can make a Heaven of Hell, a Hell of Heaven.",
+        "translations": {
+          "bentley_pl": "Can make a Heaven of Hell, a Hell of Heaven.",
+          "newton_pl": "Can make a Heav'n of Hell, a Hell of Heav'n.",
+          "keightley_pl": "Can make a Heaven of Hell, a Hell of Heaven.",
+          "masson_pl": "Can make a Heaven of Hell, a Hell of Heaven.",
+          "verity_pl": "Can make a Heaven of Hell, a Hell of Heaven.",
+          "fowler_pl": "Can make a heaven of hell, a hell of heaven.",
+          "flannagan_pl": "Can make a Heav'n of Hell, a Hell of Heav'n."
+        },
+        "notes": "The chiasmus ('Heav'n of Hell, a Hell of Heav'n') underscores the psychological sovereignty and ultimate spiritual tragedy of Lucifer.",
+        "vocab": [
+          { "word": "Heav'n", "lemma": "heaven", "meaning": "the divine realm of light and blessedness", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "PL.12.646",
+        "lineNum": 646,
+        "sectionId": "world-was-all-before-them",
+        "source": "The World was all before them, where to choose",
+        "literal": "The World was all before them, where to choose",
+        "translations": {
+          "bentley_pl": "The World was all before them, where to choose",
+          "newton_pl": "The world was all before them, where to choose",
+          "keightley_pl": "The world was all before them, where to choose",
+          "masson_pl": "The world was all before them, where to choose",
+          "verity_pl": "The world was all before them, where to choose",
+          "fowler_pl": "The world was all before them, where to choose",
+          "flannagan_pl": "The World was all before them, where to choose"
+        },
+        "notes": "The poignant conclusion of Paradise Lost: Adam and Eve leave Eden hand in hand, stepping into human history with providence as their guide.",
+        "vocab": [
+          { "word": "World", "lemma": "world", "meaning": "the earth, mortal existence, mortal life", "link": "https://en.wiktionary.org" }
+        ]
+      }
+    ],
+    "era": "Renaissance / Restoration England",
+    "period": "17th Century CE",
+    "sections": [
+      {
+        "id": "mans-first-disobedience",
+        "title": "Book 1: Of Man's First Disobedience (The Invocation)",
+        "segmentRefs": ["PL.1.1"]
+      },
+      {
+        "id": "mind-its-own-place",
+        "title": "Book 1: Satan in Pandemonium (The Mind is Its Own Place)",
+        "segmentRefs": ["PL.1.254", "PL.1.255"]
+      },
+      {
+        "id": "world-was-all-before-them",
+        "title": "Book 12: Departure from Eden (The World Was All Before Them)",
+        "segmentRefs": ["PL.12.646"]
+      }
+    ]
   }
 ];
+

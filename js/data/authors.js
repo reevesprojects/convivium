@@ -682,8 +682,33 @@ export const AUTHORS = [
     "genres": ["Sacred Scripture", "Epic Poetry", "Philosophy"],
     "textCount": 1,
     "image": "🕉️"
+  },
+  {
+    "id": "solomon",
+    "name": "King Solomon (Qoheleth)",
+    "originalName": "שְׁלֹמֹה (Šəlōmōh)",
+    "language": "Biblical Hebrew",
+    "era": "Traditional 10th c. BCE / Text c. 5th–3rd c. BCE",
+    "period": "Ancient Israel & Levant",
+    "bio": "Traditional author and focal sage of Hebrew Wisdom literature, traditionally credited with Proverbs, Song of Songs, and Ecclesiastes (Qoheleth). The speaker in Ecclesiastes assumes the mantle of the son of David, King in Jerusalem, examining all human labor under the sun.",
+    "genres": ["Wisdom Literature", "Poetry", "Philosophy"],
+    "textCount": 1,
+    "image": "👑"
+  },
+  {
+    "id": "milton",
+    "name": "John Milton",
+    "originalName": "John Milton",
+    "language": "English",
+    "era": "1608 – 1674 CE",
+    "period": "Renaissance / Restoration England",
+    "bio": "English poet, polemicist, and civil servant under Oliver Cromwell's Commonwealth. Blind in his later years, he dictated his masterpiece Paradise Lost (1667), achieving the supreme theological epic in the English language through mastery of Latinate syntax and unrhymed blank verse.",
+    "genres": ["Epic Poetry", "Theological Verse", "Drama"],
+    "textCount": 1,
+    "image": "🕊️"
   }
 ];
+
 
 
 
