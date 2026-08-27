@@ -105,6 +105,11 @@ export const ParallelView = {
           </div>
         </div>
 
+        <div class="mobile-interlinear-hint">
+          <span>📱 Small screen detected: For vertical mobile reading, switch to </span>
+          <a href="#/compare/${this.text.id}?mode=interlinear" class="mobile-hint-link">Interlinear Mode ➔</a>
+        </div>
+
         <div class="studio-controls-group">
           <!-- View Switcher -->
           <div class="toggle-group">

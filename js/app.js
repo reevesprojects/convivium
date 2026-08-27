@@ -75,7 +75,11 @@ const App = {
       const targetSeg = params.get("segment");
       this.contentEl.classList.add("fluid");
 
-      if (mode === "interlinear") {
+      // Default to interlinear on narrow mobile viewports if no explicit mode requested
+      const isMobile = window.innerWidth <= 640;
+      const effectiveMode = mode || (isMobile ? "interlinear" : "parallel");
+
+      if (effectiveMode === "interlinear") {
         InterlinearView.init(paramId, targetSeg);
         InterlinearView.render(this.contentEl);
       } else {

@@ -266,6 +266,30 @@ input, select, textarea {
   padding: 0 var(--space-lg);
   box-shadow: var(--shadow-sm);
   transition: background-color var(--transition-normal), border-color var(--transition-normal);
+  gap: var(--space-sm);
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    padding: 0 var(--space-sm);
+  }
+
+  .nav-links {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    max-width: 50vw;
+  }
+
+  .nav-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 0.35rem 0.5rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
 }
 
 .brand-section {
