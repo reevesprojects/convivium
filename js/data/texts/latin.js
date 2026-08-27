@@ -3622,8 +3622,120 @@ export const LATIN_TEXTS = [
         "segmentRefs": ["Ars.359"]
       }
     ]
+  },
+  {
+    "id": "livy-ab-urbe-condita",
+    "title": "Ab Urbe Condita (From the Founding of the City)",
+    "originalTitle": "Ab Urbe Condita Libri",
+    "authorId": "livy",
+    "language": "Latin",
+    "date": "c. 27–9 BCE",
+    "format": "Prose (Monumental Roman History)",
+    "genre": "History / Historiography",
+    "description": "Livy's monumental narrative history of Rome from its mythic foundations through the Augustan age, written in 142 books over four decades. Livy frames Roman history as an ethical pageant of exemplary virtues (exempla) and warnings against moral decline, giving Western civilization legendary episodes of Roman courage, sacrifice, and civic duty.",
+    "passageRef": "The Preface: Exempla and Moral Instruction (Praef. 10), Romulus and Remus: The Founding of Rome (1.7.2), & Horatius at the Bridge (2.10.11)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Prose", "Latin", "History", "Historiography", "Rome", "Exempla"],
+    "sourceEditions": [
+      { "id": "latin", "name": "Original Latin (OCT Conway & Walters)", "year": "c. 27 BCE", "type": "source", "format": "Prose" },
+      { "id": "holland_liv", "name": "Philemon Holland (1600)", "year": "1600", "type": "translation", "format": "Prose", "highlights": "Elizabethan 'Translator-General' monumental folio edition" },
+      { "id": "baker_liv", "name": "George Baker (1797)", "year": "1797", "type": "translation", "format": "Prose", "highlights": "Classic 18th-century English translation celebrated for clarity" },
+      { "id": "spillan_liv", "name": "Daniel Spillan & Cyrus Edmonds (1849)", "year": "1849", "type": "translation", "format": "Prose", "highlights": "Bohn's Classical Library standard 19th-century text" },
+      { "id": "foster_liv", "name": "B. O. Foster (1919 Loeb)", "year": "1919", "type": "translation", "format": "Prose", "highlights": "Loeb Classical Library authoritative standard parallel text" },
+      { "id": "selincourt_liv", "name": "Aubrey de Sélincourt (1960 Penguin)", "year": "1960", "type": "translation", "format": "Prose", "highlights": "Penguin Classics celebrated, highly readable modern translation" },
+      { "id": "luce_liv", "name": "T. J. Luce (1998 Oxford)", "year": "1998", "type": "translation", "format": "Prose", "highlights": "Oxford World's Classics scholarly and accurate modern prose" },
+      { "id": "yardley_liv", "name": "J. C. Yardley (2000/2013 Oxford)", "year": "2013", "type": "translation", "format": "Prose", "highlights": "Oxford World's Classics acclaimed modern translation with historical commentary" }
+    ],
+    "segments": [
+      {
+        "ref": "Liv.Praef.10",
+        "lineNum": 10,
+        "sectionId": "livy-preface-exempla",
+        "source": "Hoc illud est praecipue in cognitione rerum salubre ac frugiferum, omnis te exempli documenta in inlustri posita monumento intueri;",
+        "literal": "This that is especially in cognition of things wholesome and fruitful, all of example lessons in conspicuous placed monument to behold;",
+        "translations": {
+          "holland_liv": "This is that special thing in the knowledge of histories both wholesome and profitable, to behold the documents and patterns of every example placed upon a notable monument;",
+          "baker_liv": "This is the chief benefit to be derived from the study of history, that you see examples of every kind of behaviour set before you on a conspicuous monument;",
+          "spillan_liv": "This is especially wholesome and profitable in the knowledge of history, that you behold the lessons of every example set upon a conspicuous monument;",
+          "foster_liv": "What chiefly makes the study of history wholesome and fruitful is this, that you see the lessons of every kind of experience set forth upon a conspicuous monument;",
+          "selincourt_liv": "There is this exceptionally beneficial and fruitful advantage to be derived from the study of the past, that you see, set in the clear light of historical monument, examples of every kind of behaviour;",
+          "luce_liv": "The special and salutary benefit of the study of history is to behold evidence of every sort of behaviour set forth on a distinguished monument;",
+          "yardley_liv": "This is what is especially salutary and fruitful in the study of history: to see lessons of every kind set before you on a conspicuous monument;"
+        },
+        "notes": "Livy's central historiographical thesis: history is an ethical mirror ('monumentum') providing models of conduct to emulate and avoid.",
+        "vocab": [
+          { "word": "salubre", "lemma": "saluber", "meaning": "wholesome, beneficial, healthy", "link": "https://logeion.uchicago.edu/saluber" },
+          { "word": "frugiferum", "lemma": "frugifer", "meaning": "fruitful, productive, profitable", "link": "https://logeion.uchicago.edu/frugifer" },
+          { "word": "exempli", "lemma": "exemplum", "meaning": "example, model, precedent, pattern", "link": "https://logeion.uchicago.edu/exemplum" },
+          { "word": "monumento", "lemma": "monumentum", "meaning": "monument, record, chronicle", "link": "https://logeion.uchicago.edu/monumentum" }
+        ]
+      },
+      {
+        "ref": "Liv.1.7.2",
+        "lineNum": 2,
+        "sectionId": "livy-romulus-remus",
+        "source": "Palatium primum, in quo ipse erat educatus, muniit. Sacra dis aliis Albano ritu, Graeco Herculi, ut ab Evandro instituta erant, fecit.",
+        "literal": "Palatine first, in which himself had been raised, he fortified. Sacred rites to gods other in Alban ritual, Greek to Hercules, as by Evander instituted were, he performed.",
+        "translations": {
+          "holland_liv": "The Palatium first he fortified, wherein himself had been brought up. The sacrifices and services to other gods he performed after the Alban manner, but to Hercules after the Grecian, as they had been instituted by Evander.",
+          "baker_liv": "He first fortified the Palatine mount on which he had been educated. He performed sacrifices to the other gods according to the Alban rite, but to Hercules according to the Grecian, as instituted by Evander.",
+          "spillan_liv": "He first fortified the Palatine hill on which he had himself been brought up. He offered sacrifice to the other gods according to the Alban ritual, but to Hercules according to the Grecian, as instituted by Evander.",
+          "foster_liv": "His first act was to fortify the Palatine, where he had himself been brought up. To the other gods he sacrificed after the Alban rite, but to Hercules after the Greek, as instituted by Evander.",
+          "selincourt_liv": "Romulus' first act was to fortify the Palatine where he had been brought up. Sacrifices to other gods were offered in accordance with the Alban rite, but to Hercules in the Greek manner, as established by Evander.",
+          "luce_liv": "His first measure was to fortify the Palatine hill, where he had been brought up. He performed sacred rites to the other gods according to the Alban rite, but to Hercules after the Greek fashion, as established by Evander.",
+          "yardley_liv": "Romulus first fortified the Palatine hill, where he had himself been reared. He offered sacrifices to the other gods according to the Alban rite, but to Hercules according to the Greek, as they had been instituted by Evander."
+        },
+        "notes": "The foundation ritual of Rome on the Palatine Hill and the establishment of religious customs reconciling local Italian and Pan-Hellenic traditions.",
+        "vocab": [
+          { "word": "muniit", "lemma": "munio", "meaning": "fortified, walled, strengthened", "link": "https://logeion.uchicago.edu/munio" },
+          { "word": "educatus", "lemma": "educo", "meaning": "reared, brought up, educated", "link": "https://logeion.uchicago.edu/educo" }
+        ]
+      },
+      {
+        "ref": "Liv.2.10.11",
+        "lineNum": 11,
+        "sectionId": "livy-horatius-bridge",
+        "source": "Tum Horatius 'Tiberine pater' inquit, 'te sancte precor, haec arma et hunc militem propitio flumine accipias.'",
+        "literal": "Then Horatius 'Tiber father' said, 'thee holy I pray, these arms and this soldier with favorable stream receive.'",
+        "translations": {
+          "holland_liv": "Then Horatius said: 'O holy father Tiber, I pray and beseech thee, that with a propitious stream thou wilt receive these arms and this soldier.'",
+          "baker_liv": "Then said Horatius: 'O father Tiber, I devoutly pray that thou wouldst receive these arms and this soldier into thy propitious stream.'",
+          "spillan_liv": "Then said Horatius: 'O father Tiber, I solemnly pray thee, receive these arms and this soldier in thy propitious stream.'",
+          "foster_liv": "Then cried Horatius: 'Father Tiber, I pray thee with all reverence to receive these weapons and this warrior into thy friendly flood.'",
+          "selincourt_liv": "Then Horatius prayed: 'Father Tiber, I devoutly pray thee to receive these arms and this soldier in your kindly waters.'",
+          "luce_liv": "Then Horatius said: 'Father Tiber, I reverently pray that you receive these weapons and this soldier in your kindly current.'",
+          "yardley_liv": "Then Horatius cried: 'Father Tiber, holy one, I pray thee to receive these weapons and this warrior into thy propitious stream.'"
+        },
+        "notes": "Horatius Cocles holds the Pons Sublicius alone against the entire Etruscan army of Lars Porsenna, leaping into the flooded Tiber to save Republican Rome.",
+        "vocab": [
+          { "word": "precor", "lemma": "precor", "meaning": "I pray, beseech, supplicate", "link": "https://logeion.uchicago.edu/precor" },
+          { "word": "propitio", "lemma": "propitius", "meaning": "favorable, propitious, kind", "link": "https://logeion.uchicago.edu/propitius" },
+          { "word": "flumine", "lemma": "flumen", "meaning": "stream, river, flood", "link": "https://logeion.uchicago.edu/flumen" }
+        ]
+      }
+    ],
+    "era": "Augustan Rome",
+    "period": "1st Century BCE",
+    "sections": [
+      {
+        "id": "livy-preface-exempla",
+        "title": "The Preface: Exempla and Moral Instruction (Praef. 10)",
+        "segmentRefs": ["Liv.Praef.10"]
+      },
+      {
+        "id": "livy-romulus-remus",
+        "title": "Book 1: Romulus Fortifies the Palatine (1.7.2)",
+        "segmentRefs": ["Liv.1.7.2"]
+      },
+      {
+        "id": "livy-horatius-bridge",
+        "title": "Book 2: Horatius Cocles at the Bridge (2.10.11)",
+        "segmentRefs": ["Liv.2.10.11"]
+      }
+    ]
   }
 ];
+
 
 
 

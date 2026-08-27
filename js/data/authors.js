@@ -706,8 +706,21 @@ export const AUTHORS = [
     "genres": ["Epic Poetry", "Theological Verse", "Drama"],
     "textCount": 1,
     "image": "🕊️"
+  },
+  {
+    "id": "aristophanes",
+    "name": "Aristophanes",
+    "originalName": "Ἀριστοφάνης",
+    "language": "Ancient Greek",
+    "era": "c. 446 – c. 386 BCE",
+    "period": "Classical Athens",
+    "bio": "The supreme master of ancient Greek Old Comedy (archaia). His surviving eleven plays — including The Clouds, The Frogs, The Birds, and Lysistrata — blend political satire, philosophical lampoon, bawdy farce, and soaring lyric poetry to illuminate and critique the democratic polis during the Peloponnesian War.",
+    "genres": ["Old Comedy", "Satire", "Drama", "Lyric Poetry"],
+    "textCount": 1,
+    "image": "🎭"
   }
 ];
+
 
 
 

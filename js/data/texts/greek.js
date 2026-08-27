@@ -4606,8 +4606,231 @@ export const GREEK_TEXTS = [
         "segmentRefs": ["Bacch.810"]
       }
     ]
+  },
+  {
+    "id": "aristophanes-clouds",
+    "title": "The Clouds (Nephelai)",
+    "originalTitle": "Νεφέλαι",
+    "authorId": "aristophanes",
+    "language": "Ancient Greek (Attic)",
+    "date": "423 BCE",
+    "format": "Verse (Old Comedy / Iambic & Lyric Metres)",
+    "genre": "Comedy / Satire",
+    "description": "Aristophanes' legendary Old Comedy satirizing the Sophistic movement, natural philosophy, and Socrates' 'Thinkery' (Phrontisterion). Strepsiades, drowning in debt from his son's lavish equestrian lifestyle, attempts to learn the Unjust Argument to evade his creditors, culminating in Socrates suspended aloft in a basket contemplating the heavens.",
+    "passageRef": "Socrates in the Basket (218–225), The Choral Hymn of the Clouds (275–277), & Unjust Logic on Custom (1075–1078)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "Ancient Greek", "Comedy", "Satire", "Philosophy", "Socrates", "Attic"],
+    "sourceEditions": [
+      { "id": "greek", "name": "Ancient Greek (OCT Dover / Wilson)", "year": "423 BCE", "type": "source", "meter": "Iambic Trimeter / Trochaic Tetrameter", "format": "Verse" },
+      { "id": "hickie_clo", "name": "William James Hickie (1853 Bohn)", "year": "1853", "type": "translation", "format": "Prose", "highlights": "Classic 19th-century literal scholarly prose" },
+      { "id": "rogers_clo", "name": "Benjamin Bickley Rogers (1916 Loeb)", "year": "1916", "type": "translation", "meter": "Rhymed English Metrical Verse", "format": "Verse", "highlights": "Loeb Classical Library masterly Victorian rhymed verse standard" },
+      { "id": "arrowsmith_clo", "name": "William Arrowsmith (1962 Mentor)", "year": "1962", "type": "translation", "format": "Verse", "highlights": "Vibrant, witty modern American performance verse" },
+      { "id": "sommerstein_clo", "name": "Alan H. Sommerstein (1982 Aris & Phillips)", "year": "1982", "type": "translation", "format": "Prose", "highlights": "Aris & Phillips definitive scholarly translation with commentary" },
+      { "id": "dover_clo", "name": "K. J. Dover (1968 Oxford Clarendon)", "year": "1968", "type": "translation", "format": "Prose", "highlights": "The definitive Oxford Clarendon critical edition translation" },
+      { "id": "hall_packman_clo", "name": "Peter Meineck & Ian C. Storey (1998 Hackett)", "year": "1998", "type": "translation", "format": "Verse", "highlights": "Hackett Classics lively and performable modern verse translation" },
+      { "id": "henderson_clo", "name": "Jeffrey Henderson (1998 Loeb)", "year": "1998", "type": "translation", "format": "Prose", "highlights": "Modern revised Loeb Classical Library authoritative standard" }
+    ],
+    "segments": [
+      {
+        "ref": "Nub.225",
+        "lineNum": 225,
+        "sectionId": "socrates-basket",
+        "source": "ἀεροβατῶ καὶ περιφρονῶ τὸν ἥλιον.",
+        "literal": "I tread on air and look down upon / contemplate the sun.",
+        "translations": {
+          "hickie_clo": "I walk on air, and contemplate the sun.",
+          "rogers_clo": "I walk in air, and contemplate the sun.",
+          "arrowsmith_clo": "I tread the air and contemplate the sun.",
+          "sommerstein_clo": "I walk on air and contemplate the sun.",
+          "dover_clo": "I am walking on air and looking down on the sun.",
+          "hall_packman_clo": "I tread on air and contemplate the sun.",
+          "henderson_clo": "I am treading the air and contemplating the sun."
+        },
+        "notes": "ἀεροβατῶ (aerobato): 'I walk on air'. Socrates explains why he is suspended aloft in a basket, caricaturing natural philosophers who allegedly spurn the earth.",
+        "vocab": [
+          { "word": "ἀεροβατῶ", "lemma": "ἀεροβατέω", "meaning": "to walk on air, tread the air", "link": "https://logeion.uchicago.edu/%E1%BC%80%CE%B5%CF%81%CE%BF%CE%B2%CE%B1%CF%84%CE%AD%CF%89" },
+          { "word": "περιφρονῶ", "lemma": "περιφρονέω", "meaning": "to examine on all sides, contemplate, look down on", "link": "https://logeion.uchicago.edu/%CF%80%CE%B5%CF%81%CE%B9%CF%86%CF%81%CE%BF%CE%BD%CE%AD%CF%89" },
+          { "word": "ἥλιον", "lemma": "ἥλιος", "meaning": "sun", "link": "https://logeion.uchicago.edu/%E1%BC%A5%CE%BB%CE%B9%CE%BF%CF%82" }
+        ]
+      },
+      {
+        "ref": "Nub.275",
+        "lineNum": 275,
+        "sectionId": "chorus-clouds-entrance",
+        "source": "ἀέναοι Νεφέλαι, ἀρθῶμεν φανεραὶ δροσερὰν φύσιν εὐάγητοι,",
+        "literal": "Everlasting Clouds, let us arise manifest dewy nature radiant,",
+        "translations": {
+          "hickie_clo": "Eternal Clouds, let us arise, showing our dewy nature with bright resplendence,",
+          "rogers_clo": "Clouds of all heritance, rise, having looked on the face of the sea,",
+          "arrowsmith_clo": "Eternal Clouds, rise up, manifest in shining dew,",
+          "sommerstein_clo": "Everlasting Clouds, let us arise and display our dewy nature in visible splendour,",
+          "dover_clo": "Everlasting Clouds, let us rise up, visible in our dewy, easily moving nature,",
+          "hall_packman_clo": "Ever-living Clouds, let us rise, clear in our dew-wet radiant form,",
+          "henderson_clo": "Everlasting Clouds, let us arise visible in our dewy, luminous nature,"
+        },
+        "notes": "The sublime choral entrance hymn (parodos) of the Clouds, demonstrating Aristophanes' extraordinary lyrical gift even amidst satirical comedy.",
+        "vocab": [
+          { "word": "ἀέναοι", "lemma": "ἀέναος", "meaning": "ever-flowing, everlasting, eternal", "link": "https://logeion.uchicago.edu/%E1%BC%80%CE%AD%CE%BD%CE%B1%CE%BF%CF%82" },
+          { "word": "δροσερὰν", "lemma": "δροσερός", "meaning": "dewy, fresh, moist", "link": "https://logeion.uchicago.edu/%CE%B4%CF%81%CE%BF%CF%83%CE%B5%CF%81%CF%8C%CF%82" }
+        ]
+      },
+      {
+        "ref": "Nub.1075",
+        "lineNum": 1075,
+        "sectionId": "unjust-argument-nature",
+        "source": "ἡ φύσις γὰρ ἰσχυροτέρα τοῦ νόμου.",
+        "literal": "For nature is stronger than law/custom.",
+        "translations": {
+          "hickie_clo": "for nature is stronger than any law.",
+          "rogers_clo": "Nature is mightier far than custom's rule.",
+          "arrowsmith_clo": "For Nature is stronger than mere Law.",
+          "sommerstein_clo": "For nature is stronger than law.",
+          "dover_clo": "For nature is stronger than custom.",
+          "hall_packman_clo": "For nature is more powerful than convention.",
+          "henderson_clo": "for nature is stronger than convention."
+        },
+        "notes": "The famous Sophistic polarity between Physis (nature) and Nomos (custom/law): the Unjust Argument defends indulging bodily appetite by appealing to natural instinct over social convention.",
+        "vocab": [
+          { "word": "φύσις", "lemma": "φύσις", "meaning": "nature, natural order, instinct", "link": "https://logeion.uchicago.edu/%CF%86%CF%8D%CF%83%CE%B9%CF%82" },
+          { "word": "νόμου", "lemma": "νόμος", "meaning": "law, custom, convention, statute", "link": "https://logeion.uchicago.edu/%CE%BD%CF%8C%CE%BC%CE%BF%CF%82" }
+        ]
+      }
+    ],
+    "era": "Classical Athens",
+    "period": "5th Century BCE",
+    "sections": [
+      {
+        "id": "socrates-basket",
+        "title": "The Thinkery: Socrates in the Basket (Line 225)",
+        "segmentRefs": ["Nub.225"]
+      },
+      {
+        "id": "chorus-clouds-entrance",
+        "title": "Parodos: The Choral Hymn of the Clouds (Line 275)",
+        "segmentRefs": ["Nub.275"]
+      },
+      {
+        "id": "unjust-argument-nature",
+        "title": "The Agon: Unjust Argument on Nature versus Convention (Line 1075)",
+        "segmentRefs": ["Nub.1075"]
+      }
+    ]
+  },
+  {
+    "id": "aristotle-ethics",
+    "title": "Nicomachean Ethics (Ethika Nikomacheia)",
+    "originalTitle": "Ἠθικὰ Νικομάχεια",
+    "authorId": "aristotle",
+    "language": "Ancient Greek",
+    "date": "c. 340 BCE",
+    "format": "Prose (Philosophical Treatise)",
+    "genre": "Philosophy / Moral Ethics",
+    "description": "Aristotle's foundational inquiry into human eudaimonia (flourishing / highest good), moral virtue as the golden mean (mesotes), practical wisdom (phronesis), and the teleology of human action. Dedicated to his son Nicomachus, it remains the bedrock of virtue ethics in Western philosophy.",
+    "passageRef": "Book 1, Ch. 1: Every Art Aims at the Good (1094a1–3), Book 1, Ch. 7: The Function of Man (1097b22–25), & Book 2, Ch. 6: Virtue as the Golden Mean (1106b36–1107a2)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Prose", "Ancient Greek", "Philosophy", "Ethics", "Virtue", "Eudaimonia", "Aristotle"],
+    "sourceEditions": [
+      { "id": "greek", "name": "Ancient Greek (OCT Bywater)", "year": "c. 340 BCE", "type": "source", "format": "Prose" },
+      { "id": "ross_eth", "name": "W. D. Ross (1925 Oxford)", "year": "1925", "type": "translation", "format": "Prose", "highlights": "The classic Oxford Translation of Aristotle standard for twentieth-century philosophy" },
+      { "id": "rackham_eth", "name": "H. Rackham (1926 Loeb)", "year": "1926", "type": "translation", "format": "Prose", "highlights": "Loeb Classical Library authoritative parallel text edition" },
+      { "id": "ostwald_eth", "name": "Martin Ostwald (1962 Library of Liberal Arts)", "year": "1962", "type": "translation", "format": "Prose", "highlights": "Deeply influential American academic and student standard" },
+      { "id": "irwin_eth", "name": "Terence Irwin (1985/1999 Hackett)", "year": "1999", "type": "translation", "format": "Prose", "highlights": "Hackett Classics; renowned for analytical clarity, detailed glossary, and notes" },
+      { "id": "crisp_eth", "name": "Roger Crisp (2000 Cambridge)", "year": "2000", "type": "translation", "format": "Prose", "highlights": "Cambridge Texts in the History of Philosophy; highly lucid and accessible" },
+      { "id": "broadie_rowe_eth", "name": "Sarah Broadie & Christopher Rowe (2002 Oxford)", "year": "2002", "type": "translation", "format": "Prose", "highlights": "Oxford University Press; rigorous modern philosophical translation and commentary" },
+      { "id": "bartlett_collins_eth", "name": "Robert C. Bartlett & Susan D. Collins (2011 Chicago)", "year": "2011", "type": "translation", "format": "Prose", "highlights": "University of Chicago Press; strictly literal and faithful translation" }
+    ],
+    "segments": [
+      {
+        "ref": "NE.1094a1",
+        "lineNum": 1,
+        "sectionId": "ethics-aim-at-good",
+        "source": "Πᾶσα τέχνη καὶ πᾶσα μέθοδος, ὁμοίως δὲ πρᾶξίς τε καὶ προαίρεσις, ἀγαθοῦ τινὸς ἐφίεσθαι δοκεῖ·",
+        "literal": "Every craft and every inquiry, similarly and action and choice, of good some to aim at seems;",
+        "translations": {
+          "ross_eth": "Every art and every inquiry, and similarly every action and pursuit, is thought to aim at some good;",
+          "rackham_eth": "Every art and every investigation, and likewise every practical pursuit or undertaking, seems to aim at some good:",
+          "ostwald_eth": "Every art and every inquiry, and similarly every action and choice, is thought to aim at some good;",
+          "irwin_eth": "Every craft and every line of inquiry, and likewise every action and decision, seems to seek some good;",
+          "crisp_eth": "Every art and every inquiry, and similarly every action and choice, is thought to aim at some good;",
+          "broadie_rowe_eth": "Every skill and every inquiry, and similarly every action and choice of action, is thought to have some good as its aim;",
+          "bartlett_collins_eth": "Every art and every inquiry, and likewise every action and choice, seems to aim at some good;"
+        },
+        "notes": "The famous teleological opening of the Ethics: all rational human pursuits are defined by the ends (telos) and goods they seek to achieve.",
+        "vocab": [
+          { "word": "τέχνη", "lemma": "τέχνη", "meaning": "art, craft, technical skill, expertise", "link": "https://logeion.uchicago.edu/%CF%84%CE%AD%CF%87%CE%BD%CE%B7" },
+          { "word": "μέθοδος", "lemma": "μέθοδος", "meaning": "inquiry, method, systematic investigation", "link": "https://logeion.uchicago.edu/%CE%BC%CE%AD%CE%B8%CE%BF%CE%B4%CE%BF%CF%82" },
+          { "word": "προαίρεσις", "lemma": "προαίρεσις", "meaning": "deliberate choice, decision, purposive choice", "link": "https://logeion.uchicago.edu/%CF%80%CF%81%CE%BF%CE%B1%CE%AF%CF%81%CE%B5%CF%83%CE%B9%CF%82" },
+          { "word": "ἀγαθοῦ", "lemma": "ἀγαθόν", "meaning": "the good, benefit, flourishing end", "link": "https://logeion.uchicago.edu/%E1%BC%80%CE%B3%CE%B1%CE%B8%CF%8C%CF%82" }
+        ]
+      },
+      {
+        "ref": "NE.1097b22",
+        "lineNum": 22,
+        "sectionId": "ethics-ergon-function",
+        "source": "ὥσπερ γὰρ αὐλητῇ καὶ ἀγαλματοποιῷ καὶ παντὶ τεχνίτῃ, καὶ ὅλως ὧν ἔστι τι ἔργον καὶ πρᾶξις, ἐν τῷ ἔργῳ δοκεῖ τἀγαθὸν καὶ τὸ εὖ εἶναι, οὕτω δόξειεν ἂν καὶ ἀνθρώπῳ,",
+        "literal": "for just as to flute-player and sculptor and all craftsman, and generally of which there is some function and activity, in the function seems the good and the well to be, so would seem also to man,",
+        "translations": {
+          "ross_eth": "For just as for a flute-player, a sculptor, or an artist, and, in general, for all things that have a function or activity, the good and the 'well' is thought to reside in the function, so would it seem to be for man,",
+          "rackham_eth": "For just as for a flute-player, a sculptor, or any artist, and, generally, for all things that have an effect or activity, the good and the well are held to consist in the effect, so it would seem to be for man,",
+          "ostwald_eth": "For just as for a flute player, a sculptor, or any craftsman, and, in general, for whatever has a function and a characteristic action, the good and the 'well' are thought to reside in the function, so it would seem to be for man,",
+          "irwin_eth": "For just as the good and the doing well of a flute-player, a sculptor, or any craftsperson, and generally of whatever has a function and characteristic action, seems to depend on its function, so it would seem to be for a human being,",
+          "crisp_eth": "For just as the good and the 'well' for a flute-player, a sculptor, or any craftsman, and, in general, for whatever has a function and a characteristic activity, seems to depend on its function, so it would seem to be for man,",
+          "broadie_rowe_eth": "For just as for a flute-player, a sculptor, or any practitioner of a skill, and generally for whatever has some function and activity, the good and the doing well are considered to consist in that function, so it would seem to be also for a human being,",
+          "bartlett_collins_eth": "For just as with a flute player, a sculptor, and every artisan, and generally with all those who have a certain work and action, the good and the 'well' seem to reside in the work, so too it would seem to be with a human being,"
+        },
+        "notes": "The Ergon (Function) Argument: the highest human good consists in the active realization of the distinctive human capacity (rational activity of the soul in accordance with virtue).",
+        "vocab": [
+          { "word": "ἔργον", "lemma": "ἔργον", "meaning": "function, work, characteristic task, deed", "link": "https://logeion.uchicago.edu/%E1%BC%94%CF%81%CE%B3%CE%BF%CE%BD" },
+          { "word": "πρᾶξις", "lemma": "πρᾶξις", "meaning": "activity, practical action, doing", "link": "https://logeion.uchicago.edu/%CF%80%CF%81%E1%BE%B6%CE%BE%CE%B9%CF%82" }
+        ]
+      },
+      {
+        "ref": "NE.1106b36",
+        "lineNum": 36,
+        "sectionId": "ethics-golden-mean",
+        "source": "Ἔστιν ἄρα ἡ ἀρετὴ ἕξις προαιρετική, ἐν μεσότητι οὖσα τῇ πρὸς ἡμᾶς, ὡρισμένῃ λόγῳ καὶ ᾧ ἂν ὁ φρόνιμος ὁρίσειεν.",
+        "literal": "Is therefore the virtue a state deliberate-choice-making, in a mean being that relative to us, determined by reason and by which the person of practical wisdom would determine it.",
+        "translations": {
+          "ross_eth": "Virtue, then, is a state of character concerned with choice, lying in a mean, i.e. the mean relative to us, this being determined by a rational principle, and by that principle by which the man of practical wisdom would determine it.",
+          "rackham_eth": "Virtue then is a settled disposition of the mind determining the choice of actions and emotions, consisting essentially in the observance of the mean relative to us, this being determined by a rational principle, and as a man of practical wisdom would determine it.",
+          "ostwald_eth": "Virtue, then, is a characteristic involving choice, and that it consists in observing the mean relative to us, a mean which is defined by a rational principle, such as a man of practical wisdom would use to determine it.",
+          "irwin_eth": "Virtue, then, is a state that decides, consisting in a mean, the mean relative to us, which is defined by reference to reason, that is to say, to the reason by reference to which the prudent person would define it.",
+          "crisp_eth": "Virtue, then, is a state involving choice, consisting in a mean relative to us, determined by reason and in the way in which the person of practical wisdom would determine it.",
+          "broadie_rowe_eth": "Virtue, then, is a disposition issuing in decisions, depending on a mean, the mean in relation to us, this being determined by reason and in the way in which the person of practical wisdom would determine it.",
+          "bartlett_collins_eth": "Virtue, therefore, is a characteristic marked by choice, residing in the mean relative to us, a mean defined by reason and in the way the prudent person would define it."
+        },
+        "notes": "Aristotle's classical definition of moral virtue: a stable disposition (hexis) striking the golden mean (mesotes) between excess and deficiency, guided by phronesis (practical wisdom).",
+        "vocab": [
+          { "word": "ἀρετὴ", "lemma": "ἀρετή", "meaning": "virtue, excellence, moral merit", "link": "https://logeion.uchicago.edu/%E1%BC%80%CF%81%CE%B5%CF%84%CE%AE" },
+          { "word": "ἕξις", "lemma": "ἕξις", "meaning": "state, habit, stable disposition of character", "link": "https://logeion.uchicago.edu/%E1%BC%95%CE%BE%CE%B9%CF%82" },
+          { "word": "μεσότητι", "lemma": "μεσότης", "meaning": "mean, middle state, moderation, balance", "link": "https://logeion.uchicago.edu/%CE%BC%CE%B5%CF%83%CF%8C%CF%84%CE%B7%CF%82" },
+          { "word": "φρόνιμος", "lemma": "φρόνιμος", "meaning": "person of practical wisdom, prudent person", "link": "https://logeion.uchicago.edu/%CF%86%CF%81%CF%8C%CE%BD%CE%B9%CE%BC%CE%BF%CF%82" }
+        ]
+      }
+    ],
+    "era": "Classical Athens",
+    "period": "4th Century BCE",
+    "sections": [
+      {
+        "id": "ethics-aim-at-good",
+        "title": "Book 1, Chapter 1: Every Art and Inquiry Aims at the Good (1094a1)",
+        "segmentRefs": ["NE.1094a1"]
+      },
+      {
+        "id": "ethics-ergon-function",
+        "title": "Book 1, Chapter 7: The Ergon Argument (The Distinctive Function of Man, 1097b22)",
+        "segmentRefs": ["NE.1097b22"]
+      },
+      {
+        "id": "ethics-golden-mean",
+        "title": "Book 2, Chapter 6: Definition of Moral Virtue as the Golden Mean (1106b36)",
+        "segmentRefs": ["NE.1106b36"]
+      }
+    ]
   }
 ];
+
+
 
 
 

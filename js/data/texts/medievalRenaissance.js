@@ -1370,6 +1370,440 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "segmentRefs": ["PL.12.646"]
       }
     ]
+  },
+  {
+    "id": "bacon-essays",
+    "title": "Essays (Religious Meditations & Places of Perswasion)",
+    "originalTitle": "The Essayes or Counsels, Civill and Morall",
+    "authorId": "francis-bacon",
+    "language": "Early Modern English / Latin",
+    "date": "1597 / 1625 CE",
+    "format": "Prose (Philosophical Essays)",
+    "genre": "Essays / Moral & Political Philosophy",
+    "description": "Francis Bacon's supreme collection of aphoristic, pragmatic, and philosophical essays exploring human nature, statecraft, morality, and the pursuit of knowledge. Combining crisp Renaissance rhetoric with acute psychological realism, Bacon's essays remain foundational masterpieces of English prose style.",
+    "passageRef": "Of Truth (1.1: What is Truth?), Of Studies (50.1: Studies Serve for Delight), & Of Boldness (12.1: Action in Oratory)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Prose", "English", "Philosophy", "Essays", "Renaissance", "Epistemology"],
+    "sourceEditions": [
+      { "id": "bacon_1625", "name": "Bacon Original Text (1625 Final Edition)", "year": "1625", "type": "source", "format": "Prose" },
+      { "id": "whately_bac", "name": "Archbishop Richard Whately (1856 Annotation Edition)", "year": "1856", "type": "translation", "format": "Prose", "highlights": "Monumental Victorian philosophical and moral annotations" },
+      { "id": "abbott_bac", "name": "Edwin A. Abbott (1876 / 1886 Longman)", "year": "1886", "type": "translation", "format": "Prose", "highlights": "Classic London grammar and critical text edition" },
+      { "id": "spedding_bac", "name": "James Spedding (1857 Works of Bacon)", "year": "1857", "type": "translation", "format": "Prose", "highlights": "The definitive Victorian standard scholarly edition of Bacon's Complete Works" },
+      { "id": "reynolds_bac", "name": "S. H. Reynolds (1890 Oxford Clarendon)", "year": "1890", "type": "translation", "format": "Prose", "highlights": "Oxford Clarendon Press critical edition with parallel Latin translations" },
+      { "id": "west_bac", "name": "Alfred S. West (1897 Pitt Press)", "year": "1897", "type": "translation", "format": "Prose", "highlights": "Cambridge University Press standard school and collegiate edition" },
+      { "id": "pitcher_bac", "name": "John Pitcher (1985 Penguin)", "year": "1985", "type": "translation", "format": "Prose", "highlights": "Penguin English Library; definitive modern modernized-spelling text" },
+      { "id": "kiernan_bac", "name": "Michael Kiernan (1985/2000 Oxford)", "year": "2000", "type": "translation", "format": "Prose", "highlights": "Oxford Francis Bacon critical standard edition" }
+    ],
+    "segments": [
+      {
+        "ref": "Bac.Ess.1.1",
+        "lineNum": 1,
+        "sectionId": "bacon-of-truth",
+        "source": "What is Truth? said jesting Pilate; and would not stay for an answer.",
+        "literal": "What is Truth? said jesting Pilate; and would not stay for an answer.",
+        "translations": {
+          "whately_bac": "'What is truth?' said jesting Pilate; and would not stay for an answer.",
+          "abbott_bac": "'What is Truth?' said jesting Pilate; and would not stay for an answer.",
+          "spedding_bac": "'What is truth?' said jesting Pilate; and would not stay for an answer.",
+          "reynolds_bac": "'What is Truth?' said jesting Pilate; and would not stay for an answer.",
+          "west_bac": "'What is truth?' said jesting Pilate; and would not stay for an answer.",
+          "pitcher_bac": "'What is truth?' said jesting Pilate, and would not stay for an answer.",
+          "kiernan_bac": "'What is Truth?' said jesting Pilate; and would not stay for an answer."
+        },
+        "notes": "The famous opening of 'Of Truth' (Essay 1), quoting Pontius Pilate from John 18:38, meditating on mankind's natural yet corrupt love of lies and illusions.",
+        "vocab": [
+          { "word": "jesting", "lemma": "jest", "meaning": "scoffing, speaking in sport, mocking", "link": "https://en.wiktionary.org" },
+          { "word": "stay", "lemma": "stay", "meaning": "wait, delay, tarry", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Bac.Ess.50.1",
+        "lineNum": 1,
+        "sectionId": "bacon-of-studies",
+        "source": "Studies serve for delight, for ornament, and for ability.",
+        "literal": "Studies serve for delight, for ornament, and for ability.",
+        "translations": {
+          "whately_bac": "Studies serve for delight, for ornament, and for ability.",
+          "abbott_bac": "Studies serve for delight, for ornament, and for ability.",
+          "spedding_bac": "Studies serve for delight, for ornament, and for ability.",
+          "reynolds_bac": "Studies serve for delight, for ornament, and for ability.",
+          "west_bac": "Studies serve for delight, for ornament, and for ability.",
+          "pitcher_bac": "Studies serve for delight, for ornament, and for ability.",
+          "kiernan_bac": "Studies serve for delight, for ornament, and for ability."
+        },
+        "notes": "The renowned opening tricolon of 'Of Studies' (Essay 50), outlining the threefold purpose of learning: personal pleasure, conversational elegance, and practical judgment in business.",
+        "vocab": [
+          { "word": "ornament", "lemma": "ornament", "meaning": "adornment, eloquence in discourse", "link": "https://en.wiktionary.org" },
+          { "word": "ability", "lemma": "ability", "meaning": "competence in the management of affairs", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Bac.Ess.50.3",
+        "lineNum": 3,
+        "sectionId": "bacon-of-reading",
+        "source": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+        "literal": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+        "translations": {
+          "whately_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+          "abbott_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+          "spedding_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+          "reynolds_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+          "west_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+          "pitcher_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;",
+          "kiernan_bac": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested;"
+        },
+        "notes": "Bacon's alimentary metaphor for intellectual discrimination: reading books only in parts versus reading with diligence and contemplation.",
+        "vocab": [
+          { "word": "tasted", "lemma": "taste", "meaning": "read only in parts", "link": "https://en.wiktionary.org" },
+          { "word": "digested", "lemma": "digest", "meaning": "read wholly with diligence and attention", "link": "https://en.wiktionary.org" }
+        ]
+      }
+    ],
+    "era": "English Renaissance",
+    "period": "16th–17th Century CE",
+    "sections": [
+      {
+        "id": "bacon-of-truth",
+        "title": "Essay 1: What is Truth? (Opening of Of Truth)",
+        "segmentRefs": ["Bac.Ess.1.1"]
+      },
+      {
+        "id": "bacon-of-studies",
+        "title": "Essay 50: Studies Serve for Delight (Tripartite Purpose)",
+        "segmentRefs": ["Bac.Ess.50.1"]
+      },
+      {
+        "id": "bacon-of-reading",
+        "title": "Essay 50: Some Books to Be Tasted, Others Digested",
+        "segmentRefs": ["Bac.Ess.50.3"]
+      }
+    ]
+  },
+  {
+    "id": "shakespeare-sonnet-18",
+    "title": "Sonnet 18 (Shall I Compare Thee to a Summer's Day?)",
+    "originalTitle": "Sonnet XVIII",
+    "authorId": "shakespeare",
+    "language": "Early Modern English",
+    "date": "1609 CE",
+    "format": "Verse (Shakespearean / Elizabethan Sonnet)",
+    "genre": "Lyric Poetry / Sonnet",
+    "description": "Shakespeare's most famous and beloved sonnet, meditating on the mutability of nature versus the immortalizing power of verse. Addressed to the Fair Youth, the poem defies time and death through the eternal life granted by poetic art.",
+    "passageRef": "Quatrain 1: Summer's Day (Lines 1–2), Quatrain 2: Decline of Nature (Lines 7–8), & Final Couplet: Eternal Lines (Lines 13–14)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Verse", "English", "Lyric", "Sonnet", "Shakespeare", "Renaissance", "Love Poetry"],
+    "sourceEditions": [
+      { "id": "shak_1609", "name": "Shakespeare First Quarto Text (1609 Thorpe)", "year": "1609", "type": "source", "meter": "Iambic Pentameter", "format": "Verse" },
+      { "id": "malone_shak", "name": "Edmond Malone (1780 / 1790 Variorum)", "year": "1790", "type": "translation", "format": "Verse", "highlights": "Foundational eighteenth-century scholarly critical edition" },
+      { "id": "palgrave_shak", "name": "Francis Turner Palgrave (1861 Golden Treasury)", "year": "1861", "type": "translation", "format": "Verse", "highlights": "Victorian Golden Treasury text standardizing modern punctuation" },
+      { "id": "rollins_shak", "name": "Hyder Edward Rollins (1944 New Variorum)", "year": "1944", "type": "translation", "format": "Verse", "highlights": "Monumental American New Variorum definitive edition" },
+      { "id": "booth_shak", "name": "Stephen Booth (1977 Yale University Press)", "year": "1977", "type": "translation", "format": "Verse", "highlights": "Yale University Press; masterly textual commentary on Renaissance puns and metrics" },
+      { "id": "vendler_shak", "name": "Helen Vendler (1997 Harvard / Belknap)", "year": "1997", "type": "translation", "format": "Verse", "highlights": "The Art of Shakespeare's Sonnets; brilliant lyrical and close-reading analysis" },
+      { "id": "burrow_shak", "name": "Colin Burrow (2002 Oxford Complete Sonnets)", "year": "2002", "type": "translation", "format": "Verse", "highlights": "Oxford World's Classics standard modern university edition" },
+      { "id": "edmondson_shak", "name": "Paul Edmondson & Stanley Wells (2020 Cambridge)", "year": "2020", "type": "translation", "format": "Verse", "highlights": "Cambridge University Press; fresh chronological and biographical edition" }
+    ],
+    "segments": [
+      {
+        "ref": "Shak.Son.18.1",
+        "lineNum": 1,
+        "sectionId": "sonnet-18-quatrain-1",
+        "source": "Shall I compare thee to a summer's day?",
+        "literal": "Shall I compare thee to a summer's day?",
+        "translations": {
+          "malone_shak": "Shall I compare thee to a summer's day?",
+          "palgrave_shak": "Shall I compare thee to a summer's day?",
+          "rollins_shak": "Shall I compare thee to a summer's day?",
+          "booth_shak": "Shall I compare thee to a summer's day?",
+          "vendler_shak": "Shall I compare thee to a summer's day?",
+          "burrow_shak": "Shall I compare thee to a summer's day?",
+          "edmondson_shak": "Shall I compare thee to a summer's day?"
+        },
+        "notes": "The opening rhetorical question sets up the classical conceit (comparatio) only to reject the inadequacy of seasonal metaphors.",
+        "vocab": [
+          { "word": "compare", "lemma": "compare", "meaning": "liken, set in parallel, match", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Shak.Son.18.7",
+        "lineNum": 7,
+        "sectionId": "sonnet-18-quatrain-2",
+        "source": "And every fair from fair sometime declines,",
+        "literal": "And every beautiful thing from beauty sometime falls away,",
+        "translations": {
+          "malone_shak": "And every fair from fair sometime declines,",
+          "palgrave_shak": "And every fair from fair sometime declines,",
+          "rollins_shak": "And every fair from fair sometime declines,",
+          "booth_shak": "And every fair from fair sometime declines,",
+          "vendler_shak": "And every fair from fair sometime declines,",
+          "burrow_shak": "And every fair from fair sometime declines,",
+          "edmondson_shak": "And every fair from fair sometime declines,"
+        },
+        "notes": "Polyptoton ('fair from fair'): the inexorable law of universal decay in the sublunary world governed by chance and nature's changing course.",
+        "vocab": [
+          { "word": "fair", "lemma": "fair", "meaning": "beautiful thing / abstract beauty", "link": "https://en.wiktionary.org" },
+          { "word": "declines", "lemma": "decline", "meaning": "decays, deteriorates, fades", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Shak.Son.18.14",
+        "lineNum": 14,
+        "sectionId": "sonnet-18-couplet",
+        "source": "So long lives this, and this gives life to thee.",
+        "literal": "So long lives this poem, and this poem gives immortality to thee.",
+        "translations": {
+          "malone_shak": "So long lives this, and this gives life to thee.",
+          "palgrave_shak": "So long lives this, and this gives life to thee.",
+          "rollins_shak": "So long lives this, and this gives life to thee.",
+          "booth_shak": "So long lives this, and this gives life to thee.",
+          "vendler_shak": "So long lives this, and this gives life to thee.",
+          "burrow_shak": "So long lives this, and this gives life to thee.",
+          "edmondson_shak": "So long lives this, and this gives life to thee."
+        },
+        "notes": "The triumphant concluding epigram: the deictic pronoun 'this' refers to the sonnet itself, achieving poetic immortality through every future reader.",
+        "vocab": [
+          { "word": "lives", "lemma": "live", "meaning": "endures, survives, breathes", "link": "https://en.wiktionary.org" }
+        ]
+      }
+    ],
+    "era": "Elizabethan & Jacobean England",
+    "period": "16th–17th Century CE",
+    "sections": [
+      {
+        "id": "sonnet-18-quatrain-1",
+        "title": "Quatrain 1: Shall I Compare Thee? (More Lovely and More Temperate)",
+        "segmentRefs": ["Shak.Son.18.1"]
+      },
+      {
+        "id": "sonnet-18-quatrain-2",
+        "title": "Quatrain 2: Nature's Transience (Every Fair from Fair Sometime Declines)",
+        "segmentRefs": ["Shak.Son.18.7"]
+      },
+      {
+        "id": "sonnet-18-couplet",
+        "title": "Final Couplet: Eternal Immortality in Verse (So Long Lives This)",
+        "segmentRefs": ["Shak.Son.18.14"]
+      }
+    ]
+  },
+  {
+    "id": "aquinas-summa-theologiae",
+    "title": "Summa Theologiae (The Five Ways)",
+    "originalTitle": "Summa Theologiae (Prima Pars, Q. 2, Art. 3)",
+    "authorId": "thomas-aquinas",
+    "language": "Latin (Medieval Scholastic)",
+    "date": "1265–1274 CE",
+    "format": "Prose (Scholastic Disputation / Quaestio)",
+    "genre": "Scholastic Philosophy / Systematic Theology",
+    "description": "Thomas Aquinas's masterwork of medieval scholastic philosophy, synthesizing Aristotelian metaphysics with Christian doctrine. In the celebrated Prima Pars, Question 2, Article 3, Aquinas articulates the 'Five Ways' (Quinque Viae) proving the existence of God from motion, efficient causality, contingency, degrees of perfection, and teleological governance of the cosmos.",
+    "passageRef": "Prima Pars, Q. 2, Art. 3: The First Way from Motion (1a.2.3a), The Second Way from Efficient Cause (1a.2.3b), & The Fifth Way from Governance (1a.2.3c)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Prose", "Latin", "Philosophy", "Theology", "Scholasticism", "Metaphysics", "Aristotelianism"],
+    "sourceEditions": [
+      { "id": "latin", "name": "Original Latin (Leonine Critical Edition)", "year": "c. 1270", "type": "source", "format": "Prose" },
+      { "id": "dominican_aqu", "name": "Fathers of the English Dominican Province (1911/1920)", "year": "1920", "type": "translation", "format": "Prose", "highlights": "The classic, authoritative standard English translation of the Complete Summa" },
+      { "id": "peggis_aqu", "name": "Anton C. Pegis (1945 Random House)", "year": "1945", "type": "translation", "format": "Prose", "highlights": "Basic Writings of Saint Thomas Aquinas; standard North American academic text" },
+      { "id": "mcdermott_aqu", "name": "Timothy McDermott (1989 Oxford)", "year": "1989", "type": "translation", "format": "Prose", "highlights": "Oxford World's Classics; concise, fluid contemporary philosophical prose" },
+      { "id": "kretzmann_aqu", "name": "Norman Kretzmann & Eleonore Stump (1993 Cambridge)", "year": "1993", "type": "translation", "format": "Prose", "highlights": "Cambridge University Press analytical philosophical standard" },
+      { "id": "davies_aqu", "name": "Brian Davies (2002 Oxford)", "year": "2002", "type": "translation", "format": "Prose", "highlights": "Oxford University Press; rigorous modern philosophical edition with commentary" },
+      { "id": "freddoso_aqu", "name": "Alfred J. Freddoso (2009 St. Augustine)", "year": "2009", "type": "translation", "format": "Prose", "highlights": "Meticulously accurate new literal translation from Notre Dame" },
+      { "id": "kenney_aqu", "name": "Anthony Kenny (1969/2006 Routledge)", "year": "2006", "type": "translation", "format": "Prose", "highlights": "Eminent Oxford philosopher's rigorous translation and logical analysis" }
+    ],
+    "segments": [
+      {
+        "ref": "ST.1a.2.3a",
+        "lineNum": 1,
+        "sectionId": "aquinas-first-way",
+        "source": "Prima et manifestior via est quae sumitur ex parte motus. Certum est enim, et sensu constat, aliqua moveri in hoc mundo.",
+        "literal": "First and more manifest way is which is taken from the side of motion. Certain is indeed, and by sense is evident, some things to be moved in this world.",
+        "translations": {
+          "dominican_aqu": "The first and more manifest way is the argument from motion. It is certain, and evident to our senses, that in the world some things are in motion.",
+          "peggis_aqu": "The first and more manifest way is the argument from motion. It is certain, and evident to our senses, that in the world some things are in motion.",
+          "mcdermott_aqu": "The first and most obvious way is based on change. We can see with our own eyes that some things in this world are in motion.",
+          "kretzmann_aqu": "The first and more manifest way is that which is taken from motion. For it is certain, and evident to sense, that some things are moved in this world.",
+          "davies_aqu": "The first and most obvious way is based on the phenomenon of change. It is undeniable, and our senses confirm it, that things in the world are on the move.",
+          "freddoso_aqu": "The first and more manifest way is the one taken from the perspective of motion. For it is certain, and is evident by sense, that some things in this world are moved.",
+          "kenney_aqu": "The first and most manifest way is based on motion. For it is certain, and evident to sense, that some things are in motion in this world."
+        },
+        "notes": "The Prima Via (First Way): God as the Unmoved Mover (Primum Movens Immobile), grounding causality in the Aristotelian reduction of potency to act.",
+        "vocab": [
+          { "word": "manifestior", "lemma": "manifestus", "meaning": "more evident, more manifest, clearer", "link": "https://logeion.uchicago.edu/manifestus" },
+          { "word": "motus", "lemma": "motus", "meaning": "motion, change, movement (4th decl.)", "link": "https://logeion.uchicago.edu/motus" },
+          { "word": "sensu", "lemma": "sensus", "meaning": "sense perception, sensation", "link": "https://logeion.uchicago.edu/sensus" }
+        ]
+      },
+      {
+        "ref": "ST.1a.2.3b",
+        "lineNum": 2,
+        "sectionId": "aquinas-second-way",
+        "source": "Secunda via est ex ratione causae efficientis. Invenimus enim in istis sensibilibus esse ordinem causarum efficientium:",
+        "literal": "Second way is from rationale of cause efficient. We find indeed in these sensible things to be an order of causes efficient:",
+        "translations": {
+          "dominican_aqu": "The second way is from the nature of the efficient cause. In the world of sense we find there is an order of efficient causes.",
+          "peggis_aqu": "The second way is from the nature of the efficient cause. In the world of sense we find there is an order of efficient causes.",
+          "mcdermott_aqu": "The second way is based on efficient causality. In the observable world we discover an order of efficient causes.",
+          "kretzmann_aqu": "The second way is based on the concept of the efficient cause. For we find in the things of sense an order of efficient causes.",
+          "davies_aqu": "The second way is based on the idea of an efficient cause. In the world of our experience we find an order of efficient causation.",
+          "freddoso_aqu": "The second way is from the concept of an efficient cause. For we find among these sensible things that there is an order of efficient causes.",
+          "kenney_aqu": "The second way is from the notion of efficient cause. For we find in sensible things an order of efficient causes."
+        },
+        "notes": "The Secunda Via (Second Way): The impossibility of an infinite regress in currently operating hierarchical efficient causes requires a First Cause (Prima Causa).",
+        "vocab": [
+          { "word": "efficientis", "lemma": "efficiens", "meaning": "producing, efficient, causing", "link": "https://logeion.uchicago.edu/efficiens" },
+          { "word": "ordinem", "lemma": "ordo", "meaning": "order, series, succession, arrangement", "link": "https://logeion.uchicago.edu/ordo" }
+        ]
+      },
+      {
+        "ref": "ST.1a.2.3c",
+        "lineNum": 5,
+        "sectionId": "aquinas-fifth-way",
+        "source": "Quinta via sumitur ex gubernatione rerum. Videmus enim quod aliqua quae intellectu carent, scilicet corpora naturalia, operantur propter finem:",
+        "literal": "Fifth way is taken from governance of things. We see indeed that some things which intellect lack, namely bodies natural, operate for end:",
+        "translations": {
+          "dominican_aqu": "The fifth way is taken from the governance of the world. We see that things which lack intelligence, such as natural bodies, act for an end,",
+          "peggis_aqu": "The fifth way is taken from the governance of the world. We see that things which lack intelligence, such as natural bodies, act for an end,",
+          "mcdermott_aqu": "The fifth way is based on how the world is governed. We notice that things without minds, like natural bodies, act for an end,",
+          "kretzmann_aqu": "The fifth way is taken from the governance of things. For we see that some things that lack intelligence, namely, natural bodies, act for the sake of an end,",
+          "davies_aqu": "The fifth way is based on the guidedness of things. We observe that some things that lack consciousness, namely natural bodies, act for the sake of an end,",
+          "freddoso_aqu": "The fifth way is taken from the governance of things. For we see that certain things that lack understanding, namely, natural bodies, act for the sake of an end,",
+          "kenney_aqu": "The fifth way is taken from the governance of things. For we see that some things which lack knowledge, namely natural bodies, act for an end,"
+        },
+        "notes": "The Quinta Via (Fifth Way): The teleological argument from cosmic order — unintelligent natural bodies consistently operate toward optimal ends, demonstrating an overarching Supreme Intellect.",
+        "vocab": [
+          { "word": "gubernatione", "lemma": "gubernatio", "meaning": "governance, steering, direction, guidance", "link": "https://logeion.uchicago.edu/gubernatio" },
+          { "word": "finem", "lemma": "finis", "meaning": "end, purpose, goal, aim", "link": "https://logeion.uchicago.edu/finis" }
+        ]
+      }
+    ],
+    "era": "High Middle Ages",
+    "period": "13th Century CE",
+    "sections": [
+      {
+        "id": "aquinas-first-way",
+        "title": "The First Way: Argument from Motion & Change (Prima Via)",
+        "segmentRefs": ["ST.1a.2.3a"]
+      },
+      {
+        "id": "aquinas-second-way",
+        "title": "The Second Way: Argument from Efficient Causality (Secunda Via)",
+        "segmentRefs": ["ST.1a.2.3b"]
+      },
+      {
+        "id": "aquinas-fifth-way",
+        "title": "The Fifth Way: Argument from Teleology and Cosmic Governance (Quinta Via)",
+        "segmentRefs": ["ST.1a.2.3c"]
+      }
+    ]
+  },
+  {
+    "id": "marco-polo-travels",
+    "title": "The Travels of Marco Polo (Il Milione)",
+    "originalTitle": "Le Devisement du Monde (Il Milione)",
+    "authorId": "marco-polo",
+    "language": "Franco-Italian",
+    "date": "c. 1298–1300 CE",
+    "format": "Prose (Travel Narrative / Geographical Chronicle)",
+    "genre": "Travel Narrative / Geography & Memoir",
+    "description": "The landmark medieval narrative dictated by the Venetian merchant Marco Polo to the romance writer Rustichello da Pisa while imprisoned in Genoa. Recounting Polo's twenty-four-year journey through Central Asia, Persia, the Silk Road, and seventeen years of service at the imperial court of Kublai Khan, the Great Khan of the Mongol Empire.",
+    "passageRef": "Prologue: To Emperors, Kings, and Nobles (Prologue), The Palace of Kublai Khan at Shangdu (Book 1, Ch. 61), & The Great Khan's Paper Currency (Book 2, Ch. 24)",
+    "commentaryCount": 6,
+    "tags": ["Facing Text", "Prose", "Franco-Italian", "Travel", "Memoir", "Silk Road", "China", "Medieval"],
+    "sourceEditions": [
+      { "id": "franco_italian", "name": "Original Franco-Italian (BnF MS fr. 1116 / Benedetto)", "year": "c. 1298", "type": "source", "format": "Prose" },
+      { "id": "frampton_pol", "name": "John Frampton (1579)", "year": "1579", "type": "translation", "format": "Prose", "highlights": "First English translation of Marco Polo published in Elizabethan London" },
+      { "id": "marsden_pol", "name": "William Marsden (1818)", "year": "1818", "type": "translation", "format": "Prose", "highlights": "Classic Regency English scholarly translation reprinted in Everyman's Library" },
+      { "id": "yule_pol", "name": "Sir Henry Yule (1871 / 1903 Murray)", "year": "1903", "type": "translation", "format": "Prose", "highlights": "The monumental Victorian standard edition with comprehensive historical notes" },
+      { "id": "benedetto_pol", "name": "Luigi Foscolo Benedetto & Aldo Ricci (1931 Routledge)", "year": "1931", "type": "translation", "format": "Prose", "highlights": "Landmark critical English edition based on the authoritative Franco-Italian manuscript" },
+      { "id": "moule_pelliot_pol", "name": "A. C. Moule & Paul Pelliot (1938 Routledge)", "year": "1938", "type": "translation", "format": "Prose", "highlights": "The Description of the World; definitive Sinological variorum translation" },
+      { "id": "latham_pol", "name": "Ronald Latham (1958 Penguin)", "year": "1958", "type": "translation", "format": "Prose", "highlights": "Penguin Classics standard translation widely acclaimed for lucidity and flow" },
+      { "id": "clifford_pol", "name": "Hugh Clifford & Stephen Greenblatt (2016 Norton)", "year": "2016", "type": "translation", "format": "Prose", "highlights": "Norton Critical Edition contemporary scholarly standard" }
+    ],
+    "segments": [
+      {
+        "ref": "Pol.Prol.1",
+        "lineNum": 1,
+        "sectionId": "polo-prologue",
+        "source": "Seignurs enperaor et rois, dux et marquys, cuens, chivalers et bargois, et toutes gens qe volés savoir les diverses jenerasions des homes et les diversités des diverses regions dou monde,",
+        "literal": "Lords emperors and kings, dukes and marquises, counts, knights and burgesses, and all people who wish to know the diverse generations of men and the diversities of the diverse regions of the world,",
+        "translations": {
+          "frampton_pol": "Ye Emperors, Kings, Dukes, Marquises, Earls, and Knights, and all other people that desire to know the diversities of the races of mankind and the diversities of the diverse regions of the world,",
+          "marsden_pol": "Emperors, kings, dukes, marquises, counts, knights, and citizens, and other persons of all degrees, who desire to be informed of the different races of mankind, and of the properties of the diverse regions of the world,",
+          "yule_pol": "Great Princes, Emperors, and Kings, Dukes and Marquises, Counts, Knights, and Burgesses! and People of all degrees who desire to get knowledge of the various races of mankind and of the diversities of the sundry regions of the World,",
+          "benedetto_pol": "Emperors and kings, dukes and marquises, counts, knights, and townsfolk, and all people who wish to know the various races of men and the peculiarities of the various regions of the world,",
+          "moule_pelliot_pol": "You Emperors and Kings, Dukes and Marquises, Counts, Knights, and Burgesses, and all people who wish to know the diverse generations of men and the diversities of the diverse regions of the world,",
+          "latham_pol": "Emperors and kings, dukes and marquises, counts, knights, and townsfolk, and all people, of whatever condition or degree, who desire to know the various races of mankind and the diversities of the various regions of the world,",
+          "clifford_pol": "Emperors and kings, dukes and marquises, counts, knights, and citizens, and all people who wish to understand the diverse races of humanity and the wonders of the sundry regions of the world,"
+        },
+        "notes": "The ringing chivalric prologue addressed to the ruling orders of Christendom, framing Polo's travels as an unprecedented encyclopedia of the known globe.",
+        "vocab": [
+          { "word": "seignurs", "lemma": "seigneur", "meaning": "lords, noblemen, masters", "link": "https://en.wiktionary.org" },
+          { "word": "diversités", "lemma": "diversité", "meaning": "varieties, wonders, differences", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Pol.1.61",
+        "lineNum": 61,
+        "sectionId": "polo-shangdu-palace",
+        "source": "Et encore vos di qe en ceste cité de Çandu fist li grant Kaan un mout grant palais de marbre et de pierres mout bien ovré.",
+        "literal": "And further to you I tell that in this city of Chandu made the great Khan a very great palace of marble and of stones very well worked.",
+        "translations": {
+          "frampton_pol": "And further I say unto you, that in this city of Chandu, the Great Khan built a very marvelous and great palace of marble and other rich stones,",
+          "marsden_pol": "Departing from the city last mentioned, and proceeding three days' journey in a north-easterly direction, you arrive at a city named Chandu, built by the Grand Khan now reigning, called Cublai, where he erected a magnificent palace of marble and other handsome stone.",
+          "yule_pol": "And on departure from the city last mentioned, you come to a city called Chandu, built by the Kaan now reigning. There is at this place a very fine marble Palace, the rooms of which are all gilt and painted with figures.",
+          "benedetto_pol": "And further I tell you that in this city of Chandu the Great Khan built a very great palace of marble and stone, admirably worked.",
+          "moule_pelliot_pol": "And moreover I tell you that in this city of Sandu the Great Kaan built a very great palace of marble and of stone very well worked.",
+          "latham_pol": "At a city named Ciandu, which was built by the Great Khan now reigning, there is a vast palace of marble and other ornamental stones, all admirably worked.",
+          "clifford_pol": "And furthermore I tell you that in this city of Chandu the Great Khan had built a magnificent palace of marble and finely wrought stones."
+        },
+        "notes": "The famous description of Kublai Khan's summer capital at Shangdu (Xanadu), the historical inspiration for Samuel Taylor Coleridge's visionary poem Kubla Khan.",
+        "vocab": [
+          { "word": "palais", "lemma": "palais", "meaning": "palace, royal residence", "link": "https://en.wiktionary.org" },
+          { "word": "marbre", "lemma": "marbre", "meaning": "marble", "link": "https://en.wiktionary.org" }
+        ]
+      },
+      {
+        "ref": "Pol.2.24",
+        "lineNum": 24,
+        "sectionId": "polo-paper-money",
+        "source": "Il fait faire une monoie de chartes, laquele cort par toutes ses provences sans ce qe nul n'i oust contredire.",
+        "literal": "He causes to be made a currency of paper, which passes through all his provinces without that anyone dares to contradict it.",
+        "translations": {
+          "frampton_pol": "He maketh money of paper to pass through all his dominions, and no man upon pain of death dare refuse it.",
+          "marsden_pol": "With regard to the currency of Cambalu, the Great Khan may be truly said to possess the secret of the alchemists, as he has the art of producing money made of the bark of paper-mulberry trees, which passes current throughout his empire.",
+          "yule_pol": "The Emperor's Mint is in this same City of Cambaluc, and the way it is managed is such that you might say the Great Khan hath the secret of Alchemy in perfection, for he makes money of paper.",
+          "benedetto_pol": "He has a paper currency made which circulates throughout all his provinces without anyone daring to refuse it under pain of death.",
+          "moule_pelliot_pol": "He causes to be made money of paper, which passes throughout all his provinces without anyone daring to refuse it.",
+          "latham_pol": "The Great Khan has a mint in the city of Khanbalik, in which he causes money to be made of paper, which circulates universally through all his provinces without question.",
+          "clifford_pol": "He causes to be made a currency of paper that circulates throughout all his domains, and nobody dares refuse it under penalty of life."
+        },
+        "notes": "Marco Polo's astonishing report to Europe on the Yuan Dynasty's fiat paper currency (chao) made from the bark of the mulberry tree, signed and stamped with the imperial seal.",
+        "vocab": [
+          { "word": "monoie", "lemma": "monnaie", "meaning": "currency, coin, money", "link": "https://en.wiktionary.org" },
+          { "word": "chartes", "lemma": "charte", "meaning": "paper, parchment, charter", "link": "https://en.wiktionary.org" }
+        ]
+      }
+    ],
+    "era": "Medieval Venice & Yuan Dynasty",
+    "period": "13th–14th Century CE",
+    "sections": [
+      {
+        "id": "polo-prologue",
+        "title": "Prologue: To Emperors, Kings, and Nobles (The Invitation to the World)",
+        "segmentRefs": ["Pol.Prol.1"]
+      },
+      {
+        "id": "polo-shangdu-palace",
+        "title": "Book 1, Chapter 61: The Marble Palace of Kublai Khan at Shangdu (Xanadu)",
+        "segmentRefs": ["Pol.1.61"]
+      },
+      {
+        "id": "polo-paper-money",
+        "title": "Book 2, Chapter 24: The Great Khan's Alchemy (Fiat Paper Currency)",
+        "segmentRefs": ["Pol.2.24"]
+      }
+    ]
   }
 ];
+
+
+
 
