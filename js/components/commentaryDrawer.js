@@ -185,6 +185,16 @@ export const CommentaryDrawer = {
           </span>
         </div>
       </div>
+
+      <!-- Quick External Library Portal Link -->
+      <div class="drawer-section" style="padding-top: 0.5rem; border-top: 1px dashed var(--border-subtle);">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-size: 0.8rem; color: var(--text-muted);">Want to read the complete work?</span>
+          <a href="#/texts/${text.id}" class="btn btn-ghost btn-sm" style="font-size: 0.78rem;">
+            <span>🌐</span> Online Digital Editions ↗
+          </a>
+        </div>
+      </div>
     `;
 
     // Note auto-save listener

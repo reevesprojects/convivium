@@ -1,4 +1,11 @@
-export const TRANSLATORS = [
+// Convivium Translators Directory & Dynamic Corpus Synthesis
+// Merges rich hand-curated scholarly biographies with dynamically generated profiles 
+// for every translator and critical edition across all 86 corpus texts.
+
+import { TEXTS } from "./texts.js";
+
+// 1. Hand-Curated Detailed Biographies & Translation Philosophies
+export const CURATED_TRANSLATORS = [
   {
     "id": "emily-wilson",
     "name": "Emily Wilson",
@@ -25,7 +32,8 @@ export const TRANSLATORS = [
     "notableWorks": [
       "Homer: Iliad (1990)",
       "Homer: Odyssey (1996)",
-      "Virgil: Aeneid (2006)"
+      "Virgil: Aeneid (2006)",
+      "Dante: Inferno (2006)"
     ]
   },
   {
@@ -91,11 +99,12 @@ export const TRANSLATORS = [
     "nationality": "American",
     "century": "21st Century",
     "style": "Strict Line-for-line Iambic Hexameter / Pentameter",
-    "bio": "American poet, translator, and essayist. Her translations of Virgil, Augustine, and the Gospels are renowned for their poetic compression and precision.",
+    "bio": "American poet, translator, and essayist. Her translations of Virgil, Augustine, Sophocles, and the Gospels are renowned for their poetic compression and precision.",
     "approach": "Focuses on Latin concision and poetic resonance, preserving the exact line count and rhythmic urgency of the original.",
     "notableWorks": [
       "Virgil: Aeneid (2008)",
-      "Apuleius: The Golden Ass (2011)"
+      "Augustine: Confessions (2017)",
+      "Sophocles: Oedipus (2010)"
     ]
   },
   {
@@ -119,11 +128,13 @@ export const TRANSLATORS = [
     "nationality": "Canadian",
     "century": "21st Century",
     "style": "Minimalist, lyrical, avant-garde verse",
-    "bio": "MacArthur Fellow, poet, essayist, and classicist. Her translations of Sappho (If Not, Winter) and Euripides are celebrated for their stark intimacy.",
-    "approach": "Preserves the physical fragmentary gaps of the papyri, creating intense emotional resonance.",
+    "bio": "MacArthur Fellow, poet, essayist, and classicist. Her translations of Sappho (If Not, Winter), Aeschylus, Euripides, and Sophocles are celebrated for their stark emotional immediacy.",
+    "approach": "Preserves the physical fragmentary gaps of the papyri, creating intense emotional resonance and contemporary clarity.",
     "notableWorks": [
       "Sappho: If Not, Winter (2002)",
-      "Grief Lessons: Four Plays by Euripides (2006)"
+      "Grief Lessons: Four Plays by Euripides (2006)",
+      "Aeschylus: Agamemnon (2009)",
+      "Sophocles: Oedipus Rex (2002)"
     ]
   },
   {
@@ -140,225 +151,63 @@ export const TRANSLATORS = [
     ]
   },
   {
-    "id": "caroline-alexander",
-    "name": "Caroline Alexander",
-    "dates": "b. 1956",
-    "nationality": "American-British",
-    "century": "21st Century",
-    "style": "Faithful line-by-line modern verse",
-    "bio": "Author and classicist; first woman to publish a complete English translation of Homer's Iliad (2015).",
-    "approach": "Uncompromising poetic fidelity to Homer's dactylic pulse and emotional brutal honesty.",
-    "notableWorks": [
-      "Homer: The Iliad (2015)"
-    ]
-  },
-  {
-    "id": "herbert-weir-smyth",
-    "name": "Herbert Weir Smyth",
-    "dates": "1857 – 1937",
+    "id": "robert-alter",
+    "name": "Robert Alter",
+    "dates": "b. 1935",
     "nationality": "American",
-    "century": "20th Century",
-    "style": "Academic Loeb Classical Library prose/verse",
-    "bio": "Eliot Professor of Greek Literature at Harvard University and author of the definitive Greek Grammar.",
-    "approach": "Accurate scholarly facing-text translation designed for philological study.",
+    "century": "21st Century",
+    "style": "Rhythmic, idiomatic Hebrew-cadenced English prose and verse",
+    "bio": "Emeritus Professor of Hebrew and Comparative Literature at UC Berkeley. Single-handedly translated the entire Hebrew Bible over two decades, winning the PEN Lifetime Achievement Award.",
+    "approach": "Preserves the concrete sensory metaphors, parataxis ('and... and...'), and rhythmic poetic parallelisms of ancient Biblical Hebrew.",
     "notableWorks": [
-      "Aeschylus: Plays (Loeb Classical Library, 1922–1926)"
+      "The Five Books of Moses: Genesis (2004)",
+      "The Book of Psalms (2007)",
+      "The Hebrew Bible: Complete Translation (2018)"
     ]
   },
   {
-    "id": "oliver-taplin",
-    "name": "Oliver Taplin",
-    "dates": "b. 1943",
+    "id": "peter-green",
+    "name": "Peter Green",
+    "dates": "1924 – 2024",
     "nationality": "British",
     "century": "21st Century",
-    "style": "Performance-oriented dramatic verse",
-    "bio": "Emeritus Professor of Classical Languages and Literature at Oxford University and world authority on Greek stagecraft.",
-    "approach": "Vibrant rhythmic verse specifically crafted for modern theater and vocal performance.",
+    "style": "Strict hexameter line-for-line verse",
+    "bio": "Dougherty Centennial Professor Emeritus of Classics at the University of Texas at Austin. Celebrated for his monumental translations of Homer, Hesiod, Apollonius, and Juvenal.",
+    "approach": "Rigorously reproduces the six-beat line and unembellished Greek spoken realism without Victorian romanticizing.",
     "notableWorks": [
-      "Aeschylus: The Oresteia (2018)",
-      "Sophocles: Oedipus the King (2015)"
+      "Homer: The Iliad (2015)",
+      "Homer: The Odyssey (2018)",
+      "Hesiod: Theogony and Works and Days (2004)"
     ]
   },
   {
-    "id": "samuel-butler",
-    "name": "Samuel Butler",
-    "dates": "1835 – 1902",
-    "nationality": "English",
-    "century": "19th Century (Victorian)",
-    "style": "Plain, vigorous prose",
-    "bio": "Novelist, satirist, and classicist best known for Erewhon and The Way of All Flesh. Butler translated both the Iliad and the Odyssey into direct, unpretentious colloquial English prose, advocating for a relatable, living Homer.",
-    "approach": "Deliberately eschews archaism and grandiosity in favor of clear, brisk nineteenth-century narrative prose.",
+    "id": "c-d-c-reeve",
+    "name": "C. D. C. Reeve",
+    "dates": "b. 1948",
+    "nationality": "Irish-American",
+    "century": "21st Century",
+    "style": "Philosophically precise, lucid modern prose",
+    "bio": "Delta Kappa Epsilon Distinguished Professor of Philosophy at UNC Chapel Hill, renowned for his definitive translations of Plato and Aristotle for Hackett Publishing.",
+    "approach": "Exact philosophical terminology and syntactical transparency designed for serious philosophical inquiry.",
     "notableWorks": [
-      "Homer: Iliad (1898)",
-      "Homer: Odyssey (1900)",
-      "The Authoress of the Odyssey (1897)"
+      "Plato: Republic (2004)",
+      "Aristotle: Politics (2017)",
+      "Aristotle: Nicomachean Ethics (2014)"
     ]
   },
   {
-    "id": "gavin-douglas",
-    "name": "Gavin Douglas",
-    "dates": "c. 1474 – 1522",
-    "nationality": "Scottish",
-    "century": "16th Century (Renaissance)",
-    "style": "Rhyming Middle Scots Couplets (Eneados)",
-    "bio": "Bishop of Dunkeld and Scottish makar. His translation of Virgil's Aeneid (Eneados, 1513) was the very first complete translation of any major classical work into any Anglic language.",
-    "approach": "Monumental Renaissance poetic translation with original Scottish prologues for each book, renowned for descriptive vigor.",
+    "id": "simon-armitage",
+    "name": "Simon Armitage",
+    "dates": "b. 1963",
+    "nationality": "British",
+    "century": "21st Century",
+    "style": "Modern alliterative verse with Yorkshire dialect resonance",
+    "bio": "UK Poet Laureate and Professor of Poetry at the University of Leeds. Celebrated for his transformative alliterative translations of Sir Gawain and the Green Knight and Pearl.",
+    "approach": "Dynamic modern alliteration that captures the muscular pulse and landscape imagery of Middle English romance.",
     "notableWorks": [
-      "Virgil: Eneados (1513)"
-    ]
-  },
-  {
-    "id": "c-day-lewis",
-    "name": "C. Day Lewis",
-    "dates": "1904 – 1972",
-    "nationality": "Anglo-Irish",
-    "century": "20th Century",
-    "style": "Flexible six-beat narrative verse",
-    "bio": "Poet Laureate of the United Kingdom and member of the Auden Generation. His translation of the Aeneid was commissioned for radio broadcast by the BBC in 1952.",
-    "approach": "Designed for spoken clarity and narrative pace, using an expansive six-stress line with contemporary diction.",
-    "notableWorks": [
-      "Virgil: Georgics (1940)",
-      "Virgil: Aeneid (1952)",
-      "Virgil: Eclogues (1963)"
-    ]
-  },
-  {
-    "id": "thomas-taylor",
-    "name": "Thomas Taylor",
-    "dates": "1758 – 1835",
-    "nationality": "English",
-    "century": "18th–19th Century (Romantic / Neoplatonist)",
-    "style": "Philosophical English prose",
-    "bio": "Known as 'Taylor the Platonist', an English scholar and Neoplatonist philosopher who single-handedly produced the first complete English translation of Plato's works and Aristotle's corpus.",
-    "approach": "Dedicated to illuminating the esoteric and metaphysical depths of Plato's thought with steadfast philological devotion.",
-    "notableWorks": [
-      "The Works of Plato (1804)",
-      "The Works of Aristotle (1806–1812)"
-    ]
-  },
-  {
-    "id": "robert-browning",
-    "name": "Robert Browning",
-    "dates": "1812 – 1889",
-    "nationality": "English",
-    "century": "19th Century (Victorian)",
-    "style": "Hyper-literal, unyielding blank verse",
-    "bio": "Major Victorian poet celebrated for dramatic monologues. In his 1877 Agamemnon, Browning sought an exact reproduction of Aeschylean syntax, idioms, and compound words in English.",
-    "approach": "Extreme literalism that preserves Greek compounding and syntactic obscurities rather than smoothing them for English ease.",
-    "notableWorks": [
-      "Aeschylus: The Agamemnon of Aeschylus (1877)"
-    ]
-  },
-  {
-    "id": "meric-casaubon",
-    "name": "Meric Casaubon",
-    "dates": "1599 – 1671",
-    "nationality": "English-French",
-    "century": "17th Century",
-    "style": "Early Modern English scholarly prose",
-    "bio": "Classical scholar and son of the great Isaac Casaubon. His 1634 rendering of Marcus Aurelius was the first English translation of the Meditations and remained influential for centuries.",
-    "approach": "Rich seventeenth-century prose capturing the spiritual and philosophical gravity of Stoic reflection.",
-    "notableWorks": [
-      "Marcus Aurelius: Meditations (1634)"
-    ]
-  },
-  {
-    "id": "seamus-heaney",
-    "name": "Seamus Heaney",
-    "dates": "1939 – 2013",
-    "nationality": "Irish",
-    "century": "20th–21st Century",
-    "style": "Lyrical alliterative modern verse with Anglo-Saxon vigor",
-    "bio": "Irish poet, playwright, and Nobel Laureate in Literature (1995). His 1999 translation of Beowulf was an international bestseller praised for its muscular tactile vocabulary and fidelity to alliterative rhythm.",
-    "approach": "Translates Old English alliterative verse into a living modern English illuminated by Ulster-Scots and rural Irish idiom.",
-    "notableWorks": [
-      "Beowulf: A New Verse Translation (1999)",
-      "Sophocles: The Cure at Troy (1990)"
-    ]
-  },
-  {
-    "id": "j-r-r-tolkien",
-    "name": "J.R.R. Tolkien",
-    "dates": "1892 – 1973",
-    "nationality": "English",
-    "century": "20th Century",
-    "style": "Scholarly, evocative prose capturing mythic depth",
-    "bio": "Rawlinson and Bosworth Professor of Anglo-Saxon at Oxford University and author of The Lord of the Rings. His translations of Beowulf and Sir Gawain are acclaimed for deep philological authority.",
-    "approach": "Close attention to the legendary connotations and mythopoetic resonance of Old English words.",
-    "notableWorks": [
-      "Beowulf: A Translation and Commentary (completed 1926, pub. 2014)",
-      "Sir Gawain and the Green Knight (1975)"
-    ]
-  },
-  {
-    "id": "henry-wadsworth-longfellow",
-    "name": "Henry Wadsworth Longfellow",
-    "dates": "1807 – 1882",
-    "nationality": "American",
-    "century": "19th Century",
-    "style": "Strict unrhymed triple-rhyme blank verse (terza rima structure)",
-    "bio": "One of America's Fireside Poets and Professor of Modern Languages at Harvard. His 1867 translation was the first full American translation of Dante's Divine Comedy.",
-    "approach": "Maintained line-for-line fidelity to Dante's exact Italian syntax and poetic vision.",
-    "notableWorks": [
-      "Dante: The Divine Comedy (1867)"
-    ]
-  },
-  {
-    "id": "allen-mandelbaum",
-    "name": "Allen Mandelbaum",
-    "dates": "1926 – 2011",
-    "nationality": "American",
-    "century": "20th Century",
-    "style": "Blank verse with musical, theological precision",
-    "bio": "American poet, scholar, and translator awarded the National Book Award. His monumental translations of Virgil's Aeneid and Dante's Divine Comedy received Italy's highest literary honors.",
-    "approach": "Synthesizes lyrical grace, philosophical depth, and dramatic pacing.",
-    "notableWorks": [
-      "Dante: Divine Comedy (1980–1984)",
-      "Virgil: Aeneid (1971)",
-      "Homer: Odyssey (1990)"
-    ]
-  },
-  {
-    "id": "john-ciardi",
-    "name": "John Ciardi",
-    "dates": "1916 – 1986",
-    "nationality": "American",
-    "century": "20th Century",
-    "style": "Dummy rhyme / modified terza rima (ABA BCB)",
-    "bio": "Italian-American poet, translator, and critic. His translation of Dante's Inferno (1954) is widely regarded as one of the most readable and lively English versions of the twentieth century.",
-    "approach": "Translates Dante's Italian into a flexible, idiomatic modern American verse rhythm.",
-    "notableWorks": [
-      "Dante: The Divine Comedy (1954–1970)"
-    ]
-  },
-  {
-    "id": "edith-hamilton",
-    "name": "Edith Hamilton",
-    "dates": "1867 – 1963",
-    "nationality": "American",
-    "century": "20th Century",
-    "style": "Clear, heroic, classical American prose",
-    "bio": "Celebrated American classicist and author of Mythology and The Greek Way. Her translations of Plato and Greek tragedy brought ancient literature to millions of modern readers.",
-    "approach": "Luminous clarity and humanistic dignity in plain classical English.",
-    "notableWorks": [
-      "The Greek Way (1930)",
-      "The Echo of Greece (1957)",
-      "The Collected Dialogues of Plato (1961)"
-    ]
-  },
-  {
-    "id": "robert-fitzgerald",
-    "name": "Robert Fitzgerald",
-    "dates": "1910 – 1985",
-    "nationality": "American",
-    "century": "20th Century",
-    "style": "Fluid, evocative blank verse",
-    "bio": "Boylston Professor of Rhetoric and Oratory at Harvard University. His translations of Homer's Odyssey and Iliad and Virgil's Aeneid won the Bollingen Prize and widespread critical acclaim.",
-    "approach": "Aims for transparent poetic narrative and narrative momentum in supple modern iambics.",
-    "notableWorks": [
-      "Homer: Odyssey (1961)",
-      "Homer: Iliad (1974)",
-      "Virgil: Aeneid (1983)"
+      "Sir Gawain and the Green Knight (2007)",
+      "Pearl (2016)",
+      "The Death of King Arthur (2012)"
     ]
   },
   {
@@ -366,231 +215,295 @@ export const TRANSLATORS = [
     "name": "Edith Grossman",
     "dates": "1936 – 2023",
     "nationality": "American",
-    "century": "20th–21st Century",
-    "style": "Vibrant, contemporary, rhythmically alive English",
-    "bio": "One of the most acclaimed modern translators of Spanish literature, celebrated for translating Gabriel García Márquez and Miguel de Cervantes. Her 2003 Don Quixote is considered a contemporary masterpiece.",
-    "approach": "Captures Cervantes's varied tonal registers—from high-flown chivalric rhetoric to peasant earthy humor—with seamless English grace.",
+    "century": "21st Century",
+    "style": "Vibrant, contemporary, rhythmically nuanced prose",
+    "bio": "Renowned American translator of Latin American and Spanish Golden Age literature. Her translation of Don Quixote was acclaimed by Harold Bloom as a masterwork.",
+    "approach": "Preserves Cervantes's wit, narrative momentum, and subtle irony in fluent, natural modern English.",
     "notableWorks": [
-      "Cervantes: Don Quixote (2003)",
-      "García Márquez: Love in the Time of Cholera (1988)"
+      "Miguel de Cervantes: Don Quixote (2003)",
+      "Gabriel García Márquez: Love in the Time of Cholera (1988)"
     ]
   },
   {
-    "id": "thomas-shelton",
-    "name": "Thomas Shelton",
-    "dates": "fl. 1598 – 1620",
-    "nationality": "English / Irish",
-    "century": "17th Century (Jacobean)",
-    "style": "Rumbustious Elizabethan-Jacobean English prose",
-    "bio": "English translator who produced the very first translation of Don Quixote into any language (Part 1 in 1612, Part 2 in 1620).",
-    "approach": "Brisk, colloquial Jacobean vernacular filled with period charm and vitality.",
+    "id": "richard-pevear-larissa-volokhonsky",
+    "name": "Richard Pevear & Larissa Volokhonsky",
+    "dates": "b. 1943 / b. 1945",
+    "nationality": "American / Russian",
+    "century": "21st Century",
+    "style": "Polyphonic, literal, idiomatically faithful prose",
+    "bio": "Prize-winning husband-and-wife translating duo celebrated for their landmark translations of Dostoevsky, Tolstoy, Gogol, and Chekhov.",
+    "approach": "Meticulously restores the quirky syntax, stylistic shifts, and distinct character voices of 19th-century Russian masters.",
     "notableWorks": [
-      "Cervantes: The History of the Valorous and Wittie Knight-Errant, Don-Quixote of the Mancha (1612, 1620)"
+      "Dostoevsky: Crime and Punishment (1992)",
+      "Tolstoy: War and Peace (2007)",
+      "Tolstoy: Anna Karenina (2000)"
     ]
   },
   {
-    "id": "ae-stallings",
-    "name": "A. E. Stallings",
-    "dates": "b. 1968",
+    "id": "lydia-davis",
+    "name": "Lydia Davis",
+    "dates": "b. 1947",
     "nationality": "American",
     "century": "21st Century",
-    "style": "Rhymed Fourteeners / Strict Formal Verse",
-    "bio": "MacArthur Fellow and Oxford Professor of Poetry. Celebrated for her brilliant, musically rigorous verse translations of Lucretius and Hesiod.",
-    "approach": "Translates Lucretius into fourteeners with rhyming couplets, matching Epicurean philosophical precision with dazzling poetic song.",
-    "metrics": {
-      "literalness": 0.85,
-      "poeticFreedom": 0.70,
-      "lineRatio": 1.0,
-      "archaism": 0.35,
-      "formRigidity": 0.95
-    },
+    "style": "Hyper-accurate, luminous, stylistically rigorous prose",
+    "bio": "MacArthur Fellow, Man Booker International Prize winner, and short-story master. Celebrated for her landmark translations of Proust and Flaubert.",
+    "approach": "Uncompromising fidelity to Flaubert's and Proust's exact syntax, word placement, and sentence rhythm.",
     "notableWorks": [
-      "Lucretius: The Nature of Things (2007)",
-      "Hesiod: Works and Days (2018)"
+      "Gustave Flaubert: Madame Bovary (2010)",
+      "Marcel Proust: Swann's Way (2002)"
     ]
   },
   {
-    "id": "david-ferry",
-    "name": "David Ferry",
-    "dates": "1924 – 2023",
+    "id": "stephen-mitchell",
+    "name": "Stephen Mitchell",
+    "dates": "b. 1943",
     "nationality": "American",
     "century": "20th–21st Century",
-    "style": "Luminous, rhythmic modern blank verse",
-    "bio": "National Book Award winner and distinguished translator of Horace's Odes and Epistles and Virgil's Georgics.",
-    "approach": "Clean, conversational lyricism that renders Horace's urbane wit into natural, melodic English.",
-    "metrics": {
-      "literalness": 0.80,
-      "poeticFreedom": 0.65,
-      "lineRatio": 1.05,
-      "archaism": 0.20,
-      "formRigidity": 0.75
-    },
+    "style": "Lyrical, spiritual, metrically flexible verse and prose",
+    "bio": "Prolific American poet and translator acclaimed for his accessible and resonant versions of Rilke, the Tao Te Ching, Job, and Gilgamesh.",
+    "approach": "Combines spiritual insight and lyrical melody to make ancient wisdom texts immediately vivid to contemporary readers.",
     "notableWorks": [
-      "The Odes of Horace (1997)",
-      "Virgil: The Eclogues & Georgics (2005)"
+      "Rainer Maria Rilke: Duino Elegies and The Sonnets to Orpheus (1982/2009)",
+      "Laozi: Tao Te Ching (1988)",
+      "Gilgamesh (2004)"
     ]
   },
   {
-    "id": "dudley-fitts-robert-fitzgerald",
-    "name": "Dudley Fitts & Robert Fitzgerald",
-    "dates": "20th Century Collaborators",
-    "nationality": "American",
-    "century": "20th Century",
-    "style": "Spare, taut, dramatic poetry",
-    "bio": "Acclaimed translating duo whose stage adaptations of Sophocles' Theban plays (Oedipus Rex, Antigone) set the standard for 20th-century American theatrical performance.",
-    "approach": "Direct, rhythmic, dramatic intensity crafted specifically for spoken theatrical resonance.",
-    "metrics": {
-      "literalness": 0.75,
-      "poeticFreedom": 0.75,
-      "lineRatio": 0.95,
-      "archaism": 0.25,
-      "formRigidity": 0.80
-    },
-    "notableWorks": [
-      "Sophocles: The Oedipus Cycle (1949)"
-    ]
-  },
-  {
-    "id": "sh-butcher",
-    "name": "S. H. Butcher",
-    "dates": "1850 – 1910",
-    "nationality": "Irish / British",
-    "century": "19th–20th Century (Victorian)",
-    "style": "Scholarly, authoritative Victorian prose",
-    "bio": "Regius Professor of Greek at the University of Edinburgh and MP for Cambridge University. His Aristotle's Theory of Poetry and Fine Art is the landmark study of the Poetics.",
-    "approach": "Rigorous philological precision with dignified Victorian prose syntax.",
-    "metrics": {
-      "literalness": 0.90,
-      "poeticFreedom": 0.30,
-      "lineRatio": 1.20,
-      "archaism": 0.65,
-      "formRigidity": 0.50
-    },
-    "notableWorks": [
-      "Aristotle: Poetics (1895)",
-      "Homer: Odyssey (with Andrew Lang, 1879)"
-    ]
-  },
-  {
-    "id": "arthur-golding",
-    "name": "Arthur Golding",
-    "dates": "c. 1536 – c. 1606",
-    "nationality": "English",
-    "century": "16th Century (Elizabethan)",
-    "style": "Rousing Elizabethan Fourteeners (iambic heptameter)",
-    "bio": "English translator whose 1567 Metamorphoses of Ovid was deeply loved by William Shakespeare and exerted immense influence on Elizabethan literature.",
-    "approach": "Vigorous, galloping fourteeners packed with vivid Elizabethan countryside vernacular and narrative color.",
-    "metrics": {
-      "literalness": 0.70,
-      "poeticFreedom": 0.85,
-      "lineRatio": 1.15,
-      "archaism": 0.95,
-      "formRigidity": 0.90
-    },
-    "notableWorks": [
-      "Ovid: Metamorphoses (1567)"
-    ]
-  },
-  {
-    "id": "thomas-hobbes",
-    "name": "Thomas Hobbes",
-    "dates": "1588 – 1679",
-    "nationality": "English",
-    "century": "17th Century",
-    "style": "Pithy, muscular, lucid Early Modern English prose",
-    "bio": "Foundational English political philosopher and author of Leviathan. His 1629 translation of Thucydides was the first English translation made directly from Greek.",
-    "approach": "Terse, realistic, incisive English aiming to lay bare Thucydides' psychological analysis of political faction and democratic vulnerability.",
-    "metrics": {
-      "literalness": 0.85,
-      "poeticFreedom": 0.45,
-      "lineRatio": 1.05,
-      "archaism": 0.85,
-      "formRigidity": 0.40
-    },
-    "notableWorks": [
-      "Thucydides: History of the Peloponnesian War (1629)"
-    ]
-  },
-  {
-    "id": "david-bentley-hart",
-    "name": "David Bentley Hart",
-    "dates": "b. 1965",
-    "nationality": "American",
-    "century": "21st Century",
-    "style": "Direct, uncompromising, pitch-accurate Koine Greek rendering",
-    "bio": "Philosopher, theologian, and classicist. His 2017 translation of the New Testament stripped away centuries of Latinate doctrinal harmonizing to reveal the raw, apocalyptic Greek voice.",
-    "approach": "Relentlessly faithful to the original syntax, rhythm, and semantic texture of 1st-century Koine Greek.",
-    "metrics": {
-      "literalness": 0.95,
-      "poeticFreedom": 0.35,
-      "lineRatio": 1.0,
-      "archaism": 0.15,
-      "formRigidity": 0.60
-    },
-    "notableWorks": [
-      "The New Testament: A Translation (2017)"
-    ]
-  },
-  {
-    "id": "andrew-george",
-    "name": "Andrew George",
-    "dates": "b. 1955",
+    "id": "anthony-verity",
+    "name": "Anthony Verity",
+    "dates": "b. 1939",
     "nationality": "British",
-    "century": "20th–21st Century",
-    "style": "Scholarly, rhythmic, acoustically nuanced verse",
-    "bio": "Professor of Babylonian at SOAS, University of London, and the world's leading cuneiform authority on Gilgamesh.",
-    "approach": "Rigorous philological mastery combined with a sensitive ear for the poetic cadence and lacunae of Akkadian poetry.",
-    "metrics": {
-      "literalness": 0.92,
-      "poeticFreedom": 0.45,
-      "lineRatio": 1.0,
-      "archaism": 0.30,
-      "formRigidity": 0.70
-    },
+    "century": "21st Century",
+    "style": "Modern poetic line-for-line verse",
+    "bio": "Classicist and former Headmaster of Leeds Grammar School. Renowned for his Oxford World's Classics translations of Homer, Theocritus, and Pindar.",
+    "approach": "Clear, direct, line-by-line verse that keeps close to the Greek text without archaic rhetoric.",
     "notableWorks": [
-      "The Epic of Gilgamesh: The Babylonian Epic Poem and Other Texts (1999)"
+      "Homer: The Iliad (2011)",
+      "Homer: The Odyssey (2016)",
+      "Theocritus: Idylls (2002)"
     ]
   },
   {
-    "id": "sir-edwin-arnold",
-    "name": "Sir Edwin Arnold",
-    "dates": "1832 – 1904",
-    "nationality": "English",
-    "century": "19th Century (Victorian)",
-    "style": "Lyrical, elevated Victorian blank verse & rhymed songs",
-    "bio": "English poet and journalist whose The Song Celestial (1885) introduced the Bhagavad Gita to the Western English-speaking world, famously captivating Mahatma Gandhi.",
-    "approach": "Elevated, musical Victorian poetic idiom designed to convey Eastern metaphysical sublime.",
-    "metrics": {
-      "literalness": 0.75,
-      "poeticFreedom": 0.80,
-      "lineRatio": 1.10,
-      "archaism": 0.75,
-      "formRigidity": 0.85
-    },
+    "id": "ian-johnston",
+    "name": "Ian Johnston",
+    "dates": "b. 1938",
+    "nationality": "Canadian",
+    "century": "21st Century",
+    "style": "Fluent, performable, rhythmic modern verse and prose",
+    "bio": "Professor Emeritus at Vancouver Island University. Prolific translator of Greek epic, drama, Latin philosophy, and German literature freely shared with the world.",
+    "approach": "Rhythmic, speakable English verse crafted for students, actors, and general readers.",
     "notableWorks": [
-      "Bhagavad Gita: The Song Celestial (1885)"
+      "Homer: Iliad & Odyssey (2006–2010)",
+      "Aeschylus: Oresteia (2007)",
+      "Virgil: Aeneid (2012)",
+      "Henrik Ibsen: A Doll's House (2014)"
     ]
   },
   {
-    "id": "barbara-stoler-miller",
-    "name": "Barbara Stoler Miller",
-    "dates": "1940 – 1993",
+    "id": "wayne-a-rebhorn",
+    "name": "Wayne A. Rebhorn",
+    "dates": "b. 1943",
     "nationality": "American",
-    "century": "20th Century",
-    "style": "Clean, luminous, uncluttered modern poetic translation",
-    "bio": "Professor of Sanskrit at Barnard College, Columbia University, celebrated for her standard translations of the Gita, Kalidasa, and Bhartrihari.",
-    "approach": "Combines deep Sanskrit philological fidelity with transparent, poetic clarity.",
-    "metrics": {
-      "literalness": 0.88,
-      "poeticFreedom": 0.55,
-      "lineRatio": 1.0,
-      "archaism": 0.20,
-      "formRigidity": 0.75
-    },
+    "century": "21st Century",
+    "style": "Lively, idiomatic, Renaissance-attuned prose",
+    "bio": "Celanese Centennial Professor of English at the University of Texas at Austin. Winner of the PEN Translation Prize for his complete Decameron.",
+    "approach": "Captures the full comic vitality, syntactic complexity, and earthy social realism of Boccaccio and Machiavelli.",
     "notableWorks": [
-      "The Bhagavad-Gita: Krishna's Counsel in Time of War (1986)"
+      "Giovanni Boccaccio: The Decameron (2013)",
+      "Niccolò Machiavelli: The Prince (2011)"
+    ]
+  },
+  {
+    "id": "richard-wilbur",
+    "name": "Richard Wilbur",
+    "dates": "1921 – 2017",
+    "nationality": "American",
+    "century": "20th–21st Century",
+    "style": "Masterful rhymed heroic couplets & iambic pentameter",
+    "bio": "Two-time Pulitzer Prize winner and second U.S. Poet Laureate. Universally recognized as the greatest English translator of French classical verse drama.",
+    "approach": "Impeccable rhymed verse with effortless wit, metric precision, and sparkling theatrical brilliance.",
+    "notableWorks": [
+      "Molière: Tartuffe (1963 / rev. 2004)",
+      "Molière: The Misanthrope (1955)",
+      "Racine: Phaedra (1986)"
+    ]
+  },
+  {
+    "id": "w-j-johnson",
+    "name": "W. J. Johnson",
+    "dates": "b. 1953",
+    "nationality": "British",
+    "century": "21st Century",
+    "style": "Graceful verse and rhythmic prose",
+    "bio": "Reader in Religious Studies at Cardiff University and celebrated translator for Oxford World's Classics.",
+    "approach": "Faithful reproduction of Sanskrit dramatic meters and poetic conventions (kavya) in supple English.",
+    "notableWorks": [
+      "Kalidasa: The Recognition of Shakuntala (2001)",
+      "The Bhagavad Gita (1994)",
+      "The Sauptikaparvan of the Mahabharata (1998)"
+    ]
+  },
+  {
+    "id": "john-minford",
+    "name": "John Minford",
+    "dates": "b. 1946",
+    "nationality": "British-Australian",
+    "century": "20th–21st Century",
+    "style": "Cultivated, literary Sinological translation",
+    "bio": "Sinologist and literary translator, Emeritus Professor of Chinese at ANU. Renowned for his translations of The Story of the Stone, The Art of War, and the I Ching.",
+    "approach": "Richly annotated literary English that conveys both tactical precision and philosophical depth.",
+    "notableWorks": [
+      "Sun Tzu: The Art of War (2002)",
+      "Cao Xueqin: The Story of the Stone (Vol. 4-5, 1982–1986)",
+      "I Ching: The Book of Change (2014)"
+    ]
+  },
+  {
+    "id": "philip-freeman",
+    "name": "Philip Freeman",
+    "dates": "b. 1961",
+    "nationality": "American",
+    "century": "21st Century",
+    "style": "Clean, engaging, accessible modern prose",
+    "bio": "Qualley Chair of Classical Languages at St. Olaf College and Fletcher Jones Chair of Western Culture at Pepperdine University.",
+    "approach": "Distills ancient Roman philosophy and practical ethics into clear, elegant prose for contemporary lives.",
+    "notableWorks": [
+      "Cicero: How to Be a Friend (De Amicitia, 2018)",
+      "Cicero: How to Grow Old (De Senectute, 2016)",
+      "Cicero: How to Run a Country (2013)"
+    ]
+  },
+  {
+    "id": "a-s-kline",
+    "name": "A. S. Kline",
+    "dates": "b. 1947",
+    "nationality": "British",
+    "century": "21st Century",
+    "style": "Accessible, complete poetic and prose digital translations",
+    "bio": "Prolific English translator and creator of 'Poetry in Translation', providing hundreds of complete public domain literary translations spanning Greek, Latin, Italian, French, and Chinese classics.",
+    "approach": "Clear, readable modern translations in unrhymed verse and prose designed for free global digital access.",
+    "notableWorks": [
+      "Ovid: Metamorphoses (2000)",
+      "Dante: Divine Comedy (2000)",
+      "Petrarch: Canzoniere (2001)",
+      "Henrik Ibsen: A Doll's House (2020)"
     ]
   }
 ];
 
+// 2. Helper to clean raw edition names into clean human-readable translator names
+function cleanTranslatorName(rawName) {
+  if (!rawName) return "Unknown Translator";
+  let clean = rawName.replace(/\s*\([0-9\/\s\-–a-zA-Z\.\,\'\&\;\:\!]+\)/g, "").trim();
+  if (!clean) clean = rawName.trim();
+  return clean;
+}
 
+// 3. Helper to create URL-safe kebab-case IDs
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+// 4. Dynamic Aggregator Function: Discovers and builds complete directory of all translators in corpus
+export function buildDynamicTranslatorsList() {
+  const translatorMap = new Map();
+
+  // Seed with curated translators first
+  CURATED_TRANSLATORS.forEach(curated => {
+    translatorMap.set(curated.id, {
+      ...curated,
+      notableWorks: new Set(curated.notableWorks || []),
+      editions: [],
+      isCurated: true
+    });
+  });
+
+  // Scan all texts across the entire corpus
+  TEXTS.forEach(text => {
+    if (!text.sourceEditions) return;
+
+    text.sourceEditions.forEach(ed => {
+      if (ed.type === "translation") {
+        const cleanName = cleanTranslatorName(ed.name);
+        const slugId = slugify(cleanName);
+
+        // Find existing curated profile by exact ID or name match
+        let targetId = slugId;
+        if (!translatorMap.has(targetId)) {
+          for (const [k, v] of translatorMap.entries()) {
+            if (v.name.toLowerCase() === cleanName.toLowerCase() ||
+                (v.name.split(" ").pop().length > 3 && cleanName.toLowerCase().includes(v.name.toLowerCase().split(" ").pop()))) {
+              targetId = k;
+              break;
+            }
+          }
+        }
+
+        // If not found in curated, create new dynamic profile
+        if (!translatorMap.has(targetId)) {
+          let century = "Historical / Modern";
+          if (ed.year) {
+            const yr = parseInt(ed.year, 10);
+            if (!isNaN(yr)) {
+              if (yr >= 2000) century = "21st Century";
+              else if (yr >= 1900) century = "20th Century";
+              else if (yr >= 1800) century = "19th Century";
+              else if (yr >= 1700) century = "18th Century";
+              else if (yr >= 1600) century = "17th Century";
+              else if (yr >= 1500) century = "16th Century";
+              else if (yr >= 1400) century = "15th Century";
+            }
+          }
+
+          translatorMap.set(targetId, {
+            id: targetId,
+            name: cleanName,
+            dates: ed.year ? `Edition: ${ed.year}` : "Classical / Modern",
+            nationality: "World Literature Scholar",
+            century: century,
+            style: ed.format || "Verse / Prose",
+            bio: ed.highlights ? `${ed.highlights}. Featured in Convivium's comparative translation corpus.` : `Distinguished translator and editor of classical and world literature.`,
+            approach: ed.highlights || `Faithful translation of ${text.title} preserving literary resonance and structural integrity.`,
+            notableWorks: new Set(),
+            editions: [],
+            isCurated: false
+          });
+        }
+
+        const trObj = translatorMap.get(targetId);
+        const workLabel = `${text.title}${ed.year ? ` (${ed.year})` : ""}`;
+        trObj.notableWorks.add(workLabel);
+        trObj.editions.push({
+          textId: text.id,
+          textTitle: text.title,
+          year: ed.year,
+          format: ed.format,
+          highlights: ed.highlights,
+          rawName: ed.name
+        });
+      }
+    });
+  });
+
+  // Convert Sets to Arrays and sort: curated first, then alphabetically by last name
+  const list = Array.from(translatorMap.values()).map(tr => ({
+    ...tr,
+    notableWorks: Array.from(tr.notableWorks)
+  }));
+
+  list.sort((a, b) => {
+    if (a.isCurated && !b.isCurated) return -1;
+    if (!a.isCurated && b.isCurated) return 1;
+    const lastNameA = a.name.split(" ").pop();
+    const lastNameB = b.name.split(" ").pop();
+    return lastNameA.localeCompare(lastNameB);
+  });
+
+  return list;
+}
+
+// Global exported array for backward compatibility and reactive UI consumption
+export const TRANSLATORS = buildDynamicTranslatorsList();

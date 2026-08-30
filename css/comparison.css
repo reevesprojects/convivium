@@ -597,6 +597,30 @@
   margin-left: 4px;
 }
 
+/* Variance / Diff Highlights */
+.diff-word {
+  display: inline;
+  border-radius: 3px;
+  padding: 0 2px;
+  transition: background-color var(--transition-fast);
+}
+
+.diff-shared {
+  background-color: color-mix(in srgb, var(--accent-primary) 15%, transparent);
+  color: var(--text-primary);
+  border-bottom: 1.5px solid color-mix(in srgb, var(--accent-primary) 35%, transparent);
+}
+
+.diff-distinct {
+  background-color: color-mix(in srgb, var(--color-terracotta, #b84a39) 12%, transparent);
+  color: var(--text-primary);
+  border-bottom: 1.5px dashed color-mix(in srgb, var(--color-terracotta, #b84a39) 45%, transparent);
+}
+
+.diff-word:hover {
+  filter: brightness(0.95);
+}
+
 /* ==========================================================================
    INTERLINEAR / STACKED COMPARATIVE VIEW
    ========================================================================== */

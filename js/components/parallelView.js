@@ -268,12 +268,18 @@ export const ParallelView = {
 
                   if (isSource) {
                     let sourceHtml = seg.source;
+                    // Format poetic virgules (/) into clean visual line breaks
+                    sourceHtml = sourceHtml.replace(/\s*\/\s*/g, '<br/>');
+
                     if (seg.vocab && seg.vocab.length > 0) {
                       seg.vocab.forEach(v => {
-                        const regex = new RegExp(`(${v.word})`, "g");
+                        const escaped = v.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                        const regex = new RegExp(`(?<!<[^>]*)(${escaped})(?![^<]*>)`, "g");
                         sourceHtml = sourceHtml.replace(regex, `<span class="lexicon-word" data-lemma="${v.lemma}" data-meaning="${v.meaning}" data-link="${v.link}">$1</span>`);
                       });
                     }
+
+                    let literalHtml = seg.literal ? seg.literal.replace(/\s*\/\s*/g, '<br/>') : '';
 
                     return `
                       <div class="parallel-cell source-cell">
@@ -297,17 +303,21 @@ export const ParallelView = {
                           ${sourceHtml}
                         </div>
                         ${this.showLiteral && seg.literal ? `
-                          <div class="literal-gloss">${seg.literal}</div>
+                          <div class="literal-gloss">${literalHtml}</div>
                         ` : ''}
                       </div>
                     `;
 
                   } else {
                     const transMap = seg.translations || {};
-                    const rawLine = transMap[edId] || `<span style="color: var(--text-muted); font-style: italic;">[Line not aligned]</span>`;
-                    const formattedLine = this.diffMode && transMap[edId] 
-                      ? DiffService.highlightVariance(transMap[edId], transTexts)
+                    const rawLine = transMap[edId] 
+                      ? transMap[edId].replace(/\s*\/\s*/g, '<br/>')
+                      : `<span style="color: var(--text-muted); font-style: italic;">[Line not aligned]</span>`;
+                    
+                    let formattedLine = this.diffMode && transMap[edId] 
+                      ? DiffService.highlightVariance(transMap[edId].replace(/\s*\/\s*/g, ' \n '), transTexts).replace(/\n/g, '<br/>')
                       : rawLine;
+
                     const edLabel = ed.name ? ed.name.split(" (")[0] : edId;
 
                     return `

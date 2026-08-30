@@ -213,11 +213,11 @@ export const InterlinearView = {
                   </div>
                 ` : ''}
                 <div class="interlinear-source-text font-cardo">
-                  ${seg.source}
+                  ${seg.source.replace(/\s*\/\s*/g, '<br/>')}
                 </div>
                 ${seg.literal ? `
                   <div class="literal-gloss">
-                    <strong>Literal Gloss:</strong> ${seg.literal}
+                    <strong>Literal Gloss:</strong> ${seg.literal.replace(/\s*\/\s*/g, '<br/>')}
                   </div>
                 ` : ''}
               </div>
@@ -228,10 +228,14 @@ export const InterlinearView = {
                 ${this.activeEditions.map(edId => {
                   const ed = this.text.sourceEditions.find(e => e.id === edId);
                   if (!ed) return '';
+
                   const transMap = seg.translations || {};
-                  const rawLine = transMap[edId] || `[Line not translated]`;
-                  const formattedLine = this.diffMode && transMap[edId]
-                    ? DiffService.highlightVariance(transMap[edId], transTexts)
+                  const rawLine = transMap[edId] 
+                    ? transMap[edId].replace(/\s*\/\s*/g, '<br/>')
+                    : `<span style="color: var(--text-muted); font-style: italic;">[Line not aligned in this edition]</span>`;
+                  
+                  let formattedLine = this.diffMode && transMap[edId] 
+                    ? DiffService.highlightVariance(transMap[edId].replace(/\s*\/\s*/g, ' \n '), transTexts).replace(/\n/g, '<br/>')
                     : rawLine;
 
                   return `
