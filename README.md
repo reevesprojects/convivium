@@ -170,8 +170,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Contact
 
-Benjamin Reeves  
-[EMAIL_ADDRESS]
+Benjamin Reeves
+https://www.linkedin.com/in/benjamin-reeves-/
 
 ---
 
