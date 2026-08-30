@@ -7,6 +7,19 @@ import { TEXTS } from "./texts.js";
 // 1. Hand-Curated Detailed Biographies & Translation Philosophies
 export const CURATED_TRANSLATORS = [
   {
+    "id": "scott-mcgill-susannah-wright",
+    "name": "Scott McGill & Susannah Wright",
+    "dates": "2025",
+    "nationality": "American",
+    "century": "21st Century",
+    "style": "Unrhymed Iambic Pentameter, balancing contemporary readability with epic dignity",
+    "bio": "Professor of Classics at Rice University (Scott McGill) and classicist/literary translator (Susannah Wright). Their landmark 2025 Liveright/Norton edition of Virgil's Aeneid is the first collaborative English translation of the poem, developed over seven years and hailed by Emily Wilson for its vital rhythm and narrative power.",
+    "approach": "Unrhymed iambic pentameter designed to mirror the rhythmic forward drive of Virgil's dactylic hexameter, achieving a spoken, performable clarity while honoring the pathos and grandeur of the Latin.",
+    "notableWorks": [
+      "Virgil: Aeneid (Liveright / Norton, 2025)"
+    ]
+  },
+  {
     "id": "emily-wilson",
     "name": "Emily Wilson",
     "dates": "b. 1971",
@@ -430,12 +443,11 @@ export function buildDynamicTranslatorsList() {
         const cleanName = cleanTranslatorName(ed.name);
         const slugId = slugify(cleanName);
 
-        // Find existing curated profile by exact ID or name match
+        // Find existing curated profile by exact ID or exact/alias name match
         let targetId = slugId;
         if (!translatorMap.has(targetId)) {
           for (const [k, v] of translatorMap.entries()) {
-            if (v.name.toLowerCase() === cleanName.toLowerCase() ||
-                (v.name.split(" ").pop().length > 3 && cleanName.toLowerCase().includes(v.name.toLowerCase().split(" ").pop()))) {
+            if (v.name.toLowerCase() === cleanName.toLowerCase()) {
               targetId = k;
               break;
             }

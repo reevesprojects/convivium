@@ -207,21 +207,95 @@ export const ExternalLinksService = {
       };
     }
 
-    // Standard public domain translation search
-    if (edition.year && parseInt(edition.year, 10) < 1928) {
+    // Extract clean translator name and work title
+    const translatorName = edition.name.replace(/\s*\([^)]*\)/g, "").trim();
+    const workTitle = text ? (text.title || "").replace(/\s*\([^)]*\)/g, "").trim() : "";
+    const cleanQuery = `${translatorName} ${workTitle}`.trim();
+    const encCleanQuery = encodeURIComponent(cleanQuery);
+    const gutenbergQuery = encodeURIComponent(`${translatorName} ${workTitle}`.trim());
+
+    // 1. If A.S. Kline / Poetry in Translation
+    if (edition.id.includes("kline") || translatorName.toLowerCase().includes("kline")) {
       return {
-        name: "Project Gutenberg / Internet Archive",
-        icon: "📖",
-        url: `https://www.gutenberg.org/ebooks/search/?query=${encEdName}&submit_search=Go%21`
+        name: "Poetry in Translation",
+        icon: "🌐",
+        url: `https://www.poetryintranslation.com/search/index.php?search=${encodeURIComponent(workTitle)}`
       };
     }
 
-    // Modern in-copyright translation
+    // 2. If Ian Johnston (Vancouver Island University)
+    if (edition.id.includes("johnston") || translatorName.toLowerCase().includes("johnston")) {
+      return {
+        name: "Johnston Digital / Archive",
+        icon: "🎓",
+        url: `https://www.google.com/search?q=${encodeURIComponent('Ian Johnston ' + workTitle + ' translation')}`
+      };
+    }
+
+    // 3. If verified ISBN is present -> Link to WorldCat & Google Books universal aggregate
+    if (edition.isbn) {
+      const cleanIsbn = edition.isbn.replace(/[^0-9X]/gi, "");
+      return {
+        name: `WorldCat / ISBN`,
+        icon: "🏷️",
+        url: `https://www.worldcat.org/isbn/${cleanIsbn}`,
+        isbn: edition.isbn
+      };
+    }
+
+    // 4. Standard public domain translation search (Translator + Work Title on Project Gutenberg)
+    if (edition.year && parseInt(edition.year, 10) < 1928) {
+      return {
+        name: "Project Gutenberg / Archive",
+        icon: "📖",
+        url: `https://www.gutenberg.org/ebooks/search/?query=${gutenbergQuery}&submit_search=Go%21`
+      };
+    }
+
+    // 5. Modern in-copyright translation -> Universal Google Books & WorldCat search
     return {
-      name: "Bookshop.org / Publisher",
-      icon: "🛍️",
-      url: `https://bookshop.org/search?keywords=${encQuery}`
+      name: "Google Books / WorldCat",
+      icon: "📚",
+      url: `https://www.google.com/search?tbm=bks&q=${encCleanQuery}`
     };
+  },
+
+  // Multiple Discovery Actions for Edition Detail Modal/Card
+  getEditionDiscoveryLinks(edition, text) {
+    if (!edition) return [];
+    const translatorName = edition.name.replace(/\s*\([^)]*\)/g, "").trim();
+    const workTitle = text ? (text.title || "").replace(/\s*\([^)]*\)/g, "").trim() : "";
+    const query = `${translatorName} ${workTitle}`.trim();
+    const encQuery = encodeURIComponent(query);
+    const links = [];
+
+    if (edition.isbn) {
+      const cleanIsbn = edition.isbn.replace(/[^0-9X]/gi, "");
+      links.push({
+        name: "WorldCat (Library Catalog)",
+        icon: "🏛️",
+        url: `https://www.worldcat.org/isbn/${cleanIsbn}`
+      });
+      links.push({
+        name: "Bookshop.org",
+        icon: "🛍️",
+        url: `https://bookshop.org/search?keywords=${cleanIsbn}`
+      });
+    }
+
+    links.push({
+      name: "Google Books",
+      icon: "📚",
+      url: `https://www.google.com/search?tbm=bks&q=${encQuery}`
+    });
+
+    links.push({
+      name: "Goodreads",
+      icon: "⭐",
+      url: `https://www.goodreads.com/search?q=${encQuery}`
+    });
+
+    return links;
   },
 
   // Translator-level links

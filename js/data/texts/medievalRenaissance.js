@@ -36,7 +36,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Modern Alliterative Verse",
         "format": "Verse",
-        "highlights": "Nobel Laureate's bestselling, muscular, earthy translation"
+        "highlights": "Nobel Laureate's bestselling, muscular, earthy translation",
+        "isbn": "978-0393320978"
       },
       {
         "id": "tolkien",
@@ -81,7 +82,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Alliterative Verse",
         "format": "Verse",
-        "highlights": "Long-standing Penguin Classics standard, rugged and musical"
+        "highlights": "Long-standing Penguin Classics standard, rugged and musical",
+        "isbn": "978-0062012623"
       },
       {
         "id": "crossley_holland",
@@ -172,7 +174,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "year": "2000",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Broadview Literary Texts standard academic verse edition"
+        "highlights": "Broadview Literary Texts standard academic verse edition",
+        "isbn": "978-1551111896"
       },
       {
         "id": "slade_beo",
@@ -568,7 +571,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Blank Verse",
         "format": "Verse",
-        "highlights": "National Book Award winner; celebrated for Italian musicality"
+        "highlights": "National Book Award winner; celebrated for Italian musicality",
+        "isbn": "978-0553213393"
       },
       {
         "id": "longfellow",
@@ -588,7 +592,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Dummy Rhyme Terza Rima",
         "format": "Verse",
-        "highlights": "Vigorous, idiomatic American poetic translation"
+        "highlights": "Vigorous, idiomatic American poetic translation",
+        "isbn": "978-0451531391"
       },
       {
         "id": "cary",
@@ -606,7 +611,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Blank Verse",
         "format": "Verse",
-        "highlights": "Princeton Dante Project; definitive modern scholarly translation"
+        "highlights": "Princeton Dante Project; definitive modern scholarly translation",
+        "isbn": "978-0385496988"
       },
       {
         "id": "sayers",
@@ -624,7 +630,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Slant-Rhyme Terza Rima",
         "format": "Verse",
-        "highlights": "US Poet Laureate's agile, musical modern verse"
+        "highlights": "US Poet Laureate's agile, musical modern verse",
+        "isbn": "978-0374524524"
       },
       {
         "id": "musa",
@@ -633,7 +640,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "meter": "Blank Verse",
         "format": "Verse",
-        "highlights": "Clear, accessible, widely studied American academic verse"
+        "highlights": "Clear, accessible, widely studied American academic verse",
+        "isbn": "978-0142437223"
       },
       {
         "id": "kirkpatrick",
@@ -1270,30 +1278,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Classic American academic translation"
       },
       {
-        "id": "ackroyd_chau",
-        "name": "Peter Ackroyd (2009 Penguin Classics)",
-        "year": "2009",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Acclaimed novelist and biographer's vibrant modern prose version"
-      },
-      {
-        "id": "wright_rev_chau",
-        "name": "David Wright (rev. 2011 Oxford World's Classics)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford World's Classics standard verse translation"
-      },
-      {
-        "id": "raffel_chau",
-        "name": "Burton Raffel (2008 Modern Library)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Modern Library complete verse edition"
-      },
-      {
         "id": "kline_chau",
         "name": "A. S. Kline (2007 Poetry in Translation)",
         "year": "2007",
@@ -1540,38 +1524,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Hackett Classics standard translation"
       },
       {
-        "id": "parks_mach",
-        "name": "Tim Parks (2009 Penguin Classics)",
-        "year": "2009",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics contemporary energetic translation"
-      },
-      {
-        "id": "constantine_mach",
-        "name": "Peter Constantine (2007 Modern Library)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Modern Library complete works translation"
-      },
-      {
-        "id": "rebhorn_mach",
-        "name": "Wayne A. Rebhorn (2011 Norton Critical)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Norton Critical Edition definitive modern translation"
-      },
-      {
-        "id": "wootton_rev_mach",
-        "name": "David Wootton (2008 Hackett)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics standard translation"
-      },
-      {
         "id": "kline_mach",
         "name": "A. S. Kline (2004 Poetry in Translation)",
         "year": "2004",
@@ -1702,7 +1654,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "year": "2003",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Critically acclaimed standard contemporary English translation"
+        "highlights": "Critically acclaimed standard contemporary English translation",
+        "isbn": "978-0060934347"
       },
       {
         "id": "shelton",
@@ -1759,7 +1712,8 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "year": "2000",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Oxford scholar's witty, spirited modern translation"
+        "highlights": "Oxford scholar's witty, spirited modern translation",
+        "isbn": "978-0142437230"
       },
       {
         "id": "montgomery",
@@ -1818,36 +1772,12 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Celebrated Hispanist's lively modern translation"
       },
       {
-        "id": "grossman_quix",
-        "name": "Edith Grossman (2003 HarperCollins)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Bestselling definitive contemporary translation lauded by Harold Bloom"
-      },
-      {
         "id": "montgomery_quix",
         "name": "Tom Lathrop & James H. Montgomery (2005 Hackett)",
         "year": "2005",
         "type": "translation",
         "format": "Prose",
         "highlights": "Hackett Classics standard classroom translation"
-      },
-      {
-        "id": "rutherford_quix",
-        "name": "John Rutherford (2000 Penguin Classics)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics spirited contemporary British translation"
-      },
-      {
-        "id": "childers_quix",
-        "name": "William Childers (2013 Norton Critical)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Norton Critical Edition study translation"
       },
       {
         "id": "kline_quix",
@@ -2101,14 +2031,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Penguin Classics complete poems authoritative edition"
       },
       {
-        "id": "leonard_rev_pl",
-        "name": "John Leonard (2003 Penguin Classics)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Authoritative 21st-century Penguin Classics critical text"
-      },
-      {
         "id": "teskey_pl",
         "name": "Gordon Teskey (2005 Norton Critical)",
         "year": "2005",
@@ -2131,14 +2053,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Hackett Classics annotated edition"
-      },
-      {
-        "id": "fowler_rev_pl",
-        "name": "Alastair Fowler (2006 Longman Annotated)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Longman Annotated English Poets definitive modern edition"
       }
     ],
     "segments": [
@@ -2554,22 +2468,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Macmillan's English Classics edition"
-      },
-      {
-        "id": "vickers_rev_bac",
-        "name": "Brian Vickers (rev. 2008 Oxford World's Classics)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics revised definitive edition"
-      },
-      {
-        "id": "pitcher_rev_bac",
-        "name": "John Pitcher (2002 Penguin Classics)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics authoritative annotated text"
       },
       {
         "id": "archer_bac",
@@ -3039,14 +2937,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Third Series Arden Shakespeare definitive edition"
       },
       {
-        "id": "burrow_rev_shak",
-        "name": "Colin Burrow (2002 Oxford)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford Shakespeare Complete Sonnets and Poems"
-      },
-      {
         "id": "orgel_shak",
         "name": "Stephen Orgel (2001 Pelican Shakespeare)",
         "year": "2001",
@@ -3061,14 +2951,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Royal Shakespeare Company definitive edition"
-      },
-      {
-        "id": "edmondson_wells_shak",
-        "name": "Paul Edmondson & Stanley Wells (2020 Cambridge)",
-        "year": "2020",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "All the Sonnets of Shakespeare chronological edition"
       }
     ],
     "segments": [
@@ -3493,44 +3375,12 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "The Holy Teaching of St. Thomas Aquinas"
       },
       {
-        "id": "bauerschmidt_rev_aqu",
-        "name": "Frederick Christian Bauerschmidt (2005 Baker)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The Holy Teaching of St. Thomas Aquinas translation"
-      },
-      {
-        "id": "davies_leftow_rev_aqu",
-        "name": "Brian Davies & Brian Leftow (2006 Cambridge)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge Texts in the History of Philosophy"
-      },
-      {
-        "id": "freddoso_rev_aqu",
-        "name": "Alfred J. Freddoso (2014 Notre Dame)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Complete Summa Theologiae modern translation"
-      },
-      {
         "id": "stump_aqu",
         "name": "Eleonore Stump (2003 Routledge)",
         "year": "2003",
         "type": "translation",
         "format": "Prose",
         "highlights": "Aquinas Arguments from the Growth of Knowledge"
-      },
-      {
-        "id": "kenny_aqu",
-        "name": "Anthony Kenny (2002 Oxford)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Aquinas on Being and the Five Ways"
       }
     ],
     "segments": [
@@ -3953,22 +3803,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Modern translation from the Old French Le Devisement du Monde"
-      },
-      {
-        "id": "kinoshita_rev_pol",
-        "name": "Sharon Kinoshita (2016 Hackett)",
-        "year": "2016",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics standard translation from Franco-Italian text"
-      },
-      {
-        "id": "haw_rev_pol",
-        "name": "Stephen G. Haw (2006 Routledge)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Marco Polo's China historical geography translation"
       },
       {
         "id": "hansen_pol",
@@ -4433,14 +4267,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Broadview Medieval texts student edition"
-      },
-      {
-        "id": "armitage_rev_gaw",
-        "name": "Simon Armitage (2007 W. W. Norton)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "UK Poet Laureate's acclaimed alliterative verse masterpiece"
       },
       {
         "id": "pearsall_gaw",
@@ -6001,14 +5827,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Marie de France and the Poetics of Memory scholar's edition"
       },
       {
-        "id": "gilbert_mar",
-        "name": "Dorothy Gilbert (2015 W. W. Norton)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Norton Critical Edition verse translation in octosyllabic couplets"
-      },
-      {
         "id": "gallagher_mar",
         "name": "Edward J. Gallagher (2010 Hackett)",
         "year": "2010",
@@ -6031,30 +5849,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Everyman's Library revised edition"
-      },
-      {
-        "id": "gilbert_rev_mar",
-        "name": "Dorothy Gilbert (2015 W. W. Norton)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Norton Critical Edition octosyllabic verse translation"
-      },
-      {
-        "id": "gallagher_rev_mar",
-        "name": "Edward J. Gallagher (2010 Hackett)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics standard translation"
-      },
-      {
-        "id": "whalen_rev_mar",
-        "name": "Logan E. Whalen (2008 Gallic Books)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Scholarly translation of the 12 lais"
       },
       {
         "id": "busby_mar",
@@ -7012,30 +6806,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "The Legacy of Chrétien de Troyes critical translation"
       },
       {
-        "id": "bryant_rev_chr",
-        "name": "Nigel Bryant (2006 Boydell & Brewer)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The Complete Story of the Grail comprehensive translation"
-      },
-      {
-        "id": "duggan_rev_chr",
-        "name": "Joseph J. Duggan (2001 Boydell & Brewer)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The Romances of Chrétien de Troyes"
-      },
-      {
-        "id": "busby_rev_chr",
-        "name": "Keith Busby (2007 Tübingen)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Arthurian Literature critical edition"
-      },
-      {
         "id": "mccracken_chr",
         "name": "Peggy McCracken (2006 Oxford)",
         "year": "2006",
@@ -7843,30 +7613,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Oxford World's Classics modern standard translation"
       },
       {
-        "id": "relihan_rev_boe",
-        "name": "Joel C. Relihan (2001 Hackett)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Hackett Classics verse-and-prose standard edition"
-      },
-      {
-        "id": "slavitt_rev_boe",
-        "name": "David R. Slavitt (2008 Harvard)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Harvard University Press lyrical translation"
-      },
-      {
-        "id": "watts_rev_boe",
-        "name": "V. E. Watts (rev. 2012 Penguin Classics)",
-        "year": "2012",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics revised authoritative translation"
-      },
-      {
         "id": "marenbon_boe",
         "name": "John Marenbon (2003 Oxford)",
         "year": "2003",
@@ -8325,36 +8071,12 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Penguin Classics complete parallel verse edition"
       },
       {
-        "id": "nichols_pet",
-        "name": "J. G. Nichols (2000 Carcanet)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Carcanet Press rhymed verse translation"
-      },
-      {
         "id": "lee_pet",
         "name": "Mark Musa & Guy Lee (2006 Oxford World's Classics)",
         "year": "2006",
         "type": "translation",
         "format": "Verse",
         "highlights": "Oxford World's Classics poetic translation"
-      },
-      {
-        "id": "callow_rev_pet",
-        "name": "Philip Callow (2004 Allison & Busby)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Lyrical biographical edition"
-      },
-      {
-        "id": "kline_rev_pet",
-        "name": "A. S. Kline (2001 Poetry in Translation)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Complete poetic translation of the 366 poems"
       }
     ],
     "segments": [
@@ -8746,14 +8468,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Tudor Translations standard edition"
       },
       {
-        "id": "mcwilliam_boc",
-        "name": "G. H. McWilliam (1972 Penguin Classics)",
-        "year": "1972",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics definitive 20th-century translation"
-      },
-      {
         "id": "bondanella_boc",
         "name": "Peter Bondanella & Mark Musa (1977 Norton Critical)",
         "year": "1977",
@@ -8776,22 +8490,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Navarre Society deluxe unabridged edition"
-      },
-      {
-        "id": "rebhorn_rev_boc",
-        "name": "Wayne A. Rebhorn (2013 W. W. Norton)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "PEN Translation Prize winner's masterly unabridged translation"
-      },
-      {
-        "id": "mcwilliam_rev_boc",
-        "name": "G. H. McWilliam (2003 Penguin Classics)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics revised standard translation"
       },
       {
         "id": "coward_boc",
@@ -9228,14 +8926,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "highlights": "Long-standing Penguin Classics translation"
       },
       {
-        "id": "screech_alt_mon",
-        "name": "M. A. Screech (1991 Penguin Classics)",
-        "year": "1991",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Definitive modern scholar's complete translation"
-      },
-      {
         "id": "bakewell_mon",
         "name": "Sarah Bakewell (2010 How to Live / Other Press)",
         "year": "2010",
@@ -9250,38 +8940,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Philosophical translation and commentary"
-      },
-      {
-        "id": "screech_rev_mon",
-        "name": "M. A. Screech (2003 Penguin Classics)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics complete essays authoritative modern translation"
-      },
-      {
-        "id": "bakewell_rev_mon",
-        "name": "Sarah Bakewell (2010 Other Press)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "How to Live: National Book Critics Circle Award winner translation"
-      },
-      {
-        "id": "foglia_rev_mon",
-        "name": "Marc Foglia (2011 Routledge)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Montaigne: Thinking in Action"
-      },
-      {
-        "id": "frame_rev_mon",
-        "name": "Donald M. Frame (2001 Everyman's Library)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Everyman's Library complete works edition"
       },
       {
         "id": "kline_mon",
@@ -9713,22 +9371,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Eminent British historian's translation"
-      },
-      {
-        "id": "white_rev_cam",
-        "name": "Landeg White (2002 Oxford World's Classics)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford World's Classics definitive modern ottava rima translation"
-      },
-      {
-        "id": "monteiro_rev_cam",
-        "name": "George Monteiro (2006 Kentucky)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "The Presence of Camões translation"
       },
       {
         "id": "earle_cam",
@@ -10193,30 +9835,6 @@ export const MEDIEVAL_RENAISSANCE_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Garland Library of Medieval Literature modern verse edition"
-      },
-      {
-        "id": "beecher_rev_ari",
-        "name": "Donald Beecher (2003 McGill-Queen's)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Renaissance literature scholar's edition"
-      },
-      {
-        "id": "slavitt_rev_ari",
-        "name": "David R. Slavitt (2009 Harvard)",
-        "year": "2009",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Harvard University Press verse translation"
-      },
-      {
-        "id": "reynolds_rev_ari",
-        "name": "Barbara Reynolds (rev. 2004 Penguin Classics)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Penguin Classics complete ottava rima translation"
       },
       {
         "id": "javitch_ari",

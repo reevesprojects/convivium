@@ -1335,5 +1335,342 @@ export const AUTHORS = [
     ],
     "textCount": 1,
     "image": "🌸"
+  },
+  {
+    "id": "zhuangzi",
+    "name": "Zhuangzi (Zhuang Zhou)",
+    "originalName": "莊子",
+    "language": "Classical Chinese",
+    "era": "c. 369 – 286 BCE",
+    "period": "Warring States Period",
+    "bio": "Influential Chinese philosopher and seminal figure of Daoism. His eponymous text, the Zhuangzi, is celebrated for its dazzling parables, wit, epistemological skepticism (such as the Butterfly Dream), and poetic exploration of spontaneity and freedom.",
+    "genres": [
+      "Philosophy",
+      "Daoism",
+      "Parable",
+      "World Literature"
+    ],
+    "textCount": 1,
+    "image": "🦋"
+  },
+  {
+    "id": "du-fu",
+    "name": "Du Fu (Tu Fu)",
+    "originalName": "杜甫",
+    "language": "Classical Chinese",
+    "era": "712 – 770 CE",
+    "period": "Tang Dynasty",
+    "bio": "Widely regarded alongside Li Bai as China's greatest classical poet. Known as the 'Poet-Historian' and 'Poet-Sage', Du Fu's masterfully crafted lüshi (regulated verse) documented the trauma of the An Lushan Rebellion, personal displacement, and deep compassion for human suffering.",
+    "genres": [
+      "Lyric Poetry",
+      "Regulated Verse",
+      "Elegiac Poetry"
+    ],
+    "textCount": 1,
+    "image": "📜"
+  },
+  {
+    "id": "valmiki",
+    "name": "Valmiki",
+    "originalName": "वाल्मीकि",
+    "language": "Sanskrit",
+    "era": "c. 5th – 1st century BCE",
+    "period": "Ancient India (Vedic / Epic Sanskrit)",
+    "bio": "Revered as the Ādikavi ('First Poet') of Sanskrit literature and the traditional author of the epic Ramayana. Valmiki is credited with discovering the classic sloka metrical verse form, which became the foundational meter of Indian epic poetry.",
+    "genres": [
+      "Epic Poetry",
+      "Sacred Literature",
+      "Mythology"
+    ],
+    "textCount": 1,
+    "image": "🏹"
+  },
+  {
+    "id": "confucius",
+    "name": "Confucius (Kongzi)",
+    "originalName": "孔子",
+    "language": "Classical Chinese",
+    "era": "551 – 479 BCE",
+    "period": "Spring and Autumn Period",
+    "bio": "Chinese philosopher, politician, and educator whose teachings, preserved in the Analects (Lunyu), formed the bedrock of East Asian ethics, social harmony, filial piety (xiao), benevolence (ren), and statecraft for over two millennia.",
+    "genres": [
+      "Philosophy",
+      "Ethics",
+      "Aphorisms",
+      "Statecraft"
+    ],
+    "textCount": 1,
+    "image": "🎋"
+  },
+  {
+    "id": "rumi",
+    "name": "Jalal al-Din Muhammad Rumi",
+    "originalName": "جلال‌الدین محمد بلخی",
+    "language": "Classical Persian",
+    "era": "1207 – 1273 CE",
+    "period": "Medieval Islamic Golden Age",
+    "bio": "13th-century Persian poet, jurist, Islamic scholar, and Sufi mystic whose spiritual masterpiece, the Masnavi, and ecstatic ghazals in the Divan-e Shams-e Tabrizi transcend national and religious boundaries with their sublime themes of divine love, longing, and spiritual rebirth.",
+    "genres": [
+      "Sufi Mysticism",
+      "Lyric Poetry",
+      "Ghazal",
+      "Spiritual Allegory"
+    ],
+    "textCount": 1,
+    "image": "✨"
+  },
+  {
+    "id": "king-david",
+    "name": "King David & The Psalmists",
+    "originalName": "דָּוִד הַמֶּלֶךְ",
+    "language": "Biblical Hebrew",
+    "era": "c. 10th – 5th century BCE",
+    "period": "Ancient Israel / Second Temple Period",
+    "bio": "Traditional author of the Book of Psalms (Tehillim), the supreme hymnbook of Hebrew sacred lyric poetry expressing praise, despair, spiritual longing, and divine trust across thirty centuries of liturgy.",
+    "genres": [
+      "Sacred Poetry",
+      "Hymnody",
+      "Liturgy",
+      "Hebrew Bible"
+    ],
+    "textCount": 1,
+    "image": "👑"
+  },
+  {
+    "id": "the-buddha",
+    "name": "Siddhartha Gautama (The Buddha)",
+    "originalName": "सिद्धार्थ गौतम (बुद्ध)",
+    "language": "Pali",
+    "era": "c. 6th – 5th century BCE",
+    "period": "Ancient India (Magadha)",
+    "bio": "Spiritual teacher and founder of Buddhism. His ethical and meditative teachings, collected in the Dhammapada, illuminate the Four Noble Truths, the Noble Eightfold Path, non-attachment, mindfulness, and the cessation of suffering (Nirvana).",
+    "genres": [
+      "Sacred Scripture",
+      "Spiritual Aphorisms",
+      "Buddhist Philosophy",
+      "Ethics"
+    ],
+    "textCount": 1,
+    "image": "☸️"
+  },
+  {
+    "id": "upanishadic-rishis",
+    "name": "The Vedic Rishis & Sages",
+    "originalName": "ऋषि (Rṣi)",
+    "language": "Vedic Sanskrit",
+    "era": "c. 8th – 4th century BCE",
+    "period": "Late Vedic Period",
+    "bio": "The inspired ancient seers of India who composed the Principal Upanishads (Mukhya Upanishads), the philosophical climax of the Vedas exploring the non-dual identity of the inner soul (Atman) and the ultimate cosmic ground of reality (Brahman).",
+    "genres": [
+      "Sacred Literature",
+      "Vedanta Philosophy",
+      "Metaphysics",
+      "Mysticism"
+    ],
+    "textCount": 1,
+    "image": "🕉️"
+  },
+  {
+    "id": "quran-tradition",
+    "name": "The Quranic Tradition",
+    "originalName": "القرآن الكريم",
+    "language": "Classical Arabic",
+    "era": "610 – 632 CE",
+    "period": "Early Islamic Period (Mecca & Medina)",
+    "bio": "The sacred scripture of Islam, revealed in rhymed Arabic prose (Saj') to the Prophet Muhammad. Revered for its unsurpassed linguistic sublime, moral majesty, and foundational theological vision of divine unity (Tawhid).",
+    "genres": [
+      "Sacred Scripture",
+      "Theology",
+      "Islamic Revelation",
+      "Prophetic Literature"
+    ],
+    "textCount": 1,
+    "image": "📖"
+  },
+  {
+    "id": "paul-the-apostle",
+    "name": "Paul the Apostle",
+    "originalName": "Παῦλος (Paulos)",
+    "language": "Koine Greek",
+    "era": "c. 5 – 65 CE",
+    "period": "Early Roman Empire / Apostolic Age",
+    "bio": "Foundational early Christian missionary, theologian, and letter-writer whose epistles, notably 1 Corinthians and Romans, defined Christian theology, grace, and the supreme nature of love (Agape) across world civilization.",
+    "genres": [
+      "Epistolary",
+      "Theology",
+      "Christian Scripture",
+      "Ethics"
+    ],
+    "textCount": 1,
+    "image": "🕊️"
+  },
+  {
+    "id": "qoheleth-solomon",
+    "name": "Qoheleth (The Teacher / Ecclesiastes)",
+    "originalName": "קֹהֶלֶת",
+    "language": "Biblical Hebrew",
+    "era": "c. 5th – 3rd century BCE",
+    "period": "Second Temple Judaism",
+    "bio": "The voice of Hebrew wisdom literature whose radical meditation on the vanity/ephemerality of mortal striving (Hevel / Vanity of vanities) and the seasons of life has inspired poets, philosophers, and seekers across millennia.",
+    "genres": [
+      "Wisdom Literature",
+      "Philosophical Poetry",
+      "Hebrew Bible"
+    ],
+    "textCount": 1,
+    "image": "⏳"
+  },
+  {
+    "id": "matthew-evangelist",
+    "name": "Matthew the Evangelist (The Sermon on the Mount)",
+    "originalName": "Μαθθαῖος (Matthaios)",
+    "language": "Koine Greek",
+    "era": "c. 70 – 90 CE",
+    "period": "Early Christianity / Apostolic Age",
+    "bio": "Evangelist whose gospel preserves Jesus of Nazareth's Sermon on the Mount (Beatitudes and the Lord's Prayer), the moral and spiritual foundation of Christian ethical teaching on mercy, humility, and peacemaking.",
+    "genres": [
+      "Gospel",
+      "Christian Scripture",
+      "Ethics",
+      "Spiritual Discourse"
+    ],
+    "textCount": 1,
+    "image": "🌿"
+  },
+  {
+    "id": "patanjali",
+    "name": "Patanjali",
+    "originalName": "पतञ्जलि (Patañjali)",
+    "language": "Classical Sanskrit",
+    "era": "c. 400 CE",
+    "period": "Classical India",
+    "bio": "Revered sage and compiler of the Yoga Sutras (Yoga Darshana), the foundational text outlining the Raja Yoga eightfold path (Ashtanga Yoga) to still the fluctuations of the mind (Citta Vritti Nirodha) and attain Samadhi.",
+    "genres": [
+      "Sacred Sutras",
+      "Yoga Philosophy",
+      "Meditation",
+      "Hinduism"
+    ],
+    "textCount": 1,
+    "image": "🧘"
+  },
+  {
+    "id": "mahavira-jain",
+    "name": "Mahavira & The Jain Tradition",
+    "originalName": "भगवान महावीर (Acharanga)",
+    "language": "Ardhamagadhi Prakrit",
+    "era": "c. 6th – 5th century BCE",
+    "period": "Ancient India (Magadha)",
+    "bio": "The 24th Tirthankara of Jainism whose teachings in the Acharanga Sutra established the supreme sanctity of all sentient life through universal Ahimsa (non-violence) and spiritual self-conquest.",
+    "genres": [
+      "Jain Scripture",
+      "Ethics",
+      "Ahimsa",
+      "Sacred Literature"
+    ],
+    "textCount": 1,
+    "image": "🌸"
+  },
+  {
+    "id": "zarathustra",
+    "name": "Zarathustra (Zoroaster)",
+    "originalName": "زرتشت (Zarathushtra)",
+    "language": "Old Avestan (Gathic Avestan)",
+    "era": "c. 1200 – 600 BCE",
+    "period": "Ancient Persia",
+    "bio": "Ancient Iranian prophet and poet-priest whose Gathas in the Avesta established Zoroastrianism, centered on the cosmic choice between truth (Asha) and the lie (Druj) under the wisdom of Ahura Mazda.",
+    "genres": [
+      "Sacred Hymns",
+      "Zoroastrianism",
+      "Ancient Iranian Literature",
+      "Theology"
+    ],
+    "textCount": 1,
+    "image": "🔥"
+  },
+  {
+    "id": "guru-nanak",
+    "name": "Guru Nanak Dev Ji",
+    "originalName": "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ",
+    "language": "Gurmukhi (Sant Bhasha / Punjabi)",
+    "era": "1469 – 1539 CE",
+    "period": "Early Modern Punjab / Bhakti Era",
+    "bio": "The founder of Sikhism and the first of the ten Sikh Gurus. His sublime compositions in the Guru Granth Sahib, beginning with the foundational Japji Sahib and the Mool Mantar, celebrate the Oneness of the Divine (Ik Onkar), egalitarian community, and devotion through Truth.",
+    "genres": [
+      "Sikh Scripture",
+      "Sacred Hymnody",
+      "Mystical Poetry",
+      "Gurbani"
+    ],
+    "textCount": 1,
+    "image": "ੴ"
+  },
+  {
+    "id": "prajnaparamita-sages",
+    "name": "Mahayana Sages & Avalokiteshvara",
+    "originalName": "प्रज्ञापारमिता (Heart Sutra)",
+    "language": "Buddhist Hybrid Sanskrit",
+    "era": "c. 1st – 4th century CE",
+    "period": "Classical Mahayana Buddhism",
+    "bio": "The inspired sages of the Prajnaparamita (Perfection of Wisdom) tradition whose Heart Sutra (Prajñāpāramitā Hṛdaya) distills the radical Mahayana realization of Emptiness (Shunyata): 'Form is emptiness, emptiness is form.'",
+    "genres": [
+      "Mahayana Scripture",
+      "Buddhist Philosophy",
+      "Wisdom Sutras",
+      "Mantras"
+    ],
+    "textCount": 1,
+    "image": "💠"
+  },
+  {
+    "id": "isaiah-prophet",
+    "name": "Isaiah the Prophet",
+    "originalName": "יְשַׁעְיָהוּ (Yeshayahu)",
+    "language": "Biblical Hebrew",
+    "era": "c. 8th – 6th century BCE",
+    "period": "First Temple & Babylonian Exile",
+    "bio": "One of the greatest Hebrew prophets whose monumental poetic vision combined fiery calls for social justice with transcendent visions of universal peace ('swords into plowshares') and divine holiness ('Holy, Holy, Holy').",
+    "genres": [
+      "Prophetic Literature",
+      "Hebrew Bible",
+      "Sacred Poetry",
+      "Eschatology"
+    ],
+    "textCount": 1,
+    "image": "🕊️"
+  },
+  {
+    "id": "padmasambhava-bardo",
+    "name": "Padmasambhava & Karma Lingpa",
+    "originalName": "པདྨ་འབྱུང་གནས། (Bardo Thodol)",
+    "language": "Classical Tibetan",
+    "era": "c. 8th / 14th century CE",
+    "period": "Tibetan Vajrayana Buddhism",
+    "bio": "The legendary Indian master (Guru Rinpoche) and the treasure-revealer (terton) Karma Lingpa who preserved the Bardo Thodol (The Tibetan Book of the Dead / Liberation Through Hearing in the Bardo), guiding consciousness through death toward the Clear Light of pristine awareness.",
+    "genres": [
+      "Vajrayana Scripture",
+      "Tibetan Sacred Literature",
+      "Meditation",
+      "Eschatology"
+    ],
+    "textCount": 1,
+    "image": "☸️"
+  },
+  {
+    "id": "hermes-trismegistus",
+    "name": "Hermes Trismegistus (The Corpus Hermeticum)",
+    "originalName": "Ἑρμῆς ὁ Τρισμέγιστος",
+    "language": "Koine Greek",
+    "era": "c. 1st – 3rd century CE",
+    "period": "Hellenistic Egypt / Greco-Roman Era",
+    "bio": "The legendary Hellenistic sage uniting the Greek god Hermes with the Egyptian Thoth. The Poimandres (Corpus Hermeticum I) presents a mystical revelation of the cosmos, the Divine Mind (Nous), spiritual regeneration, and cosmic light.",
+    "genres": [
+      "Hermeticism",
+      "Mystical Philosophy",
+      "Hellenistic Scripture",
+      "Theology"
+    ],
+    "textCount": 1,
+    "image": "🌟"
   }
 ];

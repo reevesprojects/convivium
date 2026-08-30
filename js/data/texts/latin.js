@@ -37,7 +37,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "Modern 5/6 Beat Verse",
         "format": "Verse",
-        "highlights": "Lyrical resonance and cinematic sweep"
+        "highlights": "Lyrical resonance and cinematic sweep",
+        "isbn": "978-0140268867"
       },
       {
         "id": "ruden",
@@ -75,7 +76,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "Free Verse",
         "format": "Verse",
-        "highlights": "Poetic beauty and scholarly precision, California Press"
+        "highlights": "Poetic beauty and scholarly precision, California Press",
+        "isbn": "978-0553213393"
       },
       {
         "id": "west",
@@ -145,7 +147,8 @@ export const LATIN_TEXTS = [
         "year": "2005",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Vigorous, contemporary American performing verse translation"
+        "highlights": "Vigorous, contemporary American performing verse translation",
+        "isbn": "978-0872207318"
       },
       {
         "id": "fairclough_aen",
@@ -2061,7 +2064,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "Modern Free Verse",
         "format": "Verse",
-        "highlights": "Inventive modern American version"
+        "highlights": "Inventive modern American version",
+        "isbn": "978-0801869808"
       },
       {
         "id": "ellis",
@@ -2088,7 +2092,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "English Accentual Hendecasyllabics",
         "format": "Verse",
-        "highlights": "Quantitative metric brilliance from Univ of California Press"
+        "highlights": "Quantitative metric brilliance from Univ of California Press",
+        "isbn": "978-0520303355"
       },
       {
         "id": "mulroy",
@@ -2162,7 +2167,8 @@ export const LATIN_TEXTS = [
         "year": "2015",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Queen's Gold Medal for Poetry recipient's translations"
+        "highlights": "Queen's Gold Medal for Poetry recipient's translations",
+        "isbn": "978-0906427576"
       },
       {
         "id": "carson_cat5",
@@ -2170,7 +2176,8 @@ export const LATIN_TEXTS = [
         "year": "2010",
         "type": "translation",
         "format": "Verse",
-        "highlights": "MacArthur Fellow's modernist lyrical translation"
+        "highlights": "MacArthur Fellow's modernist lyrical translation",
+        "isbn": "978-0811218702"
       },
       {
         "id": "higgins_cat5",
@@ -2178,15 +2185,8 @@ export const LATIN_TEXTS = [
         "year": "2018",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Carcanet Press modern poetic translation"
-      },
-      {
-        "id": "martin_rev_cat5",
-        "name": "Charles Martin (2002 Johns Hopkins)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "The Poems of Catullus standard Johns Hopkins verse edition"
+        "highlights": "Carcanet Press modern poetic translation",
+        "isbn": "978-1784107178"
       },
       {
         "id": "kline_cat5",
@@ -2526,7 +2526,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "Quantitative Elegiac Couplet",
         "format": "Verse",
-        "highlights": "Exact metrical fidelity to Latin elegiac couplet"
+        "highlights": "Exact metrical fidelity to Latin elegiac couplet",
+        "isbn": "978-0520303355"
       },
       {
         "id": "cornish",
@@ -2624,7 +2625,8 @@ export const LATIN_TEXTS = [
         "year": "2010",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Modernist poetic translation"
+        "highlights": "Modernist poetic translation",
+        "isbn": "978-0811218702"
       },
       {
         "id": "higgins_cat85",
@@ -2633,14 +2635,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Carcanet Press modern poetic translation"
-      },
-      {
-        "id": "martin_rev_cat85",
-        "name": "Charles Martin (2002 Johns Hopkins)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Johns Hopkins University Press standard"
       },
       {
         "id": "brandon_cat85",
@@ -2881,7 +2875,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "Accentual Dactylic Hexameter",
         "format": "Verse",
-        "highlights": "University of California Press; strict poetic hexameter translation"
+        "highlights": "University of California Press; strict poetic hexameter translation",
+        "isbn": "978-0520303355"
       },
       {
         "id": "cobbold",
@@ -3421,7 +3416,8 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "meter": "Modern Blank Verse",
         "format": "Verse",
-        "highlights": "Poetic fluidity and modern mythic energy"
+        "highlights": "Poetic fluidity and modern mythic energy",
+        "isbn": "978-0553213393"
       },
       {
         "id": "martin",
@@ -3689,7 +3685,8 @@ export const LATIN_TEXTS = [
         "year": "2014",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Oxford World's Classics; accurate, crisp, modern English prose"
+        "highlights": "Oxford World's Classics; accurate, crisp, modern English prose",
+        "isbn": "978-0140449334"
       },
       {
         "id": "williams",
@@ -3738,22 +3735,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Devotional modern translation"
-      },
-      {
-        "id": "ruden_conf1",
-        "name": "Sarah Ruden (2017 Modern Library)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Poet and classicist's acclaimed fresh literary translation"
-      },
-      {
-        "id": "boulding_conf1",
-        "name": "Maria Boulding (2001 New City Press)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Celebrated contemplative monastic translation"
       },
       {
         "id": "williams_conf1",
@@ -3958,7 +3939,8 @@ export const LATIN_TEXTS = [
         "year": "2009",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Oxford classical scholar's precise rhetorical translation"
+        "highlights": "Oxford classical scholar's precise rhetorical translation",
+        "isbn": "978-0199360314"
       },
       {
         "id": "macdonald",
@@ -4015,14 +3997,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Oxford Clarendon Press oratorical standard"
-      },
-      {
-        "id": "berry_catil",
-        "name": "D. H. Berry (2000 Oxford World's Classics)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics Defense Speeches authoritative translation"
       },
       {
         "id": "habinek_catil",
@@ -4293,38 +4267,6 @@ export const LATIN_TEXTS = [
         "highlights": "Leading Stoic philosopher and Hellenistic scholar's edition"
       },
       {
-        "id": "fantham_sen1",
-        "name": "Elaine Fantham (2010 Princeton)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Seneca: Selected Philosophical Letters translation"
-      },
-      {
-        "id": "romm_sen1",
-        "name": "James Romm (2014 Princeton)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "How to Die / How to Live: An Ancient Guide to the Good Life"
-      },
-      {
-        "id": "ker_sen1",
-        "name": "James Ker (2014 Chicago)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Complete Works of Lucius Annaeus Seneca standard edition"
-      },
-      {
-        "id": "williams_sen1",
-        "name": "Gareth D. Williams (2003 Cambridge)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge Greek and Latin Classics edition"
-      },
-      {
         "id": "davie_sen1",
         "name": "John Davie (2007 Oxford World's Classics)",
         "year": "2007",
@@ -4485,7 +4427,8 @@ export const LATIN_TEXTS = [
         "year": "1993",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Lyrical American blank verse"
+        "highlights": "Lyrical American blank verse",
+        "isbn": "978-0553213393"
       },
       {
         "id": "martin_ovid",
@@ -4493,7 +4436,8 @@ export const LATIN_TEXTS = [
         "year": "2004",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Vivid contemporary American poetry"
+        "highlights": "Vivid contemporary American poetry",
+        "isbn": "978-0393326420"
       },
       {
         "id": "mccarter",
@@ -4574,22 +4518,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Lyrical verse adaptation"
-      },
-      {
-        "id": "mccarter_ovid2",
-        "name": "Stephanie McCarter (2021 Penguin Classics)",
-        "year": "2021",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Penguin Classics definitive contemporary verse translation"
-      },
-      {
-        "id": "raeburn_ovid2",
-        "name": "David Raeburn (2004 Penguin Classics)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Penguin Classics modern metrical hexameter translation"
       },
       {
         "id": "fitch_ovid2",
@@ -4900,14 +4828,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Devotional English translation"
-      },
-      {
-        "id": "ruden_conf2",
-        "name": "Sarah Ruden (2017 Modern Library)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Modern Library literary translation"
       },
       {
         "id": "boulding_conf2",
@@ -5240,22 +5160,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Leading Stoic philosopher and Hellenistic scholar's edition"
-      },
-      {
-        "id": "fantham_sen2",
-        "name": "Elaine Fantham (2010 Princeton)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Princeton philosophical translation"
-      },
-      {
-        "id": "romm_sen2",
-        "name": "James Romm (2014 Princeton)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Ancient Guide to the Good Life"
       },
       {
         "id": "ker_sen2",
@@ -5878,14 +5782,6 @@ export const LATIN_TEXTS = [
         "highlights": "Penguin Classics lyrical translation"
       },
       {
-        "id": "kline_ars",
-        "name": "A. S. Kline (2005 Poetry in Translation)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Digital complete translation"
-      },
-      {
         "id": "mulroy_ars",
         "name": "David Mulroy (2008 Michigan)",
         "year": "2008",
@@ -6321,14 +6217,6 @@ export const LATIN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Penguin Classics Chief Editor's celebrated translation"
-      },
-      {
-        "id": "yardley_livy",
-        "name": "J. C. Yardley (2000 Oxford World's Classics)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics standard translation"
       },
       {
         "id": "oakley_livy",

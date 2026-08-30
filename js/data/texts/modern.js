@@ -36,7 +36,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Rhymed Metrical Verse",
         "format": "Verse",
-        "highlights": "Celebrated bilingual edition keeping Goethe's original meters and rhymes with philosophical sharpness"
+        "highlights": "Celebrated bilingual edition keeping Goethe's original meters and rhymes with philosophical sharpness",
+        "isbn": "978-0385031141"
       },
       {
         "id": "luke_faust",
@@ -45,7 +46,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Verse",
         "format": "Verse",
-        "highlights": "Oxford World's Classics benchmark, winning the European Poetry Translation Prize"
+        "highlights": "Oxford World's Classics benchmark, winning the European Poetry Translation Prize",
+        "isbn": "978-0199536214"
       },
       {
         "id": "arndt_faust",
@@ -54,7 +56,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Rhymed Verse",
         "format": "Verse",
-        "highlights": "Norton Critical Edition reproducing Goethe's intricate rhyme schemes and metric shifts"
+        "highlights": "Norton Critical Edition reproducing Goethe's intricate rhyme schemes and metric shifts",
+        "isbn": "978-0393975413"
       },
       {
         "id": "greenberg_faust",
@@ -63,7 +66,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Poetic Verse",
         "format": "Verse",
-        "highlights": "Modern poetic translation hailed for natural English diction"
+        "highlights": "Modern poetic translation hailed for natural English diction",
+        "isbn": "978-0300170429"
       },
       {
         "id": "taylor_faust",
@@ -90,7 +94,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Rhymed Verse",
         "format": "Verse",
-        "highlights": "Long-standing Penguin Classics translation favored for dramatic performances"
+        "highlights": "Long-standing Penguin Classics translation favored for dramatic performances",
+        "isbn": "978-0140440126"
       },
       {
         "id": "anster_faust",
@@ -147,63 +152,8 @@ export const MODERN_TEXTS = [
         "year": "1962",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Strictly faithful line-by-line modern translation"
-      },
-      {
-        "id": "passage_faust",
-        "name": "Charles E. Passage (1965 Bobbs-Merrill)",
-        "year": "1965",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Unabridged verse translation in the original meters"
-      },
-      {
-        "id": "blackie_faust",
-        "name": "John Stuart Blackie (1834 Macmillan)",
-        "year": "1834",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Eminent Scottish classicist's vigorous lyrical translation"
-      },
-      {
-        "id": "latham_faust",
-        "name": "Albert G. Latham (1902 Dent / Everyman)",
-        "year": "1902",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Classic Edwardian verse translation reproducing Goethe's meters"
-      },
-      {
-        "id": "priest_faust",
-        "name": "George Madison Priest (1932 Covici-Friede / Knopf)",
-        "year": "1932",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Princeton Goethe scholar's celebrated Centennial translation"
-      },
-      {
-        "id": "martin_faust",
-        "name": "Sir Theodore Martin (1865 Blackwood)",
-        "year": "1865",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Famous Victorian poetic translation dedicated to the Queen"
-      },
-      {
-        "id": "macneice_faust",
-        "name": "Louis MacNeice (1951 Faber / BBC)",
-        "year": "1951",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Acclaimed Northern Irish poet's BBC radio drama verse translation"
-      },
-      {
-        "id": "salm_faust",
-        "name": "Peter Salm (1962 Bantam Dual-Language)",
-        "year": "1962",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Strictly faithful line-by-line modern translation"
+        "highlights": "Strictly faithful line-by-line modern translation",
+        "isbn": "978-0553213485"
       },
       {
         "id": "passage_faust",
@@ -604,7 +554,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Flexible Verse",
         "format": "Verse",
-        "highlights": "National Book Award-winning complete unrhymed verse translation praised for tonal fidelity"
+        "highlights": "National Book Award-winning complete unrhymed verse translation praised for tonal fidelity",
+        "isbn": "978-0879234621"
       },
       {
         "id": "mcgowan_baud",
@@ -613,7 +564,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Rhymed Metrical Verse",
         "format": "Verse",
-        "highlights": "Oxford World's Classics standard preserving Baudelaire's sonnet structures and rhyme schemes"
+        "highlights": "Oxford World's Classics standard preserving Baudelaire's sonnet structures and rhyme schemes",
+        "isbn": "978-0199535583"
       },
       {
         "id": "waldrop_baud",
@@ -622,7 +574,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Prose Versets",
         "format": "Prose",
-        "highlights": "National Book Award finalist translation capturing the music in prose"
+        "highlights": "National Book Award finalist translation capturing the music in prose",
+        "isbn": "978-0819568014"
       },
       {
         "id": "aggeler_baud",
@@ -631,7 +584,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Literal Verse",
         "format": "Verse",
-        "highlights": "Clear facing-page scholarly translation"
+        "highlights": "Clear facing-page scholarly translation",
+        "isbn": "978-0914478256"
       },
       {
         "id": "symons_baud",
@@ -649,7 +603,8 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "meter": "Rhymed Metrical Verse",
         "format": "Verse",
-        "highlights": "Muscular, formal rhymed verse translation celebrated by T. S. Eliot"
+        "highlights": "Muscular, formal rhymed verse translation celebrated by T. S. Eliot",
+        "isbn": "978-1847492166"
       },
       {
         "id": "lowell_baud",
@@ -668,70 +623,6 @@ export const MODERN_TEXTS = [
         "meter": "Rhymed Verse",
         "format": "Verse",
         "highlights": "Classic early 20th-century American verse translation"
-      },
-      {
-        "id": "symons_baudelaire",
-        "name": "Arthur Symons (1925 Casanova Society)",
-        "year": "1925",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Decadent Movement British poet's rhymed translation"
-      },
-      {
-        "id": "raffel_baudelaire",
-        "name": "Burton Raffel (1998 Modern Library)",
-        "year": "1998",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Muscular, metrically alert contemporary translation"
-      },
-      {
-        "id": "lloyd_baudelaire",
-        "name": "Rosemary Lloyd (2000 Cornell University Press)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Eminent 19th-century French literature scholar's critical edition"
-      },
-      {
-        "id": "conder_baudelaire",
-        "name": "Alan Conder (1952 Cassell / Treasury of French Poetry)",
-        "year": "1952",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Traditional British rhymed verse translation"
-      },
-      {
-        "id": "bernstein_baudelaire",
-        "name": "David Bernstein (1961 Noonday)",
-        "year": "1961",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Classic post-war American poetic translation"
-      },
-      {
-        "id": "marthiel_baudelaire",
-        "name": "Mathews Marthiel (1955 New Directions)",
-        "year": "1955",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Landmark New Directions collaborative centenary volume"
-      },
-      {
-        "id": "dudley_baudelaire",
-        "name": "Dudley Fitts (1954 New Directions)",
-        "year": "1954",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Vibrant modernist lyric translation"
-      },
-      {
-        "id": "symons_baudelaire",
-        "name": "Arthur Symons (1925 Casanova Society)",
-        "year": "1925",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Decadent Movement British poet's rhymed translation"
       },
       {
         "id": "raffel_baudelaire",
@@ -1082,7 +973,8 @@ export const MODERN_TEXTS = [
         "year": "1992",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Celebrated modern translation capturing Dostoevsky's jagged, feverish prose rhythms"
+        "highlights": "Celebrated modern translation capturing Dostoevsky's jagged, feverish prose rhythms",
+        "isbn": "978-0679734505"
       },
       {
         "id": "garnett_cp",
@@ -1098,7 +990,8 @@ export const MODERN_TEXTS = [
         "year": "1991",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Penguin Classics standard praised for fidelity to Dostoevsky's Petersburg street language"
+        "highlights": "Penguin Classics standard praised for fidelity to Dostoevsky's Petersburg street language",
+        "isbn": "978-0140449136"
       },
       {
         "id": "katz_cp",
@@ -1106,7 +999,8 @@ export const MODERN_TEXTS = [
         "year": "2017",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Vibrant, contemporary translation praised by modern scholars"
+        "highlights": "Vibrant, contemporary translation praised by modern scholars",
+        "isbn": "978-1631495311"
       },
       {
         "id": "ready_cp",
@@ -1114,7 +1008,8 @@ export const MODERN_TEXTS = [
         "year": "2014",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Award-winning translation praised for capturing the humor and dark psychological drama"
+        "highlights": "Award-winning translation praised for capturing the humor and dark psychological drama",
+        "isbn": "978-0143107637"
       },
       {
         "id": "magarshack_cp",
@@ -1122,7 +1017,8 @@ export const MODERN_TEXTS = [
         "year": "1951",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Mid-century benchmark translation renowned for narrative flow"
+        "highlights": "Mid-century benchmark translation renowned for narrative flow",
+        "isbn": "978-0140440232"
       },
       {
         "id": "coulson_cp",
@@ -1130,7 +1026,8 @@ export const MODERN_TEXTS = [
         "year": "1953",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Oxford World's Classics long-standing critical standard"
+        "highlights": "Oxford World's Classics long-standing critical standard",
+        "isbn": "978-0199536368"
       },
       {
         "id": "whishaw_cp",
@@ -1146,111 +1043,8 @@ export const MODERN_TEXTS = [
         "year": "2017",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Boris Pasternak's nephew's acclaimed Oxford translation"
-      },
-      {
-        "id": "whishaw_rev_cp",
-        "name": "Frederick Whishaw (1886 Vizetelly / Everyman)",
-        "year": "1886",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The historic first English Victorian edition"
-      },
-      {
-        "id": "magarshack_cp",
-        "name": "David Magarshack (1951 Penguin Classics)",
-        "year": "1951",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Classic mid-century British Penguin standard"
-      },
-      {
-        "id": "coulson_cp",
-        "name": "Jessie Coulson (1953 Oxford World's Classics)",
-        "year": "1953",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Authoritative Oxford edition praised for psychological precision"
-      },
-      {
-        "id": "katz_cp",
-        "name": "Michael R. Katz (2017 Liveright / Norton)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Celebrated contemporary American translation"
-      },
-      {
-        "id": "ready_cp",
-        "name": "Oliver Ready (2014 Penguin Classics)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Winner of the Rossica Translation Prize"
-      },
-      {
-        "id": "mcduff_cp",
-        "name": "David McDuff (1991 Penguin Classics)",
-        "year": "1991",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Poet and Slavist's acclaimed Russian standard"
-      },
-      {
-        "id": "slater_cp",
-        "name": "Nicolas Pasternak Slater (2017 Oxford World's Classics)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Boris Pasternak's nephew's acclaimed Oxford translation"
-      },
-      {
-        "id": "whishaw_rev_cp",
-        "name": "Frederick Whishaw (1886 Vizetelly / Everyman)",
-        "year": "1886",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The historic first English Victorian edition"
-      },
-      {
-        "id": "magarshack_cp",
-        "name": "David Magarshack (1951 Penguin Classics)",
-        "year": "1951",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Classic mid-century British Penguin standard"
-      },
-      {
-        "id": "coulson_cp",
-        "name": "Jessie Coulson (1953 Oxford World's Classics)",
-        "year": "1953",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Authoritative Oxford edition praised for psychological precision"
-      },
-      {
-        "id": "katz_cp",
-        "name": "Michael R. Katz (2017 Liveright / Norton)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Celebrated contemporary American translation"
-      },
-      {
-        "id": "ready_cp",
-        "name": "Oliver Ready (2014 Penguin Classics)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Winner of the Rossica Translation Prize"
-      },
-      {
-        "id": "mcduff_cp",
-        "name": "David McDuff (1991 Penguin Classics)",
-        "year": "1991",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Poet and Slavist's acclaimed Russian standard"
+        "highlights": "Boris Pasternak's nephew's acclaimed Oxford translation",
+        "isbn": "978-0198709701"
       }
     ],
     "segments": [
@@ -1651,62 +1445,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Harvard Slavic scholar's rhythmic verse edition"
-      },
-      {
-        "id": "elton_onegin",
-        "name": "Oliver Elton (1937 Pushkin Press)",
-        "year": "1937",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Eminent British Slavist's rhymed Onegin-stanza translation"
-      },
-      {
-        "id": "radin_onegin",
-        "name": "Dorothea Prall Radin & George Z. Patrick (1937 UC Berkeley)",
-        "year": "1937",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "University of California centennial verse edition"
-      },
-      {
-        "id": "falen_onegin",
-        "name": "James E. Falen (1990 Oxford World's Classics)",
-        "year": "1990",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Acclaimed modern standard praised for supreme formal musicality"
-      },
-      {
-        "id": "hofstadter_onegin",
-        "name": "Douglas Hofstadter (1999 Basic Books)",
-        "year": "1999",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Pulitzer Prize-winner's brilliant Onegin-stanza recreation"
-      },
-      {
-        "id": "lowenfeld_onegin",
-        "name": "Julian Henry Lowenfeld (2009 St. Petersburg)",
-        "year": "2009",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Prize-winning bilingual edition celebrated in Russia"
-      },
-      {
-        "id": "kayden_onegin",
-        "name": "Eugene M. Kayden (1964 Antioch Press)",
-        "year": "1964",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Lyrical verse translation capturing Pushkin's wit"
-      },
-      {
-        "id": "simmons_onegin",
-        "name": "Ernest J. Simmons (1947 Harvard)",
-        "year": "1947",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Harvard Slavic scholar's rhythmic verse edition"
       }
     ],
     "segments": [
@@ -2017,7 +1755,8 @@ export const MODERN_TEXTS = [
         "year": "2002",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Celebrated Penguin translation acclaimed for capturing Proust's exact syntax and clarity"
+        "highlights": "Celebrated Penguin translation acclaimed for capturing Proust's exact syntax and clarity",
+        "isbn": "978-0142437964"
       },
       {
         "id": "moncrieff_proust",
@@ -2033,7 +1772,8 @@ export const MODERN_TEXTS = [
         "year": "1982",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Fresh, idiomatic translation focusing on Proust's comedic irony"
+        "highlights": "Fresh, idiomatic translation focusing on Proust's comedic irony",
+        "isbn": "978-0141180311"
       },
       {
         "id": "carter_proust",
@@ -2089,71 +1829,8 @@ export const MODERN_TEXTS = [
         "year": "1998",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Penguin French literature editor's standard translation"
-      },
-      {
-        "id": "mccarthy_proust",
-        "name": "Patrick McCarthy (1987 Oxford)",
-        "year": "1987",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford critical edition translation"
-      },
-      {
-        "id": "alden_proust",
-        "name": "Douglas W. Alden (1940 Modern Library)",
-        "year": "1940",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Early American scholarly edition"
-      },
-      {
-        "id": "de_man_proust",
-        "name": "Paul de Man (1979 Allegories of Reading)",
-        "year": "1979",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Famous literary theorist's close translation of the Combray passages"
-      },
-      {
-        "id": "turnell_proust",
-        "name": "Martin Turnell (1962 The Novel in France)",
-        "year": "1962",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Classic British literary study translation"
-      },
-      {
-        "id": "bales_proust",
-        "name": "Richard Bales (1995 Cambridge)",
-        "year": "1995",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge scholar's critical translation"
-      },
-      {
-        "id": "ellison_proust",
-        "name": "David R. Ellison (2010 Yale)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Yale French studies translation and commentary"
-      },
-      {
-        "id": "heppenstall_proust",
-        "name": "Rayner Heppenstall (1956 BBC / Calder)",
-        "year": "1956",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "BBC radio broadcast translation"
-      },
-      {
-        "id": "sturrock_proust",
-        "name": "John Sturrock (1998 Penguin Classics)",
-        "year": "1998",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin French literature editor's standard translation"
+        "highlights": "Penguin French literature editor's standard translation",
+        "isbn": "978-0141180359"
       },
       {
         "id": "mccarthy_proust",
@@ -2603,22 +2280,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Penguin Classics contemporary translation by Princeton Professor of Comparative Literature"
-      },
-      {
-        "id": "cuffe_volt",
-        "name": "Theo Cuffe (2005 Penguin Classics)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Celebrated Penguin translation edited by Michael Wood"
-      },
-      {
-        "id": "wootton_volt",
-        "name": "David Wootton (2000 Hackett)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics standard philosophical translation"
       },
       {
         "id": "spencer_volt",
@@ -3072,14 +2733,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Scholarly verse translation for literary studies"
-      },
-      {
-        "id": "kline_rilke",
-        "name": "A. S. Kline (2004 Poetry in Translation)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Accessible, lyrical modern verse translation"
       },
       {
         "id": "oswald_rilke",
@@ -3553,28 +3206,12 @@ export const MODERN_TEXTS = [
         "highlights": "Philosopher Walter Kaufmann's existential translation"
       },
       {
-        "id": "neugroschel_kafka",
-        "name": "Joachim Neugroschel (2000 Scribner)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The Metamorphosis and Other Stories classic American edition"
-      },
-      {
         "id": "williams_kafka",
         "name": "Rhiannon Williams (2011 Wordsworth)",
         "year": "2011",
         "type": "translation",
         "format": "Prose",
         "highlights": "Wordsworth Classics contemporary British translation"
-      },
-      {
-        "id": "bernofsky_kafka",
-        "name": "Susan Bernofsky (2014 W. W. Norton)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Acclaimed modern translation with introduction by David Cronenberg"
       },
       {
         "id": "mitchell_kafka",
@@ -3906,7 +3543,8 @@ export const MODERN_TEXTS = [
         "year": "2007",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Celebrated modern translation preserving Tolstoy's idiosyncratic repetitions and French dialogue"
+        "highlights": "Celebrated modern translation preserving Tolstoy's idiosyncratic repetitions and French dialogue",
+        "isbn": "978-0307266934"
       },
       {
         "id": "maude_wp",
@@ -3914,7 +3552,8 @@ export const MODERN_TEXTS = [
         "year": "1923",
         "type": "translation",
         "format": "Prose",
-        "highlights": "The classic standard translation approved and personally praised by Leo Tolstoy himself"
+        "highlights": "The classic standard translation approved and personally praised by Leo Tolstoy himself",
+        "isbn": "978-0199232765"
       },
       {
         "id": "garnett_wp",
@@ -3930,7 +3569,8 @@ export const MODERN_TEXTS = [
         "year": "1957",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Long-standing mid-century Penguin Classics standard"
+        "highlights": "Long-standing mid-century Penguin Classics standard",
+        "isbn": "978-0140444179"
       },
       {
         "id": "briggs_wp",
@@ -3938,7 +3578,8 @@ export const MODERN_TEXTS = [
         "year": "2005",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Pacy, modern British English translation praised by Orlando Figes"
+        "highlights": "Pacy, modern British English translation praised by Orlando Figes",
+        "isbn": "978-0140447934"
       },
       {
         "id": "dunnigan_wp",
@@ -3946,7 +3587,8 @@ export const MODERN_TEXTS = [
         "year": "1968",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Graceful American standard translation"
+        "highlights": "Graceful American standard translation",
+        "isbn": "978-0451532152"
       },
       {
         "id": "wiener_wp",
@@ -4021,36 +3663,12 @@ export const MODERN_TEXTS = [
         "highlights": "Oxford literary scholar's translation"
       },
       {
-        "id": "pv_wp",
-        "name": "Richard Pevear & Larissa Volokhonsky (2007 Knopf)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Critically acclaimed modern definitive translation"
-      },
-      {
-        "id": "briggs_wp",
-        "name": "Anthony Briggs (2005 Penguin Classics)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics energetic contemporary British translation"
-      },
-      {
         "id": "bromfield_wp",
         "name": "Andrew Bromfield (2007 HarperCollins)",
         "year": "2007",
         "type": "translation",
         "format": "Prose",
         "highlights": "The original 1866 version translation"
-      },
-      {
-        "id": "dunnigan_wp",
-        "name": "Ann Dunnigan (2004 Signet Classics)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Classic Signet edition with modern revision"
       },
       {
         "id": "quinn_wp",
@@ -4486,14 +4104,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Contemporary Penguin Classics edition praised for narrative velocity"
-      },
-      {
-        "id": "davis_bovary",
-        "name": "Lydia Davis (2010 Viking)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Man Booker International Prize winner's strictly faithful stylistic masterpiece"
       },
       {
         "id": "raymond_bovary",
@@ -4953,22 +4563,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Columbia University Press critical study translation"
-      },
-      {
-        "id": "del_caro_zara",
-        "name": "Adrian Del Caro (2006 Cambridge)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge Texts in the History of Philosophy standard edition"
-      },
-      {
-        "id": "parkes_zara",
-        "name": "Graham Parkes (2005 Oxford World's Classics)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics lyrical translation reproducing musicality and cadence"
       },
       {
         "id": "pippin_zara",
@@ -5456,14 +5050,6 @@ export const MODERN_TEXTS = [
         "highlights": "Broadway stage adaptation translation"
       },
       {
-        "id": "schmidt_cherry",
-        "name": "Paul Schmidt (2001 Plays of Anton Chekhov / Harper)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Acclaimed modern American performing translation"
-      },
-      {
         "id": "upton_cherry",
         "name": "Andrew Upton (2011 Sydney Theatre Company / Faber)",
         "year": "2011",
@@ -5935,22 +5521,6 @@ export const MODERN_TEXTS = [
         "highlights": "Scholarly literal verse edition"
       },
       {
-        "id": "maurer_lorca",
-        "name": "Christopher Maurer (2002 Farrar, Straus and Giroux)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Preeminent Lorca scholar's definitive bilingual edition"
-      },
-      {
-        "id": "kline_lorca",
-        "name": "A. S. Kline (2007 Poetry in Translation)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Accessible modern verse translation"
-      },
-      {
         "id": "havard_lorca",
         "name": "Robert Havard (2007 Aris & Phillips)",
         "year": "2007",
@@ -5965,14 +5535,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Poetry and Poetics of Federico García Lorca translation"
-      },
-      {
-        "id": "cobb_lorca",
-        "name": "Carl W. Cobb (2008 Edwin Mellen)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Complete Gypsy Ballads in metrical English verse"
       }
     ],
     "segments": [
@@ -6401,22 +5963,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Victorian illustrated complete edition"
-      },
-      {
-        "id": "rose_hugo",
-        "name": "Julie Rose (2008 Modern Library)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Modern Library monumental contemporary unabridged translation"
-      },
-      {
-        "id": "donougher_hugo",
-        "name": "Christine Donougher (2013 Penguin Classics)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics 150th anniversary definitive modern translation"
       },
       {
         "id": "robb_hugo",
@@ -6877,36 +6423,12 @@ export const MODERN_TEXTS = [
         "highlights": "Mid-century critical edition"
       },
       {
-        "id": "neugroschel_mann",
-        "name": "Joachim Neugroschel (2004 Penguin)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Death in Venice and Other Stories Penguin Classics translation"
-      },
-      {
         "id": "woods_mann",
         "name": "Michael Henry Heim & John E. Woods (2005 Harper)",
         "year": "2005",
         "type": "translation",
         "format": "Prose",
         "highlights": "Helen and Kurt Wolff Books translation"
-      },
-      {
-        "id": "appelbaum_mann",
-        "name": "Stanley Appelbaum (2003 Dover Thrift Editions)",
-        "year": "2003",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Dover Dual-Language / Thrift Edition standard"
-      },
-      {
-        "id": "luke_rev_mann",
-        "name": "David Luke (rev. 2008 Oxford World's Classics)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics definitive centenary revision"
       },
       {
         "id": "kline_mann",
@@ -7691,14 +7213,6 @@ export const MODERN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "American Repertory Theater acclaimed rhymed verse version"
-      },
-      {
-        "id": "wilbur_rev_mol",
-        "name": "Richard Wilbur (rev. 2004 Harvest / Harcourt)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Definitive revised edition with final authorial corrections"
       },
       {
         "id": "lochhead_mol",

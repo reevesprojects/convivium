@@ -101,17 +101,19 @@ export const DetailView = {
             <div style="display: flex; flex-direction: column; gap: 0.5rem;">
               ${text.sourceEditions.map(ed => {
                 const edLink = ExternalLinksService.getEditionLink(ed, text);
+                const discoveryLinks = ExternalLinksService.getEditionDiscoveryLinks ? ExternalLinksService.getEditionDiscoveryLinks(ed, text) : [];
                 return `
                   <div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background-color: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); flex-wrap: wrap; gap: 0.5rem;">
-                    <div>
+                    <div style="max-width: 60%;">
                       <strong>${ed.type === 'source' ? '🏛️ ' : '✒️ '}${ed.name}</strong>
-                      ${ed.highlights ? `<div style="font-size: 0.85rem; color: var(--text-muted);">${ed.highlights}</div>` : ''}
+                      ${ed.isbn ? `<span style="font-size: 0.75rem; color: var(--accent-primary); font-family: monospace; margin-left: 0.5rem; background: var(--bg-surface-elevated); padding: 2px 6px; border-radius: 4px; border: 1px solid var(--border-subtle);">ISBN: ${ed.isbn}</span>` : ''}
+                      ${ed.highlights ? `<div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.15rem;">${ed.highlights}</div>` : ''}
                     </div>
-                    <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+                    <div style="display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;">
                       <span class="pill pill-gold">${ed.year}</span>
                       ${ed.meter ? `<span class="pill pill-verse">${ed.meter}</span>` : ''}
                       ${edLink ? `
-                        <a href="${edLink.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="Find this specific edition online" style="padding: 0.25rem 0.6rem; font-size: 0.78rem; font-weight: 600;">
+                        <a href="${edLink.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" title="Open primary link" style="padding: 0.25rem 0.6rem; font-size: 0.78rem; font-weight: 600;">
                           ${edLink.icon} ${edLink.name} ↗
                         </a>
                       ` : ''}

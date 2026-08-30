@@ -41,7 +41,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "2018",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Award-winning literary translation preserving Hebrew syntactic rhythm"
+        "highlights": "Award-winning literary translation preserving Hebrew syntactic rhythm",
+        "isbn": "978-0393292497"
       },
       {
         "id": "tyndale",
@@ -57,7 +58,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1995",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Preserves the acoustic and verbal architecture of the Hebrew original"
+        "highlights": "Preserves the acoustic and verbal architecture of the Hebrew original",
+        "isbn": "978-0805240665"
       },
       {
         "id": "coverdale",
@@ -148,14 +150,6 @@ export const NEAR_EASTERN_TEXTS = [
         "highlights": "Modern scholarly translation with exhaustive textual notes"
       },
       {
-        "id": "alter_gen",
-        "name": "Robert Alter (2004/2018 W. W. Norton)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Monumental Hebrew literary translation reproducing rhythmic cadence and syntax"
-      },
-      {
         "id": "ceb_gen",
         "name": "Common English Bible (2011)",
         "year": "2011",
@@ -170,14 +164,6 @@ export const NEAR_EASTERN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Contemporary optimal equivalence translation"
-      },
-      {
-        "id": "fox_gen",
-        "name": "Everett Fox (2000 Schocken Books)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "The Five Books of Moses: Buber-Rosenzweig poetic acoustic tradition"
       },
       {
         "id": "hart_gen",
@@ -764,44 +750,12 @@ export const NEAR_EASTERN_TEXTS = [
         "highlights": "The Gilgamesh Epic and Old Testament Parallels Oriental Institute classic"
       },
       {
-        "id": "ferry_gilg",
-        "name": "David Ferry (2000 Farrar, Straus and Giroux)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "National Book Award winner's acclaimed poetic interpretation"
-      },
-      {
-        "id": "foster_gilg",
-        "name": "Benjamin R. Foster (2001/2019 W. W. Norton)",
-        "year": "2019",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Norton Critical Edition authoritative Assyriological translation"
-      },
-      {
         "id": "schmidt_gilg",
         "name": "Michael Schmidt (2019 Princeton University Press)",
         "year": "2019",
         "type": "translation",
         "format": "Verse",
         "highlights": "Gilgamesh: The Life of a Poem lyrical translation"
-      },
-      {
-        "id": "helle_gilg",
-        "name": "Sophus Helle (2021 Yale University Press)",
-        "year": "2021",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Groundbreaking modern Danish-American poetic and scholarly translation"
-      },
-      {
-        "id": "jackson_gilg",
-        "name": "Danny P. Jackson (2004 Bolchazy-Carducci)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Fluid and dramatic modern verse translation"
       }
     ],
     "segments": [
@@ -1216,7 +1170,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1972",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Beloved poetic modern translation noted for serene, spacious phrasing"
+        "highlights": "Beloved poetic modern translation noted for serene, spacious phrasing",
+        "isbn": "978-0679776192"
       },
       {
         "id": "mitchell_dao",
@@ -1224,7 +1179,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1988",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Highly popular, fluid contemporary interpretive verse"
+        "highlights": "Highly popular, fluid contemporary interpretive verse",
+        "isbn": "978-0061147180"
       },
       {
         "id": "muller_dao",
@@ -1240,7 +1196,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1996",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Lao-tzu's Taoteching; paired with classic Chinese commentaries"
+        "highlights": "Lao-tzu's Taoteching; paired with classic Chinese commentaries",
+        "isbn": "978-1556592904"
       },
       {
         "id": "giles_dao",
@@ -1280,7 +1237,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1989",
         "type": "translation",
         "format": "Verse",
-        "highlights": "First translation based on the ancient Mawangdui silk manuscripts"
+        "highlights": "First translation based on the ancient Mawangdui silk manuscripts",
+        "isbn": "978-0345370990"
       },
       {
         "id": "ames_hall_dao",
@@ -1296,7 +1254,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1997",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Acclaimed novelist and poet's poetic interpretation"
+        "highlights": "Acclaimed novelist and poet's poetic interpretation",
+        "isbn": "978-1611807240"
       },
       {
         "id": "hinton_dao",
@@ -1320,7 +1279,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "2004",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Celebrated hermetic translation with Chinese commentaries"
+        "highlights": "Celebrated hermetic translation with Chinese commentaries",
+        "isbn": "978-1556592904"
       },
       {
         "id": "lin_dao",
@@ -1666,14 +1626,6 @@ export const NEAR_EASTERN_TEXTS = [
         "highlights": "The legendary Victorian poetic masterpiece that introduced Khayyam to world literature"
       },
       {
-        "id": "fitzgerald_5",
-        "name": "Edward FitzGerald (Final 5th Edition, 1889)",
-        "year": "1889",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "FitzGerald's polished final Victorian standard edition"
-      },
-      {
         "id": "whinfield",
         "name": "E. H. Whinfield (1883)",
         "year": "1883",
@@ -1768,22 +1720,6 @@ export const NEAR_EASTERN_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Lyrical American rubaiyat rendition"
-      },
-      {
-        "id": "curtis_khayyam",
-        "name": "Edward FitzGerald (2nd Edition 1868)",
-        "year": "1868",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "FitzGerald's dramatically expanded second edition containing 110 quatrains"
-      },
-      {
-        "id": "davis_rub",
-        "name": "Dick Davis (2012 Penguin Classics)",
-        "year": "2012",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Preeminent translator of Persian literature's definitive poetic edition"
       },
       {
         "id": "avery_stubbs_rub",
@@ -2155,7 +2091,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "2018",
         "type": "translation",
         "format": "Verse",
-        "highlights": "The Wisdom Books; acclaimed literary translation preserving Hebrew poetic meter and concrete imagery"
+        "highlights": "The Wisdom Books; acclaimed literary translation preserving Hebrew poetic meter and concrete imagery",
+        "isbn": "978-0393329339"
       },
       {
         "id": "kjv_job",
@@ -2171,7 +2108,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "1987",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Into the Whirlwind; luminous, intense modern poetic verse rendering"
+        "highlights": "Into the Whirlwind; luminous, intense modern poetic verse rendering",
+        "isbn": "978-0060969592"
       },
       {
         "id": "pope_job",
@@ -2187,7 +2125,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "2013",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Illuminations commentary; exhaustive philological and reception-historical translation"
+        "highlights": "Illuminations commentary; exhaustive philological and reception-historical translation",
+        "isbn": "978-0802807359"
       },
       {
         "id": "douay_job",
@@ -2270,14 +2209,6 @@ export const NEAR_EASTERN_TEXTS = [
         "highlights": "Rigorous legal and cosmological verse translation"
       },
       {
-        "id": "alter_job",
-        "name": "Robert Alter (2010 W. W. Norton)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "The Wisdom Books: Job, Proverbs, and Ecclesiastes master literary translation"
-      },
-      {
         "id": "greenstein_job",
         "name": "Edward L. Greenstein (2019 Yale University Press)",
         "year": "2019",
@@ -2291,7 +2222,8 @@ export const NEAR_EASTERN_TEXTS = [
         "year": "2008",
         "type": "translation",
         "format": "Verse",
-        "highlights": "The Book of Job: Translation, Introduction, and Notes in rhythmic verse"
+        "highlights": "The Book of Job: Translation, Introduction, and Notes in rhythmic verse",
+        "isbn": "978-0393060089"
       },
       {
         "id": "larrimore_job",
@@ -2300,14 +2232,6 @@ export const NEAR_EASTERN_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "The Book of Job: A Biography philosophical translation"
-      },
-      {
-        "id": "seow_job",
-        "name": "C. L. Seow (2013 Eerdmans)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Illuminations Commentary linguistic and theological translation"
       }
     ],
     "segments": [

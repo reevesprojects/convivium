@@ -36,7 +36,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Iambic Pentameter",
         "format": "Verse",
-        "highlights": "Line-for-line matching, modern clarity"
+        "highlights": "Line-for-line matching, modern clarity",
+        "isbn": "978-0393089059"
       },
       {
         "id": "fagles",
@@ -46,7 +47,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Flexible 5/6 Beat Modern Verse",
         "format": "Verse",
-        "highlights": "Performative energy, epic grandeur"
+        "highlights": "Performative energy, epic grandeur",
+        "isbn": "978-0140268867"
       },
       {
         "id": "lattimore",
@@ -56,7 +58,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Accentual Six-Beat Verse",
         "format": "Verse",
-        "highlights": "Syntactic fidelity to Greek order"
+        "highlights": "Syntactic fidelity to Greek order",
+        "isbn": "978-0226470498"
       },
       {
         "id": "pope",
@@ -117,7 +120,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Contemporary American Verse",
         "format": "Verse",
-        "highlights": "Pacy, street-smart performance energy"
+        "highlights": "Pacy, street-smart performance energy",
+        "isbn": "978-0872204843"
       },
       {
         "id": "johnston",
@@ -135,7 +139,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Strict English Dactylic Hexameter",
         "format": "Verse",
-        "highlights": "Direct imitation of Homer's six-beat dactylic music"
+        "highlights": "Direct imitation of Homer's six-beat dactylic music",
+        "isbn": "978-0472112548"
       },
       {
         "id": "green",
@@ -144,7 +149,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Accentual Dactylic Hexameter",
         "format": "Verse",
-        "highlights": "University of California Press; strict, muscular hexameter translation"
+        "highlights": "University of California Press; strict, muscular hexameter translation",
+        "isbn": "978-0520303355"
       },
       {
         "id": "powell",
@@ -153,7 +159,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Modern Poetic Cadence",
         "format": "Verse",
-        "highlights": "Oxford University Press; fast-paced, lucid modern verse"
+        "highlights": "Oxford University Press; fast-paced, lucid modern verse",
+        "isbn": "978-0199360314"
       },
       {
         "id": "verity",
@@ -162,39 +169,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Rhythmic Line-by-Line Verse",
         "format": "Verse",
-        "highlights": "Oxford World's Classics; spare, elegant, strictly line-by-line"
-      },
-      {
-        "id": "wilson_ody",
-        "name": "Emily Wilson (2017 W. W. Norton)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Historic first English translation by a woman; swift, strict iambic pentameter"
-      },
-      {
-        "id": "green_ody",
-        "name": "Peter Green (2018 California)",
-        "year": "2018",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Eminent Hellenist's metrical hexameter line-by-line translation"
-      },
-      {
-        "id": "verity_ody",
-        "name": "Anthony Verity (2016 Oxford World's Classics)",
-        "year": "2016",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford World's Classics modern poetic translation"
-      },
-      {
-        "id": "johnston_ody",
-        "name": "Ian Johnston (2006 Vancouver Island)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Accessible modern verse translation designed for performance"
+        "highlights": "Oxford World's Classics; spare, elegant, strictly line-by-line",
+        "isbn": "978-0198788447"
       },
       {
         "id": "kline_ody",
@@ -895,7 +871,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Modern Verse Line-by-Line",
         "format": "Verse",
-        "highlights": "Raw poetic precision and urgency"
+        "highlights": "Raw poetic precision and urgency",
+        "isbn": "978-0062012623"
       },
       {
         "id": "fagles",
@@ -905,7 +882,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Loose 5/6 Beat Verse",
         "format": "Verse",
-        "highlights": "Thunderous, dynamic performance cadence"
+        "highlights": "Thunderous, dynamic performance cadence",
+        "isbn": "978-0140268867"
       },
       {
         "id": "lattimore",
@@ -915,7 +893,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Accentual Hexameter",
         "format": "Verse",
-        "highlights": "Close adherence to Greek syntactic layout"
+        "highlights": "Close adherence to Greek syntactic layout",
+        "isbn": "978-0226470498"
       },
       {
         "id": "pope",
@@ -976,7 +955,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Iambic Pentameter",
         "format": "Verse",
-        "highlights": "Norton; line-for-line iambic pentameter with rhythmic urgency and clarity"
+        "highlights": "Norton; line-for-line iambic pentameter with rhythmic urgency and clarity",
+        "isbn": "978-0393089059"
       },
       {
         "id": "green",
@@ -985,7 +965,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Accentual Dactylic Hexameter",
         "format": "Verse",
-        "highlights": "University of California Press; strict, muscular hexameter translation"
+        "highlights": "University of California Press; strict, muscular hexameter translation",
+        "isbn": "978-0520303355"
       },
       {
         "id": "verity",
@@ -994,7 +975,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Rhythmic Line-by-Line Verse",
         "format": "Verse",
-        "highlights": "Oxford World's Classics; spare, faithful line-by-line modern verse"
+        "highlights": "Oxford World's Classics; spare, faithful line-by-line modern verse",
+        "isbn": "978-0198788447"
       },
       {
         "id": "chapman_il",
@@ -1019,30 +1001,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Masterpiece of 20th-century English blank verse translation"
-      },
-      {
-        "id": "wilson_ili",
-        "name": "Emily Wilson (2023 W. W. Norton)",
-        "year": "2023",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Landmark contemporary iambic pentameter translation"
-      },
-      {
-        "id": "green_ili",
-        "name": "Peter Green (2015 California)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Authoritative dactylic hexameter line-for-line verse translation"
-      },
-      {
-        "id": "verity_ili",
-        "name": "Anthony Verity (2011 Oxford World's Classics)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford World's Classics poetic translation"
       },
       {
         "id": "johnston_ili",
@@ -1643,7 +1601,8 @@ export const GREEK_TEXTS = [
         "year": "1997",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Influential scholarly modern critical edition"
+        "highlights": "Influential scholarly modern critical edition",
+        "isbn": "978-0872206335"
       },
       {
         "id": "taylor",
@@ -1667,7 +1626,8 @@ export const GREEK_TEXTS = [
         "year": "2012",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Acclaimed modern philosophical translation capturing Socratic irony"
+        "highlights": "Acclaimed modern philosophical translation capturing Socratic irony",
+        "isbn": "978-0872203891"
       },
       {
         "id": "sachs",
@@ -1675,7 +1635,8 @@ export const GREEK_TEXTS = [
         "year": "2007",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Fresh, idiomatic translation avoiding Latinized philosophical terms"
+        "highlights": "Fresh, idiomatic translation avoiding Latinized philosophical terms",
+        "isbn": "978-1585100354"
       },
       {
         "id": "howland",
@@ -1740,22 +1701,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "The Trials of Socrates Hackett Classics standard translation"
-      },
-      {
-        "id": "sachs_apo1",
-        "name": "Joe Sachs (2001 Focus / Hackett)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Plato's The Apology of Socrates literal philosophical translation"
-      },
-      {
-        "id": "west_apo1",
-        "name": "Thomas G. West & Grace Starry West (2004 Cornell)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Four Texts on Socrates Cornell University Press edition"
       },
       {
         "id": "sedley_apo1",
@@ -1961,7 +1906,8 @@ export const GREEK_TEXTS = [
         "year": "1953",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Monumental poetic severity"
+        "highlights": "Monumental poetic severity",
+        "isbn": "978-0226470498"
       },
       {
         "id": "morshead",
@@ -2062,22 +2008,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Oxford World's Classics modern standard"
-      },
-      {
-        "id": "carson_agam",
-        "name": "Anne Carson (2009 An Oresteia / FSG)",
-        "year": "2009",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "MacArthur Fellow's brilliant, visceral poetic translation"
-      },
-      {
-        "id": "meineck_agam",
-        "name": "Peter Meineck (2000 Hackett)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Aquila Theatre founder's dynamic stage translation"
       },
       {
         "id": "ruden_agam",
@@ -2332,7 +2262,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Sapphic Accentual Meter",
         "format": "Verse",
-        "highlights": "Rhythmic brilliance capturing Sappho's quantitative cadence"
+        "highlights": "Rhythmic brilliance capturing Sappho's quantitative cadence",
+        "isbn": "978-0199360314"
       },
       {
         "id": "freeman",
@@ -2390,30 +2321,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Celebrated translator's classic Greek Lyrics edition"
-      },
-      {
-        "id": "carson_sap1",
-        "name": "Anne Carson (2002 If Not, Winter / Knopf)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Landmark poetic translation with bracketed papyrus fragments"
-      },
-      {
-        "id": "powell_sap1",
-        "name": "Jim Powell (2007 Oxford)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford Greek lyric poetry translation in original Sapphic meters"
-      },
-      {
-        "id": "rayor_sap1",
-        "name": "Diane Rayor (2014 Cambridge)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Cambridge University Press complete Sappho edition"
       },
       {
         "id": "mulroy_sap1",
@@ -2594,7 +2501,8 @@ export const GREEK_TEXTS = [
         "year": "2002",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Crisp, unadorned, forceful modern English"
+        "highlights": "Crisp, unadorned, forceful modern English",
+        "isbn": "978-0812968255"
       },
       {
         "id": "long",
@@ -2643,7 +2551,8 @@ export const GREEK_TEXTS = [
         "year": "2021",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Comprehensive modern annotated translation with psychological depth"
+        "highlights": "Comprehensive modern annotated translation with psychological depth",
+        "isbn": "978-0199535767"
       },
       {
         "id": "hicks",
@@ -2659,7 +2568,8 @@ export const GREEK_TEXTS = [
         "year": "2011",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Oxford World's Classics standard modern translation"
+        "highlights": "Oxford World's Classics standard modern translation",
+        "isbn": "978-0199540594"
       },
       {
         "id": "collier_marc",
@@ -2710,36 +2620,12 @@ export const GREEK_TEXTS = [
         "highlights": "Camelot Classics Victorian edition"
       },
       {
-        "id": "hays_marc",
-        "name": "Gregory Hays (2002 Modern Library)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Bestselling modern translation with crisp contemporary English"
-      },
-      {
-        "id": "hard_marc",
-        "name": "Robin Hard (2011 Oxford World's Classics)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics standard translation"
-      },
-      {
         "id": "hammond_marc",
         "name": "Martin Hammond (2006 Penguin Classics)",
         "year": "2006",
         "type": "translation",
         "format": "Prose",
         "highlights": "Penguin Classics authoritative modern translation"
-      },
-      {
-        "id": "waterfield_marc",
-        "name": "Robin Waterfield (2021 Basic Books)",
-        "year": "2021",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Annotated edition with comprehensive philosophical introduction"
       },
       {
         "id": "gill_marc",
@@ -2877,7 +2763,8 @@ export const GREEK_TEXTS = [
         "year": "1982",
         "type": "translation",
         "format": "Verse",
-        "highlights": "Lyrical, actable modern dramatic English"
+        "highlights": "Lyrical, actable modern dramatic English",
+        "isbn": "978-0140268867"
       },
       {
         "id": "jebb",
@@ -2995,44 +2882,12 @@ export const GREEK_TEXTS = [
         "highlights": "Poetic verse translation with commentary"
       },
       {
-        "id": "carson_oedi",
-        "name": "Anne Carson (2015 Euripides / Sophocles / ND)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Grief Lessons / Sophocles translation"
-      },
-      {
-        "id": "meineck_oedi",
-        "name": "Peter Meineck & Paul Woodruff (2000 Hackett)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Hackett Classics standard translation"
-      },
-      {
         "id": "ruden_oedi",
         "name": "Sarah Ruden (2010 Modern Library)",
         "year": "2010",
         "type": "translation",
         "format": "Verse",
         "highlights": "Modern Library complete Greek tragedies"
-      },
-      {
-        "id": "bagg_oedi",
-        "name": "Robert Bagg (2012 Massachusetts)",
-        "year": "2012",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oedipus the King poetic performing edition"
-      },
-      {
-        "id": "mulroy_oedi",
-        "name": "David Mulroy (2011 Wisconsin)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Wisconsin Studies in Classics edition"
       }
     ],
     "segments": [
@@ -3256,7 +3111,8 @@ export const GREEK_TEXTS = [
         "year": "1998",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Clear, modern, richly annotated Oxford World's Classics edition"
+        "highlights": "Clear, modern, richly annotated Oxford World's Classics edition",
+        "isbn": "978-0199535767"
       },
       {
         "id": "purvis",
@@ -3329,30 +3185,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "The Landmark Herodotus definitive illustrated translation"
-      },
-      {
-        "id": "waterfield_hero",
-        "name": "Robin Waterfield (2008 Oxford World's Classics)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics standard translation"
-      },
-      {
-        "id": "mensch_hero",
-        "name": "Pamela Mensch (2013 Hackett)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics comprehensive modern translation"
-      },
-      {
-        "id": "holland_hero",
-        "name": "Tom Holland (2013 Penguin Classics)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics vibrant historical narrative translation"
       },
       {
         "id": "romm_hero",
@@ -3482,7 +3314,8 @@ export const GREEK_TEXTS = [
         "year": "1968",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Literal translation matching Plato's Greek word choice precisely"
+        "highlights": "Literal translation matching Plato's Greek word choice precisely",
+        "isbn": "978-0465069347"
       },
       {
         "id": "jowett",
@@ -3498,7 +3331,8 @@ export const GREEK_TEXTS = [
         "year": "1992",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Fluid, accurate standard university edition"
+        "highlights": "Fluid, accurate standard university edition",
+        "isbn": "978-0872206335"
       },
       {
         "id": "shorey",
@@ -3538,7 +3372,8 @@ export const GREEK_TEXTS = [
         "year": "1993",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Fluid, accurate Oxford World's Classics standard"
+        "highlights": "Fluid, accurate Oxford World's Classics standard",
+        "isbn": "978-0199535767"
       },
       {
         "id": "griffith",
@@ -3554,7 +3389,8 @@ export const GREEK_TEXTS = [
         "year": "2004",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Highly acclaimed contemporary philosophical translation"
+        "highlights": "Highly acclaimed contemporary philosophical translation",
+        "isbn": "978-0872203891"
       },
       {
         "id": "sachs",
@@ -3562,7 +3398,8 @@ export const GREEK_TEXTS = [
         "year": "2007",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Vibrant, direct translation emphasizing Plato's oral and dramatic vitality"
+        "highlights": "Vibrant, direct translation emphasizing Plato's oral and dramatic vitality",
+        "isbn": "978-1585100354"
       },
       {
         "id": "emlyn_jones",
@@ -3594,7 +3431,8 @@ export const GREEK_TEXTS = [
         "year": "2006",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Yale philosopher's definitive scholarly translation"
+        "highlights": "Yale philosopher's definitive scholarly translation",
+        "isbn": "978-0300114195"
       },
       {
         "id": "reeve_rep",
@@ -3602,39 +3440,8 @@ export const GREEK_TEXTS = [
         "year": "2004",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Hackett Classics authoritative revised translation"
-      },
-      {
-        "id": "sachs_rep",
-        "name": "Joe Sachs (2007 Focus / Hackett)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Literal philosophical translation"
-      },
-      {
-        "id": "griffith_rep",
-        "name": "Tom Griffith (2000 Cambridge)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge Texts in the History of Political Thought"
-      },
-      {
-        "id": "allen_rep",
-        "name": "R. E. Allen (2006 Yale)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Yale University Press Dialogues of Plato translation"
-      },
-      {
-        "id": "emlyn_jones_rep",
-        "name": "Chris Emlyn-Jones & William Preddy (2013 Loeb)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Loeb Classical Library new definitive parallel text"
+        "highlights": "Hackett Classics authoritative revised translation",
+        "isbn": "978-0872207363"
       }
     ],
     "segments": [
@@ -3766,7 +3573,8 @@ export const GREEK_TEXTS = [
         "year": "1962",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Influential Penguin Classics translation"
+        "highlights": "Influential Penguin Classics translation",
+        "isbn": "978-0195004120"
       },
       {
         "id": "barker",
@@ -3806,7 +3614,8 @@ export const GREEK_TEXTS = [
         "year": "1998",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Clarity, philosophical precision, standard classroom text"
+        "highlights": "Clarity, philosophical precision, standard classroom text",
+        "isbn": "978-0872203891"
       },
       {
         "id": "saunders",
@@ -3823,22 +3632,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Clarendon Aristotle Series standard philosophical translation"
-      },
-      {
-        "id": "reeve_2017",
-        "name": "C.D.C. Reeve (2017 Hackett)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Major new translation with extensive philosophical commentary"
-      },
-      {
-        "id": "lord_2013",
-        "name": "Carnes Lord (2013 2nd ed Chicago)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Fully revised edition of the standard political theory translation"
       },
       {
         "id": "walford_pol",
@@ -3887,22 +3680,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "A Philosophical Commentary on the Politics of Aristotle"
-      },
-      {
-        "id": "lord_rev_pol",
-        "name": "Carnes Lord (rev. 2013 Chicago)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "University of Chicago Press definitive second edition"
-      },
-      {
-        "id": "kraut_pol",
-        "name": "Richard Kraut (2002 Oxford)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Clarendon Aristotle Series commentary and translation"
       }
     ],
     "segments": [
@@ -4034,7 +3811,8 @@ export const GREEK_TEXTS = [
         "year": "1995",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Accurate, modern Oxford World's Classics translation"
+        "highlights": "Accurate, modern Oxford World's Classics translation",
+        "isbn": "978-0199540594"
       },
       {
         "id": "white",
@@ -4061,20 +3839,13 @@ export const GREEK_TEXTS = [
         "highlights": "Modern practical Stoic philosophical commentary and handbook"
       },
       {
-        "id": "hard_2014",
-        "name": "Robin Hard (2014 Oxford)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Revised Oxford World's Classics translation of Discourses and Handbook"
-      },
-      {
         "id": "waterfield",
         "name": "Robin Waterfield (2020 Basic)",
         "year": "2020",
         "type": "translation",
         "format": "Prose",
-        "highlights": "The Complete Works; clear, modern, annotated translation"
+        "highlights": "The Complete Works; clear, modern, annotated translation",
+        "isbn": "978-0199535767"
       },
       {
         "id": "stanhope_epic",
@@ -4099,38 +3870,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Victorian Enchiridion translation"
-      },
-      {
-        "id": "seddon_alt_epic",
-        "name": "Keith Seddon (2005 Routledge)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Modern philosophical handbook and commentary"
-      },
-      {
-        "id": "waterfield_epic",
-        "name": "Robin Waterfield (2022 Basic Books)",
-        "year": "2022",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The Complete Works of Epictetus modern translation"
-      },
-      {
-        "id": "hard_epic",
-        "name": "Robin Hard (2014 Oxford World's Classics)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics standard translation"
-      },
-      {
-        "id": "seddon_epic",
-        "name": "Keith Seddon (2005 Routledge)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Epictetus' Handbook and the Tablet of Cebes guide"
       },
       {
         "id": "long_rev_epic",
@@ -4283,7 +4022,8 @@ export const GREEK_TEXTS = [
         "year": "2006",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Literal philosophical translation avoiding Latinate jargon"
+        "highlights": "Literal philosophical translation avoiding Latinate jargon",
+        "isbn": "978-1585100354"
       },
       {
         "id": "kenny",
@@ -4299,7 +4039,8 @@ export const GREEK_TEXTS = [
         "year": "2014",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Rigorous modern philosophical translation with extensive commentary"
+        "highlights": "Rigorous modern philosophical translation with extensive commentary",
+        "isbn": "978-0872203891"
       },
       {
         "id": "whalley",
@@ -4342,22 +4083,6 @@ export const GREEK_TEXTS = [
         "highlights": "Cornell classicist's standard university translation"
       },
       {
-        "id": "halliwell_poet",
-        "name": "Stephen Halliwell (2005 Loeb)",
-        "year": "2005",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Loeb Classical Library definitive revised edition"
-      },
-      {
-        "id": "sachs_poet",
-        "name": "Joe Sachs (2006 Focus / Hackett)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Literal philosophical translation"
-      },
-      {
         "id": "reeve_poet",
         "name": "C. D. C. Reeve (2014 Hackett)",
         "year": "2014",
@@ -4372,14 +4097,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Poetic and scholarly line-by-line translation"
-      },
-      {
-        "id": "heath_rev_poet",
-        "name": "Malcolm Heath (2004 Penguin Classics)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Penguin Classics revised standard translation"
       }
     ],
     "segments": [
@@ -4880,7 +4597,8 @@ export const GREEK_TEXTS = [
         "year": "2009",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Crisp, rigorous Oxford World's Classics standard"
+        "highlights": "Crisp, rigorous Oxford World's Classics standard",
+        "isbn": "978-0140449334"
       },
       {
         "id": "woodruff",
@@ -4937,38 +4655,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Harvard classicist's authoritative study"
-      },
-      {
-        "id": "myna_thuc",
-        "name": "Jeremy Mynott (2013 Cambridge)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge Texts in the History of Political Thought"
-      },
-      {
-        "id": "hammond_thuc",
-        "name": "Martin Hammond (2009 Oxford World's Classics)",
-        "year": "2009",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics standard translation"
-      },
-      {
-        "id": "lattimore_s_thuc",
-        "name": "Steven Lattimore (1998/2004 Hackett)",
-        "year": "2004",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics comprehensive translation"
-      },
-      {
-        "id": "woodruff_thuc",
-        "name": "Paul Woodruff (2000 On Justice, Power, and Human Nature / Hackett)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Concise selections with commentary"
       },
       {
         "id": "rhodes_thuc",
@@ -5150,7 +4836,8 @@ export const GREEK_TEXTS = [
         "year": "1994",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Lucid, insightful Oxford World's Classics version"
+        "highlights": "Lucid, insightful Oxford World's Classics version",
+        "isbn": "978-0199535767"
       },
       {
         "id": "gill",
@@ -5166,7 +4853,8 @@ export const GREEK_TEXTS = [
         "year": "2006",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Accurate, vivid modern translation with rich analytical commentary"
+        "highlights": "Accurate, vivid modern translation with rich analytical commentary",
+        "isbn": "978-0872203891"
       },
       {
         "id": "howatson_sheffield",
@@ -5223,14 +4911,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Hackett Classics standard translation"
-      },
-      {
-        "id": "waterfield_symp",
-        "name": "Robin Waterfield (2008 Oxford World's Classics)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford World's Classics philosophical translation"
       },
       {
         "id": "sachs_symp",
@@ -5377,7 +5057,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Accentual Six-Beat Verse",
         "format": "Verse",
-        "highlights": "Strict syntactic fidelity to Hesiodic Greek"
+        "highlights": "Strict syntactic fidelity to Hesiodic Greek",
+        "isbn": "978-0226470498"
       },
       {
         "id": "west",
@@ -5446,7 +5127,8 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "meter": "Poetic Verse",
         "format": "Verse",
-        "highlights": "Oxford University Press; vibrant, rhythmic modern verse"
+        "highlights": "Oxford University Press; vibrant, rhythmic modern verse",
+        "isbn": "978-0199360314"
       },
       {
         "id": "nelson",
@@ -5490,22 +5172,6 @@ export const GREEK_TEXTS = [
         "highlights": "Accessible modern verse translation"
       },
       {
-        "id": "most_hes",
-        "name": "Glenn W. Most (2006 Loeb)",
-        "year": "2006",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Loeb Classical Library new definitive translation"
-      },
-      {
-        "id": "powell_hes",
-        "name": "Barry B. Powell (2017 Oxford)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford World's Classics poetic verse translation"
-      },
-      {
         "id": "schlegel_hes",
         "name": "Catherine M. Schlegel & Henry Weinfield (2006 Michigan)",
         "year": "2006",
@@ -5520,14 +5186,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Accessible performance-oriented verse translation"
-      },
-      {
-        "id": "kline_hes",
-        "name": "A. S. Kline (2010 Poetry in Translation)",
-        "year": "2010",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Complete poetic digital translation"
       }
     ],
     "segments": [
@@ -5746,22 +5404,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Modern scholarly translation with notes"
-      },
-      {
-        "id": "hart_john",
-        "name": "David Bentley Hart (2017 Yale)",
-        "year": "2017",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The New Testament: A Translation literal and theological translation"
-      },
-      {
-        "id": "esv_john",
-        "name": "English Standard Version (2016 Crossway)",
-        "year": "2016",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Standard literal formal equivalence translation"
       },
       {
         "id": "ceb_john",
@@ -6015,30 +5657,6 @@ export const GREEK_TEXTS = [
         "highlights": "Bloodaxe Contemporary Poetry translation"
       },
       {
-        "id": "carson_sap2",
-        "name": "Anne Carson (2002 Knopf)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Modernist poetic translation"
-      },
-      {
-        "id": "powell_sap2",
-        "name": "Jim Powell (2007 Oxford)",
-        "year": "2007",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Metrical verse translation"
-      },
-      {
-        "id": "rayor_sap2",
-        "name": "Diane Rayor (2014 Cambridge)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Cambridge complete Sappho"
-      },
-      {
         "id": "mulroy_sap2",
         "name": "David Mulroy (2011 Wisconsin)",
         "year": "2011",
@@ -6264,7 +5882,8 @@ export const GREEK_TEXTS = [
         "year": "1975",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Standard modern philosophical translation; used in universities"
+        "highlights": "Standard modern philosophical translation; used in universities",
+        "isbn": "978-0872206335"
       },
       {
         "id": "west_apol",
@@ -6272,7 +5891,8 @@ export const GREEK_TEXTS = [
         "year": "1998",
         "type": "translation",
         "format": "Prose",
-        "highlights": "Literal and philosophically precise; Hackett edition"
+        "highlights": "Literal and philosophically precise; Hackett edition",
+        "isbn": "978-0801485749"
       },
       {
         "id": "emlyn_jones",
@@ -6353,22 +5973,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Historic complete works translation"
-      },
-      {
-        "id": "reeve_apo2",
-        "name": "C. D. C. Reeve (2002 Hackett)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Hackett Classics standard translation"
-      },
-      {
-        "id": "sachs_apo2",
-        "name": "Joe Sachs (2001 Focus / Hackett)",
-        "year": "2001",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Literal philosophical translation"
       },
       {
         "id": "west_apo2",
@@ -6659,14 +6263,6 @@ export const GREEK_TEXTS = [
         "highlights": "Wisconsin Studies in Classics poetic translation"
       },
       {
-        "id": "carson_anti",
-        "name": "Anne Carson (2015 Antigonick / New Directions)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Radical, acclaimed poetic translation"
-      },
-      {
         "id": "meineck_anti",
         "name": "Peter Meineck & Paul Woodruff (2003 Hackett)",
         "year": "2003",
@@ -6681,22 +6277,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Verse",
         "highlights": "Modern Library verse translation"
-      },
-      {
-        "id": "mulroy_anti",
-        "name": "David Mulroy (2013 Wisconsin)",
-        "year": "2013",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Wisconsin Studies in Classics"
-      },
-      {
-        "id": "bagg_anti",
-        "name": "Robert Bagg (2012 Massachusetts)",
-        "year": "2012",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Performing verse edition"
       }
     ],
     "segments": [
@@ -7172,36 +6752,12 @@ export const GREEK_TEXTS = [
         "highlights": "Oxford Greek Tragedy in New Translations series"
       },
       {
-        "id": "carson_bacch",
-        "name": "Anne Carson (2015 Grief Lessons / New Directions)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "MacArthur Fellow's visceral verse translation"
-      },
-      {
-        "id": "woodruff_bacch",
-        "name": "Paul Woodruff (2000 Hackett)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Hackett Classics standard translation"
-      },
-      {
         "id": "ruden_bacch",
         "name": "Sarah Ruden (2012 Modern Library)",
         "year": "2012",
         "type": "translation",
         "format": "Verse",
         "highlights": "Modern Library verse translation"
-      },
-      {
-        "id": "bagg_bacch",
-        "name": "Robert Bagg (2012 Massachusetts)",
-        "year": "2012",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Performing verse translation"
       },
       {
         "id": "mulroy_bacch",
@@ -7682,38 +7238,6 @@ export const GREEK_TEXTS = [
         "highlights": "Modernist American poetic version"
       },
       {
-        "id": "meineck_nub",
-        "name": "Peter Meineck (2000 Hackett)",
-        "year": "2000",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Hackett Classics stage performing translation"
-      },
-      {
-        "id": "henderson_nub",
-        "name": "Jeffrey Henderson (2002 Loeb)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Loeb Classical Library modern authoritative translation"
-      },
-      {
-        "id": "halliwell_nub",
-        "name": "Stephen Halliwell (2015 Oxford World's Classics)",
-        "year": "2015",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Oxford World's Classics metrical verse translation"
-      },
-      {
-        "id": "sommerstein_rev_nub",
-        "name": "Alan H. Sommerstein (2008 Aris & Phillips)",
-        "year": "2008",
-        "type": "translation",
-        "format": "Verse",
-        "highlights": "Comprehensive critical translation"
-      },
-      {
         "id": "kline_nub",
         "name": "A. S. Kline (2015 Poetry in Translation)",
         "year": "2015",
@@ -8160,46 +7684,6 @@ export const GREEK_TEXTS = [
         "type": "translation",
         "format": "Prose",
         "highlights": "Acclaimed contemporary translation and commentary"
-      },
-      {
-        "id": "reeve_eth",
-        "name": "C. D. C. Reeve (2014 Hackett)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "The New Hackett Aristotle definitive translation"
-      },
-      {
-        "id": "sachs_eth",
-        "name": "Joe Sachs (2002 Focus / Hackett)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Literal philosophical translation"
-      },
-      {
-        "id": "bartlett_collins_eth",
-        "name": "Robert C. Bartlett & Susan D. Collins (2011 Chicago)",
-        "year": "2011",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "University of Chicago Press authoritative translation"
-      },
-      {
-        "id": "crisp_rev_eth",
-        "name": "Roger Crisp (2014 Cambridge)",
-        "year": "2014",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Cambridge Texts in the History of Philosophy revised edition"
-      },
-      {
-        "id": "broadie_rowe_eth",
-        "name": "Sarah Broadie & Christopher Rowe (2002 Oxford)",
-        "year": "2002",
-        "type": "translation",
-        "format": "Prose",
-        "highlights": "Oxford philosophical commentary and translation"
       }
     ],
     "segments": [
